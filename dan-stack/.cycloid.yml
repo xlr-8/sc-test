@@ -21,3 +21,7 @@ config:
         path: default/pipeline/terraform-pipeline.yaml
       variables:
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      dan-stack:
+        destination: ($ project $)/default/terraform/($ environment $)/dan-stack.tf
+        path: default/terraform/dan-stack.tf.sample

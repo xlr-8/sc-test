@@ -21,3 +21,7 @@ config:
         path: default/pipeline/terraform-pipeline.yaml
       variables:
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      test-stack-should-not-work:
+        destination: ($ project $)/default/terraform/($ environment $)/test-stack-should-not-work.tf
+        path: default/terraform/test-stack-should-not-work.tf.sample

@@ -1,0 +1,9 @@
+module "tf-dan_stack" {
+  source = "module-dan_stack"
+
+  # env - type: string
+  # env = "[PLACEHOLDER]"
+
+  # project - type: string
+  # project = "[PLACEHOLDER]"
+}

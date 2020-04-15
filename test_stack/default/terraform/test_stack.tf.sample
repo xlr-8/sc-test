@@ -1,9 +1,0 @@
-module "tf-test_stack" {
-  source = "module-test_stack"
-
-  # env - type: string
-  # env = "[PLACEHOLDER]"
-
-  # project - type: string
-  # project = "[PLACEHOLDER]"
-}

@@ -1,0 +1,44 @@
+first-usecase:
+  pipeline:
+    group1:
+    - widget: "text_area"
+      default: "nobucket"
+      type: "string"
+      description: "Bucket used to store magento code"
+      key: "magento_deploy_bucket_name"
+      name: "The bucket used"
+    - widget: "text_area"
+      type: "string"
+      description: "Doesn't matter"
+      key: "no-exist"
+      name: "Some imaginary var"
+  terraform:
+    group2:
+    - widget: "simple_text"
+      type: "array"
+      description: "List of public network IDs"
+      key: "public_subnets_ids"
+      name: "Pub nets"
+    - widget: "text_area"
+      type: "string"
+      description: "The VPC ID to run the project"
+      key: "vpc_id"
+      name: "VPC ID"
+second-usecase:
+  terraform:
+    groupX:
+    - widget: "text_area"
+      default: ""
+      type: "string"
+      description: "The DB password for Magento"
+      key: "rds_password"
+      name: "RDS password"
+imaginy-use-case:
+  ansible:
+    group1:
+    - widget: "text_area"
+      default: "don't matter"
+      type: "string"
+      description: "Some stuff"
+      key: "var"
+      name: "var with imaginary friends"

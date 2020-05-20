@@ -1,38 +1,91 @@
 first-usecase:
   pipeline:
     group1:
-    - widget: "text_area"
+    - widget: "simple_text"
       default: "nobucket"
       type: "string"
       description: "Bucket used to store magento code"
       key: "magento_deploy_bucket_name"
-      name: "The bucket used"
+      name: "Magento bucket"
+      required: true
     - widget: "text_area"
       type: "string"
       description: "Doesn't matter"
       key: "no-exist"
-      name: "Some imaginary var"
-  terraform:
-    group2:
-    - widget: "simple_text"
-      type: "array"
-      description: "List of public network IDs"
-      key: "public_subnets_ids"
-      name: "Pub nets"
-    - widget: "text_area"
-      type: "string"
+      name: "Extra info"
+    - widget: "number"
+      type: "integer"
       description: "The VPC ID to run the project"
       key: "vpc_id"
       name: "VPC ID"
+  terraform:
+    group2:
+    - widget: "dropdown"
+      type: "string"
+      values: ["ax-123", "cb-317", "dw-502"]
+      description: "A list of network IDs (dropdown)"
+      key: "net_ids_dd"
+      name: "Network IDs"
+    - widget: "auto_complete"
+      type: "string"
+      values: ["ax-123", "cb-317", "dw-502"]
+      description: "A list of network IDs (auto_complete)"
+      key: "net_ids_ac"
+      name: "Network IDs"
+    group3:
+    - widget: "slider_list"
+      type: "string"
+      values: ["ax-123", "cb-317", "dw-502"]
+      description: "A list of network IDs (slider_list)"
+      key: "net_ids_sl"
+      name: "Network IDs"
+    - widget: "radios"
+      type: "string"
+      values: ["enabled", "disabled"]
+      description: "VPC status"
+      key: "vpc_status"
+      name: "VPC status"
+    - widget: "slider_range"
+      type: "integer"
+      values: [0, 60]
+      description: "Fault tolerance"
+      key: "fault_tolerange"
+      name: "Fault tolerance"
 second-usecase:
   terraform:
-    groupX:
-    - widget: "text_area"
+    group4:
+    - widget: "cy_cred"
       default: ""
       type: "string"
-      description: "The DB password for Magento"
-      key: "rds_password"
-      name: "RDS password"
+      description: "A credential to use"
+      key: "db_cred"
+      name: "DB credential"
+    - widget: "cy_scs"
+      default: ""
+      type: "string"
+      description: "The stack to use"
+      key: "scs_to_use"
+      name: "Stack"
+    - widget: "cy_crs"
+      default: ""
+      type: "string"
+      description: "The config repository to use"
+      key: "crs_to_use"
+      name: "Config repository"
+    - widget: "cy_branch"
+      default: ""
+      type: "string"
+      description: "The branch to use with the CR"
+      key: "cr_branch"
+      name: "CR branch"
+      source: "crs_to_use"
+    - widget: "cy_branch"
+      default: ""
+      type: "string"
+      description: "The branch to use with the Stack"
+      key: "stack_branch"
+      name: "Stack branch"
+      source: "scs_to_use"
 imaginy-use-case:
   ansible:
     group1:

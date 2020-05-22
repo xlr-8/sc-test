@@ -1,13 +1,13 @@
 # Configuration of the CI pipeline
 version: '2'
-name: 'Stack Magento'
-canonical: 'stack-magento-v2'
-description: 'A stack with 2 pipelines'
+name: 'Magento (forms)'
+canonical: 'stack-magento-v2-forms'
+description: 'A stack with 2 pipelines. Packed with forms content.'
 keywords:
   - 'stack'
   - 'public'
-author: 'gaelL'
-image: 'https://www.freeiconspng.com/uploads/troll-face-png-9.png'
+author: 'gaelL & dangz0'
+image: 'https://d29fhpw069ctt2.cloudfront.net/icon/image/38645/preview.svg'
 type: 'stack'
 config:
   first-usecase:
@@ -25,7 +25,7 @@ config:
         path: 'ansible/first/environments/front.yml.sample'
         destination: '($ project $)/first/ansible/environments/($ environment $)-front.yml'
 
-    # Configuration of terraform to setup the infrastructure    
+    # Configuration of terraform to setup the infrastructure
     terraform:
       magento:
         path: 'terraform/first/magento.tf.sample'
@@ -45,7 +45,7 @@ config:
         path: 'ansible/second/environments/front.yml.sample'
         destination: '($ project $)/second/ansible/environments/($ environment $)-front.yml'
 
-    # Configuration of terraform to setup the infrastructure    
+    # Configuration of terraform to setup the infrastructure
     terraform:
       magento:
         path: 'terraform/second/magento.tf.sample'

@@ -17,6 +17,7 @@ config:
       pipeline:
         path: 'pipeline/first/magento.yml'
       variables:
+        destination: ($ project $)/first/pipeline/variables-($ environment $).yml
         path: 'pipeline/first/variables.sample.yml'
 
     # Configuration of ansible for provisionning
@@ -37,6 +38,7 @@ config:
       pipeline:
         path: 'pipeline/second/magento.yml'
       variables:
+        destination: ($ project $)/second/pipeline/variables-($ environment $).yml
         path: 'pipeline/second/variables.sample.yml'
 
     # Configuration of ansible for provisionning

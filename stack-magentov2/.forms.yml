@@ -46,14 +46,12 @@ first-usecase:
     - widget: "radios"
       type: "string"
       values: ["enabled", "disabled"]
-      description: "VPC status"
       key: "vpc_status"
       name: "VPC status"
       required: true
     - widget: "slider_range"
       type: "integer"
       values: [0, 60]
-      description: "Fault tolerance"
       key: "fault_tolerange"
       name: "Fault tolerance"
       required: true

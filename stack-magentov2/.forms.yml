@@ -25,14 +25,14 @@ first-usecase:
       type: "string"
       values: ["ax-123", "cb-317", "dw-502"]
       description: "A list of network IDs (dropdown)"
-      key: "net_ids_dd"
+      key: "module.magento.net_ids_dd"
       name: "Network IDs"
       required: true
     - widget: "auto_complete"
       type: "string"
       values: ["ax-123", "cb-317", "dw-502"]
       description: "A list of network IDs (auto_complete)"
-      key: "net_ids_ac"
+      key: "module.magento.net_ids_ac"
       name: "Network IDs"
       required: true
     group3:
@@ -40,21 +40,21 @@ first-usecase:
       type: "string"
       values: ["ax-123", "cb-317", "dw-502"]
       description: "A list of network IDs (slider_list)"
-      key: "net_ids_sl"
+      key: "module.magento.net_ids_sl"
       name: "Network IDs"
       required: true
     - widget: "radios"
       type: "string"
       values: ["enabled", "disabled"]
       description: "VPC status"
-      key: "vpc_status"
+      key: "module.magento.vpc_status"
       name: "VPC status"
       required: true
     - widget: "slider_range"
       type: "integer"
       values: [0, 60]
       description: "Fault tolerance"
-      key: "fault_tolerange"
+      key: "module.magento.fault_tolerange"
       name: "Fault tolerance"
       required: true
 second-usecase:

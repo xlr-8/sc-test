@@ -4,9 +4,3 @@ magento_deploy_bucket_object_path: /catalog-magento/($ environment $)/magento.ta
 magento_deploy_bucket_region: eu-west-1
 magento_deploy_bucket_access_key: ...
 magento_deploy_bucket_secret_access_key: ...
-
-db_cred: test
-scs_to_use: test
-crs_to_use: test
-cr_branch: test
-stack_branch: test

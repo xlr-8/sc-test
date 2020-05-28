@@ -58,7 +58,7 @@ first-usecase:
       name: "Fault tolerance"
       required: true
 second-usecase:
-  terraform:
+  pipeline:
     group4:
     - widget: "cy_cred"
       default: ""

@@ -2,53 +2,26 @@
 version: '2'
 name: 'Magento (forms)'
 canonical: 'stack-magento-v2-forms'
-description: 'A stack with 2 pipelines. Packed with forms content.'
+description: 'A stack with 1 pipeline. Packed with forms content.'
 keywords:
   - 'stack'
   - 'public'
-author: 'gaelL & dangz0'
+author: 'dangz0'
 image: 'https://d29fhpw069ctt2.cloudfront.net/icon/image/38645/preview.svg'
 type: 'stack'
 config:
-  first-usecase:
-    name: 'First pipeline'
+  default:
+    name: 'Default pipeline'
     description: 'This is a pipeline description, necessary to let the user which pipeline to use.'
     pipeline:
       pipeline:
-        path: 'pipeline/first/magento.yml'
+        path: 'default/pipeline/magento.yml'
       variables:
-        destination: ($ project $)/first/pipeline/variables-($ environment $).yml
-        path: 'pipeline/first/variables.sample.yml'
-
-    # Configuration of ansible for provisionning
-    ansible:
-      magento:
-        path: 'ansible/first/environments/front.yml.sample'
-        destination: '($ project $)/first/ansible/environments/($ environment $)-front.yml'
+        destination: ($ project $)/default/pipeline/variables-($ environment $).yml
+        path: 'default/pipeline/variables.sample.yml'
 
     # Configuration of terraform to setup the infrastructure
     terraform:
       magento:
-        path: 'terraform/first/magento.tf.sample'
-        destination: '($ project $)/first/terraform/magento/($ environment $)/magento.tf'
-  second-usecase:
-    name: 'Second pipeline'
-    description: 'This is another pipeline description, necessary to let the user which pipeline to use.'
-    pipeline:
-      pipeline:
-        path: 'pipeline/second/magento.yml'
-      variables:
-        destination: ($ project $)/second/pipeline/variables-($ environment $).yml
-        path: 'pipeline/second/variables.sample.yml'
-
-    # Configuration of ansible for provisionning
-    ansible:
-      magento:
-        path: 'ansible/second/environments/front.yml.sample'
-        destination: '($ project $)/second/ansible/environments/($ environment $)-front.yml'
-
-    # Configuration of terraform to setup the infrastructure
-    terraform:
-      magento:
-        path: 'terraform/second/magento.tf.sample'
-        destination: '($ project $)/second/terraform/magento/($ environment $)/magento.tf'
+        path: 'default/terraform/magento.tf.sample'
+        destination: '($ project $)/default/terraform/magento/($ environment $)/magento.tf'

@@ -1,6 +1,4 @@
 env: ($ environment $)
-no-exist: test
-instances_number: test
 magento_deploy_bucket_name: magento-deploy
 magento_deploy_bucket_object_path: /catalog-magento/($ environment $)/magento.tar.gz
 magento_deploy_bucket_region: eu-west-1
@@ -32,3 +30,16 @@ magento_config_git_branch: master
 magento_config_git_private_key: |-
   -----BEGIN RSA PRIVATE KEY-----
   -----END RSA PRIVATE KEY-----
+
+
+-- user defined --
+aws_default_region: eu-west-1
+terraform_storage_bucket_name: "($ organization_canonical $)-terraform-remote-state"
+sc_repository: "git@github.com:cycloidio/cycloid-stacks-test.git"
+sc_git_key: "((git_readonly.ssh_key))"
+sc_path: "8-wordpress-demo"
+sc_branch: "stacks"
+config_git_repository: "git@github.com:cycloidio/cycloid-stacks-test.git"
+config_git_key: "((git_readonly.ssh_key))"
+config_git_branch: "config"
+config_terraform_path: "cycloid-wordpress-demo/terraform"

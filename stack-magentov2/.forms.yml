@@ -1,109 +1,77 @@
-first-usecase:
+---
+default:
   pipeline:
-    group1:
-    - widget: "simple_text"
-      default: "nobucket"
-      type: "string"
-      description: "Bucket used to store magento code"
-      key: "magento_deploy_bucket_name"
-      name: "Magento bucket"
-      required: true
-    - widget: "text_area"
-      type: "string"
-      description: "Doesn't matter"
-      key: "no-exist"
-      name: "Extra info"
-    - widget: "number"
-      type: "integer"
-      description: "Number of instances to be created"
-      key: "instances_number"
-      name: "Instances number"
-      required: true
-  terraform:
-    group2:
-    - widget: "dropdown"
-      type: "string"
-      values: ["ax-123", "cb-317", "dw-502"]
-      description: "A list of network IDs (dropdown)"
-      key: "module.magento.net_ids_dd"
-      name: "Network IDs"
-      required: true
-    - widget: "auto_complete"
-      type: "string"
-      values: ["ax-123", "cb-317", "dw-502"]
-      description: "A list of network IDs (auto_complete)"
-      key: "module.magento.net_ids_ac"
-      name: "Network IDs"
-      required: true
-    group3:
-    - widget: "slider_list"
-      type: "string"
-      values: ["ax-123", "cb-317", "dw-502"]
-      description: "A list of network IDs (slider_list)"
-      key: "module.magento.net_ids_sl"
-      name: "Network IDs"
-      required: true
-    - widget: "radios"
-      type: "string"
-      values: ["enabled", "disabled"]
-      description: "VPC status"
-      key: "module.magento.vpc_status"
-      name: "VPC status"
-      required: true
-    - widget: "slider_range"
-      type: "integer"
-      values: [0, 60]
-      description: "Fault tolerance"
-      key: "module.magento.fault_tolerange"
-      name: "Fault tolerance"
-      required: true
-second-usecase:
-  ansible:
-    group4:
-    - widget: "cy_cred"
-      default: ""
-      type: "string"
-      description: "A credential to use"
-      key: "db_cred"
-      name: "DB credential"
-      required: true
-    - widget: "cy_scs"
-      default: ""
-      type: "string"
-      description: "The stack to use"
-      key: "scs_to_use"
-      name: "Stack"
-      required: true
-    - widget: "cy_crs"
-      default: ""
-      type: "string"
-      description: "The config repository to use"
-      key: "crs_to_use"
-      name: "Config repository"
-      required: true
-    - widget: "cy_branch"
-      default: ""
-      type: "string"
-      description: "The branch to use with the CR"
-      key: "cr_branch"
-      name: "CR branch"
-      required: true
-      source: "crs_to_use"
-    - widget: "cy_branch"
-      default: ""
-      type: "string"
-      description: "The branch to use with the Stack"
-      key: "stack_branch"
-      name: "Stack branch"
-      required: true
-      source: "scs_to_use"
-imaginy-use-case:
-  ansible:
-    group1:
-    - widget: "text_area"
-      default: "don't matter"
-      type: "string"
-      description: "Some stuff"
-      key: "var"
-      name: "var with imaginary friends"
-      required: true
+    AWS:
+      - name: "Default Region"
+        key: aws_default_region
+        type: string
+        widget: dropdown
+        description: "In which region you would like your project to run"
+        default: "eu-west-1"
+        values: ["eu-west-1", "eu-west-2", "eu-west3", "eu-south1", "eu-north1", "eu-central1"]
+        required: true
+      - name: "S3 Bucket"
+        key: terraform_storage_bucket_name
+        type: string
+        widget: simple_text
+        description: "The S3 bucket where terraform will store its tfstate"
+        default: "($ organization_canonical $)-terraform-remote-state"
+        required: true
+    Git:
+      - name: "Service catalog repository"
+        key: sc_repository
+        widget: cy_scs
+        type: string
+        description: "The service catalog repository"
+        default: "git@github.com:cycloidio/cycloid-stacks-test.git"
+        required: true
+      - name: "Service catalog credentials"
+        key: sc_git_key
+        widget: cy_cred
+        type: string
+        description: "The credential used to access the service catalog"
+        default: "((git_readonly.ssh_key))"
+        required: true
+      - name: "Service catalog path"
+        key: sc_path
+        type: string
+        widget: simple_text
+        description: "The path of the stack in the service catalog"
+        default: "8-wordpress-demo"
+        required: true
+      - name: "Service catalog branch"
+        key: sc_branch
+        widget: cy_branch
+        type: string
+        description: "The branch used by the service catalog"
+        source: sc_repository
+        default: "stacks"
+        required: true
+      - name: "Config repository"
+        key: config_git_repository
+        type: string
+        widget: cy_crs
+        description: "The config repository to save configurations"
+        default: "git@github.com:cycloidio/cycloid-stacks-test.git"
+        required: true
+      - name: "Config repository credentials"
+        key: config_git_key
+        type: string
+        widget: cy_cred
+        default: "((git_readonly.ssh_key))"
+        required: true
+      - name: "Config repository branch"
+        key: config_git_branch
+        widget: cy_branch
+        type: string
+        description: "The branch used by the config repository"
+        source: config_git_repository
+        default: "config"
+        required: true
+      - name: "Config repository path"
+        key: config_terraform_path
+        widget: simple_text
+        type: string
+        description: "The path in which the config will be saved"
+        default: "cycloid-wordpress-demo/terraform"
+        required: true

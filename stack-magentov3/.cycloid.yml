@@ -25,3 +25,10 @@ config:
       magento:
         path: 'default/terraform/magento.tf.sample'
         destination: '($ project $)/default/terraform/magento/($ environment $)/magento.tf'
+
+    # Configuration of ansible for provisionning
+    ansible:
+      magento:
+        path: 'default/ansible/environments/front.yml.sample'
+        destination: '($ project $)/default/environments/($ environment $)-front.yml'
+

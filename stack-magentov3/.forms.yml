@@ -30,7 +30,7 @@ default:
         widget: cy_cred
         type: string
         description: "The credential used to access the service catalog"
-        default: "((git_readonly.ssh_key))"
+        default: "((ssh_readonly.ssh_key))"
         required: true
       - name: "Service catalog path"
         key: sc_path
@@ -58,7 +58,7 @@ default:
         key: config_git_key
         type: string
         widget: cy_cred
-        default: "((git_readonly.ssh_key))"
+        default: "((ssh_readonly.ssh_key))"
         required: true
       - name: "Config repository branch"
         key: config_git_branch

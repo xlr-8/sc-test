@@ -30,6 +30,6 @@ sc_repository: git@github.com:cycloidio/cycloid-stacks-test.git
 slack_hook: ((raw_slack-hooks.demo_channel))
 terraform_storage_bucket_name: seraf-terraform-remote-state
 terraform_storage_bucket_path: demo-testforms-dan3/dev
-vsphere_password: ((aws_warnerbros))
-vsphere_server: testformsdan3
-vsphere_user: ((aws_warnerbros))
+vsphere_password: ((aws_dan_aws_cred))
+vsphere_server: 195.154.163.200
+vsphere_user: ((aws_dan_aws_cred))

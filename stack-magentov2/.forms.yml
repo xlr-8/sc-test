@@ -9,11 +9,13 @@ first-usecase:
       name: "Magento bucket"
       required: true
     - widget: "text_area"
+      default: "extra info here"
       type: "string"
       description: "Doesn't matter"
       key: "no-exist"
       name: "Extra info"
     - widget: "number"
+      default: 12
       type: "integer"
       description: "Number of instances to be created"
       key: "instances_number"
@@ -23,6 +25,7 @@ first-usecase:
     group2:
     - widget: "dropdown"
       type: "string"
+      default: "dw-502"
       values: ["ax-123", "cb-317", "dw-502"]
       description: "A list of network IDs (dropdown)"
       key: "module.magento.net_ids_dd"
@@ -30,6 +33,7 @@ first-usecase:
       required: true
     - widget: "auto_complete"
       type: "string"
+      default: "dw-502"
       values: ["ax-123", "cb-317", "dw-502"]
       description: "A list of network IDs (auto_complete)"
       key: "module.magento.net_ids_ac"
@@ -38,6 +42,7 @@ first-usecase:
     group3:
     - widget: "slider_list"
       type: "string"
+      default: "dw-502"
       values: ["ax-123", "cb-317", "dw-502"]
       description: "A list of network IDs (slider_list)"
       key: "module.magento.net_ids_sl"
@@ -45,12 +50,14 @@ first-usecase:
       required: true
     - widget: "radios"
       type: "string"
+      default: "disabled"
       values: ["enabled", "disabled"]
       description: "VPC status"
       key: "module.magento.vpc_status"
       name: "VPC status"
       required: true
     - widget: "slider_range"
+      default: 15
       type: "integer"
       values: [0, 60]
       description: "Fault tolerance"
@@ -61,7 +68,7 @@ second-usecase:
   ansible:
     group4:
     - widget: "cy_cred"
-      default: "git_dan-cred/ssh_key"
+      default: "aws_my_aws/secret_key"
       type: "string"
       description: "A credential to use"
       key: "db_cred"

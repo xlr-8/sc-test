@@ -61,28 +61,28 @@ second-usecase:
   ansible:
     group4:
     - widget: "cy_cred"
-      default: ""
+      default: "git_dan-cred/ssh_key"
       type: "string"
       description: "A credential to use"
       key: "db_cred"
       name: "DB credential"
       required: true
     - widget: "cy_scs"
-      default: ""
+      default: "git@github.com:dangzo/sc-test.git"
       type: "string"
       description: "The stack to use"
       key: "scs_to_use"
       name: "Stack"
       required: true
     - widget: "cy_crs"
-      default: ""
+      default: "git@github.com:dangzo/sc-test.git"
       type: "string"
       description: "The config repository to use"
       key: "crs_to_use"
       name: "Config repository"
       required: true
     - widget: "cy_branch"
-      default: ""
+      default: "stacks-staging"
       type: "string"
       description: "The branch to use with the CR"
       key: "cr_branch"
@@ -90,7 +90,7 @@ second-usecase:
       required: true
       source: "crs_to_use"
     - widget: "cy_branch"
-      default: ""
+      default: "config-staging"
       type: "string"
       description: "The branch to use with the Stack"
       key: "stack_branch"

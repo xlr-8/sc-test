@@ -7,7 +7,6 @@ first-usecase:
       description: "Bucket used to store magento code"
       key: "magento_deploy_bucket_name"
       name: "Magento bucket"
-      required: true
     - widget: "text_area"
       default: "extra info here"
       type: "string"
@@ -20,7 +19,6 @@ first-usecase:
       description: "Number of instances to be created"
       key: "instances_number"
       name: "Instances number"
-      required: true
   terraform:
     group2:
     - widget: "dropdown"
@@ -30,7 +28,6 @@ first-usecase:
       description: "A list of network IDs (dropdown)"
       key: "module.magento.net_ids_dd"
       name: "Network IDs"
-      required: true
     - widget: "auto_complete"
       type: "string"
       default: "dw-502"
@@ -38,7 +35,6 @@ first-usecase:
       description: "A list of network IDs (auto_complete)"
       key: "module.magento.net_ids_ac"
       name: "Network IDs"
-      required: true
     group3:
     - widget: "slider_list"
       type: "string"
@@ -47,7 +43,6 @@ first-usecase:
       description: "A list of network IDs (slider_list)"
       key: "module.magento.net_ids_sl"
       name: "Network IDs"
-      required: true
     - widget: "radios"
       type: "string"
       default: "disabled"
@@ -55,7 +50,6 @@ first-usecase:
       description: "VPC status"
       key: "module.magento.vpc_status"
       name: "VPC status"
-      required: true
     - widget: "slider_range"
       default: 15
       type: "integer"
@@ -63,7 +57,6 @@ first-usecase:
       description: "Fault tolerance"
       key: "module.magento.fault_tolerange"
       name: "Fault tolerance"
-      required: true
 second-usecase:
   ansible:
     group4:
@@ -73,28 +66,24 @@ second-usecase:
       description: "A credential to use"
       key: "db_cred"
       name: "DB credential"
-      required: true
     - widget: "cy_scs"
       default: "git@github.com:dangzo/sc-test.git"
       type: "string"
       description: "The stack to use"
       key: "scs_to_use"
       name: "Stack"
-      required: true
     - widget: "cy_crs"
       default: "git@github.com:dangzo/sc-test.git"
       type: "string"
       description: "The config repository to use"
       key: "crs_to_use"
       name: "Config repository"
-      required: true
     - widget: "cy_branch"
       default: "stacks-staging"
       type: "string"
       description: "The branch to use with the CR"
       key: "cr_branch"
       name: "CR branch"
-      required: true
       source: "crs_to_use"
     - widget: "cy_branch"
       default: "config-staging"
@@ -102,7 +91,6 @@ second-usecase:
       description: "The branch to use with the Stack"
       key: "stack_branch"
       name: "Stack branch"
-      required: true
       source: "scs_to_use"
 imaginy-use-case:
   ansible:
@@ -113,4 +101,3 @@ imaginy-use-case:
       description: "Some stuff"
       key: "var"
       name: "var with imaginary friends"
-      required: true

@@ -18,6 +18,7 @@ module "magento" {
   net_ids_ac               = "test"
   net_ids_sl               = "test"
   vpc_status               = "test"
+  fault_tolerange          = 15
 
   # project = "magento"
 

@@ -9,6 +9,7 @@ first-usecase:
       name: "Magento bucket"
     - widget: "text_area"
       default: "extra info here"
+      unit: "simple words"
       type: "string"
       description: "Doesn't matter"
       key: "no-exist"
@@ -18,7 +19,7 @@ first-usecase:
       type: "integer"
       description: "Number of instances to be created"
       key: "instances_number"
-      name: "Instances number"
+      name: "Instances"
   terraform:
     group2:
     - widget: "dropdown"
@@ -53,6 +54,7 @@ first-usecase:
     - widget: "slider_range"
       default: 15
       type: "integer"
+      unit: "Ghz"
       values: [0, 60]
       description: "Fault tolerance"
       key: "module.magento.fault_tolerange"

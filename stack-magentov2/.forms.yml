@@ -1,100 +1,199 @@
 first-usecase:
   pipeline:
-    group1:
+    SimpleText:
     - widget: "simple_text"
-      default: "nobucket"
+      default: "test"
       type: "string"
-      description: "Bucket used to store magento code"
-      key: "magento_deploy_bucket_name"
-      name: "Magento bucket"
-    - widget: "text_area"
-      default: "extra info here"
-      unit: "simple words"
-      type: "string"
-      description: "Doesn't matter"
-      key: "no-exist"
-      name: "Extra info"
+      description: "key: simple_text_string"
+      key: "simple_text_string"
+      name: "SimpleText (String)"
+    Number:
     - widget: "number"
       default: 12
       type: "integer"
-      description: "Number of instances to be created"
-      key: "instances_number"
-      name: "Instances"
-  terraform:
-    group2:
-    - widget: "dropdown"
-      type: "string"
-      default: "dw-502"
-      values: ["ax-123", "cb-317", "dw-502"]
-      description: "A list of network IDs (dropdown)"
-      key: "module.magento.net_ids_dd"
-      name: "Network IDs"
+      description: "key: number_integer"
+      key: "number_integer"
+      name: "Number (Integer)"
+    AutoComplete:
     - widget: "auto_complete"
       type: "string"
-      default: "dw-502"
-      values: ["ax-123", "cb-317", "dw-502"]
-      description: "A list of network IDs (auto_complete)"
-      key: "module.magento.net_ids_ac"
-      name: "Network IDs"
-    group3:
-    - widget: "slider_list"
-      type: "string"
-      default: "dw-502"
-      values: ["ax-123", "cb-317", "dw-502"]
-      description: "A list of network IDs (slider_list)"
-      key: "module.magento.net_ids_sl"
-      name: "Network IDs"
-    - widget: "radios"
-      type: "string"
-      default: "disabled"
-      values: ["enabled", "disabled"]
-      description: "VPC status"
-      key: "module.magento.vpc_status"
-      name: "VPC status"
+      default: "test"
+      values: ["un", "dos", "tres", "test"]
+      description: "key: autocomplete_string"
+      key: "autocomplete_string"
+      name: "Autocomplete (String)"
+    SliderRange:
     - widget: "slider_range"
       default: 15
       type: "integer"
       unit: "Ghz"
       values: [0, 60]
-      description: "Fault tolerance"
-      key: "module.magento.fault_tolerange"
-      name: "Fault tolerance"
-second-usecase:
-  ansible:
-    group4:
+      description: "key: slider_range_integer"
+      key: "slider_range_integer"
+      name: "SliderRange (Integer)"
+    SliderList:
+    - widget: "slider_list"
+      type: "string"
+      default: "tres"
+      values: ["un", "dos", "tres"]
+      description: "key: slider_list_string"
+      key: "slider_list_string"
+      name: "Slider List (String)"
+    - widget: "slider_list"
+      type: "boolean"
+      default: false
+      values: [true, false]
+      description: "key: slider_list_boolean"
+      key: "slider_list_boolean"
+      name: "Slider List (Boolean)"
+    - widget: "slider_list"
+      type: "integer"
+      default: 4
+      values: [2, 4, 6, 8, 10]
+      description: "key: slider_list_integer"
+      key: "slider_list_integer"
+      name: "Slider List (Integer)"
+
+    Textarea:
+    - widget: "text_area"
+      default: "extra info here"
+      unit: "simple words"
+      type: "string"
+      description: "key: text_area_string"
+      key: "text_area_string"
+      name: "Textarea (String)"
+    - widget: "text_area"
+      default: 3
+      type: "integer"
+      description: "key: text_area_integer"
+      key: "text_area_integer"
+      name: "Textarea (Integer)"
+    - widget: "text_area"
+      default: true
+      type: "boolean"
+      description: "key: text_area_boolean"
+      key: "text_area_boolean"
+      name: "Textarea (Boolean)"
+    - widget: "text_area"
+      default: [1, 2, 3]
+      type: "array"
+      description: "key: text_area_array"
+      key: "text_area_array"
+      name: "Textarea (Array)"
+    - widget: "text_area"
+      default: { myvar: 'key' }
+      type: "map"
+      description: "key: text_area_map"
+      key: "text_area_map"
+      name: "Textarea (Map)"
+    Dropdown:
+    - widget: "dropdown"
+      values: ["un", "dos", "tres"]
+      default: "tres"
+      type: "string"
+      description: "key: dropdown_string"
+      key: "dropdown_string"
+      name: "Dropdown (String)"
+    - widget: "dropdown"
+      values: [1, 2, 3]
+      default: 3
+      type: "integer"
+      description: "key: dropdown_integer"
+      key: "dropdown_integer"
+      name: "Dropdown (Integer)"
+    - widget: "dropdown"
+      values: [true, false]
+      default: true
+      type: "boolean"
+      description: "key: dropdown_boolean"
+      key: "dropdown_boolean"
+      name: "Dropdown (Boolean)"
+    - widget: "dropdown"
+      values: [[1, 2, 3], [4, 5, 6], ["a", "b", "c"]]
+      default: [1, 2, 3]
+      type: "array"
+      description: "key: dropdown_array"
+      key: "dropdown_array"
+      name: "Dropdown (Array)"
+    - widget: "dropdown"
+      values: [{ myvar: 'key' }, { myvar2: true }, { myvar3: 3 }]
+      default: { myvar: 'key' }
+      type: "map"
+      description: "key: dropdown_map"
+      key: "dropdown_map"
+      name: "Dropdown (Map)"
+    Radios:
+    - widget: "radios"
+      values: ["un", "dos", "tres"]
+      default: "tres"
+      type: "string"
+      description: "key: radios_string"
+      key: "radios_string"
+      name: "Radios (String)"
+    - widget: "radios"
+      values: [1, 2, 3]
+      default: 3
+      type: "integer"
+      description: "key: radios_integer"
+      key: "radios_integer"
+      name: "Radios (Integer)"
+    - widget: "radios"
+      values: [true, false]
+      default: true
+      type: "boolean"
+      description: "key: radios_boolean"
+      key: "radios_boolean"
+      name: "Radios (Boolean)"
+    - widget: "radios"
+      values: [[1, 2, 3], [4, 5, 6], ["a", "b", "c"]]
+      default: [1, 2, 3]
+      type: "array"
+      description: "key: radios_array"
+      key: "radios_array"
+      name: "Radios (Array)"
+    - widget: "radios"
+      values: [{ myvar: 'key' }, { myvar2: true }, { myvar3: 3 }]
+      default: { myvar: 'key' }
+      type: "map"
+      description: "key: radios_map"
+      key: "radios_map"
+      name: "Radios (Map)"
+
+    Credentials:
     - widget: "cy_cred"
       default: "aws_my_aws/secret_key"
       type: "string"
-      description: "A credential to use"
-      key: "db_cred"
-      name: "DB credential"
+      description: "key: cred_string"
+      key: "cred_string"
+      name: "Credentials (String)"
+    Stacks, ConfigRepository and Branch:
     - widget: "cy_scs"
       default: "git@github.com:dangzo/sc-test.git"
       type: "string"
-      description: "The stack to use"
-      key: "scs_to_use"
-      name: "Stack"
+      description: "key: scs_string"
+      key: "scs_string"
+      name: "Stacks (String)"
     - widget: "cy_crs"
       default: "git@github.com:dangzo/sc-test.git"
       type: "string"
-      description: "The config repository to use"
-      key: "crs_to_use"
-      name: "Config repository"
+      description: "key: crs_string"
+      key: "crs_string"
+      name: "Config Repository (String)"
     - widget: "cy_branch"
       default: "stacks-staging"
       type: "string"
-      description: "The branch to use with the CR"
-      key: "cr_branch"
-      name: "CR branch"
-      source: "crs_to_use"
+      description: "key: branch_crs_string"
+      key: "branch_crs_string"
+      name: "Branch CR (String)"
+      source: "crs_string"
     - widget: "cy_branch"
       default: "config-staging"
       type: "string"
-      description: "The branch to use with the Stack"
-      key: "stack_branch"
-      name: "Stack branch"
-      source: "scs_to_use"
-imaginy-use-case:
+      description: "key: branch_scs_string"
+      key: "branch_scs_string"
+      name: "Branch Stacks (String)"
+      source: "scs_string"
+second-usecase:
   ansible:
     group1:
     - widget: "text_area"

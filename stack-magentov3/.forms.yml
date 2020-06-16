@@ -31,14 +31,14 @@ default:
         type: string
         description: "The credential used to access the service catalog"
         default: "((ssh_readonly.ssh_key))"
-        required: true
+        required: false
       - name: "Service catalog path"
         key: sc_path
         type: string
         widget: simple_text
         description: "The path of the stack in the service catalog"
         default: "8-wordpress-demo"
-        required: true
+        required: false
       - name: "Service catalog branch"
         key: sc_branch
         widget: cy_branch

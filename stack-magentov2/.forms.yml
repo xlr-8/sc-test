@@ -2,6 +2,7 @@ first-usecase:
   pipeline:
     SimpleText:
     - widget: "simple_text"
+      required: true
       default: "test"
       type: "string"
       description: "key: simple_text_string"
@@ -9,6 +10,7 @@ first-usecase:
       name: "SimpleText (String)"
     Number:
     - widget: "number"
+      required: true
       default: 12
       type: "integer"
       description: "key: number_integer"
@@ -16,6 +18,7 @@ first-usecase:
       name: "Number (Integer)"
     AutoComplete:
     - widget: "auto_complete"
+      required: true
       type: "string"
       default: "test"
       values: ["un", "dos", "tres", "test"]
@@ -24,6 +27,7 @@ first-usecase:
       name: "Autocomplete (String)"
     SliderRange:
     - widget: "slider_range"
+      required: true
       default: 15
       type: "integer"
       unit: "Ghz"
@@ -33,6 +37,7 @@ first-usecase:
       name: "SliderRange (Integer)"
     SliderList:
     - widget: "slider_list"
+      required: true
       type: "string"
       default: "tres"
       values: ["un", "dos", "tres"]
@@ -40,6 +45,7 @@ first-usecase:
       key: "slider_list_string"
       name: "Slider List (String)"
     - widget: "slider_list"
+      required: true
       type: "boolean"
       default: false
       values: [true, false]
@@ -47,6 +53,7 @@ first-usecase:
       key: "slider_list_boolean"
       name: "Slider List (Boolean)"
     - widget: "slider_list"
+      required: true
       type: "integer"
       default: 4
       values: [2, 4, 6, 8, 10]
@@ -56,6 +63,7 @@ first-usecase:
 
     Textarea:
     - widget: "text_area"
+      required: true
       default: "extra info here"
       unit: "simple words"
       type: "string"
@@ -63,24 +71,28 @@ first-usecase:
       key: "text_area_string"
       name: "Textarea (String)"
     - widget: "text_area"
+      required: true
       default: 3
       type: "integer"
       description: "key: text_area_integer"
       key: "text_area_integer"
       name: "Textarea (Integer)"
     - widget: "text_area"
+      required: true
       default: true
       type: "boolean"
       description: "key: text_area_boolean"
       key: "text_area_boolean"
       name: "Textarea (Boolean)"
     - widget: "text_area"
+      required: true
       default: [1, 2, 3]
       type: "array"
       description: "key: text_area_array"
       key: "text_area_array"
       name: "Textarea (Array)"
     - widget: "text_area"
+      required: true
       default: { myvar: 'key' }
       type: "map"
       description: "key: text_area_map"
@@ -88,6 +100,7 @@ first-usecase:
       name: "Textarea (Map)"
     Dropdown:
     - widget: "dropdown"
+      required: true
       values: ["un", "dos", "tres"]
       default: "tres"
       type: "string"
@@ -95,6 +108,7 @@ first-usecase:
       key: "dropdown_string"
       name: "Dropdown (String)"
     - widget: "dropdown"
+      required: true
       values: [1, 2, 3]
       default: 3
       type: "integer"
@@ -102,6 +116,7 @@ first-usecase:
       key: "dropdown_integer"
       name: "Dropdown (Integer)"
     - widget: "dropdown"
+      required: true
       values: [true, false]
       default: true
       type: "boolean"
@@ -109,6 +124,7 @@ first-usecase:
       key: "dropdown_boolean"
       name: "Dropdown (Boolean)"
     - widget: "dropdown"
+      required: true
       values: [[1, 2, 3], [4, 5, 6], ["a", "b", "c"]]
       default: [1, 2, 3]
       type: "array"
@@ -116,6 +132,7 @@ first-usecase:
       key: "dropdown_array"
       name: "Dropdown (Array)"
     - widget: "dropdown"
+      required: true
       values: [{ myvar: 'key' }, { myvar2: true }, { myvar3: 3 }]
       default: { myvar: 'key' }
       type: "map"
@@ -124,6 +141,7 @@ first-usecase:
       name: "Dropdown (Map)"
     Radios:
     - widget: "radios"
+      required: true
       values: ["un", "dos", "tres"]
       default: "tres"
       type: "string"
@@ -131,6 +149,7 @@ first-usecase:
       key: "radios_string"
       name: "Radios (String)"
     - widget: "radios"
+      required: true
       values: [1, 2, 3]
       default: 3
       type: "integer"
@@ -138,6 +157,7 @@ first-usecase:
       key: "radios_integer"
       name: "Radios (Integer)"
     - widget: "radios"
+      required: true
       values: [true, false]
       default: true
       type: "boolean"
@@ -145,6 +165,7 @@ first-usecase:
       key: "radios_boolean"
       name: "Radios (Boolean)"
     - widget: "radios"
+      required: true
       values: [[1, 2, 3], [4, 5, 6], ["a", "b", "c"]]
       default: [1, 2, 3]
       type: "array"
@@ -152,6 +173,7 @@ first-usecase:
       key: "radios_array"
       name: "Radios (Array)"
     - widget: "radios"
+      required: true
       values: [{ myvar: 'key' }, { myvar2: true }, { myvar3: 3 }]
       default: { myvar: 'key' }
       type: "map"
@@ -161,6 +183,7 @@ first-usecase:
 
     Credentials:
     - widget: "cy_cred"
+      required: true
       default: "aws_my_aws/secret_key"
       type: "string"
       description: "key: cred_string"
@@ -168,18 +191,21 @@ first-usecase:
       name: "Credentials (String)"
     Stacks, ConfigRepository and Branch:
     - widget: "cy_scs"
+      required: true
       default: "git@github.com:dangzo/sc-test.git"
       type: "string"
       description: "key: scs_string"
       key: "scs_string"
       name: "Stacks (String)"
     - widget: "cy_crs"
+      required: true
       default: "git@github.com:dangzo/sc-test.git"
       type: "string"
       description: "key: crs_string"
       key: "crs_string"
       name: "Config Repository (String)"
     - widget: "cy_branch"
+      required: true
       default: "stacks-staging"
       type: "string"
       description: "key: branch_crs_string"
@@ -187,6 +213,7 @@ first-usecase:
       name: "Branch CR (String)"
       source: "crs_string"
     - widget: "cy_branch"
+      required: true
       default: "config-staging"
       type: "string"
       description: "key: branch_scs_string"
@@ -197,6 +224,7 @@ second-usecase:
   ansible:
     group1:
     - widget: "text_area"
+      required: true
       default: "don't matter"
       type: "string"
       description: "Some stuff"

@@ -79,21 +79,21 @@ first-usecase:
       name: "Textarea (Integer)"
     - widget: "text_area"
       required: true
-      default: true
+      default: false
       type: "boolean"
       description: "key: text_area_boolean"
       key: "text_area_boolean"
       name: "Textarea (Boolean)"
     - widget: "text_area"
       required: true
-      default: [1, 2, 3]
+      default: [4, 5, 6]
       type: "array"
       description: "key: text_area_array"
       key: "text_area_array"
       name: "Textarea (Array)"
     - widget: "text_area"
       required: true
-      default: { myvar: 'key' }
+      default: { myvar3: 3 }
       type: "map"
       description: "key: text_area_map"
       key: "text_area_map"
@@ -118,7 +118,7 @@ first-usecase:
     - widget: "dropdown"
       required: true
       values: [true, false]
-      default: true
+      default: false
       type: "boolean"
       description: "key: dropdown_boolean"
       key: "dropdown_boolean"
@@ -126,7 +126,7 @@ first-usecase:
     - widget: "dropdown"
       required: true
       values: [[1, 2, 3], [4, 5, 6], ["a", "b", "c"]]
-      default: [1, 2, 3]
+      default: [4, 5, 6]
       type: "array"
       description: "key: dropdown_array"
       key: "dropdown_array"
@@ -134,7 +134,7 @@ first-usecase:
     - widget: "dropdown"
       required: true
       values: [{ myvar: 'key' }, { myvar2: true }, { myvar3: 3 }]
-      default: { myvar: 'key' }
+      default: { myvar3: 3 }
       type: "map"
       description: "key: dropdown_map"
       key: "dropdown_map"
@@ -159,7 +159,7 @@ first-usecase:
     - widget: "radios"
       required: true
       values: [true, false]
-      default: true
+      default: false
       type: "boolean"
       description: "key: radios_boolean"
       key: "radios_boolean"
@@ -167,7 +167,7 @@ first-usecase:
     - widget: "radios"
       required: true
       values: [[1, 2, 3], [4, 5, 6], ["a", "b", "c"]]
-      default: [1, 2, 3]
+      default: [4, 5, 6]
       type: "array"
       description: "key: radios_array"
       key: "radios_array"
@@ -175,7 +175,7 @@ first-usecase:
     - widget: "radios"
       required: true
       values: [{ myvar: 'key' }, { myvar2: true }, { myvar3: 3 }]
-      default: { myvar: 'key' }
+      default: { myvar3: 3 }
       type: "map"
       description: "key: radios_map"
       key: "radios_map"

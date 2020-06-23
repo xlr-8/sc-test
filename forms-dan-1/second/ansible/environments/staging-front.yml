@@ -8,8 +8,8 @@
 #
 # Any extra variables not found in the original file have been ignored.
 #
-cr_branch: config
-crs_to_use: git@github.com:cycloidio/cycloid-stacks-test.git
-db_cred: aws_dan_aws_cred/secret_key
-scs_to_use: git@github.com:cycloid-community-catalog/infra-amazon-req.git
-stack_branch: fix-iam
+cr_branch: stacks-staging
+crs_to_use: git@github.com:dangzo/sc-test.git
+db_cred: aws_my_aws/access_key
+scs_to_use: git@github.com:dangzo/sc-test.git
+stack_branch: config-staging

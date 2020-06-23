@@ -17,14 +17,14 @@ bastion_private_key_pair: |-
   -----END RSA PRIVATE KEY-----
 bastion_url: admin@bastion.cycloid.io
 env: dev
-instances_number: 3333
+instances_number: 12
 magento_config_git_branch: master
 magento_config_git_private_key: |-
   -----BEGIN RSA PRIVATE KEY-----
   -----END RSA PRIVATE KEY-----
 magento_config_git_repository: git@github.com:MyUser/config-magento.git
 magento_deploy_bucket_access_key: '...'
-magento_deploy_bucket_name: abc
+magento_deploy_bucket_name: nobucket
 magento_deploy_bucket_object_path: /catalog-magento/dev/magento.tar.gz
 magento_deploy_bucket_region: eu-west-1
 magento_deploy_bucket_secret_access_key: '...'
@@ -33,7 +33,7 @@ magento_git_private_key: |-
   -----BEGIN RSA PRIVATE KEY-----
   -----END RSA PRIVATE KEY-----
 magento_git_repository: git@github.com:MyUser/code-magento.git
-no-exist: abc
+no-exist: extra info here
 terraform_storage_access_key: '...'
 terraform_storage_bucket_name: magento-terraform-remote-state
 terraform_storage_bucket_path: magento/dev

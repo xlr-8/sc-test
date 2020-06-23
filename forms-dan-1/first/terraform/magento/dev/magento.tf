@@ -15,13 +15,15 @@ module "magento" {
 
   env = "dev"
 
+  fault_tolerange = 15
+
   magento_ssl_cert = "<ssl-cert-arn>"
 
-  net_ids_ac = "ax-123"
+  net_ids_ac = "dw-502"
 
-  net_ids_dd = "ax-123"
+  net_ids_dd = "dw-502"
 
-  net_ids_sl = "ax-123"
+  net_ids_sl = "dw-502"
 
   private_subnets_ids = [
     "private-subnets",
@@ -35,5 +37,5 @@ module "magento" {
 
   vpc_id = "<vpc-id>"
 
-  vpc_status = "enabled"
+  vpc_status = "disabled"
 }

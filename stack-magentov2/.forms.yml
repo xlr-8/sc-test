@@ -60,7 +60,6 @@ first-usecase:
       description: "key: slider_list_integer"
       key: "slider_list_integer"
       name: "Slider List (Integer)"
-
     Textarea:
     - widget: "text_area"
       required: true
@@ -180,7 +179,6 @@ first-usecase:
       description: "key: radios_map"
       key: "radios_map"
       name: "Radios (Map)"
-
     Credentials:
     - widget: "cy_cred"
       required: true
@@ -228,5 +226,5 @@ second-usecase:
       default: "don't matter"
       type: "string"
       description: "Some stuff"
-      key: "var"
+      key: "doesntmatter"
       name: "var with imaginary friends"

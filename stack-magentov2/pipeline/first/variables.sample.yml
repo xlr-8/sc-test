@@ -32,7 +32,7 @@ magento_config_git_private_key: |-
   -----END RSA PRIVATE KEY-----
 
 
--- FORMS --
+  -- FORMS --
 simple_text_string: test
 number_integer: 12345
 autocomplete_string: test
@@ -49,14 +49,14 @@ text_area_string: test
 text_area_integer: 3
 text_area_boolean: true
 text_area_array: "[1, 2, 3]"
-text_area_map: "{ myvar: 'key' }"
+text_area_map: "{ 'myvar': 'key' }"
 dropdown_string: test
 dropdown_integer: 3
 dropdown_boolean: true
 dropdown_array: "[1, 2, 3]"
-dropdown_map: "{ myvar: 'key' }"
+dropdown_map: "{ 'myvar': 'key' }"
 radios_string: test
 radios_integer: 3
 radios_boolean: true
 radios_array: "[1, 2, 3]"
-radios_map: "{ myvar: 'key' }"
+radios_map: "{ 'myvar': 'key' }"

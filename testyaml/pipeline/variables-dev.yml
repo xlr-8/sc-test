@@ -52,7 +52,7 @@ project: testyaml
 
 #. customer (required): seraf
 #+ Name of the Cycloid Organization, used as customer variable name.
-customer: seraf
+customer: serafer
 
 #. stack_git_branch (required): master
 #+ Branch to use on the public stack Git repository

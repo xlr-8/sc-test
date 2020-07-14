@@ -12,7 +12,7 @@ approval_aws_secret_key: ((aws_admin.secret_key))
 
 #. aws_default_region (required): eu-west-1
 #+ Amazon AWS region to use for Terraform.
-aws_default_region: abcdefg
+aws_default_region: abcdefgef
 
 #. terraform_storage_bucket_name (required): seraf-terraform-remote-state
 #+ AWS S3 bucket name to store Terraform remote state file.

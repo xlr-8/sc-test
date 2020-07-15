@@ -1,3 +1,4 @@
+
 #
 # Terraform
 #
@@ -25,17 +26,17 @@ terraform_storage_bucket_name: seraf-terraform-remote-state
 # Repos
 #
 
-#. config_git_repository (required): git@github.com:MyUser/config-eks.git
+#. config_git_repository (required): git@github.com:MyUser/config-lemp-app.git
 #+ Git repository URL containing the config of the stack.
-config_git_repository: git@github.com:MyUser/config-eks.git
+config_git_repository: git@github.com:MyUser/config-lemp-app.git
 
-#. config_git_branch (required): master
-#+ Branch of the config Git repository.
-config_git_branch: master
+#. config_git_branch (required): config
+#+ Branch of the config git repository.
+config_git_branch: config
 
-#. config_git_private_key (required): ((ssh_config.ssh_key))
-#+ SSH key pair to fetch the config Git repository.
-config_git_private_key: ((ssh_config.ssh_key))
+#. config_git_private_key (required): ((ssh_config_ro.ssh_key))
+#+ SSH key pair to fetch the config git repository.
+config_git_private_key: ((ssh_config_ro.ssh_key))
 
 
 #
@@ -61,7 +62,3 @@ stack_git_branch: master
 #. config_terraform_path (required): havanna/terraform/staging
 #+ Path of Terraform files in the config git repository
 config_terraform_path: havanna/terraform/staging
-
-#. terraform_version (required): '0.12.28'
-#+ terraform version used to execute your code.
-terraform_version: '0.12.28'

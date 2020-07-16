@@ -2,36 +2,80 @@
 # Terraform
 #
 
-# Amazon access to use to run terraform. Usually admin account to be able to create Amazon services.
+# Azure access to use to run terraform.
 
-#. aws_access_key (required): ((aws.access_key))
-#+ Amazon AWS access key for Terraform. See value format [here](https://docs.cycloid.io/advanced-guide/integrate-and-use-cycloid-credentials-manager.html#vault-in-the-pipeline)
-aws_access_key: ((aws.access_key))
+#. azure_subscription_id (required): ((azure_admin.subscription_id))
+#+ Azure subscription ID to use for Terraform.
+azure_subscription_id: ((azure_admin.subscription_id))
 
-#. aws_secret_key (required): ((aws.secret_key))
-#+ Amazon AWS secret key for Terraform. See value format [here](https://docs.cycloid.io/advanced-guide/integrate-and-use-cycloid-credentials-manager.html#vault-in-the-pipeline)
-aws_secret_key: ((aws.secret_key))
+#. azure_tenant_id (required): ((azure_admin.tenant_id))
+#+ Azure tenant ID to use for Terraform.
+azure_tenant_id: ((azure_admin.tenant_id))
 
-#. aws_default_region (required): eu-west-1
-#+ Amazon AWS region to use for Terraform.
-aws_default_region: eu-west-199999
+#. azure_client_id (required): ((azure_admin.client_id))
+#+ Azure client ID to use for Terraform.
+azure_client_id: ((azure_admin.client_id))
 
-#. terraform_storage_bucket_name (required): seraf-terraform-remote-state
-#+ AWS S3 bucket name to store terraform remote state file.
-terraform_storage_bucket_name: seraf-terraform-remote-state
+#. azure_client_secret (required): ((azure_admin.client_secret))
+#+ Azure client secret to use for Terraform.
+azure_client_secret: ((azure_admin.client_secret))
+
+#. azure_env (required): public
+#+ Azure environment to use for Terraform. Can be either `public`, `usgovernment`, `german` or `china`.
+azure_env: "public"
+
+#. azure_location (required): West Europe
+#+ Azure location to use for terraform. 
+azure_location: "West Europe and something else"
+
+# AKS
+# The cluster needs a Service Principal that you can create with the following Azure CLI command:
+# `az ad sp create-for-rbac --name havanna-dev`
+# Then create a `custom_havanna-dev-sp` Cycloid custom Credential
+# with two fields `client_id` and `client_secret` referencing the newly created Service Principal.
+
+#. aks_service_principal_client_id (required): ((custom_havanna-dev-sp.client_id))
+#+ The Client ID for the Service Principal used by the AKS cluster.
+aks_service_principal_client_id: ((custom_havanna-dev-sp.client_id))
+
+#. aks_service_principal_client_secret (required): ((custom_havanna-dev-sp.client_secret))
+#+ The Client Secret for the Service Principal used by the AKS cluster.
+aks_service_principal_client_secret: ((custom_havanna-dev-sp.client_secret))
+
+# Azure access to store terraform remote state file.
+
+#. terraform_resource_group_name (required): seraf-terraform
+#+ Azure Resource Group of the Storage Account to use to store terraform remote state file.
+terraform_resource_group_name: seraf-terraform-something-else
+
+#. terraform_storage_account_name (required): ((azure_storage_aks.account_name))
+#+ Azure Storage Account name to use to store terraform remote state file.
+terraform_storage_account_name: ((azure_storage_aks.account_name))
+
+#. terraform_storage_account_key (required): ((azure_storage_aks.access_key))
+#+ Azure Storage Account key to use to store terraform remote state file.
+terraform_storage_access_key: ((azure_storage_aks.access_key))
+
+#. terraform_storage_container_name (required): seraf
+#+ Azure Storage container name to store terraform remote state file.
+terraform_storage_container_name: seraf
+
+#. terraform_storage_container_path (required): havanna/dev
+#+ Azure Storage container path to store terraform remote state file.
+terraform_storage_container_path: havanna/dev
 
 
 #
 # Repos
 #
 
-#. config_git_repository (required): git@github.com:MyUser/config-eks.git
+#. config_git_repository (required): git@github.com:MyUser/config-aks.git
 #+ Git repository URL containing the config of the stack.
-config_git_repository: git@github.com:MyUser/config-eks.git
+config_git_repository: git@github.com:MyUser/config-aks.git
 
 #. config_git_branch (required): master
 #+ Branch of the config Git repository.
-config_git_branch: master
+config_git_branch: kalacs
 
 #. config_git_private_key (required): ((ssh_config.ssh_key))
 #+ SSH key pair to fetch the config Git repository.
@@ -48,7 +92,7 @@ env: dev
 
 #. project (required): havanna
 #+ Name of the project.
-project: havanna
+project: havanna-manna
 
 #. customer (required): seraf
 #+ Name of the Cycloid Organization, used as customer variable name.
@@ -62,6 +106,6 @@ stack_git_branch: master
 #+ Path of Terraform files in the config git repository
 config_terraform_path: havanna/terraform/dev
 
-#. terraform_version (required): '0.12.28'
+#. terraform_version (required): '0.12.21'
 #+ terraform version used to execute your code.
-terraform_version: '0.12.28'
+terraform_version: '0.12.21'

@@ -4,7 +4,7 @@
 # next project edition via the forms.
 #
 # Please note that comments in sample files will have been dropped
-# due to some limitations upon files' generation.
+# due to some limitations upon files' generation.
 #
 # Any extra variables not found in the original file have been ignored.
 #
@@ -13,7 +13,7 @@ api_password: ((raw_cyclobot-account.password))
 approval_aws_access_key: ((aws_admin.access_key))
 approval_aws_secret_key: ((aws_admin.secret_key))
 aws_access_key: ((aws.access_key))
-aws_default_region: eu-central1
+aws_default_region: eu-south1
 aws_secret_key: ((aws.secret_key))
 config_git_branch: config
 config_git_key: ((git_readonly.ssh_key))

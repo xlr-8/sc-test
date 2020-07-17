@@ -4,7 +4,7 @@
 # next project edition via the forms.
 #
 # Please note that comments in sample files will have been dropped
-# due to some limitations upon files' generation.
+# due to some limitations upon files' generation.
 #
 # Any extra variables not found in the original file have been ignored.
 #

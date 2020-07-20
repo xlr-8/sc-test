@@ -35,6 +35,7 @@ magento_config_git_private_key: |-
   -- FORMS --
 simple_text_string: test
 number_integer: 12345
+switch_boolean: false
 autocomplete_string: test
 slider_range_integer: 12345
 branch_crs_string: test

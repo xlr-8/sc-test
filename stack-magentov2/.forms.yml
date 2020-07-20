@@ -8,6 +8,14 @@ first-usecase:
       description: "key: simple_text_string"
       key: "simple_text_string"
       name: "SimpleText (String)"
+    Switch:
+    - widget: "switch"
+      required: true
+      default: false
+      type: "boolean"
+      description: "key: switch_boolean"
+      key: "switch_boolean"
+      name: "Switch (Boolean)"
     Number:
     - widget: "number"
       required: true

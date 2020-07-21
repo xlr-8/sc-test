@@ -11,7 +11,7 @@ first-usecase:
     Switch:
     - widget: "switch"
       required: true
-      default: false
+      default: true
       type: "boolean"
       description: "key: switch_boolean"
       key: "switch_boolean"
@@ -190,7 +190,7 @@ first-usecase:
     Credentials:
     - widget: "cy_cred"
       required: true
-      default: "aws_my_aws/secret_key"
+      default: "((aws_my_aws.secret_key))"
       type: "string"
       description: "key: cred_string"
       key: "cred_string"

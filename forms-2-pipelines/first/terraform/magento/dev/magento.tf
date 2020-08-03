@@ -37,5 +37,5 @@ module "magento" {
 
   vpc_id = "<vpc-id>"
 
-  vpc_status = "enabled"
+  vpc_status = "disabled"
 }

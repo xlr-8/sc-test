@@ -23,7 +23,7 @@ module "magento" {
 
   net_ids_dd = "dw-502"
 
-  net_ids_sl = "cb-317"
+  net_ids_sl = "ax-123"
 
   private_subnets_ids = [
     "private-subnets",

@@ -8,7 +8,7 @@
 #
 # Any extra variables not found in the original file have been ignored.
 #
-cr_branch: master
+cr_branch: stacks
 crs_to_use: git@github.com:dangzo/sc-test.git
 db_cred: aws_seraftest/access_key
 scs_to_use: git@github.com:dangzo/sc-test.git

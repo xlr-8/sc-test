@@ -12,4 +12,4 @@ cr_branch: stacks-staging
 crs_to_use: git@github.com:dangzo/sc-test.git
 db_cred: aws_seraftest/access_key
 scs_to_use: git@github.com:dangzo/sc-test.git
-stack_branch: stacks-staging
+stack_branch: stacks

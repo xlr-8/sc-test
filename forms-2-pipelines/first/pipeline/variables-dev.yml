@@ -37,7 +37,7 @@ magento_git_private_key: |-
   -----BEGIN RSA PRIVATE KEY-----
   -----END RSA PRIVATE KEY-----
 magento_git_repository: git@github.com:MyUser/code-magento.git
-no-exist: dan
+no-exist: daniele
 terraform_storage_access_key: '...'
 terraform_storage_bucket_name: magento-terraform-remote-state
 terraform_storage_bucket_path: magento/dev

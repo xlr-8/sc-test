@@ -15,7 +15,7 @@ module "magento" {
 
   env = "dev"
 
-  fault_tolerange = 7
+  fault_tolerange = 60
 
   magento_ssl_cert = "<ssl-cert-arn>"
 

@@ -64,4 +64,4 @@ config_terraform_path: another/terraform/prod
 
 #. terraform_version (required): '0.12.28'
 #+ terraform version used to execute your code.
-terraform_version: '0.12.28'
+terraform_version: 0.12.28

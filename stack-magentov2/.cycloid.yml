@@ -1,8 +1,8 @@
 # Configuration of the CI pipeline
 version: '2'
 name: 'Magento (forms)'
-canonical: 'magentov2-forms-all-types'
-description: 'A stack with 2 pipelines. Packed with forms content, including all widgets and types.'
+canonical: 'mag-forms-all-types-default'
+description: 'A stack with 2 pipelines. Packed with forms content, including all widgets and types (with default values).'
 keywords:
   - 'stack'
   - 'public'

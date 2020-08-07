@@ -7,7 +7,7 @@ default:
         type: string
         widget: dropdown
         description: "In which region you would like your project to run"
-        default: "eu-west-1"
+        default: "eu-west-2"
         values: ["eu-west-1", "eu-west-2", "eu-west3", "eu-south1", "eu-north1", "eu-central1"]
         required: true
       - name: "S3 Bucket"

@@ -17,7 +17,7 @@ bastion_private_key_pair: |-
   -----END RSA PRIVATE KEY-----
 bastion_url: admin@bastion.cycloid.io
 config_git_branch: config
-config_git_key: ((aws_cycloid-awesome))
+config_git_key: ((aws_cycloid-awesome.secret_key))
 config_git_repository: git@github.com:cycloidio/cycloid-stacks-test.git
 config_terraform_path: cycloid-wordpress-demo/terraform
 env: dev
@@ -37,7 +37,7 @@ magento_git_private_key: |-
   -----END RSA PRIVATE KEY-----
 magento_git_repository: git@github.com:MyUser/code-magento.git
 sc_branch: stacks
-sc_git_key: ((aws_cycloid-awesome))
+sc_git_key: ((aws_cycloid-awesome.access_key))
 sc_path: 8-wordpress-demo
 sc_repository: git@github.com:cycloidio/cycloid-stacks-test.git
 terraform_storage_access_key: '...'

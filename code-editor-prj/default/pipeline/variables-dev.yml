@@ -10,7 +10,7 @@
 #
 ansible_vault_password: '...'
 aws_access_key: '...'
-aws_default_region: eu-north1
+aws_default_region: eu-west-2
 aws_secret_key: '...'
 bastion_private_key_pair: |-
   -----BEGIN RSA PRIVATE KEY-----

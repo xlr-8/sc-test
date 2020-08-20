@@ -19,7 +19,7 @@ module "magento" {
 
   magento_ssl_cert = "<ssl-cert-arn>"
 
-  net_ids_ac = "dw-502"
+  net_ids_ac = "cb-317"
 
   net_ids_dd = "cb-317"
 

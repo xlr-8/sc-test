@@ -21,7 +21,7 @@ module "magento" {
 
   net_ids_ac = "dw-502"
 
-  net_ids_dd = "dw-502"
+  net_ids_dd = "cb-317"
 
   net_ids_sl = "dw-502"
 

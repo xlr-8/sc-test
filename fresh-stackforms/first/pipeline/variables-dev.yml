@@ -29,8 +29,7 @@ magento_config_git_private_key: |-
 magento_config_git_repository: git@github.com:MyUser/config-magento.git
 magento_deploy_bucket_access_key: '...'
 magento_deploy_bucket_name: abcdefg
-magento_deploy_bucket_name_bigger3: default value 123
-magento_deploy_bucket_name_newer3: changed
+magento_deploy_bucket_name_newer4: default value abc
 magento_deploy_bucket_object_path: /catalog-magento/dev/magento.tar.gz
 magento_deploy_bucket_region: eu-west-1
 magento_deploy_bucket_secret_access_key: '...'

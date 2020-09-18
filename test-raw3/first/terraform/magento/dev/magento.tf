@@ -26,7 +26,7 @@ module "magento" {
   public_subnets_ids = [
     "<public-subnets>"
   ]
-  raw_terraform = ["test", "another test"]
+  raw_terraform = ["test", "another test", variableHere]
   rds_password  = var.rds_password
   vpc_id        = "<vpc-id>"
   vpc_status    = "disabled"

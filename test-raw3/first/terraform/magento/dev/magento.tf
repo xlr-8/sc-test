@@ -26,12 +26,9 @@ module "magento" {
   public_subnets_ids = [
     "<public-subnets>"
   ]
-  raw_terraform = [
-    "an",
-    "array", { "of" : "maps" }
-  ]
-  rds_password = var.rds_password
-  vpc_id       = "<vpc-id>"
-  vpc_status   = "disabled"
+  raw_terraform = ["an", "array", { "of" : "maps" }]
+  rds_password  = var.rds_password
+  vpc_id        = "<vpc-id>"
+  vpc_status    = "disabled"
 }
 

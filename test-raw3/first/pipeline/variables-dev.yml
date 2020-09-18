@@ -40,7 +40,7 @@ magento_git_private_key: |-
 magento_git_repository: git@github.com:MyUser/code-magento.git
 no-exist: extra info here
 raw-type:
-  myvar: $db_cred,
+  myvar: $db_cred
   myvar2: this is a string
 terraform_storage_access_key: '...'
 terraform_storage_bucket_name: magento-terraform-remote-state

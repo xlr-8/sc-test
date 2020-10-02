@@ -1,7 +1,7 @@
 # Configuration of the CI pipeline
 version: '2'
 name: 'Magento (forms)'
-canonical: 'stack-magento-v3-forms'
+canonical: 'stack-magento-forms-1ppl'
 description: 'A stack with 1 pipeline. Packed with forms content.'
 keywords:
   - 'stack'

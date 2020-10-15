@@ -11,6 +11,6 @@
 cr_branch: test
 crs_to_use: test
 db_cred: test
-doesntmatter: does it really matter? Yes it does.
+doesntmatter: Does it really matter? Yes it does.
 scs_to_use: test
 stack_branch: test

@@ -1,0 +1,54 @@
+groups:
+    - name: createServer
+      jobs:
+        - step1-createSever
+resources:
+  - name: scriptsPython.git
+    type: git
+    source:
+      branch: master
+      paths:
+        - ./
+      private_key: ((ssh_git.ssh_key))
+      uri: 'ssh://git@git.cdbdx.biz:29418/cycloid/scriptsPython.git'
+jobs:
+  - name: step1-addServer
+    serial: true
+    build_logs_to_retain: 10
+    plan:
+      - do:
+          - get: scriptsPython.git
+          - task: addServer
+            config:
+              platform: linux
+              image_resource:
+                type: docker-image
+                source:
+                  insecure_registries:
+                    - docker-registry.cdweb.biz
+                  repository: docker-registry.cdweb.biz/cycloid/cycloid-toolkit
+                  tag: latest
+              container_limits: {}
+              params:
+                server_type: ((server_type))
+                app_name: ((app_name))
+                nb_server: ((nb_server))
+                server_type: ((server_type))
+                os: ((os))
+                vlan: ((vlan))
+                domain: ((domain))
+                datacenter: ((datacenter))
+                ops_ticket: ((ops_ticket))
+                backup_cheops: ((backup_cheops))
+                ilo: ((ilo))
+                raid_os: ((raid_os))
+                raid_data: ((raid_data))
+              run:
+                path: /bin/sh
+                args:
+                  - '-ec'
+                  - |
+                    echo $ops_ticket
+              inputs:
+                - name: scriptsPython.git
+                  path: scripts

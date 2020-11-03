@@ -1,0 +1,40 @@
+---
+version: '2'
+# Configuration of the CI pipeline
+name: 'creatserver'
+canonical: 'creatserver'
+description: 'Run ansible playbook to add server'
+keywords:
+  - 'server'
+  - 'add'
+  - 'create'
+  - 'build'
+
+technologies:
+  - technology: ansible
+    version: n/a
+
+author: 'OPS Build'
+image: 'https://as2.ftcdn.net/jpg/03/23/16/39/500_F_323163942_bTX4gGOJ92Xq9icf1paTQhSiL3B27ouZ.jpg'
+type: 'stack'
+config:
+  creatserver:
+      name: 'createServer'
+      description: 'Create server before build'
+      # Configuration of the CI pipeline
+      pipeline:
+        pipeline:
+          path: 'pipeline/creatserver.pipeline.yml'
+        variables:
+          path: 'pipeline/creatserver.sample.yml'
+          destination: '($ project $)/pipeline/variables-($ environment $).yml'
+  physical-build-windows:
+      name: 'physical-build-windows'
+      description: 'Build windows physical server '
+      # Configuration of the CI pipeline
+      pipeline:
+        pipeline:
+          path: 'pipeline/physical.build.windows.pipeline.yml'
+        variables:
+          path: 'pipeline/physical.build.windows.variables.sample.yml'
+          destination: '($ project $)/pipeline/variables-($ environment $).yml'

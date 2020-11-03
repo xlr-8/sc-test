@@ -1,0 +1,116 @@
+physical-build-windows:
+  pipeline:
+creatserver:
+  pipeline:
+    Global config:
+      - name: "Application"
+        key: app_name
+        type: string
+        widget: simple_text
+        description: "Enter application name"
+        default: "applicationName"
+        required: true
+      - name: "Server(s)"
+        key: nb_server
+        type: integer
+        widget: number
+        description: "Enter the number of servers"
+        default: 1
+        required: true
+      - name: "Type of server(s)"
+        key: server_type
+        type: string
+        widget: dropdown
+        description: "Select server type"
+        values:
+          - Physical server
+          - A0
+          - A1
+          - A2
+          - A3
+          - A4
+          - A5
+          - A6
+        required: true
+      - name: "Operating system"
+        key: os
+        type: string
+        widget: dropdown
+        description: "Select operating system'"
+        values:
+          - Debian 9.0
+          - Debian 10
+          - Windows server 2019
+          - Windows server 2016
+        required: true
+      - name: "Vlan"
+        key: vlan
+        type: string
+        widget: simple_text
+        description: "Enter only the vlan number"
+        default: "100"
+        required: true
+      - name: "Domain"
+        key: domain
+        type: string
+        widget: dropdown
+        description: "Select domain"
+        values:
+          - cdweb.biz
+          - cdbdx.biz
+        required: true
+      - name: "datacenter"
+        key: datacenter
+        type: string
+        widget: dropdown
+        description: "Select datacenter"
+        values:
+          - Bordeaux
+          - Paris
+        required: true
+      - name: "OPS ticket"
+        key: ops_ticket
+        type: string
+        widget: simple_text
+        description: "Enter the OPS ticket number"
+        default: "OPS-"
+        required: true     
+      - name: "Backup Cheops"
+        key: backup_cheops
+        type: string
+        widget: dropdown
+        description: "Backup by Cheops"
+        values:
+          - "no"
+          - "yes"
+        default: "no"
+        required: true 
+    If physical server(s) :  
+      - name: "Admin console(s)"
+        key: ilo
+        type: string
+        widget: simple_text
+        description: "Enter the IP (s) separated by a space"
+        default: "10.1.2.3 10.1.2.3"
+      - name: "RAID OS"
+        key: raid_os
+        type: string
+        widget: dropdown
+        description: "Select RAID for the OS"
+        values:
+          - "0"
+          - "1"
+          - "5"
+          - "10"
+        default: "1"
+      - name: "RAID DATA"
+        key: raid_data
+        type: string
+        widget: dropdown
+        description: "Select RAID for datas"
+        values:
+          - "0"
+          - "1"
+          - "5"
+          - "10"
+        default: "1"

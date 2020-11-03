@@ -1,0 +1,653 @@
+groups:
+  - name: overview
+    jobs:
+      - step1-Check
+      - step2-Firmware
+      - step3-Apic
+      - step4-Bios
+      - step5-Disk
+      - step6-Foreman_build
+      - step7-Windows_update
+      - step8-IIS
+      - step9-Handover
+  - name: Préparation build
+    jobs:
+      - step1-Check
+      - step2-Firmware
+      - step3-Apic
+      - step4-Bios
+      - step5-Disk
+  - name: Build
+    jobs:
+      - step6-Foreman_build
+  - name: Updates
+    jobs:
+      - step7-Windows_update
+  - name: déploiement
+    jobs:
+      - step8-IIS
+  - name: Conformité
+    jobs:
+      - step9-Handover
+      - step10-Zabbix
+      - step11-Cheops
+resources:
+  - name: ConfIlo.git
+    type: git
+    source:
+      branch: cycloid
+      paths:
+        - ./
+      private_key: ((ssh_git.ssh_key))
+      uri: 'ssh://git@git.cdbdx.biz:29418/stephane.pimont/Configuration_ILO.git'
+  - name: Foreman.git
+    type: git
+    source:
+      branch: cycloid
+      paths:
+        - ./
+      private_key: ((ssh_git.ssh_key))
+      uri: 'ssh://git@git.cdbdx.biz:29418/justinien.pareil/ansible2foreman.git'
+  - name: scriptsPython.git
+    type: git
+    source:
+      branch: master
+      paths:
+        - ./
+      private_key: ((ssh_git.ssh_key))
+      uri: 'ssh://git@git.cdbdx.biz:29418/cycloid/scriptsPython.git'
+  - name: windows-updates.git
+    type: git
+    source:
+      branch: master
+      paths:
+        - ./
+      private_key: ((ssh_git.ssh_key))
+      uri: 'ssh://git@git.cdbdx.biz:29418/stephane.pimont/Check_build.git'
+  - name: iis.git
+    type: git
+    source:
+      branch: master
+      paths:
+        - ./
+      private_key: ((ssh_git.ssh_key))
+      uri: 'ssh://git@git.cdbdx.biz:29418/sre/ansible-iis.git'
+  - name: handover.git
+    type: git
+    source:
+      branch: master
+      paths:
+        - ./
+      private_key: ((ssh_git.ssh_key))
+      uri: 'ssh://git@git.cdbdx.biz:29418/stephane.pimont/HANDOVER.git'
+  - name: pause-2min
+    type: time
+    source:
+      interval: 2m
+shared:
+  - &initHostPipeline
+            config:
+              platform: linux
+              image_resource:
+                type: docker-image
+                source:
+                  insecure_registries:
+                    - docker-registry.cdweb.biz
+                  repository: docker-registry.cdweb.biz/cycloid/cycloid-toolkit
+                  tag: latest
+              container_limits: {}
+              params:
+                ANSIBLE_APP_NAME: ((ANSIBLE_APP_NAME))
+                ANSIBLE_PIPELINE_NAME: ((ANSIBLE_PIPELINE_NAME))
+              run:
+                path: /bin/sh
+                args:
+                  - '-ec'
+                  - |
+                    python scripts/initHostPipeline.py
+              inputs:
+                - name: scriptsPython.git
+                  path: scripts
+
+  - &run-ansible-from-iloconfigracadm
+            config:
+              platform: linux
+              image_resource:
+                type: docker-image
+                source:
+                  insecure_registries:
+                    - docker-registry.cdweb.biz
+                  repository: docker-registry.cdweb.biz/cycloid/iloconfigracadm
+                  tag: latest
+              container_limits: {}
+              run:
+                path: /usr/bin/ansible-runner
+              inputs:
+                - name: ConfIlo.git
+                  path: ansible-playbook
+                - name: scriptsPython.git
+                  path: scripts
+              outputs:
+                - name: logs
+                  path: logs
+                  
+  - &run-ansible-from-foreman
+            config:
+              platform: linux
+              image_resource:
+                type: docker-image
+                source:
+                  insecure_registries:
+                    - docker-registry.cdweb.biz
+                  repository: docker-registry.cdweb.biz/cycloid/cycloid-foreman
+                  tag: latest
+              container_limits: {}
+              run:
+                path: /usr/bin/ansible-runner
+              inputs:
+                - name: Foreman.git
+                  path: ansible-playbook
+              outputs:
+                - name: logs
+                  path: logs
+  - &run-ansible-from-update
+            config:
+              platform: linux
+              image_resource:
+                type: docker-image
+                source:
+                  insecure_registries:
+                    - docker-registry.cdweb.biz
+                  repository: docker-registry.cdweb.biz/cycloid/cycloid-toolkit
+                  tag: latest
+              container_limits: {}
+              run:
+                path: /usr/bin/ansible-runner
+              inputs:
+                - name: windows-updates.git
+                  path: ansible-playbook
+              outputs:
+                - name: logs
+                  path: logs
+                  
+  - &run-ansible-from-iis
+            config:
+              platform: linux
+              image_resource:
+                type: docker-image
+                source:
+                  insecure_registries:
+                    - docker-registry.cdweb.biz
+                  repository: docker-registry.cdweb.biz/cycloid/cycloid-toolkit
+                  tag: latest
+              container_limits: {}
+              run:
+                path: /usr/bin/ansible-runner
+              inputs:
+                - name: iis.git
+                  path: ansible-playbook
+                - name: scriptsPython.git
+                  path: scripts
+              outputs:
+                - name: logs
+                  path: logs
+                  
+  - &run-ansible-from-handover
+            config:
+              platform: linux
+              image_resource:
+                type: docker-image
+                source:
+                  insecure_registries:
+                    - docker-registry.cdweb.biz
+                  repository: docker-registry.cdweb.biz/cycloid/cycloid-toolkit
+                  tag: latest
+              container_limits: {}
+              run:
+                path: /usr/bin/ansible-runner
+              inputs:
+                - name: handover.git
+                  path: ansible-playbook
+                - name: scriptsPython.git
+                  path: scripts
+              outputs:
+                - name: logs
+                  path: logs
+                  
+  - &failure
+              config:
+                platform: linux
+                image_resource:
+                  type: docker-image
+                  source:
+                    insecure_registries:
+                      - docker-registry.cdweb.biz
+                    repository: docker-registry.cdweb.biz/cycloid/cycloid-toolkit
+                    tag: latest
+                container_limits: {}
+                params:
+                  ANSIBLE_APP_NAME: ((ANSIBLE_APP_NAME))
+                  ANSIBLE_PIPELINE_NAME: ((ANSIBLE_PIPELINE_NAME))
+                run:
+                  path: /bin/sh
+                  args:
+                    - '-ec'
+                    - |
+                      python scripts/updateStep.py
+                inputs:
+                  - name: scriptsPython.git
+                    path: scripts
+                  - name: logs
+                    path: logs
+              params:
+                JSON_LOGFILE_NAME: logs/ansible.json
+
+  - &success
+              config:
+                platform: linux
+                image_resource:
+                  type: docker-image
+                  source:
+                    insecure_registries:
+                      - docker-registry.cdweb.biz
+                    repository: docker-registry.cdweb.biz/cycloid/cycloid-toolkit
+                    tag: latest
+                container_limits: {}
+                params:
+                  ANSIBLE_APP_NAME: ((ANSIBLE_APP_NAME))
+                  ANSIBLE_PIPELINE_NAME: ((ANSIBLE_PIPELINE_NAME))
+                run:
+                  path: /bin/sh
+                  args:
+                    - '-ec'
+                    - |
+                      python scripts/updateStep.py
+                inputs:
+                  - name: scriptsPython.git
+                    path: scripts
+                  - name: logs
+                    path: logs
+              params:
+                JSON_LOGFILE_NAME: logs/ansible.json
+
+jobs:
+  - name: step1-Check
+    serial: true
+    build_logs_to_retain: 10
+    plan:
+      - do:
+          - get: ConfIlo.git
+          - get: scriptsPython.git
+          - task: initHostPipeline
+            <<: *initHostPipeline
+          - task: run-ansible
+            <<: *run-ansible-from-iloconfigracadm
+            params:
+              ANSIBLE_APP_NAME: ((ANSIBLE_APP_NAME))
+              ANSIBLE_PIPELINE_NAME: ((ANSIBLE_PIPELINE_NAME))
+              ANSIBLE_LOGFILE_NAME: ../logs/ansible.json
+              ANSIBLE_PLAYBOOK_NAME: site.yml
+              ANSIBLE_PLAYBOOK_PATH: ansible-playbook/
+              ANSIBLE_VAULT_PASSWORD: ((ssh_git.ssh_key))
+              ANSIBLE_STEP: step1
+              EXTRA_ANSIBLE_ARGS: '-i ../scripts/inventory.py --tags check'
+              EXTRA_ANSIBLE_VARS:
+                apic_pass: ((custom_vault_ilo.apic_pass))
+                apic_user: ((custom_vault_ilo.apic_user))
+                ibmc_password: ((custom_vault_ilo.ibmc_password))
+                ibmc_user: ((custom_vault_ilo.ibmc_user))
+                idrac_password_bdx: ((custom_vault_ilo.idrac_password_bdx))
+                idrac_password_par: ((custom_vault_ilo.idrac_password_par))
+                idrac_user: ((custom_vault_ilo.idrac_user))
+                ssl_encryption: ((custom_vault_ilo.ssl_encryption))
+                tls_protocol: ((custom_vault_ilo.tls_protocol))
+            on_failure:
+              task: failure
+              <<: *failure
+            on_success:
+              task: success
+              <<: *success
+
+  - name: step2-Firmware
+    serial: true
+    build_logs_to_retain: 10
+    plan:
+      - do:
+          - get: ConfIlo.git
+          - get: scriptsPython.git
+          - task: initHostPipeline
+            <<: *initHostPipeline
+          - task: run-ansible
+            <<: *run-ansible-from-iloconfigracadm
+            params:
+              ANSIBLE_APP_NAME: ((ANSIBLE_APP_NAME))
+              ANSIBLE_PIPELINE_NAME: ((ANSIBLE_PIPELINE_NAME))
+              ANSIBLE_LOGFILE_NAME: ../logs/ansible.json
+              ANSIBLE_PLAYBOOK_NAME: site.yml
+              ANSIBLE_PLAYBOOK_PATH: ansible-playbook/
+              ANSIBLE_VAULT_PASSWORD: ((ssh_git.ssh_key))
+              ANSIBLE_STEP: step2
+              EXTRA_ANSIBLE_ARGS: '-i ../scripts/inventory.py --tags firmware'
+              EXTRA_ANSIBLE_VARS:
+                apic_pass: ((custom_vault_ilo.apic_pass))
+                apic_user: ((custom_vault_ilo.apic_user))
+                ibmc_password: ((custom_vault_ilo.ibmc_password))
+                ibmc_user: ((custom_vault_ilo.ibmc_user))
+                idrac_password_bdx: ((custom_vault_ilo.idrac_password_bdx))
+                idrac_password_par: ((custom_vault_ilo.idrac_password_par))
+                idrac_user: ((custom_vault_ilo.idrac_user))
+                ssl_encryption: ((custom_vault_ilo.ssl_encryption))
+                tls_protocol: ((custom_vault_ilo.tls_protocol))
+            on_failure:
+              task: failure
+              <<: *failure
+            on_success:
+              task: success
+              <<: *success
+  - name: step3-Apic
+    serial: true
+    build_logs_to_retain: 10
+    plan:
+      - do:
+          - get: ConfIlo.git
+          - get: scriptsPython.git
+          - task: initHostPipeline
+            <<: *initHostPipeline
+          - task: run-ansible
+            <<: *run-ansible-from-iloconfigracadm
+            params:
+              ANSIBLE_APP_NAME: ((ANSIBLE_APP_NAME))
+              ANSIBLE_PIPELINE_NAME: ((ANSIBLE_PIPELINE_NAME))
+              ANSIBLE_LOGFILE_NAME: ../logs/ansible.json
+              ANSIBLE_PLAYBOOK_NAME: site.yml
+              ANSIBLE_PLAYBOOK_PATH: ansible-playbook/
+              ANSIBLE_VAULT_PASSWORD: ((ssh_git.ssh_key))
+              ANSIBLE_STEP: step3
+              EXTRA_ANSIBLE_ARGS: '-i ../scripts/inventory.py --tags apic'
+              EXTRA_ANSIBLE_VARS:
+                apic_pass: ((custom_vault_ilo.apic_pass))
+                apic_user: ((custom_vault_ilo.apic_user))
+                ibmc_password: ((custom_vault_ilo.ibmc_password))
+                ibmc_user: ((custom_vault_ilo.ibmc_user))
+                idrac_password_bdx: ((custom_vault_ilo.idrac_password_bdx))
+                idrac_password_par: ((custom_vault_ilo.idrac_password_par))
+                idrac_user: ((custom_vault_ilo.idrac_user))
+                ssl_encryption: ((custom_vault_ilo.ssl_encryption))
+                tls_protocol: ((custom_vault_ilo.tls_protocol))
+            on_failure:
+              task: failure
+              <<: *failure
+            on_success:
+              task: success
+              <<: *success
+  - name: step4-Bios
+    serial: true
+    build_logs_to_retain: 10
+    plan:
+      - do:
+          - get: ConfIlo.git
+          - get: scriptsPython.git
+          - task: initHostPipeline
+            <<: *initHostPipeline
+          - task: run-ansible
+            <<: *run-ansible-from-iloconfigracadm
+            params:
+              ANSIBLE_APP_NAME: ((ANSIBLE_APP_NAME))
+              ANSIBLE_PIPELINE_NAME: ((ANSIBLE_PIPELINE_NAME))
+              ANSIBLE_LOGFILE_NAME: ../logs/ansible.json
+              ANSIBLE_PLAYBOOK_NAME: site.yml
+              ANSIBLE_PLAYBOOK_PATH: ansible-playbook/
+              ANSIBLE_VAULT_PASSWORD: ((ssh_git.ssh_key))
+              ANSIBLE_STEP: step4
+              EXTRA_ANSIBLE_ARGS: '-i ../scripts/inventory.py --tags bios'
+              EXTRA_ANSIBLE_VARS:
+                apic_pass: ((custom_vault_ilo.apic_pass))
+                apic_user: ((custom_vault_ilo.apic_user))
+                ibmc_password: ((custom_vault_ilo.ibmc_password))
+                ibmc_user: ((custom_vault_ilo.ibmc_user))
+                idrac_password_bdx: ((custom_vault_ilo.idrac_password_bdx))
+                idrac_password_par: ((custom_vault_ilo.idrac_password_par))
+                idrac_user: ((custom_vault_ilo.idrac_user))
+                ssl_encryption: ((custom_vault_ilo.ssl_encryption))
+                tls_protocol: ((custom_vault_ilo.tls_protocol))
+            on_failure:
+              task: failure
+              <<: *failure
+            on_success:
+              task: success
+              <<: *success
+  - name: step5-Disk
+    serial: true
+    build_logs_to_retain: 10
+    plan:
+      - do:
+          - get: ConfIlo.git
+          - get: scriptsPython.git
+          - task: initHostPipeline
+            <<: *initHostPipeline
+          - task: run-ansible
+            <<: *run-ansible-from-iloconfigracadm
+            params:
+              ANSIBLE_APP_NAME: ((ANSIBLE_APP_NAME))
+              ANSIBLE_PIPELINE_NAME: ((ANSIBLE_PIPELINE_NAME))
+              ANSIBLE_LOGFILE_NAME: ../logs/ansible.json
+              ANSIBLE_PLAYBOOK_NAME: site.yml
+              ANSIBLE_PLAYBOOK_PATH: ansible-playbook/
+              ANSIBLE_VAULT_PASSWORD: ((ssh_git.ssh_key))
+              ANSIBLE_STEP: step5
+              EXTRA_ANSIBLE_ARGS: '-i ../scripts/inventory.py --tags disk'
+              EXTRA_ANSIBLE_VARS:
+                apic_pass: ((custom_vault_ilo.apic_pass))
+                apic_user: ((custom_vault_ilo.apic_user))
+                ibmc_password: ((custom_vault_ilo.ibmc_password))
+                ibmc_user: ((custom_vault_ilo.ibmc_user))
+                idrac_password_bdx: ((custom_vault_ilo.idrac_password_bdx))
+                idrac_password_par: ((custom_vault_ilo.idrac_password_par))
+                idrac_user: ((custom_vault_ilo.idrac_user))
+                ssl_encryption: ((custom_vault_ilo.ssl_encryption))
+                tls_protocol: ((custom_vault_ilo.tls_protocol))
+            on_failure:
+              task: failure
+              <<: *failure
+            on_success:
+              task: success
+              <<: *success
+  - name: step6-Foreman_build
+    serial: true
+    build_logs_to_retain: 10
+    plan:
+      - do:
+          - get: ConfIlo.git
+            passed:
+              - step1-Check
+              - step2-Firmware
+              - step3-Apic
+              - step4-Bios
+              - step5-Disk
+            trigger: true
+          - get: Foreman.git
+          - get: scriptsPython.git
+          - task: initHostPipeline
+            <<: *initHostPipeline
+          - task: run-ansible
+            <<: *run-ansible-from-foreman
+            params:
+              ANSIBLE_APP_NAME: ((ANSIBLE_APP_NAME))
+              ANSIBLE_PIPELINE_NAME: ((ANSIBLE_PIPELINE_NAME))
+              ANSIBLE_PLAYBOOK_PATH: ansible-playbook/
+              ANSIBLE_VAULT_PASSWORD: ((ssh_git.ssh_key))
+              SSH_JUMP_URL: user1@Bastion1
+              ANSIBLE_STEP: step6
+              SSH_PRIVATE_KEYS:
+                - ((ssh_git.ssh_key))
+            on_failure:
+              task: failure
+              <<: *failure
+            on_success:
+              task: success
+              <<: *success
+          - put: Foreman.git
+            params:
+              repository: Foreman.git
+  - name: step7-Windows_update
+    serial: true
+    build_logs_to_retain: 10
+    plan:
+      - do:
+          - get: Foreman.git
+            passed: [step6-Foreman_build]
+            trigger: true
+          - get: windows-updates.git
+          - get: scriptsPython.git
+          - task: initHostPipeline
+            <<: *initHostPipeline
+          - task: run-ansible
+            <<: *run-ansible-from-iloconfigracadm
+            params:
+              ANSIBLE_APP_NAME: ((ANSIBLE_APP_NAME))
+              ANSIBLE_PIPELINE_NAME: ((ANSIBLE_PIPELINE_NAME))
+              ANSIBLE_JOB_TYPE: windows
+              ANSIBLE_LOGFILE_NAME: ../logs/ansible.json
+              ANSIBLE_PLAYBOOK_NAME: windows-updates.yml
+              ANSIBLE_PLAYBOOK_PATH: ansible-playbook/
+              ANSIBLE_VAULT_PASSWORD: ((ssh_git.ssh_key))
+              ANSIBLE_STEP: step7
+              EXTRA_ANSIBLE_ARGS: '-i ../scripts/inventory.py'
+              EXTRA_ANSIBLE_VARS:
+                ansible_port: 	'5986'
+                ansible_connection: 	'winrm'
+                ansible_winrm_server_cert_validation: 	'ignore'
+            on_failure:
+              task: failure
+              <<: *failure
+            on_success:
+              task: success
+              <<: *success
+  - name: step8-IIS
+    serial: true
+    build_logs_to_retain: 10
+    plan:
+      - do:
+          - get: windows-updates.git
+            passed: [step7-Windows_update]
+            trigger: true
+          - get: iis.git
+          - get: scriptsPython.git
+          - task: initHostPipeline
+            <<: *initHostPipeline
+          - task: run-ansible
+            <<: *run-ansible-from-iloconfigracadm
+            params:
+              ANSIBLE_APP_NAME: ((ANSIBLE_APP_NAME))
+              ANSIBLE_PIPELINE_NAME: ((ANSIBLE_PIPELINE_NAME))
+              ANSIBLE_JOB_TYPE: windows
+              ANSIBLE_LOGFILE_NAME: ../logs/ansible.json
+              ANSIBLE_PLAYBOOK_NAME: site.yml
+              ANSIBLE_PLAYBOOK_PATH: ansible-playbook/
+              ANSIBLE_VAULT_PASSWORD: ((ssh_git.ssh_key))
+              ANSIBLE_STEP: step8
+              EXTRA_ANSIBLE_ARGS: '-i ../scripts/inventory.py'
+              EXTRA_ANSIBLE_VARS:
+                zabbix_server: 	'http://ldc-rct-zabbix.cdweb.biz'
+                ansible_playbook: 	'site.yml'
+                zabbix_user: 	'ansible'
+                zabbix_password: 	'DYh+kMhR+AyB8I7caKtLWZRiivjt3XY70m4cKZS5PzJXomizOrdh3RzR4/SIhd+n'
+                ansible_port: 	'5986'
+                ansible_connection: 	'winrm'
+                ansible_winrm_server_cert_validation: 	'ignore'
+                env: 	'04'
+            on_failure:
+              task: failure
+              <<: *failure
+            on_success:
+              task: success
+              <<: *success
+  - name: step9-Handover
+    serial: true
+    build_logs_to_retain: 10
+    plan:
+      - do:
+          - get: iis.git
+            passed: [step8-IIS]
+            trigger: true
+          - get: handover.git
+          - get: scriptsPython.git
+          - get: pause-2min
+            trigger: true
+          - task: initHostPipeline
+            <<: *initHostPipeline
+          - task: run-ansible
+            <<: *run-ansible-from-handover
+            params:
+              ANSIBLE_JOB_TYPE: windows
+              ANSIBLE_APP_NAME: ((ANSIBLE_APP_NAME))
+              ANSIBLE_PIPELINE_NAME: ((ANSIBLE_PIPELINE_NAME))
+              ANSIBLE_LOGFILE_NAME: ../logs/ansible.json
+              ANSIBLE_PLAYBOOK_NAME: site.yml
+              ANSIBLE_PLAYBOOK_PATH: ansible-playbook/
+              ANSIBLE_VAULT_PASSWORD: ((ssh_git.ssh_key))
+              ANSIBLE_STEP: step9
+              EXTRA_ANSIBLE_ARGS: '-i ../scripts/inventory.py'
+              EXTRA_ANSIBLE_VARS:
+                ansible_port: 	'5986'
+                ansible_connection: 	'winrm'
+                ansible_winrm_server_cert_validation: 	'ignore'
+            on_failure:
+              task: failure
+              <<: *failure
+            on_success:
+              task: success
+              <<: *success
+              
+  - name: step10-Zabbix
+    serial: true
+    build_logs_to_retain: 10
+    plan:
+      - do:
+          - get: handover.git
+          - get: scriptsPython.git
+          - task: initHostPipeline
+            <<: *initHostPipeline
+          - task: run-ansible
+            <<: *run-ansible-from-handover
+            params:
+              ANSIBLE_APP_NAME: ((ANSIBLE_APP_NAME))
+              ANSIBLE_PIPELINE_NAME: ((ANSIBLE_PIPELINE_NAME))
+              ANSIBLE_LOGFILE_NAME: ../logs/ansible.json
+              ANSIBLE_PLAYBOOK_NAME: site.yml
+              ANSIBLE_PLAYBOOK_PATH: ansible-playbook/
+              ANSIBLE_VAULT_PASSWORD: ((ssh_git.ssh_key))
+              ANSIBLE_STEP: step10
+              EXTRA_ANSIBLE_ARGS: '-i ../scripts/inventory.py --tags zabbix'
+            on_failure:
+              task: failure
+              <<: *failure
+            on_success:
+              task: success
+              <<: *success
+  - name: step11-Cheops
+    serial: true
+    build_logs_to_retain: 10
+    plan:
+      - do:
+          - get: handover.git
+          - get: scriptsPython.git
+          - task: initHostPipeline
+            <<: *initHostPipeline
+          - task: run-ansible
+            <<: *run-ansible-from-handover
+            params:
+              ANSIBLE_APP_NAME: ((ANSIBLE_APP_NAME))
+              ANSIBLE_PIPELINE_NAME: ((ANSIBLE_PIPELINE_NAME))
+              ANSIBLE_LOGFILE_NAME: ../logs/ansible.json
+              ANSIBLE_PLAYBOOK_NAME: site.yml
+              ANSIBLE_PLAYBOOK_PATH: ansible-playbook/
+              ANSIBLE_VAULT_PASSWORD: ((ssh_git.ssh_key))
+              ANSIBLE_STEP: step11
+              EXTRA_ANSIBLE_ARGS: '-i ../scripts/inventory.py --tags cheops'
+            on_failure:
+              task: failure
+              <<: *failure
+            on_success:
+              task: success
+              <<: *success

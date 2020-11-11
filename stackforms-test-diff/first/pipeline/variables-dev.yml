@@ -19,7 +19,7 @@ bastion_private_key_pair: |-
 bastion_url: admin@bastion.cycloid.io
 branch_crs_string: stacks-staging
 branch_scs_string: config-staging
-cred_string: ((aws_my_aws.secret_key))
+cred_string: ((aws_my_aws.access_key))
 crs_string: git@github.com:dangzo/sc-test.git
 dropdown_array:
 - 4
@@ -58,7 +58,7 @@ radios_boolean: false
 radios_integer: 3
 radios_map:
   myvar3: 3
-radios_string: tres
+radios_string: dos
 scs_string: git@github.com:dangzo/sc-test.git
 simple_text_string: test
 slider_list_boolean: false

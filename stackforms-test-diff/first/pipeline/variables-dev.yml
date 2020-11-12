@@ -9,7 +9,7 @@
 # Any extra variables not found in the original file have been ignored.
 #
 ansible_vault_password: '...'
-autocomplete_string: test
+autocomplete_string: tres
 aws_access_key: '...'
 aws_default_region: eu-west-
 aws_secret_key: '...'
@@ -22,14 +22,14 @@ branch_scs_string: config-staging
 cred_string: ((aws_my_aws))
 crs_string: git@github.com:dangzo/sc-test.git
 dropdown_array:
-- 4
-- 5
-- 6
+- a
+- b
+- c
 dropdown_boolean: false
 dropdown_integer: 3
 dropdown_map:
   myvar3: 3
-dropdown_string: tres
+dropdown_string: dos
 env: dev
 magento_config_git_branch: master
 magento_config_git_private_key: |-

@@ -19,7 +19,7 @@ bastion_private_key_pair: |-
 bastion_url: admin@bastion.cycloid.io
 branch_crs_string: stacks-staging
 branch_scs_string: config-staging
-cred_string: ((aws_my_aws.access_key))
+cred_string: ((aws_my_aws))
 crs_string: git@github.com:dangzo/sc-test.git
 dropdown_array:
 - 4

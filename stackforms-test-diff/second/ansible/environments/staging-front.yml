@@ -8,9 +8,8 @@
 #
 # Any extra variables not found in the original file have been ignored.
 #
-cr_branch: test
-crs_to_use: test
-db_cred: test
-doesntmatter: don't matter
-scs_to_use: test
-stack_branch: test
+cr_branch: stacks-staging
+crs_to_use: git@github.com:dangzo/sc-test.git
+db_cred: aws_my_aws/secret_key
+scs_to_use: https://github.com/cycloid-community-catalog/docs-step-by-step-stack.git
+stack_branch: stacks

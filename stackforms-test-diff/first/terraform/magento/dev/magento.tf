@@ -16,7 +16,7 @@ module "magento" {
   env                = "dev"
   fault_tolerange    = 15
   magento_ssl_cert   = "<ssl-cert-arn>"
-  magento_text_input = "test2"
+  magento_text_input = "test22"
   net_ids_ac         = "dw-502"
   net_ids_dd         = "dw-502"
   net_ids_sl         = "dw-502"
@@ -26,9 +26,12 @@ module "magento" {
   public_subnets_ids = [
     "<public-subnets>"
   ]
-  raw_terraform = { "myvar" = 2 }
-  rds_password  = var.rds_password
-  vpc_id        = "<vpc-id>"
-  vpc_status    = "disabled"
+  raw_terraform = {
+    myvar = 2
+  }
+
+  rds_password = var.rds_password
+  vpc_id       = "<vpc-id>"
+  vpc_status   = "disabled"
 }
 

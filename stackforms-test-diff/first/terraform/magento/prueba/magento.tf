@@ -16,7 +16,7 @@ module "magento" {
   env                = "prueba"
   fault_tolerange    = 15
   magento_ssl_cert   = "<ssl-cert-arn>"
-  magento_text_input = "PRUEBA-env"
+  magento_text_input = "PRUEBA-env-modified"
   net_ids_ac         = "dw-502"
   net_ids_dd         = "dw-502"
   net_ids_sl         = "dw-502"
@@ -27,7 +27,7 @@ module "magento" {
     "<public-subnets>"
   ]
   raw_terraform = {
-    myvar = 2
+    myvar = 21
   }
 
   rds_password = var.rds_password

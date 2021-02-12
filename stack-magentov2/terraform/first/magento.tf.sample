@@ -3,7 +3,7 @@ variable "rds_password" {
 }
 
 module "magento" {
-  source = "module-magento"
+  source = "custom"
 
   env                      = "($ environment $)"
   vpc_id                   = "<vpc-id>"

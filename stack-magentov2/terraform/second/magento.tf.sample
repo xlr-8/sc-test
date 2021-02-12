@@ -2,8 +2,14 @@ variable "rds_password" {
     default = "ChangeMePls"
 }
 
+module "config" {
+  source = "./config"
+
+  config_var = "config variable"
+}
+
 module "magento" {
-  source = "module-magento"
+  source = "./magento"
 
   env                      = "($ environment $)"
   vpc_id                   = "<vpc-id>"

@@ -226,13 +226,21 @@ first-usecase:
       key: "branch_scs_string"
       name: "Branch Stacks (String)"
       source: "scs_string"
-second-usecase:
-  ansible:
-    group1:
-    - widget: "text_area"
-      required: true
-      default: "don't matter"
+terraform-submodules:
+  terraform:
+    default:
+    - widget: "simple_text"
       type: "string"
-      description: "Some stuff"
-      key: "doesntmatter"
-      name: "var with imaginary friends"
+      description: "module.config.config_var, should not show?"
+      key: "module.config.config_var"
+      name: "config_var"
+    - widget: "simple_text"
+      type: "string"
+      description: "module.magento.vpc_id"
+      key: "module.magento.vpc_id"
+      name: "vpc_id"
+    - widget: "simple_text"
+      type: "string"
+      description: "module.magento.rds_password"
+      key: "module.magento.rds_password"
+      name: "rds_password"

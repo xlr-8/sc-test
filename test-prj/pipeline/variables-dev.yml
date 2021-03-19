@@ -18,5 +18,5 @@ ops_ticket: OPS-
 os: Debian 9.0
 raid_data: "1"
 raid_os: "1"
-server_type: A2
+server_type: Physical server
 vlan: "100"

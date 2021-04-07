@@ -1,0 +1,29 @@
+version: "2"
+name: montana-borders-306
+canonical: montana-borders-306
+author: Daniele Gazzelloni
+status: private
+description: Nam odit eveniet. Molestias ex inventore est expedita eos at a eos. Nam
+  consequuntur molestiae. Voluptatem quibusdam ea nisi harum maiores est. Officiis
+  qui reprehenderit exercitationem autem temporibus nisi porro similique minima.
+image: ""
+keywords:
+- markets
+- provider:flexibleengine
+- provider:vault
+technologies:
+- technology: stackcraft
+  version: "1"
+dependencies:
+- ref: seraf:infra-amazon-s3
+  required: true
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: default/pipeline/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: default/pipeline/variables.sample.yaml

@@ -26,3 +26,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      css-intuitive-999:
+        destination: ($ project $)/default/terraform/($ environment $)/css-intuitive-999.tf
+        path: default/terraform/css-intuitive-999.tf.sample

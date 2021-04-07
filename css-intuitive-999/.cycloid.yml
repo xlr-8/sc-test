@@ -1,0 +1,28 @@
+version: "2"
+name: css-intuitive-999
+canonical: css-intuitive-999
+author: Daniele Gazzelloni
+status: private
+description: Adipisci non illo ipsam est odio autem id. Et sed saepe perferendis velit
+  adipisci et qui optio. A non quo magnam voluptates quos hic vel sed.
+image: ""
+keywords:
+- Kwacha
+- provider:flexibleengine
+- provider:vault
+technologies:
+- technology: stackcraft
+  version: "1"
+dependencies:
+- ref: seraf:infra-amazon-s3
+  required: true
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: default/pipeline/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: default/pipeline/variables.sample.yaml

@@ -27,3 +27,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      montana-borders-306:
+        destination: ($ project $)/default/terraform/($ environment $)/montana-borders-306.tf
+        path: default/terraform/montana-borders-306.tf.sample

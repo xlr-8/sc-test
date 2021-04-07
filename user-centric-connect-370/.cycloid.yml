@@ -1,0 +1,28 @@
+version: "2"
+name: user-centric-connect-370
+canonical: user-centric-connect-370
+author: Daniele Gazzelloni
+status: private
+description: Autem sed voluptas amet quidem. Rerum quia ipsam. Non doloribus voluptas
+  sit quis quam.
+image: ""
+keywords:
+- ivory
+- provider:flexibleengine
+- provider:vault
+technologies:
+- technology: stackcraft
+  version: "1"
+dependencies:
+- ref: seraf:infra-amazon-s3
+  required: true
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: default/pipeline/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: default/pipeline/variables.sample.yaml

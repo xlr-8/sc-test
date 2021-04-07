@@ -1,0 +1,9 @@
+module "tf-plications-intangible-566" {
+  source = "module-plications-intangible-566"
+
+  # env - type: string
+  # env = "[PLACEHOLDER]"
+
+  # project - type: string
+  # project = "[PLACEHOLDER]"
+}

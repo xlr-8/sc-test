@@ -29,3 +29,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      plications-intangible-566:
+        destination: ($ project $)/default/terraform/($ environment $)/plications-intangible-566.tf
+        path: default/terraform/plications-intangible-566.tf.sample

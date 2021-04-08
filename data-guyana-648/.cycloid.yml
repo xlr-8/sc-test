@@ -26,3 +26,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      data-guyana-648:
+        destination: ($ project $)/default/terraform/($ environment $)/data-guyana-648.tf
+        path: default/terraform/data-guyana-648.tf.sample

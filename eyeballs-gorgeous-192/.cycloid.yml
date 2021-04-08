@@ -28,3 +28,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      eyeballs-gorgeous-192:
+        destination: ($ project $)/default/terraform/($ environment $)/eyeballs-gorgeous-192.tf
+        path: default/terraform/eyeballs-gorgeous-192.tf.sample

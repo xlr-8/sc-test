@@ -13,12 +13,12 @@ module "s3" {
   source = "./module-s3"
 
   bucket_acl  = "private"
-  bucket_name = "sds"
+  bucket_name = "sdsd"
   customer    = var.customer
   env         = var.env
   extra_tags = {
   }
   project            = var.project
-  versioning_enabled = false
+  versioning_enabled = true
 }
 

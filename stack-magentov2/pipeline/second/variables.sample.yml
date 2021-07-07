@@ -1,6 +1,23 @@
-env: ($ environment $)
-magento_deploy_bucket_name: magento-deploy
-magento_deploy_bucket_object_path: /catalog-magento/($ environment $)/magento.tar.gz
-magento_deploy_bucket_region: eu-west-1
-magento_deploy_bucket_access_key: ...
-magento_deploy_bucket_secret_access_key: ...
+env: "($ environment $)"
+vpc_id: "<vpc-id>"
+private_subnet_id: ["private-subnets"]
+magento_ssl_cert: "<ssl-cert-arn>"
+bastion_sg_allow: "<bastion-sg>"
+public_subnets_ids: ["<public-subnets>"]
+rds_password: "${var.rds_password}"
+
+vpc_id1: "<vpc-id>"
+private_subnet_id1: ["private-subnets"]
+rds_password1: "${var.rds_password}"
+
+vpc_id2: "<vpc-id>"
+private_subnet_id2: ["private-subnets"]
+rds_password2: "${var.rds_password}"
+
+vpc_id3: "<vpc-id>"
+private_subnet_id3: ["private-subnets"]
+rds_password3: "${var.rds_password}"
+
+vpc_id4: "<vpc-id>"
+private_subnet_id4: ["private-subnets"]
+rds_password4: "${var.rds_password}"

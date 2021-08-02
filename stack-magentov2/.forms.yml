@@ -48,7 +48,7 @@ first-usecase:
       required: true
       type: "string"
       default: "tres"
-      values: ["un", "dos", "tres"]
+      values: ["un", "dos", "tres", "cuatro", "cinco", "cincoytrecuartos", "quinientomilseicientocinquentacinco"]
       description: "key: slider_list_string"
       key: "slider_list_string"
       name: "Slider List (String)"
@@ -149,7 +149,7 @@ first-usecase:
     Radios:
     - widget: "radios"
       required: true
-      values: ["un", "dos", "tres"]
+      values: ["un", "dos", "tres", "cuatro", "cinco", "cincoytrecuartos", "quinientomilseicientocinquentacinco", "ciclicing again", "un", "dos", "tres", "cuatro", "cinco", "cincoytrecuartos", "quinientomilseicientocinquentacinco"]
       default: "tres"
       type: "string"
       description: "key: radios_string"

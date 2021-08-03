@@ -1,0 +1,21 @@
+version: "2"
+name: totally random blablalb name
+canonical: totally_random_blablalb_name
+author: cycloidio
+status: private
+description: sdsds
+image: ""
+keywords:
+- sdsds
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: default/pipeline/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: default/pipeline/variables.sample.yaml

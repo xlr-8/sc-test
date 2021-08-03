@@ -1,0 +1,21 @@
+version: "2"
+name: my awesome stack 2
+canonical: my_awesome_stack_2
+author: cycloidio
+status: private
+description: desc
+image: ""
+keywords:
+- key1
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: default/pipeline/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: default/pipeline/variables.sample.yaml

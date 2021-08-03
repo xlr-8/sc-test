@@ -19,3 +19,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      totally_random_blablalb_name:
+        destination: ($ project $)/default/terraform/($ environment $)/totally_random_blablalb_name.tf
+        path: default/terraform/totally_random_blablalb_name.tf.sample

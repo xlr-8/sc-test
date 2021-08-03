@@ -19,3 +19,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      cycloidio:
+        destination: ($ project $)/default/terraform/($ environment $)/cycloidio.tf
+        path: default/terraform/cycloidio.tf.sample

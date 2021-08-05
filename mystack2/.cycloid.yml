@@ -1,0 +1,21 @@
+version: "2"
+name: mystack2
+canonical: mystack2
+author: cycloidio
+status: private
+description: mystack2
+image: ""
+keywords:
+- mystack2
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: default/pipeline/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: default/pipeline/variables.sample.yaml

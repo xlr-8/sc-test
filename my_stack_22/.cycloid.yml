@@ -1,0 +1,21 @@
+version: "2"
+name: my stack 22
+canonical: my_stack_22
+author: cycloidio
+status: private
+description: my stack
+image: ""
+keywords:
+- my stack
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: default/pipeline/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: default/pipeline/variables.sample.yaml

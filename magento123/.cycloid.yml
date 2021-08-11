@@ -19,3 +19,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      magento123:
+        destination: ($ project $)/default/terraform/($ environment $)/magento123.tf
+        path: default/terraform/magento123.tf.sample

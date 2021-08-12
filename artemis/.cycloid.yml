@@ -19,3 +19,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      artemis:
+        destination: ($ project $)/default/terraform/($ environment $)/artemis.tf
+        path: default/terraform/artemis.tf.sample

@@ -1,35 +1,35 @@
-resource "aws_route53_resolver_rule_association" "BvbaG" {
-  name             = var.aws_route53_resolver_rule_association_BvbaG_name
-  resolver_rule_id = var.aws_route53_resolver_rule_association_BvbaG_resolver_rule_id
-  tc_category      = var.aws_route53_resolver_rule_association_BvbaG_tc_category
-  vpc_id           = var.aws_route53_resolver_rule_association_BvbaG_vpc_id
+resource "aws_route53_resolver_rule_association" "ILJTf" {
+  name             = var.aws_route53_resolver_rule_association_ILJTf_name
+  resolver_rule_id = var.aws_route53_resolver_rule_association_ILJTf_resolver_rule_id
+  tc_category      = var.aws_route53_resolver_rule_association_ILJTf_tc_category
+  vpc_id           = var.aws_route53_resolver_rule_association_ILJTf_vpc_id
 }
 
-resource "aws_route53_resolver_rule_association" "LkARW" {
-  name             = var.aws_route53_resolver_rule_association_LkARW_name
-  resolver_rule_id = var.aws_route53_resolver_rule_association_LkARW_resolver_rule_id
-  tc_category      = var.aws_route53_resolver_rule_association_LkARW_tc_category
-  vpc_id           = var.aws_route53_resolver_rule_association_LkARW_vpc_id
+resource "aws_route53_resolver_rule_association" "RTlic" {
+  name             = var.aws_route53_resolver_rule_association_RTlic_name
+  resolver_rule_id = var.aws_route53_resolver_rule_association_RTlic_resolver_rule_id
+  tc_category      = var.aws_route53_resolver_rule_association_RTlic_tc_category
+  vpc_id           = var.aws_route53_resolver_rule_association_RTlic_vpc_id
 }
 
-resource "aws_route53_resolver_rule_association" "LrqWQ" {
-  name             = var.aws_route53_resolver_rule_association_LrqWQ_name
-  resolver_rule_id = var.aws_route53_resolver_rule_association_LrqWQ_resolver_rule_id
-  tc_category      = var.aws_route53_resolver_rule_association_LrqWQ_tc_category
-  vpc_id           = var.aws_route53_resolver_rule_association_LrqWQ_vpc_id
+resource "aws_route53_resolver_rule_association" "jMlCq" {
+  name             = var.aws_route53_resolver_rule_association_jMlCq_name
+  resolver_rule_id = var.aws_route53_resolver_rule_association_jMlCq_resolver_rule_id
+  tc_category      = var.aws_route53_resolver_rule_association_jMlCq_tc_category
+  vpc_id           = var.aws_route53_resolver_rule_association_jMlCq_vpc_id
 }
 
-resource "aws_route53_resolver_rule_association" "klhXz" {
-  name             = var.aws_route53_resolver_rule_association_klhXz_name
-  resolver_rule_id = var.aws_route53_resolver_rule_association_klhXz_resolver_rule_id
-  tc_category      = var.aws_route53_resolver_rule_association_klhXz_tc_category
-  vpc_id           = var.aws_route53_resolver_rule_association_klhXz_vpc_id
+resource "aws_route53_resolver_rule_association" "lPqHp" {
+  name             = var.aws_route53_resolver_rule_association_lPqHp_name
+  resolver_rule_id = var.aws_route53_resolver_rule_association_lPqHp_resolver_rule_id
+  tc_category      = var.aws_route53_resolver_rule_association_lPqHp_tc_category
+  vpc_id           = var.aws_route53_resolver_rule_association_lPqHp_vpc_id
 }
 
-resource "aws_route53_resolver_rule_association" "slAzY" {
-  name             = var.aws_route53_resolver_rule_association_slAzY_name
-  resolver_rule_id = var.aws_route53_resolver_rule_association_slAzY_resolver_rule_id
-  tc_category      = var.aws_route53_resolver_rule_association_slAzY_tc_category
-  vpc_id           = var.aws_route53_resolver_rule_association_slAzY_vpc_id
+resource "aws_route53_resolver_rule_association" "teXNc" {
+  name             = var.aws_route53_resolver_rule_association_teXNc_name
+  resolver_rule_id = var.aws_route53_resolver_rule_association_teXNc_resolver_rule_id
+  tc_category      = var.aws_route53_resolver_rule_association_teXNc_tc_category
+  vpc_id           = var.aws_route53_resolver_rule_association_teXNc_vpc_id
 }
 

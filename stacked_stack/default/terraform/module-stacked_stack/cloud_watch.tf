@@ -1,223 +1,223 @@
-resource "aws_cloudwatch_metric_alarm" "UBaub" {
+resource "aws_cloudwatch_metric_alarm" "ACnvR" {
   dimensions = {
-    InstanceId = var.aws_cloudwatch_metric_alarm_UBaub_dimensions_InstanceId
+    InstanceId = var.aws_cloudwatch_metric_alarm_ACnvR_dimensions_InstanceId
   }
 
-  actions_enabled     = var.aws_cloudwatch_metric_alarm_UBaub_actions_enabled
-  alarm_actions       = var.aws_cloudwatch_metric_alarm_UBaub_alarm_actions
-  alarm_description   = var.aws_cloudwatch_metric_alarm_UBaub_alarm_description
-  alarm_name          = var.aws_cloudwatch_metric_alarm_UBaub_alarm_name
-  comparison_operator = var.aws_cloudwatch_metric_alarm_UBaub_comparison_operator
-  evaluation_periods  = var.aws_cloudwatch_metric_alarm_UBaub_evaluation_periods
-  metric_name         = var.aws_cloudwatch_metric_alarm_UBaub_metric_name
-  namespace           = var.aws_cloudwatch_metric_alarm_UBaub_namespace
-  period              = var.aws_cloudwatch_metric_alarm_UBaub_period
-  statistic           = var.aws_cloudwatch_metric_alarm_UBaub_statistic
-  tc_category         = var.aws_cloudwatch_metric_alarm_UBaub_tc_category
-  treat_missing_data  = var.aws_cloudwatch_metric_alarm_UBaub_treat_missing_data
+  actions_enabled     = var.aws_cloudwatch_metric_alarm_ACnvR_actions_enabled
+  alarm_actions       = var.aws_cloudwatch_metric_alarm_ACnvR_alarm_actions
+  alarm_description   = var.aws_cloudwatch_metric_alarm_ACnvR_alarm_description
+  alarm_name          = var.aws_cloudwatch_metric_alarm_ACnvR_alarm_name
+  comparison_operator = var.aws_cloudwatch_metric_alarm_ACnvR_comparison_operator
+  evaluation_periods  = var.aws_cloudwatch_metric_alarm_ACnvR_evaluation_periods
+  metric_name         = var.aws_cloudwatch_metric_alarm_ACnvR_metric_name
+  namespace           = var.aws_cloudwatch_metric_alarm_ACnvR_namespace
+  period              = var.aws_cloudwatch_metric_alarm_ACnvR_period
+  statistic           = var.aws_cloudwatch_metric_alarm_ACnvR_statistic
+  tc_category         = var.aws_cloudwatch_metric_alarm_ACnvR_tc_category
+  treat_missing_data  = var.aws_cloudwatch_metric_alarm_ACnvR_treat_missing_data
 }
 
-resource "aws_cloudwatch_metric_alarm" "VPBZr" {
+resource "aws_cloudwatch_metric_alarm" "UevqO" {
   dimensions = {
-    InstanceId = var.aws_cloudwatch_metric_alarm_VPBZr_dimensions_InstanceId
-  }
-
-  actions_enabled     = var.aws_cloudwatch_metric_alarm_VPBZr_actions_enabled
-  alarm_actions       = var.aws_cloudwatch_metric_alarm_VPBZr_alarm_actions
-  alarm_description   = var.aws_cloudwatch_metric_alarm_VPBZr_alarm_description
-  alarm_name          = var.aws_cloudwatch_metric_alarm_VPBZr_alarm_name
-  comparison_operator = var.aws_cloudwatch_metric_alarm_VPBZr_comparison_operator
-  evaluation_periods  = var.aws_cloudwatch_metric_alarm_VPBZr_evaluation_periods
-  metric_name         = var.aws_cloudwatch_metric_alarm_VPBZr_metric_name
-  namespace           = var.aws_cloudwatch_metric_alarm_VPBZr_namespace
-  period              = var.aws_cloudwatch_metric_alarm_VPBZr_period
-  statistic           = var.aws_cloudwatch_metric_alarm_VPBZr_statistic
-  tc_category         = var.aws_cloudwatch_metric_alarm_VPBZr_tc_category
-  treat_missing_data  = var.aws_cloudwatch_metric_alarm_VPBZr_treat_missing_data
-}
-
-resource "aws_cloudwatch_metric_alarm" "VUTTL" {
-  dimensions = {
-    AutoScalingGroupName = var.aws_cloudwatch_metric_alarm_VUTTL_dimensions_AutoScalingGroupName
-  }
-
-  actions_enabled     = var.aws_cloudwatch_metric_alarm_VUTTL_actions_enabled
-  alarm_actions       = var.aws_cloudwatch_metric_alarm_VUTTL_alarm_actions
-  alarm_description   = var.aws_cloudwatch_metric_alarm_VUTTL_alarm_description
-  alarm_name          = var.aws_cloudwatch_metric_alarm_VUTTL_alarm_name
-  comparison_operator = var.aws_cloudwatch_metric_alarm_VUTTL_comparison_operator
-  evaluation_periods  = var.aws_cloudwatch_metric_alarm_VUTTL_evaluation_periods
-  metric_name         = var.aws_cloudwatch_metric_alarm_VUTTL_metric_name
-  namespace           = var.aws_cloudwatch_metric_alarm_VUTTL_namespace
-  period              = var.aws_cloudwatch_metric_alarm_VUTTL_period
-  statistic           = var.aws_cloudwatch_metric_alarm_VUTTL_statistic
-  tc_category         = var.aws_cloudwatch_metric_alarm_VUTTL_tc_category
-  threshold           = var.aws_cloudwatch_metric_alarm_VUTTL_threshold
-  treat_missing_data  = var.aws_cloudwatch_metric_alarm_VUTTL_treat_missing_data
-}
-
-resource "aws_cloudwatch_metric_alarm" "brNKI" {
-  dimensions = {
-    AutoScalingGroupName = var.aws_cloudwatch_metric_alarm_brNKI_dimensions_AutoScalingGroupName
+    AutoScalingGroupName = var.aws_cloudwatch_metric_alarm_UevqO_dimensions_AutoScalingGroupName
   }
 
   tags = {
-    client       = var.aws_cloudwatch_metric_alarm_brNKI_tags_client
-    "cycloid.io" = var.aws_cloudwatch_metric_alarm_brNKI_tags_cycloid_io
-    env          = var.aws_cloudwatch_metric_alarm_brNKI_tags_env
-    project      = var.aws_cloudwatch_metric_alarm_brNKI_tags_project
+    client       = var.aws_cloudwatch_metric_alarm_UevqO_tags_client
+    "cycloid.io" = var.aws_cloudwatch_metric_alarm_UevqO_tags_cycloid_io
+    env          = var.aws_cloudwatch_metric_alarm_UevqO_tags_env
+    project      = var.aws_cloudwatch_metric_alarm_UevqO_tags_project
   }
 
-  actions_enabled     = var.aws_cloudwatch_metric_alarm_brNKI_actions_enabled
-  alarm_actions       = var.aws_cloudwatch_metric_alarm_brNKI_alarm_actions
-  alarm_description   = var.aws_cloudwatch_metric_alarm_brNKI_alarm_description
-  alarm_name          = var.aws_cloudwatch_metric_alarm_brNKI_alarm_name
-  comparison_operator = var.aws_cloudwatch_metric_alarm_brNKI_comparison_operator
-  evaluation_periods  = var.aws_cloudwatch_metric_alarm_brNKI_evaluation_periods
-  metric_name         = var.aws_cloudwatch_metric_alarm_brNKI_metric_name
-  namespace           = var.aws_cloudwatch_metric_alarm_brNKI_namespace
-  period              = var.aws_cloudwatch_metric_alarm_brNKI_period
-  statistic           = var.aws_cloudwatch_metric_alarm_brNKI_statistic
-  tc_category         = var.aws_cloudwatch_metric_alarm_brNKI_tc_category
-  threshold           = var.aws_cloudwatch_metric_alarm_brNKI_threshold
-  treat_missing_data  = var.aws_cloudwatch_metric_alarm_brNKI_treat_missing_data
+  actions_enabled     = var.aws_cloudwatch_metric_alarm_UevqO_actions_enabled
+  alarm_actions       = var.aws_cloudwatch_metric_alarm_UevqO_alarm_actions
+  alarm_description   = var.aws_cloudwatch_metric_alarm_UevqO_alarm_description
+  alarm_name          = var.aws_cloudwatch_metric_alarm_UevqO_alarm_name
+  comparison_operator = var.aws_cloudwatch_metric_alarm_UevqO_comparison_operator
+  evaluation_periods  = var.aws_cloudwatch_metric_alarm_UevqO_evaluation_periods
+  metric_name         = var.aws_cloudwatch_metric_alarm_UevqO_metric_name
+  namespace           = var.aws_cloudwatch_metric_alarm_UevqO_namespace
+  period              = var.aws_cloudwatch_metric_alarm_UevqO_period
+  statistic           = var.aws_cloudwatch_metric_alarm_UevqO_statistic
+  tc_category         = var.aws_cloudwatch_metric_alarm_UevqO_tc_category
+  threshold           = var.aws_cloudwatch_metric_alarm_UevqO_threshold
+  treat_missing_data  = var.aws_cloudwatch_metric_alarm_UevqO_treat_missing_data
 }
 
-resource "aws_cloudwatch_metric_alarm" "hBEgK" {
+resource "aws_cloudwatch_metric_alarm" "XvVUn" {
   dimensions = {
-    AutoScalingGroupName = var.aws_cloudwatch_metric_alarm_hBEgK_dimensions_AutoScalingGroupName
+    InstanceId = var.aws_cloudwatch_metric_alarm_XvVUn_dimensions_InstanceId
+  }
+
+  actions_enabled     = var.aws_cloudwatch_metric_alarm_XvVUn_actions_enabled
+  alarm_actions       = var.aws_cloudwatch_metric_alarm_XvVUn_alarm_actions
+  alarm_description   = var.aws_cloudwatch_metric_alarm_XvVUn_alarm_description
+  alarm_name          = var.aws_cloudwatch_metric_alarm_XvVUn_alarm_name
+  comparison_operator = var.aws_cloudwatch_metric_alarm_XvVUn_comparison_operator
+  evaluation_periods  = var.aws_cloudwatch_metric_alarm_XvVUn_evaluation_periods
+  metric_name         = var.aws_cloudwatch_metric_alarm_XvVUn_metric_name
+  namespace           = var.aws_cloudwatch_metric_alarm_XvVUn_namespace
+  period              = var.aws_cloudwatch_metric_alarm_XvVUn_period
+  statistic           = var.aws_cloudwatch_metric_alarm_XvVUn_statistic
+  tc_category         = var.aws_cloudwatch_metric_alarm_XvVUn_tc_category
+  treat_missing_data  = var.aws_cloudwatch_metric_alarm_XvVUn_treat_missing_data
+}
+
+resource "aws_cloudwatch_metric_alarm" "YAlCp" {
+  dimensions = {
+    AutoScalingGroupName = var.aws_cloudwatch_metric_alarm_YAlCp_dimensions_AutoScalingGroupName
   }
 
   tags = {
-    client       = var.aws_cloudwatch_metric_alarm_hBEgK_tags_client
-    "cycloid.io" = var.aws_cloudwatch_metric_alarm_hBEgK_tags_cycloid_io
-    env          = var.aws_cloudwatch_metric_alarm_hBEgK_tags_env
-    project      = var.aws_cloudwatch_metric_alarm_hBEgK_tags_project
+    client       = var.aws_cloudwatch_metric_alarm_YAlCp_tags_client
+    "cycloid.io" = var.aws_cloudwatch_metric_alarm_YAlCp_tags_cycloid_io
+    env          = var.aws_cloudwatch_metric_alarm_YAlCp_tags_env
+    project      = var.aws_cloudwatch_metric_alarm_YAlCp_tags_project
   }
 
-  actions_enabled     = var.aws_cloudwatch_metric_alarm_hBEgK_actions_enabled
-  alarm_actions       = var.aws_cloudwatch_metric_alarm_hBEgK_alarm_actions
-  alarm_description   = var.aws_cloudwatch_metric_alarm_hBEgK_alarm_description
-  alarm_name          = var.aws_cloudwatch_metric_alarm_hBEgK_alarm_name
-  comparison_operator = var.aws_cloudwatch_metric_alarm_hBEgK_comparison_operator
-  evaluation_periods  = var.aws_cloudwatch_metric_alarm_hBEgK_evaluation_periods
-  metric_name         = var.aws_cloudwatch_metric_alarm_hBEgK_metric_name
-  namespace           = var.aws_cloudwatch_metric_alarm_hBEgK_namespace
-  period              = var.aws_cloudwatch_metric_alarm_hBEgK_period
-  statistic           = var.aws_cloudwatch_metric_alarm_hBEgK_statistic
-  tc_category         = var.aws_cloudwatch_metric_alarm_hBEgK_tc_category
-  threshold           = var.aws_cloudwatch_metric_alarm_hBEgK_threshold
-  treat_missing_data  = var.aws_cloudwatch_metric_alarm_hBEgK_treat_missing_data
+  actions_enabled     = var.aws_cloudwatch_metric_alarm_YAlCp_actions_enabled
+  alarm_actions       = var.aws_cloudwatch_metric_alarm_YAlCp_alarm_actions
+  alarm_description   = var.aws_cloudwatch_metric_alarm_YAlCp_alarm_description
+  alarm_name          = var.aws_cloudwatch_metric_alarm_YAlCp_alarm_name
+  comparison_operator = var.aws_cloudwatch_metric_alarm_YAlCp_comparison_operator
+  evaluation_periods  = var.aws_cloudwatch_metric_alarm_YAlCp_evaluation_periods
+  metric_name         = var.aws_cloudwatch_metric_alarm_YAlCp_metric_name
+  namespace           = var.aws_cloudwatch_metric_alarm_YAlCp_namespace
+  period              = var.aws_cloudwatch_metric_alarm_YAlCp_period
+  statistic           = var.aws_cloudwatch_metric_alarm_YAlCp_statistic
+  tc_category         = var.aws_cloudwatch_metric_alarm_YAlCp_tc_category
+  threshold           = var.aws_cloudwatch_metric_alarm_YAlCp_threshold
+  treat_missing_data  = var.aws_cloudwatch_metric_alarm_YAlCp_treat_missing_data
 }
 
-resource "aws_cloudwatch_metric_alarm" "hZIPL" {
+resource "aws_cloudwatch_metric_alarm" "hRmes" {
   dimensions = {
-    InstanceId = var.aws_cloudwatch_metric_alarm_hZIPL_dimensions_InstanceId
+    AutoScalingGroupName = var.aws_cloudwatch_metric_alarm_hRmes_dimensions_AutoScalingGroupName
   }
 
-  actions_enabled     = var.aws_cloudwatch_metric_alarm_hZIPL_actions_enabled
-  alarm_actions       = var.aws_cloudwatch_metric_alarm_hZIPL_alarm_actions
-  alarm_description   = var.aws_cloudwatch_metric_alarm_hZIPL_alarm_description
-  alarm_name          = var.aws_cloudwatch_metric_alarm_hZIPL_alarm_name
-  comparison_operator = var.aws_cloudwatch_metric_alarm_hZIPL_comparison_operator
-  evaluation_periods  = var.aws_cloudwatch_metric_alarm_hZIPL_evaluation_periods
-  metric_name         = var.aws_cloudwatch_metric_alarm_hZIPL_metric_name
-  namespace           = var.aws_cloudwatch_metric_alarm_hZIPL_namespace
-  period              = var.aws_cloudwatch_metric_alarm_hZIPL_period
-  statistic           = var.aws_cloudwatch_metric_alarm_hZIPL_statistic
-  tc_category         = var.aws_cloudwatch_metric_alarm_hZIPL_tc_category
-  treat_missing_data  = var.aws_cloudwatch_metric_alarm_hZIPL_treat_missing_data
+  actions_enabled     = var.aws_cloudwatch_metric_alarm_hRmes_actions_enabled
+  alarm_description   = var.aws_cloudwatch_metric_alarm_hRmes_alarm_description
+  alarm_name          = var.aws_cloudwatch_metric_alarm_hRmes_alarm_name
+  comparison_operator = var.aws_cloudwatch_metric_alarm_hRmes_comparison_operator
+  evaluation_periods  = var.aws_cloudwatch_metric_alarm_hRmes_evaluation_periods
+  metric_name         = var.aws_cloudwatch_metric_alarm_hRmes_metric_name
+  namespace           = var.aws_cloudwatch_metric_alarm_hRmes_namespace
+  period              = var.aws_cloudwatch_metric_alarm_hRmes_period
+  statistic           = var.aws_cloudwatch_metric_alarm_hRmes_statistic
+  tc_category         = var.aws_cloudwatch_metric_alarm_hRmes_tc_category
+  threshold           = var.aws_cloudwatch_metric_alarm_hRmes_threshold
+  treat_missing_data  = var.aws_cloudwatch_metric_alarm_hRmes_treat_missing_data
 }
 
-resource "aws_cloudwatch_metric_alarm" "keyXB" {
+resource "aws_cloudwatch_metric_alarm" "hwSwo" {
   dimensions = {
-    InstanceId = var.aws_cloudwatch_metric_alarm_keyXB_dimensions_InstanceId
-  }
-
-  actions_enabled     = var.aws_cloudwatch_metric_alarm_keyXB_actions_enabled
-  alarm_actions       = var.aws_cloudwatch_metric_alarm_keyXB_alarm_actions
-  alarm_description   = var.aws_cloudwatch_metric_alarm_keyXB_alarm_description
-  alarm_name          = var.aws_cloudwatch_metric_alarm_keyXB_alarm_name
-  comparison_operator = var.aws_cloudwatch_metric_alarm_keyXB_comparison_operator
-  evaluation_periods  = var.aws_cloudwatch_metric_alarm_keyXB_evaluation_periods
-  metric_name         = var.aws_cloudwatch_metric_alarm_keyXB_metric_name
-  namespace           = var.aws_cloudwatch_metric_alarm_keyXB_namespace
-  period              = var.aws_cloudwatch_metric_alarm_keyXB_period
-  statistic           = var.aws_cloudwatch_metric_alarm_keyXB_statistic
-  tc_category         = var.aws_cloudwatch_metric_alarm_keyXB_tc_category
-  treat_missing_data  = var.aws_cloudwatch_metric_alarm_keyXB_treat_missing_data
-}
-
-resource "aws_cloudwatch_metric_alarm" "lXPfu" {
-  dimensions = {
-    AutoScalingGroupName = var.aws_cloudwatch_metric_alarm_lXPfu_dimensions_AutoScalingGroupName
+    AutoScalingGroupName = var.aws_cloudwatch_metric_alarm_hwSwo_dimensions_AutoScalingGroupName
   }
 
   tags = {
-    client       = var.aws_cloudwatch_metric_alarm_lXPfu_tags_client
-    "cycloid.io" = var.aws_cloudwatch_metric_alarm_lXPfu_tags_cycloid_io
-    env          = var.aws_cloudwatch_metric_alarm_lXPfu_tags_env
-    project      = var.aws_cloudwatch_metric_alarm_lXPfu_tags_project
+    client       = var.aws_cloudwatch_metric_alarm_hwSwo_tags_client
+    "cycloid.io" = var.aws_cloudwatch_metric_alarm_hwSwo_tags_cycloid_io
+    env          = var.aws_cloudwatch_metric_alarm_hwSwo_tags_env
+    project      = var.aws_cloudwatch_metric_alarm_hwSwo_tags_project
   }
 
-  actions_enabled     = var.aws_cloudwatch_metric_alarm_lXPfu_actions_enabled
-  alarm_actions       = var.aws_cloudwatch_metric_alarm_lXPfu_alarm_actions
-  alarm_description   = var.aws_cloudwatch_metric_alarm_lXPfu_alarm_description
-  alarm_name          = var.aws_cloudwatch_metric_alarm_lXPfu_alarm_name
-  comparison_operator = var.aws_cloudwatch_metric_alarm_lXPfu_comparison_operator
-  evaluation_periods  = var.aws_cloudwatch_metric_alarm_lXPfu_evaluation_periods
-  metric_name         = var.aws_cloudwatch_metric_alarm_lXPfu_metric_name
-  namespace           = var.aws_cloudwatch_metric_alarm_lXPfu_namespace
-  period              = var.aws_cloudwatch_metric_alarm_lXPfu_period
-  statistic           = var.aws_cloudwatch_metric_alarm_lXPfu_statistic
-  tc_category         = var.aws_cloudwatch_metric_alarm_lXPfu_tc_category
-  threshold           = var.aws_cloudwatch_metric_alarm_lXPfu_threshold
-  treat_missing_data  = var.aws_cloudwatch_metric_alarm_lXPfu_treat_missing_data
+  actions_enabled     = var.aws_cloudwatch_metric_alarm_hwSwo_actions_enabled
+  alarm_actions       = var.aws_cloudwatch_metric_alarm_hwSwo_alarm_actions
+  alarm_description   = var.aws_cloudwatch_metric_alarm_hwSwo_alarm_description
+  alarm_name          = var.aws_cloudwatch_metric_alarm_hwSwo_alarm_name
+  comparison_operator = var.aws_cloudwatch_metric_alarm_hwSwo_comparison_operator
+  evaluation_periods  = var.aws_cloudwatch_metric_alarm_hwSwo_evaluation_periods
+  metric_name         = var.aws_cloudwatch_metric_alarm_hwSwo_metric_name
+  namespace           = var.aws_cloudwatch_metric_alarm_hwSwo_namespace
+  period              = var.aws_cloudwatch_metric_alarm_hwSwo_period
+  statistic           = var.aws_cloudwatch_metric_alarm_hwSwo_statistic
+  tc_category         = var.aws_cloudwatch_metric_alarm_hwSwo_tc_category
+  threshold           = var.aws_cloudwatch_metric_alarm_hwSwo_threshold
+  treat_missing_data  = var.aws_cloudwatch_metric_alarm_hwSwo_treat_missing_data
 }
 
-resource "aws_cloudwatch_metric_alarm" "sNnlq" {
+resource "aws_cloudwatch_metric_alarm" "nDViX" {
   dimensions = {
-    AutoScalingGroupName = var.aws_cloudwatch_metric_alarm_sNnlq_dimensions_AutoScalingGroupName
+    AutoScalingGroupName = var.aws_cloudwatch_metric_alarm_nDViX_dimensions_AutoScalingGroupName
   }
 
-  actions_enabled     = var.aws_cloudwatch_metric_alarm_sNnlq_actions_enabled
-  alarm_description   = var.aws_cloudwatch_metric_alarm_sNnlq_alarm_description
-  alarm_name          = var.aws_cloudwatch_metric_alarm_sNnlq_alarm_name
-  comparison_operator = var.aws_cloudwatch_metric_alarm_sNnlq_comparison_operator
-  evaluation_periods  = var.aws_cloudwatch_metric_alarm_sNnlq_evaluation_periods
-  metric_name         = var.aws_cloudwatch_metric_alarm_sNnlq_metric_name
-  namespace           = var.aws_cloudwatch_metric_alarm_sNnlq_namespace
-  period              = var.aws_cloudwatch_metric_alarm_sNnlq_period
-  statistic           = var.aws_cloudwatch_metric_alarm_sNnlq_statistic
-  tc_category         = var.aws_cloudwatch_metric_alarm_sNnlq_tc_category
-  threshold           = var.aws_cloudwatch_metric_alarm_sNnlq_threshold
-  treat_missing_data  = var.aws_cloudwatch_metric_alarm_sNnlq_treat_missing_data
+  actions_enabled     = var.aws_cloudwatch_metric_alarm_nDViX_actions_enabled
+  alarm_actions       = var.aws_cloudwatch_metric_alarm_nDViX_alarm_actions
+  alarm_description   = var.aws_cloudwatch_metric_alarm_nDViX_alarm_description
+  alarm_name          = var.aws_cloudwatch_metric_alarm_nDViX_alarm_name
+  comparison_operator = var.aws_cloudwatch_metric_alarm_nDViX_comparison_operator
+  evaluation_periods  = var.aws_cloudwatch_metric_alarm_nDViX_evaluation_periods
+  metric_name         = var.aws_cloudwatch_metric_alarm_nDViX_metric_name
+  namespace           = var.aws_cloudwatch_metric_alarm_nDViX_namespace
+  period              = var.aws_cloudwatch_metric_alarm_nDViX_period
+  statistic           = var.aws_cloudwatch_metric_alarm_nDViX_statistic
+  tc_category         = var.aws_cloudwatch_metric_alarm_nDViX_tc_category
+  threshold           = var.aws_cloudwatch_metric_alarm_nDViX_threshold
+  treat_missing_data  = var.aws_cloudwatch_metric_alarm_nDViX_treat_missing_data
 }
 
-resource "aws_cloudwatch_metric_alarm" "sRTgY" {
+resource "aws_cloudwatch_metric_alarm" "tcZzQ" {
   dimensions = {
-    AutoScalingGroupName = var.aws_cloudwatch_metric_alarm_sRTgY_dimensions_AutoScalingGroupName
+    InstanceId = var.aws_cloudwatch_metric_alarm_tcZzQ_dimensions_InstanceId
+  }
+
+  actions_enabled     = var.aws_cloudwatch_metric_alarm_tcZzQ_actions_enabled
+  alarm_actions       = var.aws_cloudwatch_metric_alarm_tcZzQ_alarm_actions
+  alarm_description   = var.aws_cloudwatch_metric_alarm_tcZzQ_alarm_description
+  alarm_name          = var.aws_cloudwatch_metric_alarm_tcZzQ_alarm_name
+  comparison_operator = var.aws_cloudwatch_metric_alarm_tcZzQ_comparison_operator
+  evaluation_periods  = var.aws_cloudwatch_metric_alarm_tcZzQ_evaluation_periods
+  metric_name         = var.aws_cloudwatch_metric_alarm_tcZzQ_metric_name
+  namespace           = var.aws_cloudwatch_metric_alarm_tcZzQ_namespace
+  period              = var.aws_cloudwatch_metric_alarm_tcZzQ_period
+  statistic           = var.aws_cloudwatch_metric_alarm_tcZzQ_statistic
+  tc_category         = var.aws_cloudwatch_metric_alarm_tcZzQ_tc_category
+  treat_missing_data  = var.aws_cloudwatch_metric_alarm_tcZzQ_treat_missing_data
+}
+
+resource "aws_cloudwatch_metric_alarm" "uAjEb" {
+  dimensions = {
+    AutoScalingGroupName = var.aws_cloudwatch_metric_alarm_uAjEb_dimensions_AutoScalingGroupName
   }
 
   tags = {
-    client       = var.aws_cloudwatch_metric_alarm_sRTgY_tags_client
-    "cycloid.io" = var.aws_cloudwatch_metric_alarm_sRTgY_tags_cycloid_io
-    env          = var.aws_cloudwatch_metric_alarm_sRTgY_tags_env
-    project      = var.aws_cloudwatch_metric_alarm_sRTgY_tags_project
+    client       = var.aws_cloudwatch_metric_alarm_uAjEb_tags_client
+    "cycloid.io" = var.aws_cloudwatch_metric_alarm_uAjEb_tags_cycloid_io
+    env          = var.aws_cloudwatch_metric_alarm_uAjEb_tags_env
+    project      = var.aws_cloudwatch_metric_alarm_uAjEb_tags_project
   }
 
-  actions_enabled     = var.aws_cloudwatch_metric_alarm_sRTgY_actions_enabled
-  alarm_actions       = var.aws_cloudwatch_metric_alarm_sRTgY_alarm_actions
-  alarm_description   = var.aws_cloudwatch_metric_alarm_sRTgY_alarm_description
-  alarm_name          = var.aws_cloudwatch_metric_alarm_sRTgY_alarm_name
-  comparison_operator = var.aws_cloudwatch_metric_alarm_sRTgY_comparison_operator
-  evaluation_periods  = var.aws_cloudwatch_metric_alarm_sRTgY_evaluation_periods
-  metric_name         = var.aws_cloudwatch_metric_alarm_sRTgY_metric_name
-  namespace           = var.aws_cloudwatch_metric_alarm_sRTgY_namespace
-  period              = var.aws_cloudwatch_metric_alarm_sRTgY_period
-  statistic           = var.aws_cloudwatch_metric_alarm_sRTgY_statistic
-  tc_category         = var.aws_cloudwatch_metric_alarm_sRTgY_tc_category
-  threshold           = var.aws_cloudwatch_metric_alarm_sRTgY_threshold
-  treat_missing_data  = var.aws_cloudwatch_metric_alarm_sRTgY_treat_missing_data
+  actions_enabled     = var.aws_cloudwatch_metric_alarm_uAjEb_actions_enabled
+  alarm_actions       = var.aws_cloudwatch_metric_alarm_uAjEb_alarm_actions
+  alarm_description   = var.aws_cloudwatch_metric_alarm_uAjEb_alarm_description
+  alarm_name          = var.aws_cloudwatch_metric_alarm_uAjEb_alarm_name
+  comparison_operator = var.aws_cloudwatch_metric_alarm_uAjEb_comparison_operator
+  evaluation_periods  = var.aws_cloudwatch_metric_alarm_uAjEb_evaluation_periods
+  metric_name         = var.aws_cloudwatch_metric_alarm_uAjEb_metric_name
+  namespace           = var.aws_cloudwatch_metric_alarm_uAjEb_namespace
+  period              = var.aws_cloudwatch_metric_alarm_uAjEb_period
+  statistic           = var.aws_cloudwatch_metric_alarm_uAjEb_statistic
+  tc_category         = var.aws_cloudwatch_metric_alarm_uAjEb_tc_category
+  threshold           = var.aws_cloudwatch_metric_alarm_uAjEb_threshold
+  treat_missing_data  = var.aws_cloudwatch_metric_alarm_uAjEb_treat_missing_data
+}
+
+resource "aws_cloudwatch_metric_alarm" "vrBxj" {
+  dimensions = {
+    InstanceId = var.aws_cloudwatch_metric_alarm_vrBxj_dimensions_InstanceId
+  }
+
+  actions_enabled     = var.aws_cloudwatch_metric_alarm_vrBxj_actions_enabled
+  alarm_actions       = var.aws_cloudwatch_metric_alarm_vrBxj_alarm_actions
+  alarm_description   = var.aws_cloudwatch_metric_alarm_vrBxj_alarm_description
+  alarm_name          = var.aws_cloudwatch_metric_alarm_vrBxj_alarm_name
+  comparison_operator = var.aws_cloudwatch_metric_alarm_vrBxj_comparison_operator
+  evaluation_periods  = var.aws_cloudwatch_metric_alarm_vrBxj_evaluation_periods
+  metric_name         = var.aws_cloudwatch_metric_alarm_vrBxj_metric_name
+  namespace           = var.aws_cloudwatch_metric_alarm_vrBxj_namespace
+  period              = var.aws_cloudwatch_metric_alarm_vrBxj_period
+  statistic           = var.aws_cloudwatch_metric_alarm_vrBxj_statistic
+  tc_category         = var.aws_cloudwatch_metric_alarm_vrBxj_tc_category
+  treat_missing_data  = var.aws_cloudwatch_metric_alarm_vrBxj_treat_missing_data
 }
 

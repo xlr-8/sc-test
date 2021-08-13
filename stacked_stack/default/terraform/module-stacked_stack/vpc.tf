@@ -1,598 +1,643 @@
-resource "aws_security_group" "AsNOq" {
+resource "aws_security_group" "AYBHw" {
   tags = {
-    Name                 = var.aws_security_group_AsNOq_tags_Name
-    client               = var.aws_security_group_AsNOq_tags_client
-    "cycloid.io"         = var.aws_security_group_AsNOq_tags_cycloid_io
-    env                  = var.aws_security_group_AsNOq_tags_env
-    monitoring_discovery = var.aws_security_group_AsNOq_tags_monitoring_discovery
-    project              = var.aws_security_group_AsNOq_tags_project
-    role                 = var.aws_security_group_AsNOq_tags_role
+    Name    = var.aws_security_group_AYBHw_tags_Name
+    client  = var.aws_security_group_AYBHw_tags_client
+    project = var.aws_security_group_AYBHw_tags_project
   }
 
-  description = var.aws_security_group_AsNOq_description
+  description = var.aws_security_group_AYBHw_description
   egress {
-    cidr_blocks = var.aws_security_group_AsNOq_egress_cidr_blocks
-    from_port   = var.aws_security_group_AsNOq_egress_from_port
-    protocol    = var.aws_security_group_AsNOq_egress_protocol
-    to_port     = var.aws_security_group_AsNOq_egress_to_port
+    cidr_blocks = var.aws_security_group_AYBHw_egress_cidr_blocks
+    from_port   = var.aws_security_group_AYBHw_egress_from_port
+    protocol    = var.aws_security_group_AYBHw_egress_protocol
+    to_port     = var.aws_security_group_AYBHw_egress_to_port
   }
 
   ingress {
-    from_port       = var.aws_security_group_AsNOq_ingress_from_port
-    protocol        = var.aws_security_group_AsNOq_ingress_protocol
-    security_groups = var.aws_security_group_AsNOq_ingress_security_groups
-    to_port         = var.aws_security_group_AsNOq_ingress_to_port
+    from_port       = var.aws_security_group_AYBHw_ingress_from_port
+    protocol        = var.aws_security_group_AYBHw_ingress_protocol
+    security_groups = var.aws_security_group_AYBHw_ingress_security_groups
+    to_port         = var.aws_security_group_AYBHw_ingress_to_port
   }
 
-  name        = var.aws_security_group_AsNOq_name
-  tc_category = var.aws_security_group_AsNOq_tc_category
-  vpc_id      = var.aws_security_group_AsNOq_vpc_id
+  name        = var.aws_security_group_AYBHw_name
+  tc_category = var.aws_security_group_AYBHw_tc_category
+  vpc_id      = var.aws_security_group_AYBHw_vpc_id
 }
 
-resource "aws_security_group" "CUtcR" {
-  description = var.aws_security_group_CUtcR_description
-  egress {
-    cidr_blocks = var.aws_security_group_CUtcR_egress_cidr_blocks
-    from_port   = var.aws_security_group_CUtcR_egress_from_port
-    protocol    = var.aws_security_group_CUtcR_egress_protocol
-    to_port     = var.aws_security_group_CUtcR_egress_to_port
-  }
-
-  ingress {
-    cidr_blocks = var.aws_security_group_CUtcR_ingress_cidr_blocks
-    from_port   = var.aws_security_group_CUtcR_ingress_from_port
-    protocol    = var.aws_security_group_CUtcR_ingress_protocol
-    to_port     = var.aws_security_group_CUtcR_ingress_to_port
-  }
-
-  name        = var.aws_security_group_CUtcR_name
-  tc_category = var.aws_security_group_CUtcR_tc_category
-  vpc_id      = var.aws_security_group_CUtcR_vpc_id
-}
-
-resource "aws_security_group" "EDHvr" {
-  description = var.aws_security_group_EDHvr_description
-  egress {
-    cidr_blocks = var.aws_security_group_EDHvr_egress_cidr_blocks
-    from_port   = var.aws_security_group_EDHvr_egress_from_port
-    protocol    = var.aws_security_group_EDHvr_egress_protocol
-    to_port     = var.aws_security_group_EDHvr_egress_to_port
-  }
-
-  ingress {
-    cidr_blocks = var.aws_security_group_EDHvr_ingress_cidr_blocks
-    from_port   = var.aws_security_group_EDHvr_ingress_from_port
-    protocol    = var.aws_security_group_EDHvr_ingress_protocol
-    to_port     = var.aws_security_group_EDHvr_ingress_to_port
-  }
-
-  name        = var.aws_security_group_EDHvr_name
-  tc_category = var.aws_security_group_EDHvr_tc_category
-  vpc_id      = var.aws_security_group_EDHvr_vpc_id
-}
-
-resource "aws_security_group" "GcMsk" {
+resource "aws_security_group" "AdBVw" {
   tags = {
-    Name                 = var.aws_security_group_GcMsk_tags_Name
-    client               = var.aws_security_group_GcMsk_tags_client
-    "cycloid.io"         = var.aws_security_group_GcMsk_tags_cycloid_io
-    env                  = var.aws_security_group_GcMsk_tags_env
-    monitoring_discovery = var.aws_security_group_GcMsk_tags_monitoring_discovery
-    project              = var.aws_security_group_GcMsk_tags_project
-    role                 = var.aws_security_group_GcMsk_tags_role
+    Name                 = var.aws_security_group_AdBVw_tags_Name
+    client               = var.aws_security_group_AdBVw_tags_client
+    "cycloid.io"         = var.aws_security_group_AdBVw_tags_cycloid_io
+    env                  = var.aws_security_group_AdBVw_tags_env
+    monitoring_discovery = var.aws_security_group_AdBVw_tags_monitoring_discovery
+    project              = var.aws_security_group_AdBVw_tags_project
+    role                 = var.aws_security_group_AdBVw_tags_role
   }
 
-  description = var.aws_security_group_GcMsk_description
+  description = var.aws_security_group_AdBVw_description
   egress {
-    cidr_blocks = var.aws_security_group_GcMsk_egress_cidr_blocks
-    from_port   = var.aws_security_group_GcMsk_egress_from_port
-    protocol    = var.aws_security_group_GcMsk_egress_protocol
-    to_port     = var.aws_security_group_GcMsk_egress_to_port
+    cidr_blocks = var.aws_security_group_AdBVw_egress_cidr_blocks
+    from_port   = var.aws_security_group_AdBVw_egress_from_port
+    protocol    = var.aws_security_group_AdBVw_egress_protocol
+    to_port     = var.aws_security_group_AdBVw_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_GcMsk_ingress_cidr_blocks
-    from_port   = var.aws_security_group_GcMsk_ingress_from_port
-    protocol    = var.aws_security_group_GcMsk_ingress_protocol
-    to_port     = var.aws_security_group_GcMsk_ingress_to_port
+    from_port       = var.aws_security_group_AdBVw_ingress_from_port
+    protocol        = var.aws_security_group_AdBVw_ingress_protocol
+    security_groups = var.aws_security_group_AdBVw_ingress_security_groups
+    to_port         = var.aws_security_group_AdBVw_ingress_to_port
   }
 
-  ingress {
-    cidr_blocks = var.aws_security_group_GcMsk_ingress_cidr_blocks
-    from_port   = var.aws_security_group_GcMsk_ingress_from_port
-    protocol    = var.aws_security_group_GcMsk_ingress_protocol
-    to_port     = var.aws_security_group_GcMsk_ingress_to_port
-  }
-
-  ingress {
-    cidr_blocks = var.aws_security_group_GcMsk_ingress_cidr_blocks
-    from_port   = var.aws_security_group_GcMsk_ingress_from_port
-    protocol    = var.aws_security_group_GcMsk_ingress_protocol
-    to_port     = var.aws_security_group_GcMsk_ingress_to_port
-  }
-
-  ingress {
-    from_port = var.aws_security_group_GcMsk_ingress_from_port
-    protocol  = var.aws_security_group_GcMsk_ingress_protocol
-    self      = var.aws_security_group_GcMsk_ingress_self
-    to_port   = var.aws_security_group_GcMsk_ingress_to_port
-  }
-
-  name        = var.aws_security_group_GcMsk_name
-  tc_category = var.aws_security_group_GcMsk_tc_category
-  vpc_id      = var.aws_security_group_GcMsk_vpc_id
+  name        = var.aws_security_group_AdBVw_name
+  tc_category = var.aws_security_group_AdBVw_tc_category
+  vpc_id      = var.aws_security_group_AdBVw_vpc_id
 }
 
-resource "aws_security_group" "GrMpy" {
+resource "aws_security_group" "AkALo" {
   tags = {
-    Name         = var.aws_security_group_GrMpy_tags_Name
-    customer     = var.aws_security_group_GrMpy_tags_customer
-    "cycloid.io" = var.aws_security_group_GrMpy_tags_cycloid_io
-    env          = var.aws_security_group_GrMpy_tags_env
-    project      = var.aws_security_group_GrMpy_tags_project
+    Name         = var.aws_security_group_AkALo_tags_Name
+    customer     = var.aws_security_group_AkALo_tags_customer
+    "cycloid.io" = var.aws_security_group_AkALo_tags_cycloid_io
+    env          = var.aws_security_group_AkALo_tags_env
+    project      = var.aws_security_group_AkALo_tags_project
+    role         = var.aws_security_group_AkALo_tags_role
   }
 
-  description = var.aws_security_group_GrMpy_description
+  description = var.aws_security_group_AkALo_description
   egress {
-    cidr_blocks = var.aws_security_group_GrMpy_egress_cidr_blocks
-    from_port   = var.aws_security_group_GrMpy_egress_from_port
-    protocol    = var.aws_security_group_GrMpy_egress_protocol
-    to_port     = var.aws_security_group_GrMpy_egress_to_port
+    cidr_blocks = var.aws_security_group_AkALo_egress_cidr_blocks
+    from_port   = var.aws_security_group_AkALo_egress_from_port
+    protocol    = var.aws_security_group_AkALo_egress_protocol
+    to_port     = var.aws_security_group_AkALo_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_GrMpy_ingress_cidr_blocks
-    description = var.aws_security_group_GrMpy_ingress_description
-    from_port   = var.aws_security_group_GrMpy_ingress_from_port
-    protocol    = var.aws_security_group_GrMpy_ingress_protocol
-    to_port     = var.aws_security_group_GrMpy_ingress_to_port
+    cidr_blocks = var.aws_security_group_AkALo_ingress_cidr_blocks
+    from_port   = var.aws_security_group_AkALo_ingress_from_port
+    protocol    = var.aws_security_group_AkALo_ingress_protocol
+    to_port     = var.aws_security_group_AkALo_ingress_to_port
   }
 
   ingress {
-    from_port       = var.aws_security_group_GrMpy_ingress_from_port
-    protocol        = var.aws_security_group_GrMpy_ingress_protocol
-    security_groups = var.aws_security_group_GrMpy_ingress_security_groups
-    to_port         = var.aws_security_group_GrMpy_ingress_to_port
+    cidr_blocks = var.aws_security_group_AkALo_ingress_cidr_blocks
+    from_port   = var.aws_security_group_AkALo_ingress_from_port
+    protocol    = var.aws_security_group_AkALo_ingress_protocol
+    to_port     = var.aws_security_group_AkALo_ingress_to_port
   }
 
-  name        = var.aws_security_group_GrMpy_name
-  tc_category = var.aws_security_group_GrMpy_tc_category
-  vpc_id      = var.aws_security_group_GrMpy_vpc_id
+  ingress {
+    from_port       = var.aws_security_group_AkALo_ingress_from_port
+    protocol        = var.aws_security_group_AkALo_ingress_protocol
+    security_groups = var.aws_security_group_AkALo_ingress_security_groups
+    to_port         = var.aws_security_group_AkALo_ingress_to_port
+  }
+
+  ingress {
+    cidr_blocks = var.aws_security_group_AkALo_ingress_cidr_blocks
+    from_port   = var.aws_security_group_AkALo_ingress_from_port
+    protocol    = var.aws_security_group_AkALo_ingress_protocol
+    self        = var.aws_security_group_AkALo_ingress_self
+    to_port     = var.aws_security_group_AkALo_ingress_to_port
+  }
+
+  name        = var.aws_security_group_AkALo_name
+  tc_category = var.aws_security_group_AkALo_tc_category
+  vpc_id      = var.aws_security_group_AkALo_vpc_id
 }
 
-resource "aws_security_group" "IQDPU" {
+resource "aws_security_group" "AmNld" {
   tags = {
-    Name         = var.aws_security_group_IQDPU_tags_Name
-    client       = var.aws_security_group_IQDPU_tags_client
-    "cycloid.io" = var.aws_security_group_IQDPU_tags_cycloid_io
-    env          = var.aws_security_group_IQDPU_tags_env
-    project      = var.aws_security_group_IQDPU_tags_project
-    role         = var.aws_security_group_IQDPU_tags_role
+    Name         = var.aws_security_group_AmNld_tags_Name
+    client       = var.aws_security_group_AmNld_tags_client
+    "cycloid.io" = var.aws_security_group_AmNld_tags_cycloid_io
+    project      = var.aws_security_group_AmNld_tags_project
   }
 
-  description = var.aws_security_group_IQDPU_description
+  description = var.aws_security_group_AmNld_description
   egress {
-    cidr_blocks = var.aws_security_group_IQDPU_egress_cidr_blocks
-    from_port   = var.aws_security_group_IQDPU_egress_from_port
-    protocol    = var.aws_security_group_IQDPU_egress_protocol
-    to_port     = var.aws_security_group_IQDPU_egress_to_port
+    cidr_blocks = var.aws_security_group_AmNld_egress_cidr_blocks
+    from_port   = var.aws_security_group_AmNld_egress_from_port
+    protocol    = var.aws_security_group_AmNld_egress_protocol
+    to_port     = var.aws_security_group_AmNld_egress_to_port
   }
 
   ingress {
-    from_port       = var.aws_security_group_IQDPU_ingress_from_port
-    protocol        = var.aws_security_group_IQDPU_ingress_protocol
-    security_groups = var.aws_security_group_IQDPU_ingress_security_groups
-    to_port         = var.aws_security_group_IQDPU_ingress_to_port
+    from_port       = var.aws_security_group_AmNld_ingress_from_port
+    protocol        = var.aws_security_group_AmNld_ingress_protocol
+    security_groups = var.aws_security_group_AmNld_ingress_security_groups
+    to_port         = var.aws_security_group_AmNld_ingress_to_port
   }
 
-  name        = var.aws_security_group_IQDPU_name
-  tc_category = var.aws_security_group_IQDPU_tc_category
-  vpc_id      = var.aws_security_group_IQDPU_vpc_id
+  name        = var.aws_security_group_AmNld_name
+  tc_category = var.aws_security_group_AmNld_tc_category
+  vpc_id      = var.aws_security_group_AmNld_vpc_id
 }
 
-resource "aws_security_group" "IVJcL" {
+resource "aws_security_group" "BcaiE" {
+  description = var.aws_security_group_BcaiE_description
+  egress {
+    cidr_blocks = var.aws_security_group_BcaiE_egress_cidr_blocks
+    from_port   = var.aws_security_group_BcaiE_egress_from_port
+    protocol    = var.aws_security_group_BcaiE_egress_protocol
+    to_port     = var.aws_security_group_BcaiE_egress_to_port
+  }
+
+  ingress {
+    cidr_blocks = var.aws_security_group_BcaiE_ingress_cidr_blocks
+    from_port   = var.aws_security_group_BcaiE_ingress_from_port
+    protocol    = var.aws_security_group_BcaiE_ingress_protocol
+    to_port     = var.aws_security_group_BcaiE_ingress_to_port
+  }
+
+  name        = var.aws_security_group_BcaiE_name
+  tc_category = var.aws_security_group_BcaiE_tc_category
+  vpc_id      = var.aws_security_group_BcaiE_vpc_id
+}
+
+resource "aws_security_group" "CeBBJ" {
   tags = {
-    Name    = var.aws_security_group_IVJcL_tags_Name
-    client  = var.aws_security_group_IVJcL_tags_client
-    env     = var.aws_security_group_IVJcL_tags_env
-    project = var.aws_security_group_IVJcL_tags_project
+    Name         = var.aws_security_group_CeBBJ_tags_Name
+    "cycloid.io" = var.aws_security_group_CeBBJ_tags_cycloid_io
+    env          = var.aws_security_group_CeBBJ_tags_env
+    project      = var.aws_security_group_CeBBJ_tags_project
   }
 
-  description = var.aws_security_group_IVJcL_description
+  description = var.aws_security_group_CeBBJ_description
   egress {
-    cidr_blocks = var.aws_security_group_IVJcL_egress_cidr_blocks
-    from_port   = var.aws_security_group_IVJcL_egress_from_port
-    protocol    = var.aws_security_group_IVJcL_egress_protocol
-    to_port     = var.aws_security_group_IVJcL_egress_to_port
+    cidr_blocks = var.aws_security_group_CeBBJ_egress_cidr_blocks
+    from_port   = var.aws_security_group_CeBBJ_egress_from_port
+    protocol    = var.aws_security_group_CeBBJ_egress_protocol
+    to_port     = var.aws_security_group_CeBBJ_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_IVJcL_ingress_cidr_blocks
-    from_port   = var.aws_security_group_IVJcL_ingress_from_port
-    protocol    = var.aws_security_group_IVJcL_ingress_protocol
-    to_port     = var.aws_security_group_IVJcL_ingress_to_port
+    cidr_blocks = var.aws_security_group_CeBBJ_ingress_cidr_blocks
+    from_port   = var.aws_security_group_CeBBJ_ingress_from_port
+    protocol    = var.aws_security_group_CeBBJ_ingress_protocol
+    to_port     = var.aws_security_group_CeBBJ_ingress_to_port
   }
 
-  name        = var.aws_security_group_IVJcL_name
-  tc_category = var.aws_security_group_IVJcL_tc_category
-  vpc_id      = var.aws_security_group_IVJcL_vpc_id
+  ingress {
+    cidr_blocks = var.aws_security_group_CeBBJ_ingress_cidr_blocks
+    from_port   = var.aws_security_group_CeBBJ_ingress_from_port
+    protocol    = var.aws_security_group_CeBBJ_ingress_protocol
+    to_port     = var.aws_security_group_CeBBJ_ingress_to_port
+  }
+
+  name        = var.aws_security_group_CeBBJ_name
+  tc_category = var.aws_security_group_CeBBJ_tc_category
+  vpc_id      = var.aws_security_group_CeBBJ_vpc_id
 }
 
-resource "aws_security_group" "KAdmy" {
+resource "aws_security_group" "CvRRy" {
   tags = {
-    Name         = var.aws_security_group_KAdmy_tags_Name
-    "cycloid.io" = var.aws_security_group_KAdmy_tags_cycloid_io
-    env          = var.aws_security_group_KAdmy_tags_env
-    project      = var.aws_security_group_KAdmy_tags_project
+    Name         = var.aws_security_group_CvRRy_tags_Name
+    customer     = var.aws_security_group_CvRRy_tags_customer
+    "cycloid.io" = var.aws_security_group_CvRRy_tags_cycloid_io
+    env          = var.aws_security_group_CvRRy_tags_env
+    project      = var.aws_security_group_CvRRy_tags_project
   }
 
-  description = var.aws_security_group_KAdmy_description
+  description = var.aws_security_group_CvRRy_description
   egress {
-    cidr_blocks = var.aws_security_group_KAdmy_egress_cidr_blocks
-    from_port   = var.aws_security_group_KAdmy_egress_from_port
-    protocol    = var.aws_security_group_KAdmy_egress_protocol
-    to_port     = var.aws_security_group_KAdmy_egress_to_port
+    cidr_blocks = var.aws_security_group_CvRRy_egress_cidr_blocks
+    from_port   = var.aws_security_group_CvRRy_egress_from_port
+    protocol    = var.aws_security_group_CvRRy_egress_protocol
+    to_port     = var.aws_security_group_CvRRy_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_KAdmy_ingress_cidr_blocks
-    from_port   = var.aws_security_group_KAdmy_ingress_from_port
-    protocol    = var.aws_security_group_KAdmy_ingress_protocol
-    to_port     = var.aws_security_group_KAdmy_ingress_to_port
+    from_port       = var.aws_security_group_CvRRy_ingress_from_port
+    protocol        = var.aws_security_group_CvRRy_ingress_protocol
+    security_groups = var.aws_security_group_CvRRy_ingress_security_groups
+    to_port         = var.aws_security_group_CvRRy_ingress_to_port
   }
 
-  ingress {
-    cidr_blocks = var.aws_security_group_KAdmy_ingress_cidr_blocks
-    from_port   = var.aws_security_group_KAdmy_ingress_from_port
-    protocol    = var.aws_security_group_KAdmy_ingress_protocol
-    to_port     = var.aws_security_group_KAdmy_ingress_to_port
-  }
-
-  name        = var.aws_security_group_KAdmy_name
-  tc_category = var.aws_security_group_KAdmy_tc_category
-  vpc_id      = var.aws_security_group_KAdmy_vpc_id
+  name        = var.aws_security_group_CvRRy_name
+  tc_category = var.aws_security_group_CvRRy_tc_category
+  vpc_id      = var.aws_security_group_CvRRy_vpc_id
 }
 
-resource "aws_security_group" "KKXUE" {
+resource "aws_security_group" "DWMVn" {
+  description = var.aws_security_group_DWMVn_description
+  egress {
+    cidr_blocks = var.aws_security_group_DWMVn_egress_cidr_blocks
+    from_port   = var.aws_security_group_DWMVn_egress_from_port
+    protocol    = var.aws_security_group_DWMVn_egress_protocol
+    to_port     = var.aws_security_group_DWMVn_egress_to_port
+  }
+
+  ingress {
+    cidr_blocks = var.aws_security_group_DWMVn_ingress_cidr_blocks
+    from_port   = var.aws_security_group_DWMVn_ingress_from_port
+    protocol    = var.aws_security_group_DWMVn_ingress_protocol
+    to_port     = var.aws_security_group_DWMVn_ingress_to_port
+  }
+
+  name        = var.aws_security_group_DWMVn_name
+  tc_category = var.aws_security_group_DWMVn_tc_category
+  vpc_id      = var.aws_security_group_DWMVn_vpc_id
+}
+
+resource "aws_security_group" "FQljg" {
   tags = {
-    Name         = var.aws_security_group_KKXUE_tags_Name
-    customer     = var.aws_security_group_KKXUE_tags_customer
-    "cycloid.io" = var.aws_security_group_KKXUE_tags_cycloid_io
-    env          = var.aws_security_group_KKXUE_tags_env
-    project      = var.aws_security_group_KKXUE_tags_project
+    Name         = var.aws_security_group_FQljg_tags_Name
+    customer     = var.aws_security_group_FQljg_tags_customer
+    "cycloid.io" = var.aws_security_group_FQljg_tags_cycloid_io
+    env          = var.aws_security_group_FQljg_tags_env
+    project      = var.aws_security_group_FQljg_tags_project
   }
 
-  description = var.aws_security_group_KKXUE_description
+  description = var.aws_security_group_FQljg_description
   egress {
-    cidr_blocks = var.aws_security_group_KKXUE_egress_cidr_blocks
-    from_port   = var.aws_security_group_KKXUE_egress_from_port
-    protocol    = var.aws_security_group_KKXUE_egress_protocol
-    to_port     = var.aws_security_group_KKXUE_egress_to_port
+    cidr_blocks = var.aws_security_group_FQljg_egress_cidr_blocks
+    from_port   = var.aws_security_group_FQljg_egress_from_port
+    protocol    = var.aws_security_group_FQljg_egress_protocol
+    to_port     = var.aws_security_group_FQljg_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_KKXUE_ingress_cidr_blocks
-    description = var.aws_security_group_KKXUE_ingress_description
-    from_port   = var.aws_security_group_KKXUE_ingress_from_port
-    protocol    = var.aws_security_group_KKXUE_ingress_protocol
-    to_port     = var.aws_security_group_KKXUE_ingress_to_port
+    cidr_blocks = var.aws_security_group_FQljg_ingress_cidr_blocks
+    description = var.aws_security_group_FQljg_ingress_description
+    from_port   = var.aws_security_group_FQljg_ingress_from_port
+    protocol    = var.aws_security_group_FQljg_ingress_protocol
+    to_port     = var.aws_security_group_FQljg_ingress_to_port
   }
 
   ingress {
-    from_port       = var.aws_security_group_KKXUE_ingress_from_port
-    protocol        = var.aws_security_group_KKXUE_ingress_protocol
-    security_groups = var.aws_security_group_KKXUE_ingress_security_groups
-    to_port         = var.aws_security_group_KKXUE_ingress_to_port
+    from_port       = var.aws_security_group_FQljg_ingress_from_port
+    protocol        = var.aws_security_group_FQljg_ingress_protocol
+    security_groups = var.aws_security_group_FQljg_ingress_security_groups
+    to_port         = var.aws_security_group_FQljg_ingress_to_port
   }
 
-  name        = var.aws_security_group_KKXUE_name
-  tc_category = var.aws_security_group_KKXUE_tc_category
-  vpc_id      = var.aws_security_group_KKXUE_vpc_id
+  name        = var.aws_security_group_FQljg_name
+  tc_category = var.aws_security_group_FQljg_tc_category
+  vpc_id      = var.aws_security_group_FQljg_vpc_id
 }
 
-resource "aws_security_group" "KjyFr" {
+resource "aws_security_group" "GFzYw" {
   tags = {
-    Name         = var.aws_security_group_KjyFr_tags_Name
-    client       = var.aws_security_group_KjyFr_tags_client
-    customer     = var.aws_security_group_KjyFr_tags_customer
-    "cycloid.io" = var.aws_security_group_KjyFr_tags_cycloid_io
-    env          = var.aws_security_group_KjyFr_tags_env
-    project      = var.aws_security_group_KjyFr_tags_project
+    Name         = var.aws_security_group_GFzYw_tags_Name
+    customer     = var.aws_security_group_GFzYw_tags_customer
+    "cycloid.io" = var.aws_security_group_GFzYw_tags_cycloid_io
+    env          = var.aws_security_group_GFzYw_tags_env
+    project      = var.aws_security_group_GFzYw_tags_project
   }
 
-  description = var.aws_security_group_KjyFr_description
+  description = var.aws_security_group_GFzYw_description
   egress {
-    cidr_blocks = var.aws_security_group_KjyFr_egress_cidr_blocks
-    from_port   = var.aws_security_group_KjyFr_egress_from_port
-    protocol    = var.aws_security_group_KjyFr_egress_protocol
-    to_port     = var.aws_security_group_KjyFr_egress_to_port
+    cidr_blocks = var.aws_security_group_GFzYw_egress_cidr_blocks
+    from_port   = var.aws_security_group_GFzYw_egress_from_port
+    protocol    = var.aws_security_group_GFzYw_egress_protocol
+    to_port     = var.aws_security_group_GFzYw_egress_to_port
   }
 
   ingress {
-    from_port       = var.aws_security_group_KjyFr_ingress_from_port
-    protocol        = var.aws_security_group_KjyFr_ingress_protocol
-    security_groups = var.aws_security_group_KjyFr_ingress_security_groups
-    to_port         = var.aws_security_group_KjyFr_ingress_to_port
+    from_port       = var.aws_security_group_GFzYw_ingress_from_port
+    protocol        = var.aws_security_group_GFzYw_ingress_protocol
+    security_groups = var.aws_security_group_GFzYw_ingress_security_groups
+    to_port         = var.aws_security_group_GFzYw_ingress_to_port
   }
 
-  name        = var.aws_security_group_KjyFr_name
-  tc_category = var.aws_security_group_KjyFr_tc_category
-  vpc_id      = var.aws_security_group_KjyFr_vpc_id
+  name        = var.aws_security_group_GFzYw_name
+  tc_category = var.aws_security_group_GFzYw_tc_category
+  vpc_id      = var.aws_security_group_GFzYw_vpc_id
 }
 
-resource "aws_security_group" "KraAi" {
+resource "aws_security_group" "HIIOE" {
   tags = {
-    Name         = var.aws_security_group_KraAi_tags_Name
-    customer     = var.aws_security_group_KraAi_tags_customer
-    "cycloid.io" = var.aws_security_group_KraAi_tags_cycloid_io
-    env          = var.aws_security_group_KraAi_tags_env
-    project      = var.aws_security_group_KraAi_tags_project
+    Name         = var.aws_security_group_HIIOE_tags_Name
+    "cycloid.io" = var.aws_security_group_HIIOE_tags_cycloid_io
+    env          = var.aws_security_group_HIIOE_tags_env
+    project      = var.aws_security_group_HIIOE_tags_project
+    role         = var.aws_security_group_HIIOE_tags_role
   }
 
-  description = var.aws_security_group_KraAi_description
-  egress {
-    cidr_blocks = var.aws_security_group_KraAi_egress_cidr_blocks
-    from_port   = var.aws_security_group_KraAi_egress_from_port
-    protocol    = var.aws_security_group_KraAi_egress_protocol
-    to_port     = var.aws_security_group_KraAi_egress_to_port
-  }
-
+  description = var.aws_security_group_HIIOE_description
   ingress {
-    from_port       = var.aws_security_group_KraAi_ingress_from_port
-    protocol        = var.aws_security_group_KraAi_ingress_protocol
-    security_groups = var.aws_security_group_KraAi_ingress_security_groups
-    to_port         = var.aws_security_group_KraAi_ingress_to_port
+    from_port       = var.aws_security_group_HIIOE_ingress_from_port
+    protocol        = var.aws_security_group_HIIOE_ingress_protocol
+    security_groups = var.aws_security_group_HIIOE_ingress_security_groups
+    to_port         = var.aws_security_group_HIIOE_ingress_to_port
   }
 
-  name        = var.aws_security_group_KraAi_name
-  tc_category = var.aws_security_group_KraAi_tc_category
-  vpc_id      = var.aws_security_group_KraAi_vpc_id
+  name        = var.aws_security_group_HIIOE_name
+  tc_category = var.aws_security_group_HIIOE_tc_category
+  vpc_id      = var.aws_security_group_HIIOE_vpc_id
 }
 
-resource "aws_security_group" "NjGHG" {
-  description = var.aws_security_group_NjGHG_description
-  egress {
-    cidr_blocks = var.aws_security_group_NjGHG_egress_cidr_blocks
-    from_port   = var.aws_security_group_NjGHG_egress_from_port
-    protocol    = var.aws_security_group_NjGHG_egress_protocol
-    to_port     = var.aws_security_group_NjGHG_egress_to_port
-  }
-
-  ingress {
-    from_port = var.aws_security_group_NjGHG_ingress_from_port
-    protocol  = var.aws_security_group_NjGHG_ingress_protocol
-    self      = var.aws_security_group_NjGHG_ingress_self
-    to_port   = var.aws_security_group_NjGHG_ingress_to_port
-  }
-
-  name        = var.aws_security_group_NjGHG_name
-  tc_category = var.aws_security_group_NjGHG_tc_category
-  vpc_id      = var.aws_security_group_NjGHG_vpc_id
-}
-
-resource "aws_security_group" "NtZdJ" {
-  description = var.aws_security_group_NtZdJ_description
-  egress {
-    cidr_blocks = var.aws_security_group_NtZdJ_egress_cidr_blocks
-    from_port   = var.aws_security_group_NtZdJ_egress_from_port
-    protocol    = var.aws_security_group_NtZdJ_egress_protocol
-    to_port     = var.aws_security_group_NtZdJ_egress_to_port
-  }
-
-  ingress {
-    cidr_blocks = var.aws_security_group_NtZdJ_ingress_cidr_blocks
-    from_port   = var.aws_security_group_NtZdJ_ingress_from_port
-    protocol    = var.aws_security_group_NtZdJ_ingress_protocol
-    to_port     = var.aws_security_group_NtZdJ_ingress_to_port
-  }
-
-  name        = var.aws_security_group_NtZdJ_name
-  tc_category = var.aws_security_group_NtZdJ_tc_category
-  vpc_id      = var.aws_security_group_NtZdJ_vpc_id
-}
-
-resource "aws_security_group" "PcGEo" {
-  description = var.aws_security_group_PcGEo_description
-  egress {
-    cidr_blocks = var.aws_security_group_PcGEo_egress_cidr_blocks
-    from_port   = var.aws_security_group_PcGEo_egress_from_port
-    protocol    = var.aws_security_group_PcGEo_egress_protocol
-    to_port     = var.aws_security_group_PcGEo_egress_to_port
-  }
-
-  ingress {
-    cidr_blocks = var.aws_security_group_PcGEo_ingress_cidr_blocks
-    from_port   = var.aws_security_group_PcGEo_ingress_from_port
-    protocol    = var.aws_security_group_PcGEo_ingress_protocol
-    to_port     = var.aws_security_group_PcGEo_ingress_to_port
-  }
-
-  ingress {
-    from_port = var.aws_security_group_PcGEo_ingress_from_port
-    protocol  = var.aws_security_group_PcGEo_ingress_protocol
-    self      = var.aws_security_group_PcGEo_ingress_self
-    to_port   = var.aws_security_group_PcGEo_ingress_to_port
-  }
-
-  name        = var.aws_security_group_PcGEo_name
-  tc_category = var.aws_security_group_PcGEo_tc_category
-  vpc_id      = var.aws_security_group_PcGEo_vpc_id
-}
-
-resource "aws_security_group" "PnLHu" {
+resource "aws_security_group" "HMipz" {
   tags = {
-    Name         = var.aws_security_group_PnLHu_tags_Name
-    client       = var.aws_security_group_PnLHu_tags_client
-    "cycloid.io" = var.aws_security_group_PnLHu_tags_cycloid_io
-    env          = var.aws_security_group_PnLHu_tags_env
-    project      = var.aws_security_group_PnLHu_tags_project
-    role         = var.aws_security_group_PnLHu_tags_role
+    Name         = var.aws_security_group_HMipz_tags_Name
+    customer     = var.aws_security_group_HMipz_tags_customer
+    "cycloid.io" = var.aws_security_group_HMipz_tags_cycloid_io
+    env          = var.aws_security_group_HMipz_tags_env
+    project      = var.aws_security_group_HMipz_tags_project
   }
 
-  description = var.aws_security_group_PnLHu_description
+  description = var.aws_security_group_HMipz_description
+  egress {
+    cidr_blocks = var.aws_security_group_HMipz_egress_cidr_blocks
+    from_port   = var.aws_security_group_HMipz_egress_from_port
+    protocol    = var.aws_security_group_HMipz_egress_protocol
+    to_port     = var.aws_security_group_HMipz_egress_to_port
+  }
+
   ingress {
-    from_port       = var.aws_security_group_PnLHu_ingress_from_port
-    protocol        = var.aws_security_group_PnLHu_ingress_protocol
-    security_groups = var.aws_security_group_PnLHu_ingress_security_groups
-    to_port         = var.aws_security_group_PnLHu_ingress_to_port
+    cidr_blocks = var.aws_security_group_HMipz_ingress_cidr_blocks
+    description = var.aws_security_group_HMipz_ingress_description
+    from_port   = var.aws_security_group_HMipz_ingress_from_port
+    protocol    = var.aws_security_group_HMipz_ingress_protocol
+    to_port     = var.aws_security_group_HMipz_ingress_to_port
   }
 
-  name        = var.aws_security_group_PnLHu_name
-  tc_category = var.aws_security_group_PnLHu_tc_category
-  vpc_id      = var.aws_security_group_PnLHu_vpc_id
+  ingress {
+    from_port       = var.aws_security_group_HMipz_ingress_from_port
+    protocol        = var.aws_security_group_HMipz_ingress_protocol
+    security_groups = var.aws_security_group_HMipz_ingress_security_groups
+    to_port         = var.aws_security_group_HMipz_ingress_to_port
+  }
+
+  name        = var.aws_security_group_HMipz_name
+  tc_category = var.aws_security_group_HMipz_tc_category
+  vpc_id      = var.aws_security_group_HMipz_vpc_id
 }
 
-resource "aws_security_group" "QSJiE" {
+resource "aws_security_group" "KWIWP" {
   tags = {
-    Name         = var.aws_security_group_QSJiE_tags_Name
-    customer     = var.aws_security_group_QSJiE_tags_customer
-    "cycloid.io" = var.aws_security_group_QSJiE_tags_cycloid_io
-    env          = var.aws_security_group_QSJiE_tags_env
-    project      = var.aws_security_group_QSJiE_tags_project
+    Name         = var.aws_security_group_KWIWP_tags_Name
+    "cycloid.io" = var.aws_security_group_KWIWP_tags_cycloid_io
+    env          = var.aws_security_group_KWIWP_tags_env
+    project      = var.aws_security_group_KWIWP_tags_project
+    role         = var.aws_security_group_KWIWP_tags_role
   }
 
-  description = var.aws_security_group_QSJiE_description
+  description = var.aws_security_group_KWIWP_description
   egress {
-    cidr_blocks = var.aws_security_group_QSJiE_egress_cidr_blocks
-    from_port   = var.aws_security_group_QSJiE_egress_from_port
-    protocol    = var.aws_security_group_QSJiE_egress_protocol
-    to_port     = var.aws_security_group_QSJiE_egress_to_port
+    cidr_blocks = var.aws_security_group_KWIWP_egress_cidr_blocks
+    from_port   = var.aws_security_group_KWIWP_egress_from_port
+    protocol    = var.aws_security_group_KWIWP_egress_protocol
+    to_port     = var.aws_security_group_KWIWP_egress_to_port
   }
 
   ingress {
-    from_port       = var.aws_security_group_QSJiE_ingress_from_port
-    protocol        = var.aws_security_group_QSJiE_ingress_protocol
-    security_groups = var.aws_security_group_QSJiE_ingress_security_groups
-    to_port         = var.aws_security_group_QSJiE_ingress_to_port
+    from_port       = var.aws_security_group_KWIWP_ingress_from_port
+    protocol        = var.aws_security_group_KWIWP_ingress_protocol
+    security_groups = var.aws_security_group_KWIWP_ingress_security_groups
+    to_port         = var.aws_security_group_KWIWP_ingress_to_port
   }
 
-  name        = var.aws_security_group_QSJiE_name
-  tc_category = var.aws_security_group_QSJiE_tc_category
-  vpc_id      = var.aws_security_group_QSJiE_vpc_id
+  ingress {
+    from_port       = var.aws_security_group_KWIWP_ingress_from_port
+    protocol        = var.aws_security_group_KWIWP_ingress_protocol
+    security_groups = var.aws_security_group_KWIWP_ingress_security_groups
+    to_port         = var.aws_security_group_KWIWP_ingress_to_port
+  }
+
+  name        = var.aws_security_group_KWIWP_name
+  tc_category = var.aws_security_group_KWIWP_tc_category
+  vpc_id      = var.aws_security_group_KWIWP_vpc_id
 }
 
-resource "aws_security_group" "QtBik" {
-  description = var.aws_security_group_QtBik_description
+resource "aws_security_group" "OaEvU" {
+  description = var.aws_security_group_OaEvU_description
   egress {
-    cidr_blocks = var.aws_security_group_QtBik_egress_cidr_blocks
-    from_port   = var.aws_security_group_QtBik_egress_from_port
-    protocol    = var.aws_security_group_QtBik_egress_protocol
-    to_port     = var.aws_security_group_QtBik_egress_to_port
+    cidr_blocks = var.aws_security_group_OaEvU_egress_cidr_blocks
+    from_port   = var.aws_security_group_OaEvU_egress_from_port
+    protocol    = var.aws_security_group_OaEvU_egress_protocol
+    to_port     = var.aws_security_group_OaEvU_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_QtBik_ingress_cidr_blocks
-    from_port   = var.aws_security_group_QtBik_ingress_from_port
-    protocol    = var.aws_security_group_QtBik_ingress_protocol
-    to_port     = var.aws_security_group_QtBik_ingress_to_port
+    from_port = var.aws_security_group_OaEvU_ingress_from_port
+    protocol  = var.aws_security_group_OaEvU_ingress_protocol
+    self      = var.aws_security_group_OaEvU_ingress_self
+    to_port   = var.aws_security_group_OaEvU_ingress_to_port
   }
 
-  ingress {
-    from_port = var.aws_security_group_QtBik_ingress_from_port
-    protocol  = var.aws_security_group_QtBik_ingress_protocol
-    self      = var.aws_security_group_QtBik_ingress_self
-    to_port   = var.aws_security_group_QtBik_ingress_to_port
-  }
-
-  name        = var.aws_security_group_QtBik_name
-  tc_category = var.aws_security_group_QtBik_tc_category
-  vpc_id      = var.aws_security_group_QtBik_vpc_id
+  name        = var.aws_security_group_OaEvU_name
+  tc_category = var.aws_security_group_OaEvU_tc_category
+  vpc_id      = var.aws_security_group_OaEvU_vpc_id
 }
 
-resource "aws_security_group" "UGvWh" {
-  description = var.aws_security_group_UGvWh_description
-  egress {
-    cidr_blocks = var.aws_security_group_UGvWh_egress_cidr_blocks
-    from_port   = var.aws_security_group_UGvWh_egress_from_port
-    protocol    = var.aws_security_group_UGvWh_egress_protocol
-    to_port     = var.aws_security_group_UGvWh_egress_to_port
-  }
-
-  ingress {
-    from_port = var.aws_security_group_UGvWh_ingress_from_port
-    protocol  = var.aws_security_group_UGvWh_ingress_protocol
-    self      = var.aws_security_group_UGvWh_ingress_self
-    to_port   = var.aws_security_group_UGvWh_ingress_to_port
-  }
-
-  name        = var.aws_security_group_UGvWh_name
-  tc_category = var.aws_security_group_UGvWh_tc_category
-  vpc_id      = var.aws_security_group_UGvWh_vpc_id
-}
-
-resource "aws_security_group" "VFWKt" {
+resource "aws_security_group" "RDDMH" {
   tags = {
-    Name                 = var.aws_security_group_VFWKt_tags_Name
-    client               = var.aws_security_group_VFWKt_tags_client
-    "cycloid.io"         = var.aws_security_group_VFWKt_tags_cycloid_io
-    env                  = var.aws_security_group_VFWKt_tags_env
-    monitoring_discovery = var.aws_security_group_VFWKt_tags_monitoring_discovery
-    project              = var.aws_security_group_VFWKt_tags_project
-    role                 = var.aws_security_group_VFWKt_tags_role
+    Name                 = var.aws_security_group_RDDMH_tags_Name
+    client               = var.aws_security_group_RDDMH_tags_client
+    "cycloid.io"         = var.aws_security_group_RDDMH_tags_cycloid_io
+    env                  = var.aws_security_group_RDDMH_tags_env
+    monitoring_discovery = var.aws_security_group_RDDMH_tags_monitoring_discovery
+    project              = var.aws_security_group_RDDMH_tags_project
+    role                 = var.aws_security_group_RDDMH_tags_role
   }
 
-  description = var.aws_security_group_VFWKt_description
+  description = var.aws_security_group_RDDMH_description
   egress {
-    cidr_blocks = var.aws_security_group_VFWKt_egress_cidr_blocks
-    from_port   = var.aws_security_group_VFWKt_egress_from_port
-    protocol    = var.aws_security_group_VFWKt_egress_protocol
-    to_port     = var.aws_security_group_VFWKt_egress_to_port
+    cidr_blocks = var.aws_security_group_RDDMH_egress_cidr_blocks
+    from_port   = var.aws_security_group_RDDMH_egress_from_port
+    protocol    = var.aws_security_group_RDDMH_egress_protocol
+    to_port     = var.aws_security_group_RDDMH_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_VFWKt_ingress_cidr_blocks
-    from_port   = var.aws_security_group_VFWKt_ingress_from_port
-    protocol    = var.aws_security_group_VFWKt_ingress_protocol
-    to_port     = var.aws_security_group_VFWKt_ingress_to_port
+    cidr_blocks = var.aws_security_group_RDDMH_ingress_cidr_blocks
+    from_port   = var.aws_security_group_RDDMH_ingress_from_port
+    protocol    = var.aws_security_group_RDDMH_ingress_protocol
+    to_port     = var.aws_security_group_RDDMH_ingress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_VFWKt_ingress_cidr_blocks
-    from_port   = var.aws_security_group_VFWKt_ingress_from_port
-    protocol    = var.aws_security_group_VFWKt_ingress_protocol
-    to_port     = var.aws_security_group_VFWKt_ingress_to_port
+    cidr_blocks = var.aws_security_group_RDDMH_ingress_cidr_blocks
+    from_port   = var.aws_security_group_RDDMH_ingress_from_port
+    protocol    = var.aws_security_group_RDDMH_ingress_protocol
+    to_port     = var.aws_security_group_RDDMH_ingress_to_port
   }
 
-  name        = var.aws_security_group_VFWKt_name
-  tc_category = var.aws_security_group_VFWKt_tc_category
-  vpc_id      = var.aws_security_group_VFWKt_vpc_id
+  name        = var.aws_security_group_RDDMH_name
+  tc_category = var.aws_security_group_RDDMH_tc_category
+  vpc_id      = var.aws_security_group_RDDMH_vpc_id
 }
 
-resource "aws_security_group" "WATOU" {
-  tags = {
-    Name         = var.aws_security_group_WATOU_tags_Name
-    client       = var.aws_security_group_WATOU_tags_client
-    "cycloid.io" = var.aws_security_group_WATOU_tags_cycloid_io
-    env          = var.aws_security_group_WATOU_tags_env
-    project      = var.aws_security_group_WATOU_tags_project
-    role         = var.aws_security_group_WATOU_tags_role
-  }
-
-  description = var.aws_security_group_WATOU_description
+resource "aws_security_group" "SCeMd" {
+  description = var.aws_security_group_SCeMd_description
   egress {
-    cidr_blocks = var.aws_security_group_WATOU_egress_cidr_blocks
-    from_port   = var.aws_security_group_WATOU_egress_from_port
-    protocol    = var.aws_security_group_WATOU_egress_protocol
-    to_port     = var.aws_security_group_WATOU_egress_to_port
+    cidr_blocks = var.aws_security_group_SCeMd_egress_cidr_blocks
+    from_port   = var.aws_security_group_SCeMd_egress_from_port
+    protocol    = var.aws_security_group_SCeMd_egress_protocol
+    to_port     = var.aws_security_group_SCeMd_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_WATOU_ingress_cidr_blocks
-    from_port   = var.aws_security_group_WATOU_ingress_from_port
-    protocol    = var.aws_security_group_WATOU_ingress_protocol
-    to_port     = var.aws_security_group_WATOU_ingress_to_port
+    cidr_blocks = var.aws_security_group_SCeMd_ingress_cidr_blocks
+    from_port   = var.aws_security_group_SCeMd_ingress_from_port
+    protocol    = var.aws_security_group_SCeMd_ingress_protocol
+    to_port     = var.aws_security_group_SCeMd_ingress_to_port
+  }
+
+  name        = var.aws_security_group_SCeMd_name
+  tc_category = var.aws_security_group_SCeMd_tc_category
+  vpc_id      = var.aws_security_group_SCeMd_vpc_id
+}
+
+resource "aws_security_group" "TOHTq" {
+  description = var.aws_security_group_TOHTq_description
+  egress {
+    cidr_blocks = var.aws_security_group_TOHTq_egress_cidr_blocks
+    from_port   = var.aws_security_group_TOHTq_egress_from_port
+    protocol    = var.aws_security_group_TOHTq_egress_protocol
+    to_port     = var.aws_security_group_TOHTq_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_WATOU_ingress_cidr_blocks
-    from_port   = var.aws_security_group_WATOU_ingress_from_port
-    protocol    = var.aws_security_group_WATOU_ingress_protocol
-    to_port     = var.aws_security_group_WATOU_ingress_to_port
+    cidr_blocks = var.aws_security_group_TOHTq_ingress_cidr_blocks
+    from_port   = var.aws_security_group_TOHTq_ingress_from_port
+    protocol    = var.aws_security_group_TOHTq_ingress_protocol
+    to_port     = var.aws_security_group_TOHTq_ingress_to_port
   }
 
-  name        = var.aws_security_group_WATOU_name
-  tc_category = var.aws_security_group_WATOU_tc_category
-  vpc_id      = var.aws_security_group_WATOU_vpc_id
+  name        = var.aws_security_group_TOHTq_name
+  tc_category = var.aws_security_group_TOHTq_tc_category
+  vpc_id      = var.aws_security_group_TOHTq_vpc_id
+}
+
+resource "aws_security_group" "XCaiD" {
+  tags = {
+    Name    = var.aws_security_group_XCaiD_tags_Name
+    client  = var.aws_security_group_XCaiD_tags_client
+    project = var.aws_security_group_XCaiD_tags_project
+  }
+
+  description = var.aws_security_group_XCaiD_description
+  egress {
+    cidr_blocks = var.aws_security_group_XCaiD_egress_cidr_blocks
+    from_port   = var.aws_security_group_XCaiD_egress_from_port
+    protocol    = var.aws_security_group_XCaiD_egress_protocol
+    to_port     = var.aws_security_group_XCaiD_egress_to_port
+  }
+
+  ingress {
+    from_port       = var.aws_security_group_XCaiD_ingress_from_port
+    protocol        = var.aws_security_group_XCaiD_ingress_protocol
+    security_groups = var.aws_security_group_XCaiD_ingress_security_groups
+    to_port         = var.aws_security_group_XCaiD_ingress_to_port
+  }
+
+  name        = var.aws_security_group_XCaiD_name
+  tc_category = var.aws_security_group_XCaiD_tc_category
+  vpc_id      = var.aws_security_group_XCaiD_vpc_id
+}
+
+resource "aws_security_group" "XzxlL" {
+  tags = {
+    Name         = var.aws_security_group_XzxlL_tags_Name
+    customer     = var.aws_security_group_XzxlL_tags_customer
+    "cycloid.io" = var.aws_security_group_XzxlL_tags_cycloid_io
+    env          = var.aws_security_group_XzxlL_tags_env
+    project      = var.aws_security_group_XzxlL_tags_project
+  }
+
+  description = var.aws_security_group_XzxlL_description
+  egress {
+    cidr_blocks = var.aws_security_group_XzxlL_egress_cidr_blocks
+    from_port   = var.aws_security_group_XzxlL_egress_from_port
+    protocol    = var.aws_security_group_XzxlL_egress_protocol
+    to_port     = var.aws_security_group_XzxlL_egress_to_port
+  }
+
+  ingress {
+    cidr_blocks = var.aws_security_group_XzxlL_ingress_cidr_blocks
+    description = var.aws_security_group_XzxlL_ingress_description
+    from_port   = var.aws_security_group_XzxlL_ingress_from_port
+    protocol    = var.aws_security_group_XzxlL_ingress_protocol
+    to_port     = var.aws_security_group_XzxlL_ingress_to_port
+  }
+
+  ingress {
+    from_port       = var.aws_security_group_XzxlL_ingress_from_port
+    protocol        = var.aws_security_group_XzxlL_ingress_protocol
+    security_groups = var.aws_security_group_XzxlL_ingress_security_groups
+    to_port         = var.aws_security_group_XzxlL_ingress_to_port
+  }
+
+  name        = var.aws_security_group_XzxlL_name
+  tc_category = var.aws_security_group_XzxlL_tc_category
+  vpc_id      = var.aws_security_group_XzxlL_vpc_id
+}
+
+resource "aws_security_group" "YdYak" {
+  tags = {
+    Name         = var.aws_security_group_YdYak_tags_Name
+    client       = var.aws_security_group_YdYak_tags_client
+    "cycloid.io" = var.aws_security_group_YdYak_tags_cycloid_io
+    env          = var.aws_security_group_YdYak_tags_env
+    project      = var.aws_security_group_YdYak_tags_project
+    role         = var.aws_security_group_YdYak_tags_role
+  }
+
+  description = var.aws_security_group_YdYak_description
+  egress {
+    cidr_blocks = var.aws_security_group_YdYak_egress_cidr_blocks
+    from_port   = var.aws_security_group_YdYak_egress_from_port
+    protocol    = var.aws_security_group_YdYak_egress_protocol
+    to_port     = var.aws_security_group_YdYak_egress_to_port
+  }
+
+  ingress {
+    from_port       = var.aws_security_group_YdYak_ingress_from_port
+    protocol        = var.aws_security_group_YdYak_ingress_protocol
+    security_groups = var.aws_security_group_YdYak_ingress_security_groups
+    to_port         = var.aws_security_group_YdYak_ingress_to_port
+  }
+
+  name        = var.aws_security_group_YdYak_name
+  tc_category = var.aws_security_group_YdYak_tc_category
+  vpc_id      = var.aws_security_group_YdYak_vpc_id
+}
+
+resource "aws_security_group" "YxBVy" {
+  description = var.aws_security_group_YxBVy_description
+  egress {
+    cidr_blocks = var.aws_security_group_YxBVy_egress_cidr_blocks
+    from_port   = var.aws_security_group_YxBVy_egress_from_port
+    protocol    = var.aws_security_group_YxBVy_egress_protocol
+    to_port     = var.aws_security_group_YxBVy_egress_to_port
+  }
+
+  ingress {
+    from_port = var.aws_security_group_YxBVy_ingress_from_port
+    protocol  = var.aws_security_group_YxBVy_ingress_protocol
+    self      = var.aws_security_group_YxBVy_ingress_self
+    to_port   = var.aws_security_group_YxBVy_ingress_to_port
+  }
+
+  name        = var.aws_security_group_YxBVy_name
+  tc_category = var.aws_security_group_YxBVy_tc_category
+  vpc_id      = var.aws_security_group_YxBVy_vpc_id
+}
+
+resource "aws_security_group" "ZJeQr" {
+  description = var.aws_security_group_ZJeQr_description
+  egress {
+    cidr_blocks = var.aws_security_group_ZJeQr_egress_cidr_blocks
+    from_port   = var.aws_security_group_ZJeQr_egress_from_port
+    protocol    = var.aws_security_group_ZJeQr_egress_protocol
+    to_port     = var.aws_security_group_ZJeQr_egress_to_port
+  }
+
+  ingress {
+    cidr_blocks = var.aws_security_group_ZJeQr_ingress_cidr_blocks
+    from_port   = var.aws_security_group_ZJeQr_ingress_from_port
+    protocol    = var.aws_security_group_ZJeQr_ingress_protocol
+    to_port     = var.aws_security_group_ZJeQr_ingress_to_port
+  }
+
+  name        = var.aws_security_group_ZJeQr_name
+  tc_category = var.aws_security_group_ZJeQr_tc_category
+  vpc_id      = var.aws_security_group_ZJeQr_vpc_id
 }
 
 resource "aws_security_group" "bastion" {
@@ -623,334 +668,414 @@ resource "aws_security_group" "bastion" {
   vpc_id      = var.aws_security_group_bastion_vpc_id
 }
 
-resource "aws_security_group" "emhVx" {
-  description = var.aws_security_group_emhVx_description
-  egress {
-    cidr_blocks = var.aws_security_group_emhVx_egress_cidr_blocks
-    from_port   = var.aws_security_group_emhVx_egress_from_port
-    protocol    = var.aws_security_group_emhVx_egress_protocol
-    to_port     = var.aws_security_group_emhVx_egress_to_port
-  }
-
-  ingress {
-    cidr_blocks = var.aws_security_group_emhVx_ingress_cidr_blocks
-    from_port   = var.aws_security_group_emhVx_ingress_from_port
-    protocol    = var.aws_security_group_emhVx_ingress_protocol
-    to_port     = var.aws_security_group_emhVx_ingress_to_port
-  }
-
-  ingress {
-    from_port       = var.aws_security_group_emhVx_ingress_from_port
-    protocol        = var.aws_security_group_emhVx_ingress_protocol
-    security_groups = var.aws_security_group_emhVx_ingress_security_groups
-    to_port         = var.aws_security_group_emhVx_ingress_to_port
-  }
-
-  name        = var.aws_security_group_emhVx_name
-  tc_category = var.aws_security_group_emhVx_tc_category
-  vpc_id      = var.aws_security_group_emhVx_vpc_id
-}
-
-resource "aws_security_group" "gPYld" {
+resource "aws_security_group" "ciBbs" {
   tags = {
-    Name         = var.aws_security_group_gPYld_tags_Name
-    customer     = var.aws_security_group_gPYld_tags_customer
-    "cycloid.io" = var.aws_security_group_gPYld_tags_cycloid_io
-    env          = var.aws_security_group_gPYld_tags_env
-    project      = var.aws_security_group_gPYld_tags_project
+    Name         = var.aws_security_group_ciBbs_tags_Name
+    "cycloid.io" = var.aws_security_group_ciBbs_tags_cycloid_io
+    env          = var.aws_security_group_ciBbs_tags_env
+    project      = var.aws_security_group_ciBbs_tags_project
+    role         = var.aws_security_group_ciBbs_tags_role
   }
 
-  description = var.aws_security_group_gPYld_description
-  egress {
-    cidr_blocks = var.aws_security_group_gPYld_egress_cidr_blocks
-    from_port   = var.aws_security_group_gPYld_egress_from_port
-    protocol    = var.aws_security_group_gPYld_egress_protocol
-    to_port     = var.aws_security_group_gPYld_egress_to_port
-  }
-
+  description = var.aws_security_group_ciBbs_description
   ingress {
-    cidr_blocks = var.aws_security_group_gPYld_ingress_cidr_blocks
-    description = var.aws_security_group_gPYld_ingress_description
-    from_port   = var.aws_security_group_gPYld_ingress_from_port
-    protocol    = var.aws_security_group_gPYld_ingress_protocol
-    to_port     = var.aws_security_group_gPYld_ingress_to_port
+    from_port       = var.aws_security_group_ciBbs_ingress_from_port
+    protocol        = var.aws_security_group_ciBbs_ingress_protocol
+    security_groups = var.aws_security_group_ciBbs_ingress_security_groups
+    to_port         = var.aws_security_group_ciBbs_ingress_to_port
   }
 
-  ingress {
-    from_port       = var.aws_security_group_gPYld_ingress_from_port
-    protocol        = var.aws_security_group_gPYld_ingress_protocol
-    security_groups = var.aws_security_group_gPYld_ingress_security_groups
-    to_port         = var.aws_security_group_gPYld_ingress_to_port
-  }
-
-  name        = var.aws_security_group_gPYld_name
-  tc_category = var.aws_security_group_gPYld_tc_category
-  vpc_id      = var.aws_security_group_gPYld_vpc_id
+  name        = var.aws_security_group_ciBbs_name
+  tc_category = var.aws_security_group_ciBbs_tc_category
+  vpc_id      = var.aws_security_group_ciBbs_vpc_id
 }
 
-resource "aws_security_group" "hENVN" {
+resource "aws_security_group" "dYIjt" {
+  description = var.aws_security_group_dYIjt_description
+  egress {
+    cidr_blocks = var.aws_security_group_dYIjt_egress_cidr_blocks
+    from_port   = var.aws_security_group_dYIjt_egress_from_port
+    protocol    = var.aws_security_group_dYIjt_egress_protocol
+    to_port     = var.aws_security_group_dYIjt_egress_to_port
+  }
+
+  ingress {
+    cidr_blocks = var.aws_security_group_dYIjt_ingress_cidr_blocks
+    from_port   = var.aws_security_group_dYIjt_ingress_from_port
+    protocol    = var.aws_security_group_dYIjt_ingress_protocol
+    to_port     = var.aws_security_group_dYIjt_ingress_to_port
+  }
+
+  ingress {
+    cidr_blocks = var.aws_security_group_dYIjt_ingress_cidr_blocks
+    from_port   = var.aws_security_group_dYIjt_ingress_from_port
+    protocol    = var.aws_security_group_dYIjt_ingress_protocol
+    to_port     = var.aws_security_group_dYIjt_ingress_to_port
+  }
+
+  ingress {
+    cidr_blocks      = var.aws_security_group_dYIjt_ingress_cidr_blocks
+    from_port        = var.aws_security_group_dYIjt_ingress_from_port
+    ipv6_cidr_blocks = var.aws_security_group_dYIjt_ingress_ipv6_cidr_blocks
+    protocol         = var.aws_security_group_dYIjt_ingress_protocol
+    to_port          = var.aws_security_group_dYIjt_ingress_to_port
+  }
+
+  ingress {
+    cidr_blocks = var.aws_security_group_dYIjt_ingress_cidr_blocks
+    from_port   = var.aws_security_group_dYIjt_ingress_from_port
+    protocol    = var.aws_security_group_dYIjt_ingress_protocol
+    to_port     = var.aws_security_group_dYIjt_ingress_to_port
+  }
+
+  ingress {
+    cidr_blocks      = var.aws_security_group_dYIjt_ingress_cidr_blocks
+    from_port        = var.aws_security_group_dYIjt_ingress_from_port
+    ipv6_cidr_blocks = var.aws_security_group_dYIjt_ingress_ipv6_cidr_blocks
+    protocol         = var.aws_security_group_dYIjt_ingress_protocol
+    to_port          = var.aws_security_group_dYIjt_ingress_to_port
+  }
+
+  name        = var.aws_security_group_dYIjt_name
+  tc_category = var.aws_security_group_dYIjt_tc_category
+  vpc_id      = var.aws_security_group_dYIjt_vpc_id
+}
+
+resource "aws_security_group" "dyQQm" {
+  description = var.aws_security_group_dyQQm_description
+  egress {
+    cidr_blocks = var.aws_security_group_dyQQm_egress_cidr_blocks
+    from_port   = var.aws_security_group_dyQQm_egress_from_port
+    protocol    = var.aws_security_group_dyQQm_egress_protocol
+    to_port     = var.aws_security_group_dyQQm_egress_to_port
+  }
+
+  ingress {
+    cidr_blocks = var.aws_security_group_dyQQm_ingress_cidr_blocks
+    from_port   = var.aws_security_group_dyQQm_ingress_from_port
+    protocol    = var.aws_security_group_dyQQm_ingress_protocol
+    to_port     = var.aws_security_group_dyQQm_ingress_to_port
+  }
+
+  ingress {
+    from_port       = var.aws_security_group_dyQQm_ingress_from_port
+    protocol        = var.aws_security_group_dyQQm_ingress_protocol
+    security_groups = var.aws_security_group_dyQQm_ingress_security_groups
+    to_port         = var.aws_security_group_dyQQm_ingress_to_port
+  }
+
+  name        = var.aws_security_group_dyQQm_name
+  tc_category = var.aws_security_group_dyQQm_tc_category
+  vpc_id      = var.aws_security_group_dyQQm_vpc_id
+}
+
+resource "aws_security_group" "fNYlR" {
   tags = {
-    Name         = var.aws_security_group_hENVN_tags_Name
-    client       = var.aws_security_group_hENVN_tags_client
-    "cycloid.io" = var.aws_security_group_hENVN_tags_cycloid_io
-    project      = var.aws_security_group_hENVN_tags_project
+    Name         = var.aws_security_group_fNYlR_tags_Name
+    customer     = var.aws_security_group_fNYlR_tags_customer
+    "cycloid.io" = var.aws_security_group_fNYlR_tags_cycloid_io
+    env          = var.aws_security_group_fNYlR_tags_env
+    project      = var.aws_security_group_fNYlR_tags_project
   }
 
-  description = var.aws_security_group_hENVN_description
+  description = var.aws_security_group_fNYlR_description
   egress {
-    cidr_blocks = var.aws_security_group_hENVN_egress_cidr_blocks
-    from_port   = var.aws_security_group_hENVN_egress_from_port
-    protocol    = var.aws_security_group_hENVN_egress_protocol
-    to_port     = var.aws_security_group_hENVN_egress_to_port
+    cidr_blocks = var.aws_security_group_fNYlR_egress_cidr_blocks
+    from_port   = var.aws_security_group_fNYlR_egress_from_port
+    protocol    = var.aws_security_group_fNYlR_egress_protocol
+    to_port     = var.aws_security_group_fNYlR_egress_to_port
   }
 
   ingress {
-    from_port       = var.aws_security_group_hENVN_ingress_from_port
-    protocol        = var.aws_security_group_hENVN_ingress_protocol
-    security_groups = var.aws_security_group_hENVN_ingress_security_groups
-    to_port         = var.aws_security_group_hENVN_ingress_to_port
+    from_port       = var.aws_security_group_fNYlR_ingress_from_port
+    protocol        = var.aws_security_group_fNYlR_ingress_protocol
+    security_groups = var.aws_security_group_fNYlR_ingress_security_groups
+    to_port         = var.aws_security_group_fNYlR_ingress_to_port
   }
 
-  name        = var.aws_security_group_hENVN_name
-  tc_category = var.aws_security_group_hENVN_tc_category
-  vpc_id      = var.aws_security_group_hENVN_vpc_id
+  name        = var.aws_security_group_fNYlR_name
+  tc_category = var.aws_security_group_fNYlR_tc_category
+  vpc_id      = var.aws_security_group_fNYlR_vpc_id
 }
 
-resource "aws_security_group" "hJItu" {
+resource "aws_security_group" "fPMWm" {
+  description = var.aws_security_group_fPMWm_description
+  egress {
+    cidr_blocks = var.aws_security_group_fPMWm_egress_cidr_blocks
+    from_port   = var.aws_security_group_fPMWm_egress_from_port
+    protocol    = var.aws_security_group_fPMWm_egress_protocol
+    to_port     = var.aws_security_group_fPMWm_egress_to_port
+  }
+
+  ingress {
+    cidr_blocks = var.aws_security_group_fPMWm_ingress_cidr_blocks
+    from_port   = var.aws_security_group_fPMWm_ingress_from_port
+    protocol    = var.aws_security_group_fPMWm_ingress_protocol
+    to_port     = var.aws_security_group_fPMWm_ingress_to_port
+  }
+
+  name        = var.aws_security_group_fPMWm_name
+  tc_category = var.aws_security_group_fPMWm_tc_category
+  vpc_id      = var.aws_security_group_fPMWm_vpc_id
+}
+
+resource "aws_security_group" "gMbWx" {
   tags = {
-    Name                 = var.aws_security_group_hJItu_tags_Name
-    client               = var.aws_security_group_hJItu_tags_client
-    "cycloid.io"         = var.aws_security_group_hJItu_tags_cycloid_io
-    env                  = var.aws_security_group_hJItu_tags_env
-    monitoring_discovery = var.aws_security_group_hJItu_tags_monitoring_discovery
-    project              = var.aws_security_group_hJItu_tags_project
-    role                 = var.aws_security_group_hJItu_tags_role
+    Name         = var.aws_security_group_gMbWx_tags_Name
+    customer     = var.aws_security_group_gMbWx_tags_customer
+    "cycloid.io" = var.aws_security_group_gMbWx_tags_cycloid_io
+    env          = var.aws_security_group_gMbWx_tags_env
+    project      = var.aws_security_group_gMbWx_tags_project
   }
 
-  description = var.aws_security_group_hJItu_description
+  description = var.aws_security_group_gMbWx_description
+  egress {
+    cidr_blocks = var.aws_security_group_gMbWx_egress_cidr_blocks
+    from_port   = var.aws_security_group_gMbWx_egress_from_port
+    protocol    = var.aws_security_group_gMbWx_egress_protocol
+    to_port     = var.aws_security_group_gMbWx_egress_to_port
+  }
+
   ingress {
-    from_port       = var.aws_security_group_hJItu_ingress_from_port
-    protocol        = var.aws_security_group_hJItu_ingress_protocol
-    security_groups = var.aws_security_group_hJItu_ingress_security_groups
-    to_port         = var.aws_security_group_hJItu_ingress_to_port
+    cidr_blocks = var.aws_security_group_gMbWx_ingress_cidr_blocks
+    description = var.aws_security_group_gMbWx_ingress_description
+    from_port   = var.aws_security_group_gMbWx_ingress_from_port
+    protocol    = var.aws_security_group_gMbWx_ingress_protocol
+    to_port     = var.aws_security_group_gMbWx_ingress_to_port
   }
 
-  name        = var.aws_security_group_hJItu_name
-  tc_category = var.aws_security_group_hJItu_tc_category
-  vpc_id      = var.aws_security_group_hJItu_vpc_id
+  ingress {
+    from_port       = var.aws_security_group_gMbWx_ingress_from_port
+    protocol        = var.aws_security_group_gMbWx_ingress_protocol
+    security_groups = var.aws_security_group_gMbWx_ingress_security_groups
+    to_port         = var.aws_security_group_gMbWx_ingress_to_port
+  }
+
+  name        = var.aws_security_group_gMbWx_name
+  tc_category = var.aws_security_group_gMbWx_tc_category
+  vpc_id      = var.aws_security_group_gMbWx_vpc_id
 }
 
-resource "aws_security_group" "jaOUX" {
+resource "aws_security_group" "hxXMj" {
   tags = {
-    Name         = var.aws_security_group_jaOUX_tags_Name
-    "cycloid.io" = var.aws_security_group_jaOUX_tags_cycloid_io
-    env          = var.aws_security_group_jaOUX_tags_env
-    project      = var.aws_security_group_jaOUX_tags_project
-    role         = var.aws_security_group_jaOUX_tags_role
+    Name         = var.aws_security_group_hxXMj_tags_Name
+    client       = var.aws_security_group_hxXMj_tags_client
+    customer     = var.aws_security_group_hxXMj_tags_customer
+    "cycloid.io" = var.aws_security_group_hxXMj_tags_cycloid_io
+    env          = var.aws_security_group_hxXMj_tags_env
+    project      = var.aws_security_group_hxXMj_tags_project
   }
 
-  description = var.aws_security_group_jaOUX_description
-  ingress {
-    from_port       = var.aws_security_group_jaOUX_ingress_from_port
-    protocol        = var.aws_security_group_jaOUX_ingress_protocol
-    security_groups = var.aws_security_group_jaOUX_ingress_security_groups
-    to_port         = var.aws_security_group_jaOUX_ingress_to_port
-  }
-
-  name        = var.aws_security_group_jaOUX_name
-  tc_category = var.aws_security_group_jaOUX_tc_category
-  vpc_id      = var.aws_security_group_jaOUX_vpc_id
-}
-
-resource "aws_security_group" "kEGsb" {
-  description = var.aws_security_group_kEGsb_description
+  description = var.aws_security_group_hxXMj_description
   egress {
-    cidr_blocks = var.aws_security_group_kEGsb_egress_cidr_blocks
-    from_port   = var.aws_security_group_kEGsb_egress_from_port
-    protocol    = var.aws_security_group_kEGsb_egress_protocol
-    to_port     = var.aws_security_group_kEGsb_egress_to_port
+    cidr_blocks = var.aws_security_group_hxXMj_egress_cidr_blocks
+    from_port   = var.aws_security_group_hxXMj_egress_from_port
+    protocol    = var.aws_security_group_hxXMj_egress_protocol
+    to_port     = var.aws_security_group_hxXMj_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_kEGsb_ingress_cidr_blocks
-    from_port   = var.aws_security_group_kEGsb_ingress_from_port
-    protocol    = var.aws_security_group_kEGsb_ingress_protocol
-    to_port     = var.aws_security_group_kEGsb_ingress_to_port
+    from_port       = var.aws_security_group_hxXMj_ingress_from_port
+    protocol        = var.aws_security_group_hxXMj_ingress_protocol
+    security_groups = var.aws_security_group_hxXMj_ingress_security_groups
+    to_port         = var.aws_security_group_hxXMj_ingress_to_port
   }
 
-  name        = var.aws_security_group_kEGsb_name
-  tc_category = var.aws_security_group_kEGsb_tc_category
-  vpc_id      = var.aws_security_group_kEGsb_vpc_id
+  name        = var.aws_security_group_hxXMj_name
+  tc_category = var.aws_security_group_hxXMj_tc_category
+  vpc_id      = var.aws_security_group_hxXMj_vpc_id
 }
 
-resource "aws_security_group" "kKAZJ" {
+resource "aws_security_group" "iLqlI" {
   tags = {
-    Name    = var.aws_security_group_kKAZJ_tags_Name
-    client  = var.aws_security_group_kKAZJ_tags_client
-    project = var.aws_security_group_kKAZJ_tags_project
+    Name         = var.aws_security_group_iLqlI_tags_Name
+    client       = var.aws_security_group_iLqlI_tags_client
+    "cycloid.io" = var.aws_security_group_iLqlI_tags_cycloid_io
+    env          = var.aws_security_group_iLqlI_tags_env
+    project      = var.aws_security_group_iLqlI_tags_project
+    role         = var.aws_security_group_iLqlI_tags_role
   }
 
-  description = var.aws_security_group_kKAZJ_description
+  description = var.aws_security_group_iLqlI_description
   egress {
-    cidr_blocks = var.aws_security_group_kKAZJ_egress_cidr_blocks
-    from_port   = var.aws_security_group_kKAZJ_egress_from_port
-    protocol    = var.aws_security_group_kKAZJ_egress_protocol
-    to_port     = var.aws_security_group_kKAZJ_egress_to_port
+    cidr_blocks = var.aws_security_group_iLqlI_egress_cidr_blocks
+    from_port   = var.aws_security_group_iLqlI_egress_from_port
+    protocol    = var.aws_security_group_iLqlI_egress_protocol
+    to_port     = var.aws_security_group_iLqlI_egress_to_port
   }
 
-  ingress {
-    from_port       = var.aws_security_group_kKAZJ_ingress_from_port
-    protocol        = var.aws_security_group_kKAZJ_ingress_protocol
-    security_groups = var.aws_security_group_kKAZJ_ingress_security_groups
-    to_port         = var.aws_security_group_kKAZJ_ingress_to_port
-  }
-
-  name        = var.aws_security_group_kKAZJ_name
-  tc_category = var.aws_security_group_kKAZJ_tc_category
-  vpc_id      = var.aws_security_group_kKAZJ_vpc_id
+  name        = var.aws_security_group_iLqlI_name
+  tc_category = var.aws_security_group_iLqlI_tc_category
+  vpc_id      = var.aws_security_group_iLqlI_vpc_id
 }
 
-resource "aws_security_group" "kKvNL" {
-  description = var.aws_security_group_kKvNL_description
-  egress {
-    cidr_blocks = var.aws_security_group_kKvNL_egress_cidr_blocks
-    from_port   = var.aws_security_group_kKvNL_egress_from_port
-    protocol    = var.aws_security_group_kKvNL_egress_protocol
-    to_port     = var.aws_security_group_kKvNL_egress_to_port
-  }
-
-  ingress {
-    cidr_blocks = var.aws_security_group_kKvNL_ingress_cidr_blocks
-    from_port   = var.aws_security_group_kKvNL_ingress_from_port
-    protocol    = var.aws_security_group_kKvNL_ingress_protocol
-    to_port     = var.aws_security_group_kKvNL_ingress_to_port
-  }
-
-  name        = var.aws_security_group_kKvNL_name
-  tc_category = var.aws_security_group_kKvNL_tc_category
-  vpc_id      = var.aws_security_group_kKvNL_vpc_id
-}
-
-resource "aws_security_group" "kglcD" {
-  description = var.aws_security_group_kglcD_description
-  egress {
-    cidr_blocks = var.aws_security_group_kglcD_egress_cidr_blocks
-    from_port   = var.aws_security_group_kglcD_egress_from_port
-    protocol    = var.aws_security_group_kglcD_egress_protocol
-    to_port     = var.aws_security_group_kglcD_egress_to_port
-  }
-
-  ingress {
-    from_port = var.aws_security_group_kglcD_ingress_from_port
-    protocol  = var.aws_security_group_kglcD_ingress_protocol
-    self      = var.aws_security_group_kglcD_ingress_self
-    to_port   = var.aws_security_group_kglcD_ingress_to_port
-  }
-
-  name        = var.aws_security_group_kglcD_name
-  tc_category = var.aws_security_group_kglcD_tc_category
-  vpc_id      = var.aws_security_group_kglcD_vpc_id
-}
-
-resource "aws_security_group" "lbyFR" {
-  description = var.aws_security_group_lbyFR_description
-  egress {
-    cidr_blocks = var.aws_security_group_lbyFR_egress_cidr_blocks
-    from_port   = var.aws_security_group_lbyFR_egress_from_port
-    protocol    = var.aws_security_group_lbyFR_egress_protocol
-    to_port     = var.aws_security_group_lbyFR_egress_to_port
-  }
-
-  ingress {
-    cidr_blocks = var.aws_security_group_lbyFR_ingress_cidr_blocks
-    from_port   = var.aws_security_group_lbyFR_ingress_from_port
-    protocol    = var.aws_security_group_lbyFR_ingress_protocol
-    to_port     = var.aws_security_group_lbyFR_ingress_to_port
-  }
-
-  name        = var.aws_security_group_lbyFR_name
-  tc_category = var.aws_security_group_lbyFR_tc_category
-  vpc_id      = var.aws_security_group_lbyFR_vpc_id
-}
-
-resource "aws_security_group" "mbaED" {
+resource "aws_security_group" "idPcs" {
   tags = {
-    Name         = var.aws_security_group_mbaED_tags_Name
-    customer     = var.aws_security_group_mbaED_tags_customer
-    "cycloid.io" = var.aws_security_group_mbaED_tags_cycloid_io
-    env          = var.aws_security_group_mbaED_tags_env
-    project      = var.aws_security_group_mbaED_tags_project
+    Name         = var.aws_security_group_idPcs_tags_Name
+    client       = var.aws_security_group_idPcs_tags_client
+    "cycloid.io" = var.aws_security_group_idPcs_tags_cycloid_io
+    env          = var.aws_security_group_idPcs_tags_env
+    project      = var.aws_security_group_idPcs_tags_project
+    role         = var.aws_security_group_idPcs_tags_role
   }
 
-  description = var.aws_security_group_mbaED_description
+  description = var.aws_security_group_idPcs_description
   egress {
-    cidr_blocks = var.aws_security_group_mbaED_egress_cidr_blocks
-    from_port   = var.aws_security_group_mbaED_egress_from_port
-    protocol    = var.aws_security_group_mbaED_egress_protocol
-    to_port     = var.aws_security_group_mbaED_egress_to_port
+    cidr_blocks = var.aws_security_group_idPcs_egress_cidr_blocks
+    from_port   = var.aws_security_group_idPcs_egress_from_port
+    protocol    = var.aws_security_group_idPcs_egress_protocol
+    to_port     = var.aws_security_group_idPcs_egress_to_port
   }
 
   ingress {
-    from_port       = var.aws_security_group_mbaED_ingress_from_port
-    protocol        = var.aws_security_group_mbaED_ingress_protocol
-    security_groups = var.aws_security_group_mbaED_ingress_security_groups
-    to_port         = var.aws_security_group_mbaED_ingress_to_port
+    cidr_blocks = var.aws_security_group_idPcs_ingress_cidr_blocks
+    from_port   = var.aws_security_group_idPcs_ingress_from_port
+    protocol    = var.aws_security_group_idPcs_ingress_protocol
+    to_port     = var.aws_security_group_idPcs_ingress_to_port
   }
 
-  name        = var.aws_security_group_mbaED_name
-  tc_category = var.aws_security_group_mbaED_tc_category
-  vpc_id      = var.aws_security_group_mbaED_vpc_id
+  ingress {
+    cidr_blocks = var.aws_security_group_idPcs_ingress_cidr_blocks
+    from_port   = var.aws_security_group_idPcs_ingress_from_port
+    protocol    = var.aws_security_group_idPcs_ingress_protocol
+    to_port     = var.aws_security_group_idPcs_ingress_to_port
+  }
+
+  name        = var.aws_security_group_idPcs_name
+  tc_category = var.aws_security_group_idPcs_tc_category
+  vpc_id      = var.aws_security_group_idPcs_vpc_id
 }
 
-resource "aws_security_group" "mjyyL" {
-  description = var.aws_security_group_mjyyL_description
+resource "aws_security_group" "jWoSr" {
+  tags = {
+    Name         = var.aws_security_group_jWoSr_tags_Name
+    client       = var.aws_security_group_jWoSr_tags_client
+    customer     = var.aws_security_group_jWoSr_tags_customer
+    "cycloid.io" = var.aws_security_group_jWoSr_tags_cycloid_io
+    env          = var.aws_security_group_jWoSr_tags_env
+    project      = var.aws_security_group_jWoSr_tags_project
+  }
+
+  description = var.aws_security_group_jWoSr_description
   egress {
-    cidr_blocks = var.aws_security_group_mjyyL_egress_cidr_blocks
-    from_port   = var.aws_security_group_mjyyL_egress_from_port
-    protocol    = var.aws_security_group_mjyyL_egress_protocol
-    to_port     = var.aws_security_group_mjyyL_egress_to_port
+    cidr_blocks = var.aws_security_group_jWoSr_egress_cidr_blocks
+    from_port   = var.aws_security_group_jWoSr_egress_from_port
+    protocol    = var.aws_security_group_jWoSr_egress_protocol
+    to_port     = var.aws_security_group_jWoSr_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_mjyyL_ingress_cidr_blocks
-    from_port   = var.aws_security_group_mjyyL_ingress_from_port
-    protocol    = var.aws_security_group_mjyyL_ingress_protocol
-    to_port     = var.aws_security_group_mjyyL_ingress_to_port
+    from_port       = var.aws_security_group_jWoSr_ingress_from_port
+    protocol        = var.aws_security_group_jWoSr_ingress_protocol
+    security_groups = var.aws_security_group_jWoSr_ingress_security_groups
+    to_port         = var.aws_security_group_jWoSr_ingress_to_port
+  }
+
+  name        = var.aws_security_group_jWoSr_name
+  tc_category = var.aws_security_group_jWoSr_tc_category
+  vpc_id      = var.aws_security_group_jWoSr_vpc_id
+}
+
+resource "aws_security_group" "kXnRn" {
+  description = var.aws_security_group_kXnRn_description
+  egress {
+    cidr_blocks = var.aws_security_group_kXnRn_egress_cidr_blocks
+    from_port   = var.aws_security_group_kXnRn_egress_from_port
+    protocol    = var.aws_security_group_kXnRn_egress_protocol
+    to_port     = var.aws_security_group_kXnRn_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_mjyyL_ingress_cidr_blocks
-    from_port   = var.aws_security_group_mjyyL_ingress_from_port
-    protocol    = var.aws_security_group_mjyyL_ingress_protocol
-    to_port     = var.aws_security_group_mjyyL_ingress_to_port
+    cidr_blocks = var.aws_security_group_kXnRn_ingress_cidr_blocks
+    from_port   = var.aws_security_group_kXnRn_ingress_from_port
+    protocol    = var.aws_security_group_kXnRn_ingress_protocol
+    to_port     = var.aws_security_group_kXnRn_ingress_to_port
   }
 
   ingress {
-    cidr_blocks      = var.aws_security_group_mjyyL_ingress_cidr_blocks
-    from_port        = var.aws_security_group_mjyyL_ingress_from_port
-    ipv6_cidr_blocks = var.aws_security_group_mjyyL_ingress_ipv6_cidr_blocks
-    protocol         = var.aws_security_group_mjyyL_ingress_protocol
-    to_port          = var.aws_security_group_mjyyL_ingress_to_port
+    from_port = var.aws_security_group_kXnRn_ingress_from_port
+    protocol  = var.aws_security_group_kXnRn_ingress_protocol
+    self      = var.aws_security_group_kXnRn_ingress_self
+    to_port   = var.aws_security_group_kXnRn_ingress_to_port
+  }
+
+  name        = var.aws_security_group_kXnRn_name
+  tc_category = var.aws_security_group_kXnRn_tc_category
+  vpc_id      = var.aws_security_group_kXnRn_vpc_id
+}
+
+resource "aws_security_group" "kuTSd" {
+  tags = {
+    Name         = var.aws_security_group_kuTSd_tags_Name
+    customer     = var.aws_security_group_kuTSd_tags_customer
+    "cycloid.io" = var.aws_security_group_kuTSd_tags_cycloid_io
+    env          = var.aws_security_group_kuTSd_tags_env
+    project      = var.aws_security_group_kuTSd_tags_project
+  }
+
+  description = var.aws_security_group_kuTSd_description
+  egress {
+    cidr_blocks = var.aws_security_group_kuTSd_egress_cidr_blocks
+    from_port   = var.aws_security_group_kuTSd_egress_from_port
+    protocol    = var.aws_security_group_kuTSd_egress_protocol
+    to_port     = var.aws_security_group_kuTSd_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_mjyyL_ingress_cidr_blocks
-    from_port   = var.aws_security_group_mjyyL_ingress_from_port
-    protocol    = var.aws_security_group_mjyyL_ingress_protocol
-    to_port     = var.aws_security_group_mjyyL_ingress_to_port
+    from_port       = var.aws_security_group_kuTSd_ingress_from_port
+    protocol        = var.aws_security_group_kuTSd_ingress_protocol
+    security_groups = var.aws_security_group_kuTSd_ingress_security_groups
+    to_port         = var.aws_security_group_kuTSd_ingress_to_port
+  }
+
+  name        = var.aws_security_group_kuTSd_name
+  tc_category = var.aws_security_group_kuTSd_tc_category
+  vpc_id      = var.aws_security_group_kuTSd_vpc_id
+}
+
+resource "aws_security_group" "mPfCB" {
+  description = var.aws_security_group_mPfCB_description
+  egress {
+    cidr_blocks = var.aws_security_group_mPfCB_egress_cidr_blocks
+    from_port   = var.aws_security_group_mPfCB_egress_from_port
+    protocol    = var.aws_security_group_mPfCB_egress_protocol
+    to_port     = var.aws_security_group_mPfCB_egress_to_port
   }
 
   ingress {
-    cidr_blocks      = var.aws_security_group_mjyyL_ingress_cidr_blocks
-    from_port        = var.aws_security_group_mjyyL_ingress_from_port
-    ipv6_cidr_blocks = var.aws_security_group_mjyyL_ingress_ipv6_cidr_blocks
-    protocol         = var.aws_security_group_mjyyL_ingress_protocol
-    to_port          = var.aws_security_group_mjyyL_ingress_to_port
+    cidr_blocks = var.aws_security_group_mPfCB_ingress_cidr_blocks
+    from_port   = var.aws_security_group_mPfCB_ingress_from_port
+    protocol    = var.aws_security_group_mPfCB_ingress_protocol
+    to_port     = var.aws_security_group_mPfCB_ingress_to_port
   }
 
-  name        = var.aws_security_group_mjyyL_name
-  tc_category = var.aws_security_group_mjyyL_tc_category
-  vpc_id      = var.aws_security_group_mjyyL_vpc_id
+  name        = var.aws_security_group_mPfCB_name
+  tc_category = var.aws_security_group_mPfCB_tc_category
+  vpc_id      = var.aws_security_group_mPfCB_vpc_id
+}
+
+resource "aws_security_group" "momLw" {
+  tags = {
+    Name                 = var.aws_security_group_momLw_tags_Name
+    client               = var.aws_security_group_momLw_tags_client
+    "cycloid.io"         = var.aws_security_group_momLw_tags_cycloid_io
+    env                  = var.aws_security_group_momLw_tags_env
+    monitoring_discovery = var.aws_security_group_momLw_tags_monitoring_discovery
+    project              = var.aws_security_group_momLw_tags_project
+    role                 = var.aws_security_group_momLw_tags_role
+  }
+
+  description = var.aws_security_group_momLw_description
+  ingress {
+    from_port       = var.aws_security_group_momLw_ingress_from_port
+    protocol        = var.aws_security_group_momLw_ingress_protocol
+    security_groups = var.aws_security_group_momLw_ingress_security_groups
+    to_port         = var.aws_security_group_momLw_ingress_to_port
+  }
+
+  name        = var.aws_security_group_momLw_name
+  tc_category = var.aws_security_group_momLw_tc_category
+  vpc_id      = var.aws_security_group_momLw_vpc_id
 }
 
 resource "aws_security_group" "monitoring" {
@@ -996,1038 +1121,913 @@ resource "aws_security_group" "monitoring" {
   vpc_id      = var.aws_security_group_monitoring_vpc_id
 }
 
-resource "aws_security_group" "nQoLe" {
+resource "aws_security_group" "nyguD" {
   tags = {
-    Name         = var.aws_security_group_nQoLe_tags_Name
-    "cycloid.io" = var.aws_security_group_nQoLe_tags_cycloid_io
-    env          = var.aws_security_group_nQoLe_tags_env
-    project      = var.aws_security_group_nQoLe_tags_project
-    role         = var.aws_security_group_nQoLe_tags_role
+    Name    = var.aws_security_group_nyguD_tags_Name
+    client  = var.aws_security_group_nyguD_tags_client
+    env     = var.aws_security_group_nyguD_tags_env
+    project = var.aws_security_group_nyguD_tags_project
   }
 
-  description = var.aws_security_group_nQoLe_description
+  description = var.aws_security_group_nyguD_description
   egress {
-    cidr_blocks = var.aws_security_group_nQoLe_egress_cidr_blocks
-    from_port   = var.aws_security_group_nQoLe_egress_from_port
-    protocol    = var.aws_security_group_nQoLe_egress_protocol
-    to_port     = var.aws_security_group_nQoLe_egress_to_port
+    cidr_blocks = var.aws_security_group_nyguD_egress_cidr_blocks
+    from_port   = var.aws_security_group_nyguD_egress_from_port
+    protocol    = var.aws_security_group_nyguD_egress_protocol
+    to_port     = var.aws_security_group_nyguD_egress_to_port
   }
 
   ingress {
-    from_port       = var.aws_security_group_nQoLe_ingress_from_port
-    protocol        = var.aws_security_group_nQoLe_ingress_protocol
-    security_groups = var.aws_security_group_nQoLe_ingress_security_groups
-    to_port         = var.aws_security_group_nQoLe_ingress_to_port
+    cidr_blocks = var.aws_security_group_nyguD_ingress_cidr_blocks
+    from_port   = var.aws_security_group_nyguD_ingress_from_port
+    protocol    = var.aws_security_group_nyguD_ingress_protocol
+    to_port     = var.aws_security_group_nyguD_ingress_to_port
   }
 
-  ingress {
-    from_port       = var.aws_security_group_nQoLe_ingress_from_port
-    protocol        = var.aws_security_group_nQoLe_ingress_protocol
-    security_groups = var.aws_security_group_nQoLe_ingress_security_groups
-    to_port         = var.aws_security_group_nQoLe_ingress_to_port
-  }
-
-  name        = var.aws_security_group_nQoLe_name
-  tc_category = var.aws_security_group_nQoLe_tc_category
-  vpc_id      = var.aws_security_group_nQoLe_vpc_id
+  name        = var.aws_security_group_nyguD_name
+  tc_category = var.aws_security_group_nyguD_tc_category
+  vpc_id      = var.aws_security_group_nyguD_vpc_id
 }
 
-resource "aws_security_group" "oqCqG" {
-  tags = {
-    Name         = var.aws_security_group_oqCqG_tags_Name
-    client       = var.aws_security_group_oqCqG_tags_client
-    customer     = var.aws_security_group_oqCqG_tags_customer
-    "cycloid.io" = var.aws_security_group_oqCqG_tags_cycloid_io
-    env          = var.aws_security_group_oqCqG_tags_env
-    project      = var.aws_security_group_oqCqG_tags_project
-  }
-
-  description = var.aws_security_group_oqCqG_description
+resource "aws_security_group" "oAYBU" {
+  description = var.aws_security_group_oAYBU_description
   egress {
-    cidr_blocks = var.aws_security_group_oqCqG_egress_cidr_blocks
-    from_port   = var.aws_security_group_oqCqG_egress_from_port
-    protocol    = var.aws_security_group_oqCqG_egress_protocol
-    to_port     = var.aws_security_group_oqCqG_egress_to_port
+    cidr_blocks = var.aws_security_group_oAYBU_egress_cidr_blocks
+    from_port   = var.aws_security_group_oAYBU_egress_from_port
+    protocol    = var.aws_security_group_oAYBU_egress_protocol
+    to_port     = var.aws_security_group_oAYBU_egress_to_port
   }
 
   ingress {
-    from_port       = var.aws_security_group_oqCqG_ingress_from_port
-    protocol        = var.aws_security_group_oqCqG_ingress_protocol
-    security_groups = var.aws_security_group_oqCqG_ingress_security_groups
-    to_port         = var.aws_security_group_oqCqG_ingress_to_port
+    cidr_blocks = var.aws_security_group_oAYBU_ingress_cidr_blocks
+    from_port   = var.aws_security_group_oAYBU_ingress_from_port
+    protocol    = var.aws_security_group_oAYBU_ingress_protocol
+    to_port     = var.aws_security_group_oAYBU_ingress_to_port
   }
 
-  name        = var.aws_security_group_oqCqG_name
-  tc_category = var.aws_security_group_oqCqG_tc_category
-  vpc_id      = var.aws_security_group_oqCqG_vpc_id
+  name        = var.aws_security_group_oAYBU_name
+  tc_category = var.aws_security_group_oAYBU_tc_category
+  vpc_id      = var.aws_security_group_oAYBU_vpc_id
 }
 
-resource "aws_security_group" "rWzbD" {
+resource "aws_security_group" "qibmy" {
   tags = {
-    Name         = var.aws_security_group_rWzbD_tags_Name
-    customer     = var.aws_security_group_rWzbD_tags_customer
-    "cycloid.io" = var.aws_security_group_rWzbD_tags_cycloid_io
-    env          = var.aws_security_group_rWzbD_tags_env
-    project      = var.aws_security_group_rWzbD_tags_project
+    Name         = var.aws_security_group_qibmy_tags_Name
+    customer     = var.aws_security_group_qibmy_tags_customer
+    "cycloid.io" = var.aws_security_group_qibmy_tags_cycloid_io
+    env          = var.aws_security_group_qibmy_tags_env
+    project      = var.aws_security_group_qibmy_tags_project
   }
 
-  description = var.aws_security_group_rWzbD_description
+  description = var.aws_security_group_qibmy_description
   egress {
-    cidr_blocks = var.aws_security_group_rWzbD_egress_cidr_blocks
-    from_port   = var.aws_security_group_rWzbD_egress_from_port
-    protocol    = var.aws_security_group_rWzbD_egress_protocol
-    to_port     = var.aws_security_group_rWzbD_egress_to_port
+    cidr_blocks = var.aws_security_group_qibmy_egress_cidr_blocks
+    from_port   = var.aws_security_group_qibmy_egress_from_port
+    protocol    = var.aws_security_group_qibmy_egress_protocol
+    to_port     = var.aws_security_group_qibmy_egress_to_port
   }
 
   ingress {
-    from_port       = var.aws_security_group_rWzbD_ingress_from_port
-    protocol        = var.aws_security_group_rWzbD_ingress_protocol
-    security_groups = var.aws_security_group_rWzbD_ingress_security_groups
-    to_port         = var.aws_security_group_rWzbD_ingress_to_port
+    from_port       = var.aws_security_group_qibmy_ingress_from_port
+    protocol        = var.aws_security_group_qibmy_ingress_protocol
+    security_groups = var.aws_security_group_qibmy_ingress_security_groups
+    to_port         = var.aws_security_group_qibmy_ingress_to_port
   }
 
-  name        = var.aws_security_group_rWzbD_name
-  tc_category = var.aws_security_group_rWzbD_tc_category
-  vpc_id      = var.aws_security_group_rWzbD_vpc_id
+  name        = var.aws_security_group_qibmy_name
+  tc_category = var.aws_security_group_qibmy_tc_category
+  vpc_id      = var.aws_security_group_qibmy_vpc_id
 }
 
-resource "aws_security_group" "sjvjX" {
-  tags = {
-    Name         = var.aws_security_group_sjvjX_tags_Name
-    customer     = var.aws_security_group_sjvjX_tags_customer
-    "cycloid.io" = var.aws_security_group_sjvjX_tags_cycloid_io
-    env          = var.aws_security_group_sjvjX_tags_env
-    project      = var.aws_security_group_sjvjX_tags_project
-  }
-
-  description = var.aws_security_group_sjvjX_description
+resource "aws_security_group" "sQklZ" {
+  description = var.aws_security_group_sQklZ_description
   egress {
-    cidr_blocks = var.aws_security_group_sjvjX_egress_cidr_blocks
-    from_port   = var.aws_security_group_sjvjX_egress_from_port
-    protocol    = var.aws_security_group_sjvjX_egress_protocol
-    to_port     = var.aws_security_group_sjvjX_egress_to_port
+    cidr_blocks = var.aws_security_group_sQklZ_egress_cidr_blocks
+    from_port   = var.aws_security_group_sQklZ_egress_from_port
+    protocol    = var.aws_security_group_sQklZ_egress_protocol
+    to_port     = var.aws_security_group_sQklZ_egress_to_port
   }
 
   ingress {
-    from_port       = var.aws_security_group_sjvjX_ingress_from_port
-    protocol        = var.aws_security_group_sjvjX_ingress_protocol
-    security_groups = var.aws_security_group_sjvjX_ingress_security_groups
-    to_port         = var.aws_security_group_sjvjX_ingress_to_port
+    cidr_blocks = var.aws_security_group_sQklZ_ingress_cidr_blocks
+    from_port   = var.aws_security_group_sQklZ_ingress_from_port
+    protocol    = var.aws_security_group_sQklZ_ingress_protocol
+    to_port     = var.aws_security_group_sQklZ_ingress_to_port
   }
 
-  name        = var.aws_security_group_sjvjX_name
-  tc_category = var.aws_security_group_sjvjX_tc_category
-  vpc_id      = var.aws_security_group_sjvjX_vpc_id
+  ingress {
+    from_port = var.aws_security_group_sQklZ_ingress_from_port
+    protocol  = var.aws_security_group_sQklZ_ingress_protocol
+    self      = var.aws_security_group_sQklZ_ingress_self
+    to_port   = var.aws_security_group_sQklZ_ingress_to_port
+  }
+
+  name        = var.aws_security_group_sQklZ_name
+  tc_category = var.aws_security_group_sQklZ_tc_category
+  vpc_id      = var.aws_security_group_sQklZ_vpc_id
 }
 
-resource "aws_security_group" "smROu" {
+resource "aws_security_group" "tmAGF" {
   tags = {
-    Name         = var.aws_security_group_smROu_tags_Name
-    client       = var.aws_security_group_smROu_tags_client
-    "cycloid.io" = var.aws_security_group_smROu_tags_cycloid_io
-    env          = var.aws_security_group_smROu_tags_env
-    project      = var.aws_security_group_smROu_tags_project
-    role         = var.aws_security_group_smROu_tags_role
+    Name                 = var.aws_security_group_tmAGF_tags_Name
+    client               = var.aws_security_group_tmAGF_tags_client
+    "cycloid.io"         = var.aws_security_group_tmAGF_tags_cycloid_io
+    env                  = var.aws_security_group_tmAGF_tags_env
+    monitoring_discovery = var.aws_security_group_tmAGF_tags_monitoring_discovery
+    project              = var.aws_security_group_tmAGF_tags_project
+    role                 = var.aws_security_group_tmAGF_tags_role
   }
 
-  description = var.aws_security_group_smROu_description
+  description = var.aws_security_group_tmAGF_description
   egress {
-    cidr_blocks = var.aws_security_group_smROu_egress_cidr_blocks
-    from_port   = var.aws_security_group_smROu_egress_from_port
-    protocol    = var.aws_security_group_smROu_egress_protocol
-    to_port     = var.aws_security_group_smROu_egress_to_port
+    cidr_blocks = var.aws_security_group_tmAGF_egress_cidr_blocks
+    from_port   = var.aws_security_group_tmAGF_egress_from_port
+    protocol    = var.aws_security_group_tmAGF_egress_protocol
+    to_port     = var.aws_security_group_tmAGF_egress_to_port
   }
 
-  name        = var.aws_security_group_smROu_name
-  tc_category = var.aws_security_group_smROu_tc_category
-  vpc_id      = var.aws_security_group_smROu_vpc_id
+  ingress {
+    cidr_blocks = var.aws_security_group_tmAGF_ingress_cidr_blocks
+    from_port   = var.aws_security_group_tmAGF_ingress_from_port
+    protocol    = var.aws_security_group_tmAGF_ingress_protocol
+    to_port     = var.aws_security_group_tmAGF_ingress_to_port
+  }
+
+  ingress {
+    cidr_blocks = var.aws_security_group_tmAGF_ingress_cidr_blocks
+    from_port   = var.aws_security_group_tmAGF_ingress_from_port
+    protocol    = var.aws_security_group_tmAGF_ingress_protocol
+    to_port     = var.aws_security_group_tmAGF_ingress_to_port
+  }
+
+  ingress {
+    cidr_blocks = var.aws_security_group_tmAGF_ingress_cidr_blocks
+    from_port   = var.aws_security_group_tmAGF_ingress_from_port
+    protocol    = var.aws_security_group_tmAGF_ingress_protocol
+    to_port     = var.aws_security_group_tmAGF_ingress_to_port
+  }
+
+  ingress {
+    from_port = var.aws_security_group_tmAGF_ingress_from_port
+    protocol  = var.aws_security_group_tmAGF_ingress_protocol
+    self      = var.aws_security_group_tmAGF_ingress_self
+    to_port   = var.aws_security_group_tmAGF_ingress_to_port
+  }
+
+  name        = var.aws_security_group_tmAGF_name
+  tc_category = var.aws_security_group_tmAGF_tc_category
+  vpc_id      = var.aws_security_group_tmAGF_vpc_id
 }
 
-resource "aws_security_group" "ssFqI" {
-  tags = {
-    Name    = var.aws_security_group_ssFqI_tags_Name
-    client  = var.aws_security_group_ssFqI_tags_client
-    project = var.aws_security_group_ssFqI_tags_project
-  }
-
-  description = var.aws_security_group_ssFqI_description
+resource "aws_security_group" "ttwGi" {
+  description = var.aws_security_group_ttwGi_description
   egress {
-    cidr_blocks = var.aws_security_group_ssFqI_egress_cidr_blocks
-    from_port   = var.aws_security_group_ssFqI_egress_from_port
-    protocol    = var.aws_security_group_ssFqI_egress_protocol
-    to_port     = var.aws_security_group_ssFqI_egress_to_port
+    cidr_blocks = var.aws_security_group_ttwGi_egress_cidr_blocks
+    from_port   = var.aws_security_group_ttwGi_egress_from_port
+    protocol    = var.aws_security_group_ttwGi_egress_protocol
+    to_port     = var.aws_security_group_ttwGi_egress_to_port
   }
 
   ingress {
-    from_port       = var.aws_security_group_ssFqI_ingress_from_port
-    protocol        = var.aws_security_group_ssFqI_ingress_protocol
-    security_groups = var.aws_security_group_ssFqI_ingress_security_groups
-    to_port         = var.aws_security_group_ssFqI_ingress_to_port
+    from_port = var.aws_security_group_ttwGi_ingress_from_port
+    protocol  = var.aws_security_group_ttwGi_ingress_protocol
+    self      = var.aws_security_group_ttwGi_ingress_self
+    to_port   = var.aws_security_group_ttwGi_ingress_to_port
   }
 
-  name        = var.aws_security_group_ssFqI_name
-  tc_category = var.aws_security_group_ssFqI_tc_category
-  vpc_id      = var.aws_security_group_ssFqI_vpc_id
+  name        = var.aws_security_group_ttwGi_name
+  tc_category = var.aws_security_group_ttwGi_tc_category
+  vpc_id      = var.aws_security_group_ttwGi_vpc_id
 }
 
-resource "aws_security_group" "tGeHD" {
+resource "aws_security_group" "uiIHa" {
   tags = {
-    Name         = var.aws_security_group_tGeHD_tags_Name
-    customer     = var.aws_security_group_tGeHD_tags_customer
-    "cycloid.io" = var.aws_security_group_tGeHD_tags_cycloid_io
-    env          = var.aws_security_group_tGeHD_tags_env
-    project      = var.aws_security_group_tGeHD_tags_project
+    Name    = var.aws_security_group_uiIHa_tags_Name
+    client  = var.aws_security_group_uiIHa_tags_client
+    project = var.aws_security_group_uiIHa_tags_project
   }
 
-  description = var.aws_security_group_tGeHD_description
+  description = var.aws_security_group_uiIHa_description
   egress {
-    cidr_blocks = var.aws_security_group_tGeHD_egress_cidr_blocks
-    from_port   = var.aws_security_group_tGeHD_egress_from_port
-    protocol    = var.aws_security_group_tGeHD_egress_protocol
-    to_port     = var.aws_security_group_tGeHD_egress_to_port
+    cidr_blocks = var.aws_security_group_uiIHa_egress_cidr_blocks
+    from_port   = var.aws_security_group_uiIHa_egress_from_port
+    protocol    = var.aws_security_group_uiIHa_egress_protocol
+    to_port     = var.aws_security_group_uiIHa_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_tGeHD_ingress_cidr_blocks
-    description = var.aws_security_group_tGeHD_ingress_description
-    from_port   = var.aws_security_group_tGeHD_ingress_from_port
-    protocol    = var.aws_security_group_tGeHD_ingress_protocol
-    to_port     = var.aws_security_group_tGeHD_ingress_to_port
+    from_port       = var.aws_security_group_uiIHa_ingress_from_port
+    protocol        = var.aws_security_group_uiIHa_ingress_protocol
+    security_groups = var.aws_security_group_uiIHa_ingress_security_groups
+    to_port         = var.aws_security_group_uiIHa_ingress_to_port
   }
 
-  ingress {
-    from_port       = var.aws_security_group_tGeHD_ingress_from_port
-    protocol        = var.aws_security_group_tGeHD_ingress_protocol
-    security_groups = var.aws_security_group_tGeHD_ingress_security_groups
-    to_port         = var.aws_security_group_tGeHD_ingress_to_port
-  }
-
-  name        = var.aws_security_group_tGeHD_name
-  tc_category = var.aws_security_group_tGeHD_tc_category
-  vpc_id      = var.aws_security_group_tGeHD_vpc_id
+  name        = var.aws_security_group_uiIHa_name
+  tc_category = var.aws_security_group_uiIHa_tc_category
+  vpc_id      = var.aws_security_group_uiIHa_vpc_id
 }
 
-resource "aws_security_group" "tJRWb" {
+resource "aws_security_group" "wsIPf" {
   tags = {
-    Name         = var.aws_security_group_tJRWb_tags_Name
-    client       = var.aws_security_group_tJRWb_tags_client
-    "cycloid.io" = var.aws_security_group_tJRWb_tags_cycloid_io
-    env          = var.aws_security_group_tJRWb_tags_env
-    project      = var.aws_security_group_tJRWb_tags_project
-    role         = var.aws_security_group_tJRWb_tags_role
+    Name         = var.aws_security_group_wsIPf_tags_Name
+    customer     = var.aws_security_group_wsIPf_tags_customer
+    "cycloid.io" = var.aws_security_group_wsIPf_tags_cycloid_io
+    env          = var.aws_security_group_wsIPf_tags_env
+    project      = var.aws_security_group_wsIPf_tags_project
   }
 
-  description = var.aws_security_group_tJRWb_description
+  description = var.aws_security_group_wsIPf_description
   egress {
-    cidr_blocks = var.aws_security_group_tJRWb_egress_cidr_blocks
-    from_port   = var.aws_security_group_tJRWb_egress_from_port
-    protocol    = var.aws_security_group_tJRWb_egress_protocol
-    to_port     = var.aws_security_group_tJRWb_egress_to_port
+    cidr_blocks = var.aws_security_group_wsIPf_egress_cidr_blocks
+    from_port   = var.aws_security_group_wsIPf_egress_from_port
+    protocol    = var.aws_security_group_wsIPf_egress_protocol
+    to_port     = var.aws_security_group_wsIPf_egress_to_port
   }
 
-  name        = var.aws_security_group_tJRWb_name
-  tc_category = var.aws_security_group_tJRWb_tc_category
-  vpc_id      = var.aws_security_group_tJRWb_vpc_id
+  ingress {
+    from_port       = var.aws_security_group_wsIPf_ingress_from_port
+    protocol        = var.aws_security_group_wsIPf_ingress_protocol
+    security_groups = var.aws_security_group_wsIPf_ingress_security_groups
+    to_port         = var.aws_security_group_wsIPf_ingress_to_port
+  }
+
+  name        = var.aws_security_group_wsIPf_name
+  tc_category = var.aws_security_group_wsIPf_tc_category
+  vpc_id      = var.aws_security_group_wsIPf_vpc_id
 }
 
-resource "aws_security_group" "ugwuf" {
-  description = var.aws_security_group_ugwuf_description
+resource "aws_security_group" "wvQHe" {
+  tags = {
+    Name         = var.aws_security_group_wvQHe_tags_Name
+    client       = var.aws_security_group_wvQHe_tags_client
+    "cycloid.io" = var.aws_security_group_wvQHe_tags_cycloid_io
+    env          = var.aws_security_group_wvQHe_tags_env
+    project      = var.aws_security_group_wvQHe_tags_project
+    role         = var.aws_security_group_wvQHe_tags_role
+  }
+
+  description = var.aws_security_group_wvQHe_description
+  ingress {
+    from_port       = var.aws_security_group_wvQHe_ingress_from_port
+    protocol        = var.aws_security_group_wvQHe_ingress_protocol
+    security_groups = var.aws_security_group_wvQHe_ingress_security_groups
+    to_port         = var.aws_security_group_wvQHe_ingress_to_port
+  }
+
+  name        = var.aws_security_group_wvQHe_name
+  tc_category = var.aws_security_group_wvQHe_tc_category
+  vpc_id      = var.aws_security_group_wvQHe_vpc_id
+}
+
+resource "aws_security_group" "xfYXs" {
+  description = var.aws_security_group_xfYXs_description
   egress {
-    cidr_blocks = var.aws_security_group_ugwuf_egress_cidr_blocks
-    from_port   = var.aws_security_group_ugwuf_egress_from_port
-    protocol    = var.aws_security_group_ugwuf_egress_protocol
-    to_port     = var.aws_security_group_ugwuf_egress_to_port
+    cidr_blocks = var.aws_security_group_xfYXs_egress_cidr_blocks
+    from_port   = var.aws_security_group_xfYXs_egress_from_port
+    protocol    = var.aws_security_group_xfYXs_egress_protocol
+    to_port     = var.aws_security_group_xfYXs_egress_to_port
   }
 
   ingress {
-    cidr_blocks = var.aws_security_group_ugwuf_ingress_cidr_blocks
-    from_port   = var.aws_security_group_ugwuf_ingress_from_port
-    protocol    = var.aws_security_group_ugwuf_ingress_protocol
-    to_port     = var.aws_security_group_ugwuf_ingress_to_port
+    cidr_blocks = var.aws_security_group_xfYXs_ingress_cidr_blocks
+    from_port   = var.aws_security_group_xfYXs_ingress_from_port
+    protocol    = var.aws_security_group_xfYXs_ingress_protocol
+    to_port     = var.aws_security_group_xfYXs_ingress_to_port
   }
 
-  name        = var.aws_security_group_ugwuf_name
-  tc_category = var.aws_security_group_ugwuf_tc_category
-  vpc_id      = var.aws_security_group_ugwuf_vpc_id
+  name        = var.aws_security_group_xfYXs_name
+  tc_category = var.aws_security_group_xfYXs_tc_category
+  vpc_id      = var.aws_security_group_xfYXs_vpc_id
 }
 
-resource "aws_security_group" "uvfhh" {
-  description = var.aws_security_group_uvfhh_description
+resource "aws_security_group" "yCspw" {
+  tags = {
+    Name         = var.aws_security_group_yCspw_tags_Name
+    client       = var.aws_security_group_yCspw_tags_client
+    "cycloid.io" = var.aws_security_group_yCspw_tags_cycloid_io
+    env          = var.aws_security_group_yCspw_tags_env
+    project      = var.aws_security_group_yCspw_tags_project
+    role         = var.aws_security_group_yCspw_tags_role
+  }
+
+  description = var.aws_security_group_yCspw_description
   egress {
-    cidr_blocks = var.aws_security_group_uvfhh_egress_cidr_blocks
-    from_port   = var.aws_security_group_uvfhh_egress_from_port
-    protocol    = var.aws_security_group_uvfhh_egress_protocol
-    to_port     = var.aws_security_group_uvfhh_egress_to_port
+    cidr_blocks = var.aws_security_group_yCspw_egress_cidr_blocks
+    from_port   = var.aws_security_group_yCspw_egress_from_port
+    protocol    = var.aws_security_group_yCspw_egress_protocol
+    to_port     = var.aws_security_group_yCspw_egress_to_port
   }
 
-  ingress {
-    cidr_blocks = var.aws_security_group_uvfhh_ingress_cidr_blocks
-    from_port   = var.aws_security_group_uvfhh_ingress_from_port
-    protocol    = var.aws_security_group_uvfhh_ingress_protocol
-    to_port     = var.aws_security_group_uvfhh_ingress_to_port
-  }
-
-  name        = var.aws_security_group_uvfhh_name
-  tc_category = var.aws_security_group_uvfhh_tc_category
-  vpc_id      = var.aws_security_group_uvfhh_vpc_id
+  name        = var.aws_security_group_yCspw_name
+  tc_category = var.aws_security_group_yCspw_tc_category
+  vpc_id      = var.aws_security_group_yCspw_vpc_id
 }
 
-resource "aws_security_group" "vYZOX" {
+resource "aws_subnet" "BHvPJ" {
   tags = {
-    Name         = var.aws_security_group_vYZOX_tags_Name
-    customer     = var.aws_security_group_vYZOX_tags_customer
-    "cycloid.io" = var.aws_security_group_vYZOX_tags_cycloid_io
-    env          = var.aws_security_group_vYZOX_tags_env
-    project      = var.aws_security_group_vYZOX_tags_project
+    Name   = var.aws_subnet_BHvPJ_tags_Name
+    client = var.aws_subnet_BHvPJ_tags_client
   }
 
-  description = var.aws_security_group_vYZOX_description
-  egress {
-    cidr_blocks = var.aws_security_group_vYZOX_egress_cidr_blocks
-    from_port   = var.aws_security_group_vYZOX_egress_from_port
-    protocol    = var.aws_security_group_vYZOX_egress_protocol
-    to_port     = var.aws_security_group_vYZOX_egress_to_port
-  }
-
-  ingress {
-    from_port       = var.aws_security_group_vYZOX_ingress_from_port
-    protocol        = var.aws_security_group_vYZOX_ingress_protocol
-    security_groups = var.aws_security_group_vYZOX_ingress_security_groups
-    to_port         = var.aws_security_group_vYZOX_ingress_to_port
-  }
-
-  name        = var.aws_security_group_vYZOX_name
-  tc_category = var.aws_security_group_vYZOX_tc_category
-  vpc_id      = var.aws_security_group_vYZOX_vpc_id
+  availability_zone = var.aws_subnet_BHvPJ_availability_zone
+  cidr_block        = var.aws_subnet_BHvPJ_cidr_block
+  tc_category       = var.aws_subnet_BHvPJ_tc_category
+  vpc_id            = var.aws_subnet_BHvPJ_vpc_id
 }
 
-resource "aws_security_group" "wWbHZ" {
+resource "aws_subnet" "CRDvY" {
   tags = {
-    Name         = var.aws_security_group_wWbHZ_tags_Name
-    "cycloid.io" = var.aws_security_group_wWbHZ_tags_cycloid_io
-    env          = var.aws_security_group_wWbHZ_tags_env
-    project      = var.aws_security_group_wWbHZ_tags_project
-    role         = var.aws_security_group_wWbHZ_tags_role
+    Name   = var.aws_subnet_CRDvY_tags_Name
+    client = var.aws_subnet_CRDvY_tags_client
   }
 
-  description = var.aws_security_group_wWbHZ_description
-  ingress {
-    from_port       = var.aws_security_group_wWbHZ_ingress_from_port
-    protocol        = var.aws_security_group_wWbHZ_ingress_protocol
-    security_groups = var.aws_security_group_wWbHZ_ingress_security_groups
-    to_port         = var.aws_security_group_wWbHZ_ingress_to_port
-  }
-
-  name        = var.aws_security_group_wWbHZ_name
-  tc_category = var.aws_security_group_wWbHZ_tc_category
-  vpc_id      = var.aws_security_group_wWbHZ_vpc_id
+  availability_zone_id = var.aws_subnet_CRDvY_availability_zone_id
+  cidr_block           = var.aws_subnet_CRDvY_cidr_block
+  tc_category          = var.aws_subnet_CRDvY_tc_category
+  vpc_id               = var.aws_subnet_CRDvY_vpc_id
 }
 
-resource "aws_security_group" "xdOcU" {
+resource "aws_subnet" "DtXFf" {
   tags = {
-    Name         = var.aws_security_group_xdOcU_tags_Name
-    customer     = var.aws_security_group_xdOcU_tags_customer
-    "cycloid.io" = var.aws_security_group_xdOcU_tags_cycloid_io
-    env          = var.aws_security_group_xdOcU_tags_env
-    project      = var.aws_security_group_xdOcU_tags_project
-    role         = var.aws_security_group_xdOcU_tags_role
+    Name   = var.aws_subnet_DtXFf_tags_Name
+    client = var.aws_subnet_DtXFf_tags_client
   }
 
-  description = var.aws_security_group_xdOcU_description
-  egress {
-    cidr_blocks = var.aws_security_group_xdOcU_egress_cidr_blocks
-    from_port   = var.aws_security_group_xdOcU_egress_from_port
-    protocol    = var.aws_security_group_xdOcU_egress_protocol
-    to_port     = var.aws_security_group_xdOcU_egress_to_port
-  }
-
-  ingress {
-    cidr_blocks = var.aws_security_group_xdOcU_ingress_cidr_blocks
-    from_port   = var.aws_security_group_xdOcU_ingress_from_port
-    protocol    = var.aws_security_group_xdOcU_ingress_protocol
-    to_port     = var.aws_security_group_xdOcU_ingress_to_port
-  }
-
-  ingress {
-    cidr_blocks = var.aws_security_group_xdOcU_ingress_cidr_blocks
-    from_port   = var.aws_security_group_xdOcU_ingress_from_port
-    protocol    = var.aws_security_group_xdOcU_ingress_protocol
-    to_port     = var.aws_security_group_xdOcU_ingress_to_port
-  }
-
-  ingress {
-    from_port       = var.aws_security_group_xdOcU_ingress_from_port
-    protocol        = var.aws_security_group_xdOcU_ingress_protocol
-    security_groups = var.aws_security_group_xdOcU_ingress_security_groups
-    to_port         = var.aws_security_group_xdOcU_ingress_to_port
-  }
-
-  ingress {
-    cidr_blocks = var.aws_security_group_xdOcU_ingress_cidr_blocks
-    from_port   = var.aws_security_group_xdOcU_ingress_from_port
-    protocol    = var.aws_security_group_xdOcU_ingress_protocol
-    self        = var.aws_security_group_xdOcU_ingress_self
-    to_port     = var.aws_security_group_xdOcU_ingress_to_port
-  }
-
-  name        = var.aws_security_group_xdOcU_name
-  tc_category = var.aws_security_group_xdOcU_tc_category
-  vpc_id      = var.aws_security_group_xdOcU_vpc_id
+  availability_zone       = var.aws_subnet_DtXFf_availability_zone
+  cidr_block              = var.aws_subnet_DtXFf_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_DtXFf_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_DtXFf_tc_category
+  vpc_id                  = var.aws_subnet_DtXFf_vpc_id
 }
 
-resource "aws_security_group" "xoPns" {
-  description = var.aws_security_group_xoPns_description
-  egress {
-    cidr_blocks = var.aws_security_group_xoPns_egress_cidr_blocks
-    from_port   = var.aws_security_group_xoPns_egress_from_port
-    protocol    = var.aws_security_group_xoPns_egress_protocol
-    to_port     = var.aws_security_group_xoPns_egress_to_port
-  }
-
-  ingress {
-    cidr_blocks = var.aws_security_group_xoPns_ingress_cidr_blocks
-    from_port   = var.aws_security_group_xoPns_ingress_from_port
-    protocol    = var.aws_security_group_xoPns_ingress_protocol
-    to_port     = var.aws_security_group_xoPns_ingress_to_port
-  }
-
-  name        = var.aws_security_group_xoPns_name
-  tc_category = var.aws_security_group_xoPns_tc_category
-  vpc_id      = var.aws_security_group_xoPns_vpc_id
-}
-
-resource "aws_security_group" "xxjbT" {
+resource "aws_subnet" "GGAty" {
   tags = {
-    Name    = var.aws_security_group_xxjbT_tags_Name
-    client  = var.aws_security_group_xxjbT_tags_client
-    project = var.aws_security_group_xxjbT_tags_project
+    Name   = var.aws_subnet_GGAty_tags_Name
+    client = var.aws_subnet_GGAty_tags_client
   }
 
-  description = var.aws_security_group_xxjbT_description
-  egress {
-    cidr_blocks = var.aws_security_group_xxjbT_egress_cidr_blocks
-    from_port   = var.aws_security_group_xxjbT_egress_from_port
-    protocol    = var.aws_security_group_xxjbT_egress_protocol
-    to_port     = var.aws_security_group_xxjbT_egress_to_port
-  }
-
-  ingress {
-    from_port       = var.aws_security_group_xxjbT_ingress_from_port
-    protocol        = var.aws_security_group_xxjbT_ingress_protocol
-    security_groups = var.aws_security_group_xxjbT_ingress_security_groups
-    to_port         = var.aws_security_group_xxjbT_ingress_to_port
-  }
-
-  name        = var.aws_security_group_xxjbT_name
-  tc_category = var.aws_security_group_xxjbT_tc_category
-  vpc_id      = var.aws_security_group_xxjbT_vpc_id
+  availability_zone_id = var.aws_subnet_GGAty_availability_zone_id
+  cidr_block           = var.aws_subnet_GGAty_cidr_block
+  tc_category          = var.aws_subnet_GGAty_tc_category
+  vpc_id               = var.aws_subnet_GGAty_vpc_id
 }
 
-resource "aws_subnet" "FBIUZ" {
+resource "aws_subnet" "GGNrj" {
   tags = {
-    Name   = var.aws_subnet_FBIUZ_tags_Name
-    client = var.aws_subnet_FBIUZ_tags_client
+    Name   = var.aws_subnet_GGNrj_tags_Name
+    client = var.aws_subnet_GGNrj_tags_client
   }
 
-  availability_zone = var.aws_subnet_FBIUZ_availability_zone
-  cidr_block        = var.aws_subnet_FBIUZ_cidr_block
-  tc_category       = var.aws_subnet_FBIUZ_tc_category
-  vpc_id            = var.aws_subnet_FBIUZ_vpc_id
+  availability_zone = var.aws_subnet_GGNrj_availability_zone
+  cidr_block        = var.aws_subnet_GGNrj_cidr_block
+  tc_category       = var.aws_subnet_GGNrj_tc_category
+  vpc_id            = var.aws_subnet_GGNrj_vpc_id
 }
 
-resource "aws_subnet" "HGzkM" {
+resource "aws_subnet" "GHbOm" {
   tags = {
-    Name   = var.aws_subnet_HGzkM_tags_Name
-    client = var.aws_subnet_HGzkM_tags_client
+    Name   = var.aws_subnet_GHbOm_tags_Name
+    client = var.aws_subnet_GHbOm_tags_client
   }
 
-  availability_zone = var.aws_subnet_HGzkM_availability_zone
-  cidr_block        = var.aws_subnet_HGzkM_cidr_block
-  tc_category       = var.aws_subnet_HGzkM_tc_category
-  vpc_id            = var.aws_subnet_HGzkM_vpc_id
+  availability_zone       = var.aws_subnet_GHbOm_availability_zone
+  cidr_block              = var.aws_subnet_GHbOm_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_GHbOm_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_GHbOm_tc_category
+  vpc_id                  = var.aws_subnet_GHbOm_vpc_id
 }
 
-resource "aws_subnet" "HmlPr" {
+resource "aws_subnet" "GPcsH" {
   tags = {
-    Name   = var.aws_subnet_HmlPr_tags_Name
-    client = var.aws_subnet_HmlPr_tags_client
+    Name   = var.aws_subnet_GPcsH_tags_Name
+    client = var.aws_subnet_GPcsH_tags_client
   }
 
-  availability_zone = var.aws_subnet_HmlPr_availability_zone
-  cidr_block        = var.aws_subnet_HmlPr_cidr_block
-  tc_category       = var.aws_subnet_HmlPr_tc_category
-  vpc_id            = var.aws_subnet_HmlPr_vpc_id
+  availability_zone_id = var.aws_subnet_GPcsH_availability_zone_id
+  cidr_block           = var.aws_subnet_GPcsH_cidr_block
+  tc_category          = var.aws_subnet_GPcsH_tc_category
+  vpc_id               = var.aws_subnet_GPcsH_vpc_id
 }
 
-resource "aws_subnet" "IXQOl" {
+resource "aws_subnet" "GRjqh" {
   tags = {
-    Name   = var.aws_subnet_IXQOl_tags_Name
-    client = var.aws_subnet_IXQOl_tags_client
+    Name   = var.aws_subnet_GRjqh_tags_Name
+    client = var.aws_subnet_GRjqh_tags_client
   }
 
-  availability_zone = var.aws_subnet_IXQOl_availability_zone
-  cidr_block        = var.aws_subnet_IXQOl_cidr_block
-  tc_category       = var.aws_subnet_IXQOl_tc_category
-  vpc_id            = var.aws_subnet_IXQOl_vpc_id
+  availability_zone_id    = var.aws_subnet_GRjqh_availability_zone_id
+  cidr_block              = var.aws_subnet_GRjqh_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_GRjqh_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_GRjqh_tc_category
+  vpc_id                  = var.aws_subnet_GRjqh_vpc_id
 }
 
-resource "aws_subnet" "KvoTr" {
+resource "aws_subnet" "GhQco" {
   tags = {
-    Name   = var.aws_subnet_KvoTr_tags_Name
-    client = var.aws_subnet_KvoTr_tags_client
+    Name   = var.aws_subnet_GhQco_tags_Name
+    client = var.aws_subnet_GhQco_tags_client
   }
 
-  availability_zone = var.aws_subnet_KvoTr_availability_zone
-  cidr_block        = var.aws_subnet_KvoTr_cidr_block
-  tc_category       = var.aws_subnet_KvoTr_tc_category
-  vpc_id            = var.aws_subnet_KvoTr_vpc_id
+  availability_zone = var.aws_subnet_GhQco_availability_zone
+  cidr_block        = var.aws_subnet_GhQco_cidr_block
+  tc_category       = var.aws_subnet_GhQco_tc_category
+  vpc_id            = var.aws_subnet_GhQco_vpc_id
 }
 
-resource "aws_subnet" "LSXXs" {
+resource "aws_subnet" "HKeMh" {
   tags = {
-    Name   = var.aws_subnet_LSXXs_tags_Name
-    client = var.aws_subnet_LSXXs_tags_client
+    Name   = var.aws_subnet_HKeMh_tags_Name
+    client = var.aws_subnet_HKeMh_tags_client
   }
 
-  availability_zone       = var.aws_subnet_LSXXs_availability_zone
-  cidr_block              = var.aws_subnet_LSXXs_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_LSXXs_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_LSXXs_tc_category
-  vpc_id                  = var.aws_subnet_LSXXs_vpc_id
+  availability_zone_id = var.aws_subnet_HKeMh_availability_zone_id
+  cidr_block           = var.aws_subnet_HKeMh_cidr_block
+  tc_category          = var.aws_subnet_HKeMh_tc_category
+  vpc_id               = var.aws_subnet_HKeMh_vpc_id
 }
 
-resource "aws_subnet" "MHdwO" {
+resource "aws_subnet" "IxbGp" {
   tags = {
-    Name   = var.aws_subnet_MHdwO_tags_Name
-    client = var.aws_subnet_MHdwO_tags_client
+    Name   = var.aws_subnet_IxbGp_tags_Name
+    client = var.aws_subnet_IxbGp_tags_client
   }
 
-  availability_zone = var.aws_subnet_MHdwO_availability_zone
-  cidr_block        = var.aws_subnet_MHdwO_cidr_block
-  tc_category       = var.aws_subnet_MHdwO_tc_category
-  vpc_id            = var.aws_subnet_MHdwO_vpc_id
+  availability_zone = var.aws_subnet_IxbGp_availability_zone
+  cidr_block        = var.aws_subnet_IxbGp_cidr_block
+  tc_category       = var.aws_subnet_IxbGp_tc_category
+  vpc_id            = var.aws_subnet_IxbGp_vpc_id
 }
 
-resource "aws_subnet" "MQEsb" {
-  availability_zone       = var.aws_subnet_MQEsb_availability_zone
-  cidr_block              = var.aws_subnet_MQEsb_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_MQEsb_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_MQEsb_tc_category
-  vpc_id                  = var.aws_subnet_MQEsb_vpc_id
-}
-
-resource "aws_subnet" "MfLFU" {
+resource "aws_subnet" "NPdoV" {
   tags = {
-    Name   = var.aws_subnet_MfLFU_tags_Name
-    client = var.aws_subnet_MfLFU_tags_client
+    Name   = var.aws_subnet_NPdoV_tags_Name
+    client = var.aws_subnet_NPdoV_tags_client
   }
 
-  availability_zone = var.aws_subnet_MfLFU_availability_zone
-  cidr_block        = var.aws_subnet_MfLFU_cidr_block
-  tc_category       = var.aws_subnet_MfLFU_tc_category
-  vpc_id            = var.aws_subnet_MfLFU_vpc_id
+  availability_zone_id    = var.aws_subnet_NPdoV_availability_zone_id
+  cidr_block              = var.aws_subnet_NPdoV_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_NPdoV_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_NPdoV_tc_category
+  vpc_id                  = var.aws_subnet_NPdoV_vpc_id
 }
 
-resource "aws_subnet" "NQjjP" {
-  availability_zone       = var.aws_subnet_NQjjP_availability_zone
-  cidr_block              = var.aws_subnet_NQjjP_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_NQjjP_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_NQjjP_tc_category
-  vpc_id                  = var.aws_subnet_NQjjP_vpc_id
-}
-
-resource "aws_subnet" "OBqBf" {
+resource "aws_subnet" "NPxkU" {
   tags = {
-    Name   = var.aws_subnet_OBqBf_tags_Name
-    client = var.aws_subnet_OBqBf_tags_client
+    Name   = var.aws_subnet_NPxkU_tags_Name
+    client = var.aws_subnet_NPxkU_tags_client
   }
 
-  availability_zone = var.aws_subnet_OBqBf_availability_zone
-  cidr_block        = var.aws_subnet_OBqBf_cidr_block
-  tc_category       = var.aws_subnet_OBqBf_tc_category
-  vpc_id            = var.aws_subnet_OBqBf_vpc_id
+  availability_zone = var.aws_subnet_NPxkU_availability_zone
+  cidr_block        = var.aws_subnet_NPxkU_cidr_block
+  tc_category       = var.aws_subnet_NPxkU_tc_category
+  vpc_id            = var.aws_subnet_NPxkU_vpc_id
 }
 
-resource "aws_subnet" "PLRqq" {
+resource "aws_subnet" "OkFVk" {
   tags = {
-    Name   = var.aws_subnet_PLRqq_tags_Name
-    client = var.aws_subnet_PLRqq_tags_client
+    Name   = var.aws_subnet_OkFVk_tags_Name
+    client = var.aws_subnet_OkFVk_tags_client
   }
 
-  availability_zone       = var.aws_subnet_PLRqq_availability_zone
-  cidr_block              = var.aws_subnet_PLRqq_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_PLRqq_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_PLRqq_tc_category
-  vpc_id                  = var.aws_subnet_PLRqq_vpc_id
+  availability_zone = var.aws_subnet_OkFVk_availability_zone
+  cidr_block        = var.aws_subnet_OkFVk_cidr_block
+  tc_category       = var.aws_subnet_OkFVk_tc_category
+  vpc_id            = var.aws_subnet_OkFVk_vpc_id
 }
 
-resource "aws_subnet" "PLcJk" {
+resource "aws_subnet" "PDthp" {
   tags = {
-    Name   = var.aws_subnet_PLcJk_tags_Name
-    client = var.aws_subnet_PLcJk_tags_client
+    Name   = var.aws_subnet_PDthp_tags_Name
+    client = var.aws_subnet_PDthp_tags_client
   }
 
-  availability_zone       = var.aws_subnet_PLcJk_availability_zone
-  cidr_block              = var.aws_subnet_PLcJk_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_PLcJk_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_PLcJk_tc_category
-  vpc_id                  = var.aws_subnet_PLcJk_vpc_id
+  availability_zone_id = var.aws_subnet_PDthp_availability_zone_id
+  cidr_block           = var.aws_subnet_PDthp_cidr_block
+  tc_category          = var.aws_subnet_PDthp_tc_category
+  vpc_id               = var.aws_subnet_PDthp_vpc_id
 }
 
-resource "aws_subnet" "PdllZ" {
+resource "aws_subnet" "PIxde" {
   tags = {
-    Name   = var.aws_subnet_PdllZ_tags_Name
-    client = var.aws_subnet_PdllZ_tags_client
+    Name   = var.aws_subnet_PIxde_tags_Name
+    client = var.aws_subnet_PIxde_tags_client
   }
 
-  availability_zone = var.aws_subnet_PdllZ_availability_zone
-  cidr_block        = var.aws_subnet_PdllZ_cidr_block
-  tc_category       = var.aws_subnet_PdllZ_tc_category
-  vpc_id            = var.aws_subnet_PdllZ_vpc_id
+  availability_zone_id = var.aws_subnet_PIxde_availability_zone_id
+  cidr_block           = var.aws_subnet_PIxde_cidr_block
+  tc_category          = var.aws_subnet_PIxde_tc_category
+  vpc_id               = var.aws_subnet_PIxde_vpc_id
 }
 
-resource "aws_subnet" "SRbDr" {
+resource "aws_subnet" "PXmad" {
   tags = {
-    Name   = var.aws_subnet_SRbDr_tags_Name
-    client = var.aws_subnet_SRbDr_tags_client
+    Name   = var.aws_subnet_PXmad_tags_Name
+    client = var.aws_subnet_PXmad_tags_client
   }
 
-  availability_zone = var.aws_subnet_SRbDr_availability_zone
-  cidr_block        = var.aws_subnet_SRbDr_cidr_block
-  tc_category       = var.aws_subnet_SRbDr_tc_category
-  vpc_id            = var.aws_subnet_SRbDr_vpc_id
+  availability_zone_id = var.aws_subnet_PXmad_availability_zone_id
+  cidr_block           = var.aws_subnet_PXmad_cidr_block
+  tc_category          = var.aws_subnet_PXmad_tc_category
+  vpc_id               = var.aws_subnet_PXmad_vpc_id
 }
 
-resource "aws_subnet" "SpLEr" {
+resource "aws_subnet" "RXWlS" {
   tags = {
-    Name   = var.aws_subnet_SpLEr_tags_Name
-    client = var.aws_subnet_SpLEr_tags_client
+    Name   = var.aws_subnet_RXWlS_tags_Name
+    client = var.aws_subnet_RXWlS_tags_client
   }
 
-  availability_zone_id    = var.aws_subnet_SpLEr_availability_zone_id
-  cidr_block              = var.aws_subnet_SpLEr_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_SpLEr_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_SpLEr_tc_category
-  vpc_id                  = var.aws_subnet_SpLEr_vpc_id
+  availability_zone       = var.aws_subnet_RXWlS_availability_zone
+  cidr_block              = var.aws_subnet_RXWlS_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_RXWlS_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_RXWlS_tc_category
+  vpc_id                  = var.aws_subnet_RXWlS_vpc_id
 }
 
-resource "aws_subnet" "TLOor" {
+resource "aws_subnet" "TYAXs" {
   tags = {
-    Name   = var.aws_subnet_TLOor_tags_Name
-    client = var.aws_subnet_TLOor_tags_client
+    Name   = var.aws_subnet_TYAXs_tags_Name
+    client = var.aws_subnet_TYAXs_tags_client
   }
 
-  availability_zone = var.aws_subnet_TLOor_availability_zone
-  cidr_block        = var.aws_subnet_TLOor_cidr_block
-  tc_category       = var.aws_subnet_TLOor_tc_category
-  vpc_id            = var.aws_subnet_TLOor_vpc_id
+  availability_zone_id    = var.aws_subnet_TYAXs_availability_zone_id
+  cidr_block              = var.aws_subnet_TYAXs_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_TYAXs_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_TYAXs_tc_category
+  vpc_id                  = var.aws_subnet_TYAXs_vpc_id
 }
 
-resource "aws_subnet" "UZfXj" {
+resource "aws_subnet" "TsgmQ" {
   tags = {
-    Name   = var.aws_subnet_UZfXj_tags_Name
-    client = var.aws_subnet_UZfXj_tags_client
+    Name   = var.aws_subnet_TsgmQ_tags_Name
+    client = var.aws_subnet_TsgmQ_tags_client
   }
 
-  availability_zone = var.aws_subnet_UZfXj_availability_zone
-  cidr_block        = var.aws_subnet_UZfXj_cidr_block
-  tc_category       = var.aws_subnet_UZfXj_tc_category
-  vpc_id            = var.aws_subnet_UZfXj_vpc_id
+  availability_zone_id = var.aws_subnet_TsgmQ_availability_zone_id
+  cidr_block           = var.aws_subnet_TsgmQ_cidr_block
+  tc_category          = var.aws_subnet_TsgmQ_tc_category
+  vpc_id               = var.aws_subnet_TsgmQ_vpc_id
 }
 
-resource "aws_subnet" "UqYjx" {
+resource "aws_subnet" "YmDRa" {
   tags = {
-    Name   = var.aws_subnet_UqYjx_tags_Name
-    client = var.aws_subnet_UqYjx_tags_client
+    Name   = var.aws_subnet_YmDRa_tags_Name
+    client = var.aws_subnet_YmDRa_tags_client
   }
 
-  availability_zone = var.aws_subnet_UqYjx_availability_zone
-  cidr_block        = var.aws_subnet_UqYjx_cidr_block
-  tc_category       = var.aws_subnet_UqYjx_tc_category
-  vpc_id            = var.aws_subnet_UqYjx_vpc_id
+  availability_zone = var.aws_subnet_YmDRa_availability_zone
+  cidr_block        = var.aws_subnet_YmDRa_cidr_block
+  tc_category       = var.aws_subnet_YmDRa_tc_category
+  vpc_id            = var.aws_subnet_YmDRa_vpc_id
 }
 
-resource "aws_subnet" "VAOWM" {
+resource "aws_subnet" "YtEIf" {
   tags = {
-    Name   = var.aws_subnet_VAOWM_tags_Name
-    client = var.aws_subnet_VAOWM_tags_client
+    Name   = var.aws_subnet_YtEIf_tags_Name
+    client = var.aws_subnet_YtEIf_tags_client
   }
 
-  availability_zone = var.aws_subnet_VAOWM_availability_zone
-  cidr_block        = var.aws_subnet_VAOWM_cidr_block
-  tc_category       = var.aws_subnet_VAOWM_tc_category
-  vpc_id            = var.aws_subnet_VAOWM_vpc_id
+  availability_zone_id = var.aws_subnet_YtEIf_availability_zone_id
+  cidr_block           = var.aws_subnet_YtEIf_cidr_block
+  tc_category          = var.aws_subnet_YtEIf_tc_category
+  vpc_id               = var.aws_subnet_YtEIf_vpc_id
 }
 
-resource "aws_subnet" "VPwOd" {
+resource "aws_subnet" "bUxIh" {
+  availability_zone_id    = var.aws_subnet_bUxIh_availability_zone_id
+  cidr_block              = var.aws_subnet_bUxIh_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_bUxIh_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_bUxIh_tc_category
+  vpc_id                  = var.aws_subnet_bUxIh_vpc_id
+}
+
+resource "aws_subnet" "bnDYk" {
   tags = {
-    Name   = var.aws_subnet_VPwOd_tags_Name
-    client = var.aws_subnet_VPwOd_tags_client
+    Name   = var.aws_subnet_bnDYk_tags_Name
+    client = var.aws_subnet_bnDYk_tags_client
   }
 
-  availability_zone_id = var.aws_subnet_VPwOd_availability_zone_id
-  cidr_block           = var.aws_subnet_VPwOd_cidr_block
-  tc_category          = var.aws_subnet_VPwOd_tc_category
-  vpc_id               = var.aws_subnet_VPwOd_vpc_id
+  availability_zone = var.aws_subnet_bnDYk_availability_zone
+  cidr_block        = var.aws_subnet_bnDYk_cidr_block
+  tc_category       = var.aws_subnet_bnDYk_tc_category
+  vpc_id            = var.aws_subnet_bnDYk_vpc_id
 }
 
-resource "aws_subnet" "VgFKo" {
+resource "aws_subnet" "dbhiJ" {
   tags = {
-    Name   = var.aws_subnet_VgFKo_tags_Name
-    client = var.aws_subnet_VgFKo_tags_client
+    Name   = var.aws_subnet_dbhiJ_tags_Name
+    client = var.aws_subnet_dbhiJ_tags_client
   }
 
-  availability_zone = var.aws_subnet_VgFKo_availability_zone
-  cidr_block        = var.aws_subnet_VgFKo_cidr_block
-  tc_category       = var.aws_subnet_VgFKo_tc_category
-  vpc_id            = var.aws_subnet_VgFKo_vpc_id
+  availability_zone       = var.aws_subnet_dbhiJ_availability_zone
+  cidr_block              = var.aws_subnet_dbhiJ_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_dbhiJ_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_dbhiJ_tc_category
+  vpc_id                  = var.aws_subnet_dbhiJ_vpc_id
 }
 
-resource "aws_subnet" "ZHkKO" {
+resource "aws_subnet" "ddUrP" {
   tags = {
-    Name   = var.aws_subnet_ZHkKO_tags_Name
-    client = var.aws_subnet_ZHkKO_tags_client
+    Name   = var.aws_subnet_ddUrP_tags_Name
+    client = var.aws_subnet_ddUrP_tags_client
   }
 
-  availability_zone       = var.aws_subnet_ZHkKO_availability_zone
-  cidr_block              = var.aws_subnet_ZHkKO_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_ZHkKO_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_ZHkKO_tc_category
-  vpc_id                  = var.aws_subnet_ZHkKO_vpc_id
+  availability_zone_id = var.aws_subnet_ddUrP_availability_zone_id
+  cidr_block           = var.aws_subnet_ddUrP_cidr_block
+  tc_category          = var.aws_subnet_ddUrP_tc_category
+  vpc_id               = var.aws_subnet_ddUrP_vpc_id
 }
 
-resource "aws_subnet" "eoBWy" {
+resource "aws_subnet" "ellvs" {
   tags = {
-    Name   = var.aws_subnet_eoBWy_tags_Name
-    client = var.aws_subnet_eoBWy_tags_client
+    Name   = var.aws_subnet_ellvs_tags_Name
+    client = var.aws_subnet_ellvs_tags_client
   }
 
-  availability_zone       = var.aws_subnet_eoBWy_availability_zone
-  cidr_block              = var.aws_subnet_eoBWy_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_eoBWy_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_eoBWy_tc_category
-  vpc_id                  = var.aws_subnet_eoBWy_vpc_id
+  availability_zone_id = var.aws_subnet_ellvs_availability_zone_id
+  cidr_block           = var.aws_subnet_ellvs_cidr_block
+  tc_category          = var.aws_subnet_ellvs_tc_category
+  vpc_id               = var.aws_subnet_ellvs_vpc_id
 }
 
-resource "aws_subnet" "fbByw" {
+resource "aws_subnet" "iBAvL" {
   tags = {
-    Name   = var.aws_subnet_fbByw_tags_Name
-    client = var.aws_subnet_fbByw_tags_client
+    Name   = var.aws_subnet_iBAvL_tags_Name
+    client = var.aws_subnet_iBAvL_tags_client
   }
 
-  availability_zone       = var.aws_subnet_fbByw_availability_zone
-  cidr_block              = var.aws_subnet_fbByw_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_fbByw_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_fbByw_tc_category
-  vpc_id                  = var.aws_subnet_fbByw_vpc_id
+  availability_zone_id    = var.aws_subnet_iBAvL_availability_zone_id
+  cidr_block              = var.aws_subnet_iBAvL_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_iBAvL_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_iBAvL_tc_category
+  vpc_id                  = var.aws_subnet_iBAvL_vpc_id
 }
 
-resource "aws_subnet" "gpapq" {
+resource "aws_subnet" "iWaGj" {
   tags = {
-    Name   = var.aws_subnet_gpapq_tags_Name
-    client = var.aws_subnet_gpapq_tags_client
+    Name   = var.aws_subnet_iWaGj_tags_Name
+    client = var.aws_subnet_iWaGj_tags_client
   }
 
-  availability_zone = var.aws_subnet_gpapq_availability_zone
-  cidr_block        = var.aws_subnet_gpapq_cidr_block
-  tc_category       = var.aws_subnet_gpapq_tc_category
-  vpc_id            = var.aws_subnet_gpapq_vpc_id
+  availability_zone = var.aws_subnet_iWaGj_availability_zone
+  cidr_block        = var.aws_subnet_iWaGj_cidr_block
+  tc_category       = var.aws_subnet_iWaGj_tc_category
+  vpc_id            = var.aws_subnet_iWaGj_vpc_id
 }
 
-resource "aws_subnet" "iZCou" {
+resource "aws_subnet" "kbLoy" {
+  availability_zone_id    = var.aws_subnet_kbLoy_availability_zone_id
+  cidr_block              = var.aws_subnet_kbLoy_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_kbLoy_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_kbLoy_tc_category
+  vpc_id                  = var.aws_subnet_kbLoy_vpc_id
+}
+
+resource "aws_subnet" "khQUZ" {
   tags = {
-    Name   = var.aws_subnet_iZCou_tags_Name
-    client = var.aws_subnet_iZCou_tags_client
+    Name   = var.aws_subnet_khQUZ_tags_Name
+    client = var.aws_subnet_khQUZ_tags_client
   }
 
-  availability_zone       = var.aws_subnet_iZCou_availability_zone
-  cidr_block              = var.aws_subnet_iZCou_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_iZCou_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_iZCou_tc_category
-  vpc_id                  = var.aws_subnet_iZCou_vpc_id
+  availability_zone = var.aws_subnet_khQUZ_availability_zone
+  cidr_block        = var.aws_subnet_khQUZ_cidr_block
+  tc_category       = var.aws_subnet_khQUZ_tc_category
+  vpc_id            = var.aws_subnet_khQUZ_vpc_id
 }
 
-resource "aws_subnet" "ihIeT" {
+resource "aws_subnet" "mSXch" {
   tags = {
-    Name   = var.aws_subnet_ihIeT_tags_Name
-    client = var.aws_subnet_ihIeT_tags_client
+    Name   = var.aws_subnet_mSXch_tags_Name
+    client = var.aws_subnet_mSXch_tags_client
   }
 
-  availability_zone = var.aws_subnet_ihIeT_availability_zone
-  cidr_block        = var.aws_subnet_ihIeT_cidr_block
-  tc_category       = var.aws_subnet_ihIeT_tc_category
-  vpc_id            = var.aws_subnet_ihIeT_vpc_id
+  availability_zone_id = var.aws_subnet_mSXch_availability_zone_id
+  cidr_block           = var.aws_subnet_mSXch_cidr_block
+  tc_category          = var.aws_subnet_mSXch_tc_category
+  vpc_id               = var.aws_subnet_mSXch_vpc_id
 }
 
-resource "aws_subnet" "jKYEQ" {
+resource "aws_subnet" "mWNpJ" {
   tags = {
-    Name   = var.aws_subnet_jKYEQ_tags_Name
-    client = var.aws_subnet_jKYEQ_tags_client
+    Name   = var.aws_subnet_mWNpJ_tags_Name
+    client = var.aws_subnet_mWNpJ_tags_client
   }
 
-  availability_zone = var.aws_subnet_jKYEQ_availability_zone
-  cidr_block        = var.aws_subnet_jKYEQ_cidr_block
-  tc_category       = var.aws_subnet_jKYEQ_tc_category
-  vpc_id            = var.aws_subnet_jKYEQ_vpc_id
+  availability_zone_id = var.aws_subnet_mWNpJ_availability_zone_id
+  cidr_block           = var.aws_subnet_mWNpJ_cidr_block
+  tc_category          = var.aws_subnet_mWNpJ_tc_category
+  vpc_id               = var.aws_subnet_mWNpJ_vpc_id
 }
 
-resource "aws_subnet" "moQwz" {
+resource "aws_subnet" "noNTN" {
   tags = {
-    Name   = var.aws_subnet_moQwz_tags_Name
-    client = var.aws_subnet_moQwz_tags_client
+    Name   = var.aws_subnet_noNTN_tags_Name
+    client = var.aws_subnet_noNTN_tags_client
   }
 
-  availability_zone = var.aws_subnet_moQwz_availability_zone
-  cidr_block        = var.aws_subnet_moQwz_cidr_block
-  tc_category       = var.aws_subnet_moQwz_tc_category
-  vpc_id            = var.aws_subnet_moQwz_vpc_id
+  availability_zone_id    = var.aws_subnet_noNTN_availability_zone_id
+  cidr_block              = var.aws_subnet_noNTN_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_noNTN_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_noNTN_tc_category
+  vpc_id                  = var.aws_subnet_noNTN_vpc_id
 }
 
-resource "aws_subnet" "sWiGV" {
+resource "aws_subnet" "qXKRj" {
   tags = {
-    Name   = var.aws_subnet_sWiGV_tags_Name
-    client = var.aws_subnet_sWiGV_tags_client
+    Name   = var.aws_subnet_qXKRj_tags_Name
+    client = var.aws_subnet_qXKRj_tags_client
   }
 
-  availability_zone       = var.aws_subnet_sWiGV_availability_zone
-  cidr_block              = var.aws_subnet_sWiGV_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_sWiGV_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_sWiGV_tc_category
-  vpc_id                  = var.aws_subnet_sWiGV_vpc_id
+  availability_zone_id    = var.aws_subnet_qXKRj_availability_zone_id
+  cidr_block              = var.aws_subnet_qXKRj_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_qXKRj_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_qXKRj_tc_category
+  vpc_id                  = var.aws_subnet_qXKRj_vpc_id
 }
 
-resource "aws_subnet" "stcEb" {
+resource "aws_subnet" "qytdp" {
   tags = {
-    Name   = var.aws_subnet_stcEb_tags_Name
-    client = var.aws_subnet_stcEb_tags_client
+    Name   = var.aws_subnet_qytdp_tags_Name
+    client = var.aws_subnet_qytdp_tags_client
   }
 
-  availability_zone = var.aws_subnet_stcEb_availability_zone
-  cidr_block        = var.aws_subnet_stcEb_cidr_block
-  tc_category       = var.aws_subnet_stcEb_tc_category
-  vpc_id            = var.aws_subnet_stcEb_vpc_id
+  availability_zone_id    = var.aws_subnet_qytdp_availability_zone_id
+  cidr_block              = var.aws_subnet_qytdp_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_qytdp_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_qytdp_tc_category
+  vpc_id                  = var.aws_subnet_qytdp_vpc_id
 }
 
-resource "aws_subnet" "uehqb" {
+resource "aws_subnet" "sfEsh" {
   tags = {
-    Name   = var.aws_subnet_uehqb_tags_Name
-    client = var.aws_subnet_uehqb_tags_client
+    Name   = var.aws_subnet_sfEsh_tags_Name
+    client = var.aws_subnet_sfEsh_tags_client
   }
 
-  availability_zone_id = var.aws_subnet_uehqb_availability_zone_id
-  cidr_block           = var.aws_subnet_uehqb_cidr_block
-  tc_category          = var.aws_subnet_uehqb_tc_category
-  vpc_id               = var.aws_subnet_uehqb_vpc_id
+  availability_zone       = var.aws_subnet_sfEsh_availability_zone
+  cidr_block              = var.aws_subnet_sfEsh_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_sfEsh_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_sfEsh_tc_category
+  vpc_id                  = var.aws_subnet_sfEsh_vpc_id
 }
 
-resource "aws_subnet" "vFtSm" {
-  availability_zone_id    = var.aws_subnet_vFtSm_availability_zone_id
-  cidr_block              = var.aws_subnet_vFtSm_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_vFtSm_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_vFtSm_tc_category
-  vpc_id                  = var.aws_subnet_vFtSm_vpc_id
-}
-
-resource "aws_subnet" "vSoqi" {
+resource "aws_subnet" "wHRVQ" {
   tags = {
-    Name   = var.aws_subnet_vSoqi_tags_Name
-    client = var.aws_subnet_vSoqi_tags_client
+    Name   = var.aws_subnet_wHRVQ_tags_Name
+    client = var.aws_subnet_wHRVQ_tags_client
   }
 
-  availability_zone = var.aws_subnet_vSoqi_availability_zone
-  cidr_block        = var.aws_subnet_vSoqi_cidr_block
-  tc_category       = var.aws_subnet_vSoqi_tc_category
-  vpc_id            = var.aws_subnet_vSoqi_vpc_id
+  availability_zone = var.aws_subnet_wHRVQ_availability_zone
+  cidr_block        = var.aws_subnet_wHRVQ_cidr_block
+  tc_category       = var.aws_subnet_wHRVQ_tc_category
+  vpc_id            = var.aws_subnet_wHRVQ_vpc_id
 }
 
-resource "aws_subnet" "wapFN" {
+resource "aws_subnet" "wqYjE" {
+  availability_zone_id    = var.aws_subnet_wqYjE_availability_zone_id
+  cidr_block              = var.aws_subnet_wqYjE_cidr_block
+  map_public_ip_on_launch = var.aws_subnet_wqYjE_map_public_ip_on_launch
+  tc_category             = var.aws_subnet_wqYjE_tc_category
+  vpc_id                  = var.aws_subnet_wqYjE_vpc_id
+}
+
+resource "aws_vpc" "Ecrbg" {
   tags = {
-    Name   = var.aws_subnet_wapFN_tags_Name
-    client = var.aws_subnet_wapFN_tags_client
+    Name   = var.aws_vpc_Ecrbg_tags_Name
+    client = var.aws_vpc_Ecrbg_tags_client
   }
 
-  availability_zone       = var.aws_subnet_wapFN_availability_zone
-  cidr_block              = var.aws_subnet_wapFN_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_wapFN_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_wapFN_tc_category
-  vpc_id                  = var.aws_subnet_wapFN_vpc_id
+  cidr_block           = var.aws_vpc_Ecrbg_cidr_block
+  enable_dns_hostnames = var.aws_vpc_Ecrbg_enable_dns_hostnames
+  enable_dns_support   = var.aws_vpc_Ecrbg_enable_dns_support
+  instance_tenancy     = var.aws_vpc_Ecrbg_instance_tenancy
+  tc_category          = var.aws_vpc_Ecrbg_tc_category
 }
 
-resource "aws_subnet" "xgqns" {
+resource "aws_vpc" "HYlUf" {
   tags = {
-    Name   = var.aws_subnet_xgqns_tags_Name
-    client = var.aws_subnet_xgqns_tags_client
+    Name   = var.aws_vpc_HYlUf_tags_Name
+    client = var.aws_vpc_HYlUf_tags_client
   }
 
-  availability_zone       = var.aws_subnet_xgqns_availability_zone
-  cidr_block              = var.aws_subnet_xgqns_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_xgqns_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_xgqns_tc_category
-  vpc_id                  = var.aws_subnet_xgqns_vpc_id
+  cidr_block           = var.aws_vpc_HYlUf_cidr_block
+  enable_dns_hostnames = var.aws_vpc_HYlUf_enable_dns_hostnames
+  enable_dns_support   = var.aws_vpc_HYlUf_enable_dns_support
+  instance_tenancy     = var.aws_vpc_HYlUf_instance_tenancy
+  tc_category          = var.aws_vpc_HYlUf_tc_category
 }
 
-resource "aws_subnet" "zcwWZ" {
+resource "aws_vpc" "QOSTb" {
   tags = {
-    Name   = var.aws_subnet_zcwWZ_tags_Name
-    client = var.aws_subnet_zcwWZ_tags_client
+    Name   = var.aws_vpc_QOSTb_tags_Name
+    client = var.aws_vpc_QOSTb_tags_client
   }
 
-  availability_zone       = var.aws_subnet_zcwWZ_availability_zone
-  cidr_block              = var.aws_subnet_zcwWZ_cidr_block
-  map_public_ip_on_launch = var.aws_subnet_zcwWZ_map_public_ip_on_launch
-  tc_category             = var.aws_subnet_zcwWZ_tc_category
-  vpc_id                  = var.aws_subnet_zcwWZ_vpc_id
+  cidr_block           = var.aws_vpc_QOSTb_cidr_block
+  enable_dns_hostnames = var.aws_vpc_QOSTb_enable_dns_hostnames
+  enable_dns_support   = var.aws_vpc_QOSTb_enable_dns_support
+  instance_tenancy     = var.aws_vpc_QOSTb_instance_tenancy
+  tc_category          = var.aws_vpc_QOSTb_tc_category
 }
 
-resource "aws_subnet" "zqdmR" {
+resource "aws_vpc" "TbLUh" {
+  cidr_block           = var.aws_vpc_TbLUh_cidr_block
+  enable_dns_hostnames = var.aws_vpc_TbLUh_enable_dns_hostnames
+  enable_dns_support   = var.aws_vpc_TbLUh_enable_dns_support
+  instance_tenancy     = var.aws_vpc_TbLUh_instance_tenancy
+  tc_category          = var.aws_vpc_TbLUh_tc_category
+}
+
+resource "aws_vpc" "nMgQG" {
   tags = {
-    Name   = var.aws_subnet_zqdmR_tags_Name
-    client = var.aws_subnet_zqdmR_tags_client
+    Name   = var.aws_vpc_nMgQG_tags_Name
+    client = var.aws_vpc_nMgQG_tags_client
   }
 
-  availability_zone = var.aws_subnet_zqdmR_availability_zone
-  cidr_block        = var.aws_subnet_zqdmR_cidr_block
-  tc_category       = var.aws_subnet_zqdmR_tc_category
-  vpc_id            = var.aws_subnet_zqdmR_vpc_id
+  cidr_block           = var.aws_vpc_nMgQG_cidr_block
+  enable_dns_hostnames = var.aws_vpc_nMgQG_enable_dns_hostnames
+  enable_dns_support   = var.aws_vpc_nMgQG_enable_dns_support
+  instance_tenancy     = var.aws_vpc_nMgQG_instance_tenancy
+  tc_category          = var.aws_vpc_nMgQG_tc_category
 }
 
-resource "aws_vpc" "QpTJi" {
+resource "aws_vpc_peering_connection" "hPflz" {
   tags = {
-    Name   = var.aws_vpc_QpTJi_tags_Name
-    client = var.aws_vpc_QpTJi_tags_client
-  }
-
-  cidr_block           = var.aws_vpc_QpTJi_cidr_block
-  enable_dns_hostnames = var.aws_vpc_QpTJi_enable_dns_hostnames
-  enable_dns_support   = var.aws_vpc_QpTJi_enable_dns_support
-  instance_tenancy     = var.aws_vpc_QpTJi_instance_tenancy
-  tc_category          = var.aws_vpc_QpTJi_tc_category
-}
-
-resource "aws_vpc" "dAvJp" {
-  tags = {
-    Name   = var.aws_vpc_dAvJp_tags_Name
-    client = var.aws_vpc_dAvJp_tags_client
-  }
-
-  cidr_block           = var.aws_vpc_dAvJp_cidr_block
-  enable_dns_hostnames = var.aws_vpc_dAvJp_enable_dns_hostnames
-  enable_dns_support   = var.aws_vpc_dAvJp_enable_dns_support
-  instance_tenancy     = var.aws_vpc_dAvJp_instance_tenancy
-  tc_category          = var.aws_vpc_dAvJp_tc_category
-}
-
-resource "aws_vpc" "fHPdi" {
-  tags = {
-    Name   = var.aws_vpc_fHPdi_tags_Name
-    client = var.aws_vpc_fHPdi_tags_client
-  }
-
-  cidr_block           = var.aws_vpc_fHPdi_cidr_block
-  enable_dns_hostnames = var.aws_vpc_fHPdi_enable_dns_hostnames
-  enable_dns_support   = var.aws_vpc_fHPdi_enable_dns_support
-  instance_tenancy     = var.aws_vpc_fHPdi_instance_tenancy
-  tc_category          = var.aws_vpc_fHPdi_tc_category
-}
-
-resource "aws_vpc" "ndqAS" {
-  cidr_block           = var.aws_vpc_ndqAS_cidr_block
-  enable_dns_hostnames = var.aws_vpc_ndqAS_enable_dns_hostnames
-  enable_dns_support   = var.aws_vpc_ndqAS_enable_dns_support
-  instance_tenancy     = var.aws_vpc_ndqAS_instance_tenancy
-  tc_category          = var.aws_vpc_ndqAS_tc_category
-}
-
-resource "aws_vpc" "ylbDd" {
-  tags = {
-    Name   = var.aws_vpc_ylbDd_tags_Name
-    client = var.aws_vpc_ylbDd_tags_client
-  }
-
-  cidr_block           = var.aws_vpc_ylbDd_cidr_block
-  enable_dns_hostnames = var.aws_vpc_ylbDd_enable_dns_hostnames
-  enable_dns_support   = var.aws_vpc_ylbDd_enable_dns_support
-  instance_tenancy     = var.aws_vpc_ylbDd_instance_tenancy
-  tc_category          = var.aws_vpc_ylbDd_tc_category
-}
-
-resource "aws_vpc_peering_connection" "EIYDK" {
-  tags = {
-    Name = var.aws_vpc_peering_connection_EIYDK_tags_Name
+    Name = var.aws_vpc_peering_connection_hPflz_tags_Name
   }
 
   accepter {
-    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_EIYDK_accepter_allow_remote_vpc_dns_resolution
+    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_hPflz_accepter_allow_remote_vpc_dns_resolution
   }
 
-  peer_owner_id = var.aws_vpc_peering_connection_EIYDK_peer_owner_id
-  peer_region   = var.aws_vpc_peering_connection_EIYDK_peer_region
-  peer_vpc_id   = var.aws_vpc_peering_connection_EIYDK_peer_vpc_id
+  peer_owner_id = var.aws_vpc_peering_connection_hPflz_peer_owner_id
+  peer_region   = var.aws_vpc_peering_connection_hPflz_peer_region
+  peer_vpc_id   = var.aws_vpc_peering_connection_hPflz_peer_vpc_id
   requester {
-    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_EIYDK_requester_allow_remote_vpc_dns_resolution
+    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_hPflz_requester_allow_remote_vpc_dns_resolution
   }
 
-  tc_category = var.aws_vpc_peering_connection_EIYDK_tc_category
-  vpc_id      = var.aws_vpc_peering_connection_EIYDK_vpc_id
+  tc_category = var.aws_vpc_peering_connection_hPflz_tc_category
+  vpc_id      = var.aws_vpc_peering_connection_hPflz_vpc_id
 }
 
-resource "aws_vpc_peering_connection" "bpiLG" {
+resource "aws_vpc_peering_connection" "hcSyx" {
   tags = {
-    Name = var.aws_vpc_peering_connection_bpiLG_tags_Name
+    Name = var.aws_vpc_peering_connection_hcSyx_tags_Name
   }
 
   accepter {
-    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_bpiLG_accepter_allow_remote_vpc_dns_resolution
+    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_hcSyx_accepter_allow_remote_vpc_dns_resolution
   }
 
-  peer_owner_id = var.aws_vpc_peering_connection_bpiLG_peer_owner_id
-  peer_region   = var.aws_vpc_peering_connection_bpiLG_peer_region
-  peer_vpc_id   = var.aws_vpc_peering_connection_bpiLG_peer_vpc_id
+  peer_owner_id = var.aws_vpc_peering_connection_hcSyx_peer_owner_id
+  peer_region   = var.aws_vpc_peering_connection_hcSyx_peer_region
+  peer_vpc_id   = var.aws_vpc_peering_connection_hcSyx_peer_vpc_id
   requester {
-    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_bpiLG_requester_allow_remote_vpc_dns_resolution
+    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_hcSyx_requester_allow_remote_vpc_dns_resolution
   }
 
-  tc_category = var.aws_vpc_peering_connection_bpiLG_tc_category
-  vpc_id      = var.aws_vpc_peering_connection_bpiLG_vpc_id
+  tc_category = var.aws_vpc_peering_connection_hcSyx_tc_category
+  vpc_id      = var.aws_vpc_peering_connection_hcSyx_vpc_id
 }
 
-resource "aws_vpc_peering_connection" "dAzgz" {
+resource "aws_vpc_peering_connection" "kaZHJ" {
   tags = {
-    Name = var.aws_vpc_peering_connection_dAzgz_tags_Name
+    Name = var.aws_vpc_peering_connection_kaZHJ_tags_Name
   }
 
   accepter {
-    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_dAzgz_accepter_allow_remote_vpc_dns_resolution
+    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_kaZHJ_accepter_allow_remote_vpc_dns_resolution
   }
 
-  peer_owner_id = var.aws_vpc_peering_connection_dAzgz_peer_owner_id
-  peer_region   = var.aws_vpc_peering_connection_dAzgz_peer_region
-  peer_vpc_id   = var.aws_vpc_peering_connection_dAzgz_peer_vpc_id
+  peer_owner_id = var.aws_vpc_peering_connection_kaZHJ_peer_owner_id
+  peer_region   = var.aws_vpc_peering_connection_kaZHJ_peer_region
+  peer_vpc_id   = var.aws_vpc_peering_connection_kaZHJ_peer_vpc_id
   requester {
-    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_dAzgz_requester_allow_remote_vpc_dns_resolution
+    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_kaZHJ_requester_allow_remote_vpc_dns_resolution
   }
 
-  tc_category = var.aws_vpc_peering_connection_dAzgz_tc_category
-  vpc_id      = var.aws_vpc_peering_connection_dAzgz_vpc_id
+  tc_category = var.aws_vpc_peering_connection_kaZHJ_tc_category
+  vpc_id      = var.aws_vpc_peering_connection_kaZHJ_vpc_id
 }
 
-resource "aws_vpc_peering_connection" "vWsNm" {
+resource "aws_vpc_peering_connection" "qVxGg" {
   tags = {
-    Name = var.aws_vpc_peering_connection_vWsNm_tags_Name
+    Name = var.aws_vpc_peering_connection_qVxGg_tags_Name
   }
 
   accepter {
-    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_vWsNm_accepter_allow_remote_vpc_dns_resolution
+    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_qVxGg_accepter_allow_remote_vpc_dns_resolution
   }
 
-  peer_owner_id = var.aws_vpc_peering_connection_vWsNm_peer_owner_id
-  peer_region   = var.aws_vpc_peering_connection_vWsNm_peer_region
-  peer_vpc_id   = var.aws_vpc_peering_connection_vWsNm_peer_vpc_id
+  peer_owner_id = var.aws_vpc_peering_connection_qVxGg_peer_owner_id
+  peer_region   = var.aws_vpc_peering_connection_qVxGg_peer_region
+  peer_vpc_id   = var.aws_vpc_peering_connection_qVxGg_peer_vpc_id
   requester {
-    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_vWsNm_requester_allow_remote_vpc_dns_resolution
+    allow_remote_vpc_dns_resolution = var.aws_vpc_peering_connection_qVxGg_requester_allow_remote_vpc_dns_resolution
   }
 
-  tc_category = var.aws_vpc_peering_connection_vWsNm_tc_category
-  vpc_id      = var.aws_vpc_peering_connection_vWsNm_vpc_id
+  tc_category = var.aws_vpc_peering_connection_qVxGg_tc_category
+  vpc_id      = var.aws_vpc_peering_connection_qVxGg_vpc_id
 }
 

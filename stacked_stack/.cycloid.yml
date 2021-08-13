@@ -1,0 +1,21 @@
+version: "2"
+name: Stacked Stack
+canonical: stacked_stack
+author: cycloidio
+status: private
+description: 'Stacked '
+image: ""
+keywords:
+- Stacked Stack
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: default/pipeline/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: default/pipeline/variables.sample.yaml

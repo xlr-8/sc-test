@@ -1,51 +1,51 @@
-resource "aws_ses_domain_dkim" "RUzKn" {
-  domain      = var.aws_ses_domain_dkim_RUzKn_domain
-  tc_category = var.aws_ses_domain_dkim_RUzKn_tc_category
+resource "aws_ses_domain_dkim" "UPdvC" {
+  domain      = var.aws_ses_domain_dkim_UPdvC_domain
+  tc_category = var.aws_ses_domain_dkim_UPdvC_tc_category
 }
 
-resource "aws_ses_domain_dkim" "ssxrE" {
-  domain      = var.aws_ses_domain_dkim_ssxrE_domain
-  tc_category = var.aws_ses_domain_dkim_ssxrE_tc_category
+resource "aws_ses_domain_dkim" "nCvcB" {
+  domain      = var.aws_ses_domain_dkim_nCvcB_domain
+  tc_category = var.aws_ses_domain_dkim_nCvcB_tc_category
 }
 
-resource "aws_ses_domain_identity" "igNHY" {
-  domain      = var.aws_ses_domain_identity_igNHY_domain
-  tc_category = var.aws_ses_domain_identity_igNHY_tc_category
+resource "aws_ses_domain_identity" "DhhEN" {
+  domain      = var.aws_ses_domain_identity_DhhEN_domain
+  tc_category = var.aws_ses_domain_identity_DhhEN_tc_category
 }
 
-resource "aws_ses_domain_identity" "qfsYx" {
-  domain      = var.aws_ses_domain_identity_qfsYx_domain
-  tc_category = var.aws_ses_domain_identity_qfsYx_tc_category
+resource "aws_ses_domain_identity" "fsqhG" {
+  domain      = var.aws_ses_domain_identity_fsqhG_domain
+  tc_category = var.aws_ses_domain_identity_fsqhG_tc_category
 }
 
-resource "aws_ses_domain_identity_verification" "IRnfQ" {
-  domain      = var.aws_ses_domain_identity_verification_IRnfQ_domain
-  tc_category = var.aws_ses_domain_identity_verification_IRnfQ_tc_category
+resource "aws_ses_domain_identity_verification" "hhfXE" {
+  domain      = var.aws_ses_domain_identity_verification_hhfXE_domain
+  tc_category = var.aws_ses_domain_identity_verification_hhfXE_tc_category
 }
 
-resource "aws_ses_domain_identity_verification" "TFoWn" {
-  domain      = var.aws_ses_domain_identity_verification_TFoWn_domain
-  tc_category = var.aws_ses_domain_identity_verification_TFoWn_tc_category
+resource "aws_ses_domain_identity_verification" "qxqmk" {
+  domain      = var.aws_ses_domain_identity_verification_qxqmk_domain
+  tc_category = var.aws_ses_domain_identity_verification_qxqmk_tc_category
 }
 
-resource "aws_ses_domain_mail_from" "BKuLf" {
-  behavior_on_mx_failure = var.aws_ses_domain_mail_from_BKuLf_behavior_on_mx_failure
-  domain                 = var.aws_ses_domain_mail_from_BKuLf_domain
-  mail_from_domain       = var.aws_ses_domain_mail_from_BKuLf_mail_from_domain
-  tc_category            = var.aws_ses_domain_mail_from_BKuLf_tc_category
+resource "aws_ses_domain_mail_from" "WZNqj" {
+  behavior_on_mx_failure = var.aws_ses_domain_mail_from_WZNqj_behavior_on_mx_failure
+  domain                 = var.aws_ses_domain_mail_from_WZNqj_domain
+  mail_from_domain       = var.aws_ses_domain_mail_from_WZNqj_mail_from_domain
+  tc_category            = var.aws_ses_domain_mail_from_WZNqj_tc_category
 }
 
-resource "aws_ses_domain_mail_from" "IdoDa" {
-  behavior_on_mx_failure = var.aws_ses_domain_mail_from_IdoDa_behavior_on_mx_failure
-  domain                 = var.aws_ses_domain_mail_from_IdoDa_domain
-  mail_from_domain       = var.aws_ses_domain_mail_from_IdoDa_mail_from_domain
-  tc_category            = var.aws_ses_domain_mail_from_IdoDa_tc_category
+resource "aws_ses_domain_mail_from" "jtvnD" {
+  behavior_on_mx_failure = var.aws_ses_domain_mail_from_jtvnD_behavior_on_mx_failure
+  domain                 = var.aws_ses_domain_mail_from_jtvnD_domain
+  mail_from_domain       = var.aws_ses_domain_mail_from_jtvnD_mail_from_domain
+  tc_category            = var.aws_ses_domain_mail_from_jtvnD_tc_category
 }
 
-resource "aws_ses_identity_notification_topic" "RZitm" {
-  identity          = var.aws_ses_identity_notification_topic_RZitm_identity
-  notification_type = var.aws_ses_identity_notification_topic_RZitm_notification_type
-  tc_category       = var.aws_ses_identity_notification_topic_RZitm_tc_category
-  topic_arn         = var.aws_ses_identity_notification_topic_RZitm_topic_arn
+resource "aws_ses_identity_notification_topic" "MOvAT" {
+  identity          = var.aws_ses_identity_notification_topic_MOvAT_identity
+  notification_type = var.aws_ses_identity_notification_topic_MOvAT_notification_type
+  tc_category       = var.aws_ses_identity_notification_topic_MOvAT_tc_category
+  topic_arn         = var.aws_ses_identity_notification_topic_MOvAT_topic_arn
 }
 

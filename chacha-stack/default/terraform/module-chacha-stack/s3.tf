@@ -1,509 +1,509 @@
-resource "aws_s3_bucket" "AEMsf" {
-  tags = {
-    Name                 = var.aws_s3_bucket_AEMsf_tags_Name
-    client               = var.aws_s3_bucket_AEMsf_tags_client
-    "cycloid.io"         = var.aws_s3_bucket_AEMsf_tags_cycloid_io
-    env                  = var.aws_s3_bucket_AEMsf_tags_env
-    monitoring_discovery = var.aws_s3_bucket_AEMsf_tags_monitoring_discovery
-    project              = var.aws_s3_bucket_AEMsf_tags_project
-    role                 = var.aws_s3_bucket_AEMsf_tags_role
-  }
-
-  tags_all = {
-    Name                 = var.aws_s3_bucket_AEMsf_tags_all_Name
-    client               = var.aws_s3_bucket_AEMsf_tags_all_client
-    "cycloid.io"         = var.aws_s3_bucket_AEMsf_tags_all_cycloid_io
-    env                  = var.aws_s3_bucket_AEMsf_tags_all_env
-    monitoring_discovery = var.aws_s3_bucket_AEMsf_tags_all_monitoring_discovery
-    project              = var.aws_s3_bucket_AEMsf_tags_all_project
-    role                 = var.aws_s3_bucket_AEMsf_tags_all_role
-  }
-
-  arn            = var.aws_s3_bucket_AEMsf_arn
-  bucket         = var.aws_s3_bucket_AEMsf_bucket
-  hosted_zone_id = var.aws_s3_bucket_AEMsf_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_AEMsf_request_payer
-}
-
-resource "aws_s3_bucket" "FPVhj" {
-  tags = {
-    Name    = var.aws_s3_bucket_FPVhj_tags_Name
-    client  = var.aws_s3_bucket_FPVhj_tags_client
-    env     = var.aws_s3_bucket_FPVhj_tags_env
-    project = var.aws_s3_bucket_FPVhj_tags_project
-  }
-
-  tags_all = {
-    Name    = var.aws_s3_bucket_FPVhj_tags_all_Name
-    client  = var.aws_s3_bucket_FPVhj_tags_all_client
-    env     = var.aws_s3_bucket_FPVhj_tags_all_env
-    project = var.aws_s3_bucket_FPVhj_tags_all_project
-  }
-
-  arn    = var.aws_s3_bucket_FPVhj_arn
-  bucket = var.aws_s3_bucket_FPVhj_bucket
-  grant {
-    id          = var.aws_s3_bucket_FPVhj_grant_id
-    permissions = var.aws_s3_bucket_FPVhj_grant_permissions
-    type        = var.aws_s3_bucket_FPVhj_grant_type
-  }
-
-  grant {
-    permissions = var.aws_s3_bucket_FPVhj_grant_permissions
-    type        = var.aws_s3_bucket_FPVhj_grant_type
-    uri         = var.aws_s3_bucket_FPVhj_grant_uri
-  }
-
-  hosted_zone_id = var.aws_s3_bucket_FPVhj_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_FPVhj_request_payer
+resource "aws_s3_bucket" "CkSkv" {
+  arn            = var.aws_s3_bucket_CkSkv_arn
+  bucket         = var.aws_s3_bucket_CkSkv_bucket
+  hosted_zone_id = var.aws_s3_bucket_CkSkv_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_CkSkv_request_payer
   versioning {
-    enabled = var.aws_s3_bucket_FPVhj_versioning_enabled
+    enabled = var.aws_s3_bucket_CkSkv_versioning_enabled
   }
 
 }
 
-resource "aws_s3_bucket" "KDFCX" {
+resource "aws_s3_bucket" "EkdXS" {
   tags = {
-    Name    = var.aws_s3_bucket_KDFCX_tags_Name
-    client  = var.aws_s3_bucket_KDFCX_tags_client
-    env     = var.aws_s3_bucket_KDFCX_tags_env
-    project = var.aws_s3_bucket_KDFCX_tags_project
+    Name         = var.aws_s3_bucket_EkdXS_tags_Name
+    client       = var.aws_s3_bucket_EkdXS_tags_client
+    "cycloid.io" = var.aws_s3_bucket_EkdXS_tags_cycloid_io
+    env          = var.aws_s3_bucket_EkdXS_tags_env
+    project      = var.aws_s3_bucket_EkdXS_tags_project
+    role         = var.aws_s3_bucket_EkdXS_tags_role
   }
 
   tags_all = {
-    Name    = var.aws_s3_bucket_KDFCX_tags_all_Name
-    client  = var.aws_s3_bucket_KDFCX_tags_all_client
-    env     = var.aws_s3_bucket_KDFCX_tags_all_env
-    project = var.aws_s3_bucket_KDFCX_tags_all_project
+    Name         = var.aws_s3_bucket_EkdXS_tags_all_Name
+    client       = var.aws_s3_bucket_EkdXS_tags_all_client
+    "cycloid.io" = var.aws_s3_bucket_EkdXS_tags_all_cycloid_io
+    env          = var.aws_s3_bucket_EkdXS_tags_all_env
+    project      = var.aws_s3_bucket_EkdXS_tags_all_project
+    role         = var.aws_s3_bucket_EkdXS_tags_all_role
   }
 
-  arn    = var.aws_s3_bucket_KDFCX_arn
-  bucket = var.aws_s3_bucket_KDFCX_bucket
-  grant {
-    id          = var.aws_s3_bucket_KDFCX_grant_id
-    permissions = var.aws_s3_bucket_KDFCX_grant_permissions
-    type        = var.aws_s3_bucket_KDFCX_grant_type
-  }
-
-  grant {
-    permissions = var.aws_s3_bucket_KDFCX_grant_permissions
-    type        = var.aws_s3_bucket_KDFCX_grant_type
-    uri         = var.aws_s3_bucket_KDFCX_grant_uri
-  }
-
-  hosted_zone_id = var.aws_s3_bucket_KDFCX_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_KDFCX_request_payer
+  arn            = var.aws_s3_bucket_EkdXS_arn
+  bucket         = var.aws_s3_bucket_EkdXS_bucket
+  hosted_zone_id = var.aws_s3_bucket_EkdXS_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_EkdXS_request_payer
 }
 
-resource "aws_s3_bucket" "MlEeM" {
-  arn            = var.aws_s3_bucket_MlEeM_arn
-  bucket         = var.aws_s3_bucket_MlEeM_bucket
-  hosted_zone_id = var.aws_s3_bucket_MlEeM_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_MlEeM_request_payer
-  versioning {
-    enabled = var.aws_s3_bucket_MlEeM_versioning_enabled
-  }
-
-}
-
-resource "aws_s3_bucket" "QMMkF" {
+resource "aws_s3_bucket" "HQwZt" {
   tags = {
-    Name    = var.aws_s3_bucket_QMMkF_tags_Name
-    client  = var.aws_s3_bucket_QMMkF_tags_client
-    env     = var.aws_s3_bucket_QMMkF_tags_env
-    project = var.aws_s3_bucket_QMMkF_tags_project
+    Name    = var.aws_s3_bucket_HQwZt_tags_Name
+    client  = var.aws_s3_bucket_HQwZt_tags_client
+    env     = var.aws_s3_bucket_HQwZt_tags_env
+    project = var.aws_s3_bucket_HQwZt_tags_project
   }
 
   tags_all = {
-    Name    = var.aws_s3_bucket_QMMkF_tags_all_Name
-    client  = var.aws_s3_bucket_QMMkF_tags_all_client
-    env     = var.aws_s3_bucket_QMMkF_tags_all_env
-    project = var.aws_s3_bucket_QMMkF_tags_all_project
+    Name    = var.aws_s3_bucket_HQwZt_tags_all_Name
+    client  = var.aws_s3_bucket_HQwZt_tags_all_client
+    env     = var.aws_s3_bucket_HQwZt_tags_all_env
+    project = var.aws_s3_bucket_HQwZt_tags_all_project
   }
 
-  arn    = var.aws_s3_bucket_QMMkF_arn
-  bucket = var.aws_s3_bucket_QMMkF_bucket
+  arn    = var.aws_s3_bucket_HQwZt_arn
+  bucket = var.aws_s3_bucket_HQwZt_bucket
   grant {
-    id          = var.aws_s3_bucket_QMMkF_grant_id
-    permissions = var.aws_s3_bucket_QMMkF_grant_permissions
-    type        = var.aws_s3_bucket_QMMkF_grant_type
+    id          = var.aws_s3_bucket_HQwZt_grant_id
+    permissions = var.aws_s3_bucket_HQwZt_grant_permissions
+    type        = var.aws_s3_bucket_HQwZt_grant_type
   }
 
   grant {
-    permissions = var.aws_s3_bucket_QMMkF_grant_permissions
-    type        = var.aws_s3_bucket_QMMkF_grant_type
-    uri         = var.aws_s3_bucket_QMMkF_grant_uri
+    permissions = var.aws_s3_bucket_HQwZt_grant_permissions
+    type        = var.aws_s3_bucket_HQwZt_grant_type
+    uri         = var.aws_s3_bucket_HQwZt_grant_uri
   }
 
-  hosted_zone_id = var.aws_s3_bucket_QMMkF_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_QMMkF_request_payer
-  website {
-    redirect_all_requests_to = var.aws_s3_bucket_QMMkF_website_redirect_all_requests_to
-  }
-
-  website_domain   = var.aws_s3_bucket_QMMkF_website_domain
-  website_endpoint = var.aws_s3_bucket_QMMkF_website_endpoint
+  hosted_zone_id = var.aws_s3_bucket_HQwZt_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_HQwZt_request_payer
 }
 
-resource "aws_s3_bucket" "VxrJA" {
-  tags = {
-    custome      = var.aws_s3_bucket_VxrJA_tags_custome
-    "cycloid.io" = var.aws_s3_bucket_VxrJA_tags_cycloid_io
-    env          = var.aws_s3_bucket_VxrJA_tags_env
-    project      = var.aws_s3_bucket_VxrJA_tags_project
+resource "aws_s3_bucket" "OSNwn" {
+  arn    = var.aws_s3_bucket_OSNwn_arn
+  bucket = var.aws_s3_bucket_OSNwn_bucket
+  grant {
+    id          = var.aws_s3_bucket_OSNwn_grant_id
+    permissions = var.aws_s3_bucket_OSNwn_grant_permissions
+    type        = var.aws_s3_bucket_OSNwn_grant_type
   }
 
-  tags_all = {
-    custome      = var.aws_s3_bucket_VxrJA_tags_all_custome
-    "cycloid.io" = var.aws_s3_bucket_VxrJA_tags_all_cycloid_io
-    env          = var.aws_s3_bucket_VxrJA_tags_all_env
-    project      = var.aws_s3_bucket_VxrJA_tags_all_project
-  }
-
-  arn            = var.aws_s3_bucket_VxrJA_arn
-  bucket         = var.aws_s3_bucket_VxrJA_bucket
-  hosted_zone_id = var.aws_s3_bucket_VxrJA_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_VxrJA_request_payer
-}
-
-resource "aws_s3_bucket" "XAWiB" {
-  arn            = var.aws_s3_bucket_XAWiB_arn
-  bucket         = var.aws_s3_bucket_XAWiB_bucket
-  hosted_zone_id = var.aws_s3_bucket_XAWiB_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_XAWiB_request_payer
-  versioning {
-    enabled = var.aws_s3_bucket_XAWiB_versioning_enabled
-  }
-
-}
-
-resource "aws_s3_bucket" "XUHuB" {
-  tags = {
-    Name         = var.aws_s3_bucket_XUHuB_tags_Name
-    client       = var.aws_s3_bucket_XUHuB_tags_client
-    "cycloid.io" = var.aws_s3_bucket_XUHuB_tags_cycloid_io
-    env          = var.aws_s3_bucket_XUHuB_tags_env
-    project      = var.aws_s3_bucket_XUHuB_tags_project
-    role         = var.aws_s3_bucket_XUHuB_tags_role
-  }
-
-  tags_all = {
-    Name         = var.aws_s3_bucket_XUHuB_tags_all_Name
-    client       = var.aws_s3_bucket_XUHuB_tags_all_client
-    "cycloid.io" = var.aws_s3_bucket_XUHuB_tags_all_cycloid_io
-    env          = var.aws_s3_bucket_XUHuB_tags_all_env
-    project      = var.aws_s3_bucket_XUHuB_tags_all_project
-    role         = var.aws_s3_bucket_XUHuB_tags_all_role
-  }
-
-  arn            = var.aws_s3_bucket_XUHuB_arn
-  bucket         = var.aws_s3_bucket_XUHuB_bucket
-  hosted_zone_id = var.aws_s3_bucket_XUHuB_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_XUHuB_request_payer
-}
-
-resource "aws_s3_bucket" "ZfQRE" {
-  tags = {
-    Name    = var.aws_s3_bucket_ZfQRE_tags_Name
-    client  = var.aws_s3_bucket_ZfQRE_tags_client
-    env     = var.aws_s3_bucket_ZfQRE_tags_env
-    project = var.aws_s3_bucket_ZfQRE_tags_project
-  }
-
-  tags_all = {
-    Name    = var.aws_s3_bucket_ZfQRE_tags_all_Name
-    client  = var.aws_s3_bucket_ZfQRE_tags_all_client
-    env     = var.aws_s3_bucket_ZfQRE_tags_all_env
-    project = var.aws_s3_bucket_ZfQRE_tags_all_project
-  }
-
-  arn            = var.aws_s3_bucket_ZfQRE_arn
-  bucket         = var.aws_s3_bucket_ZfQRE_bucket
-  hosted_zone_id = var.aws_s3_bucket_ZfQRE_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_ZfQRE_request_payer
-  website {
-    error_document = var.aws_s3_bucket_ZfQRE_website_error_document
-    index_document = var.aws_s3_bucket_ZfQRE_website_index_document
-  }
-
-  website_domain   = var.aws_s3_bucket_ZfQRE_website_domain
-  website_endpoint = var.aws_s3_bucket_ZfQRE_website_endpoint
-}
-
-resource "aws_s3_bucket" "bABiJ" {
-  arn            = var.aws_s3_bucket_bABiJ_arn
-  bucket         = var.aws_s3_bucket_bABiJ_bucket
-  hosted_zone_id = var.aws_s3_bucket_bABiJ_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_bABiJ_request_payer
-}
-
-resource "aws_s3_bucket" "cHCXL" {
-  arn            = var.aws_s3_bucket_cHCXL_arn
-  bucket         = var.aws_s3_bucket_cHCXL_bucket
-  hosted_zone_id = var.aws_s3_bucket_cHCXL_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_cHCXL_request_payer
-}
-
-resource "aws_s3_bucket" "dGixT" {
-  arn            = var.aws_s3_bucket_dGixT_arn
-  bucket         = var.aws_s3_bucket_dGixT_bucket
-  hosted_zone_id = var.aws_s3_bucket_dGixT_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_dGixT_request_payer
-  versioning {
-    enabled = var.aws_s3_bucket_dGixT_versioning_enabled
-  }
-
-}
-
-resource "aws_s3_bucket" "dVzfK" {
-  tags = {
-    customer = var.aws_s3_bucket_dVzfK_tags_customer
-    env      = var.aws_s3_bucket_dVzfK_tags_env
-    project  = var.aws_s3_bucket_dVzfK_tags_project
-  }
-
-  tags_all = {
-    customer = var.aws_s3_bucket_dVzfK_tags_all_customer
-    env      = var.aws_s3_bucket_dVzfK_tags_all_env
-    project  = var.aws_s3_bucket_dVzfK_tags_all_project
-  }
-
-  arn            = var.aws_s3_bucket_dVzfK_arn
-  bucket         = var.aws_s3_bucket_dVzfK_bucket
-  hosted_zone_id = var.aws_s3_bucket_dVzfK_hosted_zone_id
+  hosted_zone_id = var.aws_s3_bucket_OSNwn_hosted_zone_id
   lifecycle_rule {
-    enabled = var.aws_s3_bucket_dVzfK_lifecycle_rule_enabled
-    expiration {
-      days = var.aws_s3_bucket_dVzfK_lifecycle_rule_expiration_days
-    }
-
-    id = var.aws_s3_bucket_dVzfK_lifecycle_rule_id
+    enabled = var.aws_s3_bucket_OSNwn_lifecycle_rule_enabled
+    id      = var.aws_s3_bucket_OSNwn_lifecycle_rule_id
     noncurrent_version_expiration {
-      days = var.aws_s3_bucket_dVzfK_lifecycle_rule_noncurrent_version_expiration_days
+      days = var.aws_s3_bucket_OSNwn_lifecycle_rule_noncurrent_version_expiration_days
     }
 
-    prefix = var.aws_s3_bucket_dVzfK_lifecycle_rule_prefix
   }
 
-  request_payer = var.aws_s3_bucket_dVzfK_request_payer
-}
-
-resource "aws_s3_bucket" "fMmSL" {
-  tags = {
-    Name    = var.aws_s3_bucket_fMmSL_tags_Name
-    client  = var.aws_s3_bucket_fMmSL_tags_client
-    project = var.aws_s3_bucket_fMmSL_tags_project
-  }
-
-  tags_all = {
-    Name    = var.aws_s3_bucket_fMmSL_tags_all_Name
-    client  = var.aws_s3_bucket_fMmSL_tags_all_client
-    project = var.aws_s3_bucket_fMmSL_tags_all_project
-  }
-
-  arn    = var.aws_s3_bucket_fMmSL_arn
-  bucket = var.aws_s3_bucket_fMmSL_bucket
-  grant {
-    id          = var.aws_s3_bucket_fMmSL_grant_id
-    permissions = var.aws_s3_bucket_fMmSL_grant_permissions
-    type        = var.aws_s3_bucket_fMmSL_grant_type
-  }
-
-  grant {
-    id          = var.aws_s3_bucket_fMmSL_grant_id
-    permissions = var.aws_s3_bucket_fMmSL_grant_permissions
-    type        = var.aws_s3_bucket_fMmSL_grant_type
-  }
-
-  hosted_zone_id = var.aws_s3_bucket_fMmSL_hosted_zone_id
-  lifecycle_rule {
-    enabled = var.aws_s3_bucket_fMmSL_lifecycle_rule_enabled
-    expiration {
-      days = var.aws_s3_bucket_fMmSL_lifecycle_rule_expiration_days
-    }
-
-    id     = var.aws_s3_bucket_fMmSL_lifecycle_rule_id
-    prefix = var.aws_s3_bucket_fMmSL_lifecycle_rule_prefix
-  }
-
-  lifecycle_rule {
-    enabled = var.aws_s3_bucket_fMmSL_lifecycle_rule_enabled
-    expiration {
-      days = var.aws_s3_bucket_fMmSL_lifecycle_rule_expiration_days
-    }
-
-    id     = var.aws_s3_bucket_fMmSL_lifecycle_rule_id
-    prefix = var.aws_s3_bucket_fMmSL_lifecycle_rule_prefix
-  }
-
-  lifecycle_rule {
-    enabled = var.aws_s3_bucket_fMmSL_lifecycle_rule_enabled
-    expiration {
-      days = var.aws_s3_bucket_fMmSL_lifecycle_rule_expiration_days
-    }
-
-    id     = var.aws_s3_bucket_fMmSL_lifecycle_rule_id
-    prefix = var.aws_s3_bucket_fMmSL_lifecycle_rule_prefix
-  }
-
-  lifecycle_rule {
-    enabled = var.aws_s3_bucket_fMmSL_lifecycle_rule_enabled
-    expiration {
-      days = var.aws_s3_bucket_fMmSL_lifecycle_rule_expiration_days
-    }
-
-    id     = var.aws_s3_bucket_fMmSL_lifecycle_rule_id
-    prefix = var.aws_s3_bucket_fMmSL_lifecycle_rule_prefix
-  }
-
-  lifecycle_rule {
-    enabled = var.aws_s3_bucket_fMmSL_lifecycle_rule_enabled
-    expiration {
-      days = var.aws_s3_bucket_fMmSL_lifecycle_rule_expiration_days
-    }
-
-    id     = var.aws_s3_bucket_fMmSL_lifecycle_rule_id
-    prefix = var.aws_s3_bucket_fMmSL_lifecycle_rule_prefix
-  }
-
-  request_payer = var.aws_s3_bucket_fMmSL_request_payer
-}
-
-resource "aws_s3_bucket" "kHhPe" {
-  tags = {
-    Name    = var.aws_s3_bucket_kHhPe_tags_Name
-    client  = var.aws_s3_bucket_kHhPe_tags_client
-    project = var.aws_s3_bucket_kHhPe_tags_project
-  }
-
-  tags_all = {
-    Name    = var.aws_s3_bucket_kHhPe_tags_all_Name
-    client  = var.aws_s3_bucket_kHhPe_tags_all_client
-    project = var.aws_s3_bucket_kHhPe_tags_all_project
-  }
-
-  arn            = var.aws_s3_bucket_kHhPe_arn
-  bucket         = var.aws_s3_bucket_kHhPe_bucket
-  hosted_zone_id = var.aws_s3_bucket_kHhPe_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_kHhPe_request_payer
+  request_payer = var.aws_s3_bucket_OSNwn_request_payer
   versioning {
-    enabled = var.aws_s3_bucket_kHhPe_versioning_enabled
+    enabled = var.aws_s3_bucket_OSNwn_versioning_enabled
   }
 
 }
 
-resource "aws_s3_bucket" "lVnRi" {
+resource "aws_s3_bucket" "TCRHg" {
   tags = {
-    customer     = var.aws_s3_bucket_lVnRi_tags_customer
-    "cycloid.io" = var.aws_s3_bucket_lVnRi_tags_cycloid_io
-    env          = var.aws_s3_bucket_lVnRi_tags_env
-    project      = var.aws_s3_bucket_lVnRi_tags_project
+    customer = var.aws_s3_bucket_TCRHg_tags_customer
+    env      = var.aws_s3_bucket_TCRHg_tags_env
+    project  = var.aws_s3_bucket_TCRHg_tags_project
   }
 
   tags_all = {
-    customer     = var.aws_s3_bucket_lVnRi_tags_all_customer
-    "cycloid.io" = var.aws_s3_bucket_lVnRi_tags_all_cycloid_io
-    env          = var.aws_s3_bucket_lVnRi_tags_all_env
-    project      = var.aws_s3_bucket_lVnRi_tags_all_project
+    customer = var.aws_s3_bucket_TCRHg_tags_all_customer
+    env      = var.aws_s3_bucket_TCRHg_tags_all_env
+    project  = var.aws_s3_bucket_TCRHg_tags_all_project
   }
 
-  arn            = var.aws_s3_bucket_lVnRi_arn
-  bucket         = var.aws_s3_bucket_lVnRi_bucket
-  hosted_zone_id = var.aws_s3_bucket_lVnRi_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_lVnRi_request_payer
-}
-
-resource "aws_s3_bucket" "osKmf" {
-  arn    = var.aws_s3_bucket_osKmf_arn
-  bucket = var.aws_s3_bucket_osKmf_bucket
-  grant {
-    id          = var.aws_s3_bucket_osKmf_grant_id
-    permissions = var.aws_s3_bucket_osKmf_grant_permissions
-    type        = var.aws_s3_bucket_osKmf_grant_type
-  }
-
-  hosted_zone_id = var.aws_s3_bucket_osKmf_hosted_zone_id
+  arn            = var.aws_s3_bucket_TCRHg_arn
+  bucket         = var.aws_s3_bucket_TCRHg_bucket
+  hosted_zone_id = var.aws_s3_bucket_TCRHg_hosted_zone_id
   lifecycle_rule {
-    enabled = var.aws_s3_bucket_osKmf_lifecycle_rule_enabled
-    id      = var.aws_s3_bucket_osKmf_lifecycle_rule_id
+    enabled = var.aws_s3_bucket_TCRHg_lifecycle_rule_enabled
+    expiration {
+      days = var.aws_s3_bucket_TCRHg_lifecycle_rule_expiration_days
+    }
+
+    id = var.aws_s3_bucket_TCRHg_lifecycle_rule_id
     noncurrent_version_expiration {
-      days = var.aws_s3_bucket_osKmf_lifecycle_rule_noncurrent_version_expiration_days
+      days = var.aws_s3_bucket_TCRHg_lifecycle_rule_noncurrent_version_expiration_days
     }
 
+    prefix = var.aws_s3_bucket_TCRHg_lifecycle_rule_prefix
   }
 
-  request_payer = var.aws_s3_bucket_osKmf_request_payer
+  request_payer = var.aws_s3_bucket_TCRHg_request_payer
+}
+
+resource "aws_s3_bucket" "TWqUw" {
+  arn            = var.aws_s3_bucket_TWqUw_arn
+  bucket         = var.aws_s3_bucket_TWqUw_bucket
+  hosted_zone_id = var.aws_s3_bucket_TWqUw_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_TWqUw_request_payer
+}
+
+resource "aws_s3_bucket" "YhXyd" {
+  arn            = var.aws_s3_bucket_YhXyd_arn
+  bucket         = var.aws_s3_bucket_YhXyd_bucket
+  hosted_zone_id = var.aws_s3_bucket_YhXyd_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_YhXyd_request_payer
   versioning {
-    enabled = var.aws_s3_bucket_osKmf_versioning_enabled
+    enabled = var.aws_s3_bucket_YhXyd_versioning_enabled
   }
 
 }
 
-resource "aws_s3_bucket" "ovhth" {
-  arn            = var.aws_s3_bucket_ovhth_arn
-  bucket         = var.aws_s3_bucket_ovhth_bucket
-  hosted_zone_id = var.aws_s3_bucket_ovhth_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_ovhth_request_payer
-}
-
-resource "aws_s3_bucket" "stVQP" {
+resource "aws_s3_bucket" "ZGKaK" {
   tags = {
-    Name    = var.aws_s3_bucket_stVQP_tags_Name
-    client  = var.aws_s3_bucket_stVQP_tags_client
-    env     = var.aws_s3_bucket_stVQP_tags_env
-    project = var.aws_s3_bucket_stVQP_tags_project
+    custome      = var.aws_s3_bucket_ZGKaK_tags_custome
+    "cycloid.io" = var.aws_s3_bucket_ZGKaK_tags_cycloid_io
+    env          = var.aws_s3_bucket_ZGKaK_tags_env
+    project      = var.aws_s3_bucket_ZGKaK_tags_project
   }
 
   tags_all = {
-    Name    = var.aws_s3_bucket_stVQP_tags_all_Name
-    client  = var.aws_s3_bucket_stVQP_tags_all_client
-    env     = var.aws_s3_bucket_stVQP_tags_all_env
-    project = var.aws_s3_bucket_stVQP_tags_all_project
+    custome      = var.aws_s3_bucket_ZGKaK_tags_all_custome
+    "cycloid.io" = var.aws_s3_bucket_ZGKaK_tags_all_cycloid_io
+    env          = var.aws_s3_bucket_ZGKaK_tags_all_env
+    project      = var.aws_s3_bucket_ZGKaK_tags_all_project
   }
 
-  arn            = var.aws_s3_bucket_stVQP_arn
-  bucket         = var.aws_s3_bucket_stVQP_bucket
-  hosted_zone_id = var.aws_s3_bucket_stVQP_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_stVQP_request_payer
+  arn            = var.aws_s3_bucket_ZGKaK_arn
+  bucket         = var.aws_s3_bucket_ZGKaK_bucket
+  hosted_zone_id = var.aws_s3_bucket_ZGKaK_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_ZGKaK_request_payer
+}
+
+resource "aws_s3_bucket" "cATTJ" {
+  tags = {
+    Name                 = var.aws_s3_bucket_cATTJ_tags_Name
+    client               = var.aws_s3_bucket_cATTJ_tags_client
+    "cycloid.io"         = var.aws_s3_bucket_cATTJ_tags_cycloid_io
+    env                  = var.aws_s3_bucket_cATTJ_tags_env
+    monitoring_discovery = var.aws_s3_bucket_cATTJ_tags_monitoring_discovery
+    project              = var.aws_s3_bucket_cATTJ_tags_project
+    role                 = var.aws_s3_bucket_cATTJ_tags_role
+  }
+
+  tags_all = {
+    Name                 = var.aws_s3_bucket_cATTJ_tags_all_Name
+    client               = var.aws_s3_bucket_cATTJ_tags_all_client
+    "cycloid.io"         = var.aws_s3_bucket_cATTJ_tags_all_cycloid_io
+    env                  = var.aws_s3_bucket_cATTJ_tags_all_env
+    monitoring_discovery = var.aws_s3_bucket_cATTJ_tags_all_monitoring_discovery
+    project              = var.aws_s3_bucket_cATTJ_tags_all_project
+    role                 = var.aws_s3_bucket_cATTJ_tags_all_role
+  }
+
+  arn            = var.aws_s3_bucket_cATTJ_arn
+  bucket         = var.aws_s3_bucket_cATTJ_bucket
+  hosted_zone_id = var.aws_s3_bucket_cATTJ_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_cATTJ_request_payer
+}
+
+resource "aws_s3_bucket" "cumaN" {
+  tags = {
+    Name    = var.aws_s3_bucket_cumaN_tags_Name
+    client  = var.aws_s3_bucket_cumaN_tags_client
+    env     = var.aws_s3_bucket_cumaN_tags_env
+    project = var.aws_s3_bucket_cumaN_tags_project
+  }
+
+  tags_all = {
+    Name    = var.aws_s3_bucket_cumaN_tags_all_Name
+    client  = var.aws_s3_bucket_cumaN_tags_all_client
+    env     = var.aws_s3_bucket_cumaN_tags_all_env
+    project = var.aws_s3_bucket_cumaN_tags_all_project
+  }
+
+  arn            = var.aws_s3_bucket_cumaN_arn
+  bucket         = var.aws_s3_bucket_cumaN_bucket
+  hosted_zone_id = var.aws_s3_bucket_cumaN_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_cumaN_request_payer
   website {
-    error_document = var.aws_s3_bucket_stVQP_website_error_document
-    index_document = var.aws_s3_bucket_stVQP_website_index_document
+    error_document = var.aws_s3_bucket_cumaN_website_error_document
+    index_document = var.aws_s3_bucket_cumaN_website_index_document
   }
 
-  website_domain   = var.aws_s3_bucket_stVQP_website_domain
-  website_endpoint = var.aws_s3_bucket_stVQP_website_endpoint
+  website_domain   = var.aws_s3_bucket_cumaN_website_domain
+  website_endpoint = var.aws_s3_bucket_cumaN_website_endpoint
 }
 
-resource "aws_s3_bucket" "tPxoL" {
+resource "aws_s3_bucket" "dMTkP" {
+  arn            = var.aws_s3_bucket_dMTkP_arn
+  bucket         = var.aws_s3_bucket_dMTkP_bucket
+  hosted_zone_id = var.aws_s3_bucket_dMTkP_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_dMTkP_request_payer
+}
+
+resource "aws_s3_bucket" "fTnLc" {
+  arn            = var.aws_s3_bucket_fTnLc_arn
+  bucket         = var.aws_s3_bucket_fTnLc_bucket
+  hosted_zone_id = var.aws_s3_bucket_fTnLc_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_fTnLc_request_payer
+}
+
+resource "aws_s3_bucket" "fXqqz" {
   tags = {
-    Name    = var.aws_s3_bucket_tPxoL_tags_Name
-    client  = var.aws_s3_bucket_tPxoL_tags_client
-    env     = var.aws_s3_bucket_tPxoL_tags_env
-    project = var.aws_s3_bucket_tPxoL_tags_project
+    Name    = var.aws_s3_bucket_fXqqz_tags_Name
+    client  = var.aws_s3_bucket_fXqqz_tags_client
+    env     = var.aws_s3_bucket_fXqqz_tags_env
+    project = var.aws_s3_bucket_fXqqz_tags_project
   }
 
   tags_all = {
-    Name    = var.aws_s3_bucket_tPxoL_tags_all_Name
-    client  = var.aws_s3_bucket_tPxoL_tags_all_client
-    env     = var.aws_s3_bucket_tPxoL_tags_all_env
-    project = var.aws_s3_bucket_tPxoL_tags_all_project
+    Name    = var.aws_s3_bucket_fXqqz_tags_all_Name
+    client  = var.aws_s3_bucket_fXqqz_tags_all_client
+    env     = var.aws_s3_bucket_fXqqz_tags_all_env
+    project = var.aws_s3_bucket_fXqqz_tags_all_project
   }
 
-  arn    = var.aws_s3_bucket_tPxoL_arn
-  bucket = var.aws_s3_bucket_tPxoL_bucket
+  arn    = var.aws_s3_bucket_fXqqz_arn
+  bucket = var.aws_s3_bucket_fXqqz_bucket
   grant {
-    id          = var.aws_s3_bucket_tPxoL_grant_id
-    permissions = var.aws_s3_bucket_tPxoL_grant_permissions
-    type        = var.aws_s3_bucket_tPxoL_grant_type
+    id          = var.aws_s3_bucket_fXqqz_grant_id
+    permissions = var.aws_s3_bucket_fXqqz_grant_permissions
+    type        = var.aws_s3_bucket_fXqqz_grant_type
   }
 
   grant {
-    permissions = var.aws_s3_bucket_tPxoL_grant_permissions
-    type        = var.aws_s3_bucket_tPxoL_grant_type
-    uri         = var.aws_s3_bucket_tPxoL_grant_uri
+    permissions = var.aws_s3_bucket_fXqqz_grant_permissions
+    type        = var.aws_s3_bucket_fXqqz_grant_type
+    uri         = var.aws_s3_bucket_fXqqz_grant_uri
   }
 
-  hosted_zone_id = var.aws_s3_bucket_tPxoL_hosted_zone_id
-  request_payer  = var.aws_s3_bucket_tPxoL_request_payer
+  hosted_zone_id = var.aws_s3_bucket_fXqqz_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_fXqqz_request_payer
+  versioning {
+    enabled = var.aws_s3_bucket_fXqqz_versioning_enabled
+  }
+
+}
+
+resource "aws_s3_bucket" "iJdVM" {
+  arn            = var.aws_s3_bucket_iJdVM_arn
+  bucket         = var.aws_s3_bucket_iJdVM_bucket
+  hosted_zone_id = var.aws_s3_bucket_iJdVM_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_iJdVM_request_payer
+  versioning {
+    enabled = var.aws_s3_bucket_iJdVM_versioning_enabled
+  }
+
+}
+
+resource "aws_s3_bucket" "kTtTO" {
+  tags = {
+    customer     = var.aws_s3_bucket_kTtTO_tags_customer
+    "cycloid.io" = var.aws_s3_bucket_kTtTO_tags_cycloid_io
+    env          = var.aws_s3_bucket_kTtTO_tags_env
+    project      = var.aws_s3_bucket_kTtTO_tags_project
+  }
+
+  tags_all = {
+    customer     = var.aws_s3_bucket_kTtTO_tags_all_customer
+    "cycloid.io" = var.aws_s3_bucket_kTtTO_tags_all_cycloid_io
+    env          = var.aws_s3_bucket_kTtTO_tags_all_env
+    project      = var.aws_s3_bucket_kTtTO_tags_all_project
+  }
+
+  arn            = var.aws_s3_bucket_kTtTO_arn
+  bucket         = var.aws_s3_bucket_kTtTO_bucket
+  hosted_zone_id = var.aws_s3_bucket_kTtTO_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_kTtTO_request_payer
+}
+
+resource "aws_s3_bucket" "kiITg" {
+  tags = {
+    Name    = var.aws_s3_bucket_kiITg_tags_Name
+    client  = var.aws_s3_bucket_kiITg_tags_client
+    env     = var.aws_s3_bucket_kiITg_tags_env
+    project = var.aws_s3_bucket_kiITg_tags_project
+  }
+
+  tags_all = {
+    Name    = var.aws_s3_bucket_kiITg_tags_all_Name
+    client  = var.aws_s3_bucket_kiITg_tags_all_client
+    env     = var.aws_s3_bucket_kiITg_tags_all_env
+    project = var.aws_s3_bucket_kiITg_tags_all_project
+  }
+
+  arn    = var.aws_s3_bucket_kiITg_arn
+  bucket = var.aws_s3_bucket_kiITg_bucket
+  grant {
+    id          = var.aws_s3_bucket_kiITg_grant_id
+    permissions = var.aws_s3_bucket_kiITg_grant_permissions
+    type        = var.aws_s3_bucket_kiITg_grant_type
+  }
+
+  grant {
+    permissions = var.aws_s3_bucket_kiITg_grant_permissions
+    type        = var.aws_s3_bucket_kiITg_grant_type
+    uri         = var.aws_s3_bucket_kiITg_grant_uri
+  }
+
+  hosted_zone_id = var.aws_s3_bucket_kiITg_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_kiITg_request_payer
+}
+
+resource "aws_s3_bucket" "lGqvi" {
+  tags = {
+    Name    = var.aws_s3_bucket_lGqvi_tags_Name
+    client  = var.aws_s3_bucket_lGqvi_tags_client
+    env     = var.aws_s3_bucket_lGqvi_tags_env
+    project = var.aws_s3_bucket_lGqvi_tags_project
+  }
+
+  tags_all = {
+    Name    = var.aws_s3_bucket_lGqvi_tags_all_Name
+    client  = var.aws_s3_bucket_lGqvi_tags_all_client
+    env     = var.aws_s3_bucket_lGqvi_tags_all_env
+    project = var.aws_s3_bucket_lGqvi_tags_all_project
+  }
+
+  arn    = var.aws_s3_bucket_lGqvi_arn
+  bucket = var.aws_s3_bucket_lGqvi_bucket
+  grant {
+    id          = var.aws_s3_bucket_lGqvi_grant_id
+    permissions = var.aws_s3_bucket_lGqvi_grant_permissions
+    type        = var.aws_s3_bucket_lGqvi_grant_type
+  }
+
+  grant {
+    permissions = var.aws_s3_bucket_lGqvi_grant_permissions
+    type        = var.aws_s3_bucket_lGqvi_grant_type
+    uri         = var.aws_s3_bucket_lGqvi_grant_uri
+  }
+
+  hosted_zone_id = var.aws_s3_bucket_lGqvi_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_lGqvi_request_payer
+  website {
+    redirect_all_requests_to = var.aws_s3_bucket_lGqvi_website_redirect_all_requests_to
+  }
+
+  website_domain   = var.aws_s3_bucket_lGqvi_website_domain
+  website_endpoint = var.aws_s3_bucket_lGqvi_website_endpoint
+}
+
+resource "aws_s3_bucket" "qJkQf" {
+  tags = {
+    Name    = var.aws_s3_bucket_qJkQf_tags_Name
+    client  = var.aws_s3_bucket_qJkQf_tags_client
+    project = var.aws_s3_bucket_qJkQf_tags_project
+  }
+
+  tags_all = {
+    Name    = var.aws_s3_bucket_qJkQf_tags_all_Name
+    client  = var.aws_s3_bucket_qJkQf_tags_all_client
+    project = var.aws_s3_bucket_qJkQf_tags_all_project
+  }
+
+  arn    = var.aws_s3_bucket_qJkQf_arn
+  bucket = var.aws_s3_bucket_qJkQf_bucket
+  grant {
+    id          = var.aws_s3_bucket_qJkQf_grant_id
+    permissions = var.aws_s3_bucket_qJkQf_grant_permissions
+    type        = var.aws_s3_bucket_qJkQf_grant_type
+  }
+
+  grant {
+    id          = var.aws_s3_bucket_qJkQf_grant_id
+    permissions = var.aws_s3_bucket_qJkQf_grant_permissions
+    type        = var.aws_s3_bucket_qJkQf_grant_type
+  }
+
+  hosted_zone_id = var.aws_s3_bucket_qJkQf_hosted_zone_id
+  lifecycle_rule {
+    enabled = var.aws_s3_bucket_qJkQf_lifecycle_rule_enabled
+    expiration {
+      days = var.aws_s3_bucket_qJkQf_lifecycle_rule_expiration_days
+    }
+
+    id     = var.aws_s3_bucket_qJkQf_lifecycle_rule_id
+    prefix = var.aws_s3_bucket_qJkQf_lifecycle_rule_prefix
+  }
+
+  lifecycle_rule {
+    enabled = var.aws_s3_bucket_qJkQf_lifecycle_rule_enabled
+    expiration {
+      days = var.aws_s3_bucket_qJkQf_lifecycle_rule_expiration_days
+    }
+
+    id     = var.aws_s3_bucket_qJkQf_lifecycle_rule_id
+    prefix = var.aws_s3_bucket_qJkQf_lifecycle_rule_prefix
+  }
+
+  lifecycle_rule {
+    enabled = var.aws_s3_bucket_qJkQf_lifecycle_rule_enabled
+    expiration {
+      days = var.aws_s3_bucket_qJkQf_lifecycle_rule_expiration_days
+    }
+
+    id     = var.aws_s3_bucket_qJkQf_lifecycle_rule_id
+    prefix = var.aws_s3_bucket_qJkQf_lifecycle_rule_prefix
+  }
+
+  lifecycle_rule {
+    enabled = var.aws_s3_bucket_qJkQf_lifecycle_rule_enabled
+    expiration {
+      days = var.aws_s3_bucket_qJkQf_lifecycle_rule_expiration_days
+    }
+
+    id     = var.aws_s3_bucket_qJkQf_lifecycle_rule_id
+    prefix = var.aws_s3_bucket_qJkQf_lifecycle_rule_prefix
+  }
+
+  lifecycle_rule {
+    enabled = var.aws_s3_bucket_qJkQf_lifecycle_rule_enabled
+    expiration {
+      days = var.aws_s3_bucket_qJkQf_lifecycle_rule_expiration_days
+    }
+
+    id     = var.aws_s3_bucket_qJkQf_lifecycle_rule_id
+    prefix = var.aws_s3_bucket_qJkQf_lifecycle_rule_prefix
+  }
+
+  request_payer = var.aws_s3_bucket_qJkQf_request_payer
+}
+
+resource "aws_s3_bucket" "tAXLA" {
+  tags = {
+    Name    = var.aws_s3_bucket_tAXLA_tags_Name
+    client  = var.aws_s3_bucket_tAXLA_tags_client
+    env     = var.aws_s3_bucket_tAXLA_tags_env
+    project = var.aws_s3_bucket_tAXLA_tags_project
+  }
+
+  tags_all = {
+    Name    = var.aws_s3_bucket_tAXLA_tags_all_Name
+    client  = var.aws_s3_bucket_tAXLA_tags_all_client
+    env     = var.aws_s3_bucket_tAXLA_tags_all_env
+    project = var.aws_s3_bucket_tAXLA_tags_all_project
+  }
+
+  arn            = var.aws_s3_bucket_tAXLA_arn
+  bucket         = var.aws_s3_bucket_tAXLA_bucket
+  hosted_zone_id = var.aws_s3_bucket_tAXLA_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_tAXLA_request_payer
+  website {
+    error_document = var.aws_s3_bucket_tAXLA_website_error_document
+    index_document = var.aws_s3_bucket_tAXLA_website_index_document
+  }
+
+  website_domain   = var.aws_s3_bucket_tAXLA_website_domain
+  website_endpoint = var.aws_s3_bucket_tAXLA_website_endpoint
+}
+
+resource "aws_s3_bucket" "uFlpx" {
+  tags = {
+    Name    = var.aws_s3_bucket_uFlpx_tags_Name
+    client  = var.aws_s3_bucket_uFlpx_tags_client
+    project = var.aws_s3_bucket_uFlpx_tags_project
+  }
+
+  tags_all = {
+    Name    = var.aws_s3_bucket_uFlpx_tags_all_Name
+    client  = var.aws_s3_bucket_uFlpx_tags_all_client
+    project = var.aws_s3_bucket_uFlpx_tags_all_project
+  }
+
+  arn            = var.aws_s3_bucket_uFlpx_arn
+  bucket         = var.aws_s3_bucket_uFlpx_bucket
+  hosted_zone_id = var.aws_s3_bucket_uFlpx_hosted_zone_id
+  request_payer  = var.aws_s3_bucket_uFlpx_request_payer
+  versioning {
+    enabled = var.aws_s3_bucket_uFlpx_versioning_enabled
+  }
+
 }
 

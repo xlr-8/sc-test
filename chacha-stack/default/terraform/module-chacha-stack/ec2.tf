@@ -1,1076 +1,1081 @@
-resource "aws_eip" "CSZii" {
-  network_border_group = var.aws_eip_CSZii_network_border_group
-  network_interface    = var.aws_eip_CSZii_network_interface
-  public_ipv4_pool     = var.aws_eip_CSZii_public_ipv4_pool
-  vpc                  = var.aws_eip_CSZii_vpc
+resource "aws_eip" "Epblt" {
+  network_border_group = var.aws_eip_Epblt_network_border_group
+  network_interface    = var.aws_eip_Epblt_network_interface
+  public_ipv4_pool     = var.aws_eip_Epblt_public_ipv4_pool
+  vpc                  = var.aws_eip_Epblt_vpc
 }
 
-resource "aws_eip" "FhYqc" {
-  instance             = var.aws_eip_FhYqc_instance
-  network_border_group = var.aws_eip_FhYqc_network_border_group
-  network_interface    = var.aws_eip_FhYqc_network_interface
-  public_ipv4_pool     = var.aws_eip_FhYqc_public_ipv4_pool
-  vpc                  = var.aws_eip_FhYqc_vpc
+resource "aws_eip" "IcpMi" {
+  network_border_group = var.aws_eip_IcpMi_network_border_group
+  network_interface    = var.aws_eip_IcpMi_network_interface
+  public_ipv4_pool     = var.aws_eip_IcpMi_public_ipv4_pool
+  vpc                  = var.aws_eip_IcpMi_vpc
 }
 
-resource "aws_eip" "FpDDX" {
-  instance             = var.aws_eip_FpDDX_instance
-  network_border_group = var.aws_eip_FpDDX_network_border_group
-  network_interface    = var.aws_eip_FpDDX_network_interface
-  public_ipv4_pool     = var.aws_eip_FpDDX_public_ipv4_pool
-  vpc                  = var.aws_eip_FpDDX_vpc
+resource "aws_eip" "MQMEH" {
+  network_border_group = var.aws_eip_MQMEH_network_border_group
+  network_interface    = var.aws_eip_MQMEH_network_interface
+  public_ipv4_pool     = var.aws_eip_MQMEH_public_ipv4_pool
+  vpc                  = var.aws_eip_MQMEH_vpc
 }
 
-resource "aws_eip" "KHCCc" {
-  instance             = var.aws_eip_KHCCc_instance
-  network_border_group = var.aws_eip_KHCCc_network_border_group
-  network_interface    = var.aws_eip_KHCCc_network_interface
-  public_ipv4_pool     = var.aws_eip_KHCCc_public_ipv4_pool
-  vpc                  = var.aws_eip_KHCCc_vpc
+resource "aws_eip" "MkBFW" {
+  instance             = var.aws_eip_MkBFW_instance
+  network_border_group = var.aws_eip_MkBFW_network_border_group
+  network_interface    = var.aws_eip_MkBFW_network_interface
+  public_ipv4_pool     = var.aws_eip_MkBFW_public_ipv4_pool
+  vpc                  = var.aws_eip_MkBFW_vpc
 }
 
-resource "aws_eip" "Muxqk" {
-  network_border_group = var.aws_eip_Muxqk_network_border_group
-  network_interface    = var.aws_eip_Muxqk_network_interface
-  public_ipv4_pool     = var.aws_eip_Muxqk_public_ipv4_pool
-  vpc                  = var.aws_eip_Muxqk_vpc
+resource "aws_eip" "NKBdr" {
+  instance             = var.aws_eip_NKBdr_instance
+  network_border_group = var.aws_eip_NKBdr_network_border_group
+  network_interface    = var.aws_eip_NKBdr_network_interface
+  public_ipv4_pool     = var.aws_eip_NKBdr_public_ipv4_pool
+  vpc                  = var.aws_eip_NKBdr_vpc
 }
 
-resource "aws_eip" "UHDHl" {
-  instance             = var.aws_eip_UHDHl_instance
-  network_border_group = var.aws_eip_UHDHl_network_border_group
-  network_interface    = var.aws_eip_UHDHl_network_interface
-  public_ipv4_pool     = var.aws_eip_UHDHl_public_ipv4_pool
-  vpc                  = var.aws_eip_UHDHl_vpc
+resource "aws_eip" "Qjctq" {
+  instance             = var.aws_eip_Qjctq_instance
+  network_border_group = var.aws_eip_Qjctq_network_border_group
+  network_interface    = var.aws_eip_Qjctq_network_interface
+  public_ipv4_pool     = var.aws_eip_Qjctq_public_ipv4_pool
+  vpc                  = var.aws_eip_Qjctq_vpc
 }
 
-resource "aws_eip" "bSSMD" {
-  network_border_group = var.aws_eip_bSSMD_network_border_group
-  network_interface    = var.aws_eip_bSSMD_network_interface
-  public_ipv4_pool     = var.aws_eip_bSSMD_public_ipv4_pool
-  vpc                  = var.aws_eip_bSSMD_vpc
+resource "aws_eip" "WJgTZ" {
+  network_border_group = var.aws_eip_WJgTZ_network_border_group
+  network_interface    = var.aws_eip_WJgTZ_network_interface
+  public_ipv4_pool     = var.aws_eip_WJgTZ_public_ipv4_pool
+  vpc                  = var.aws_eip_WJgTZ_vpc
 }
 
-resource "aws_eip" "mpPCm" {
-  instance             = var.aws_eip_mpPCm_instance
-  network_border_group = var.aws_eip_mpPCm_network_border_group
-  network_interface    = var.aws_eip_mpPCm_network_interface
-  public_ipv4_pool     = var.aws_eip_mpPCm_public_ipv4_pool
-  vpc                  = var.aws_eip_mpPCm_vpc
+resource "aws_eip" "gZuvf" {
+  instance             = var.aws_eip_gZuvf_instance
+  network_border_group = var.aws_eip_gZuvf_network_border_group
+  network_interface    = var.aws_eip_gZuvf_network_interface
+  public_ipv4_pool     = var.aws_eip_gZuvf_public_ipv4_pool
+  vpc                  = var.aws_eip_gZuvf_vpc
 }
 
-resource "aws_eip" "pVGzx" {
-  instance             = var.aws_eip_pVGzx_instance
-  network_border_group = var.aws_eip_pVGzx_network_border_group
-  network_interface    = var.aws_eip_pVGzx_network_interface
-  public_ipv4_pool     = var.aws_eip_pVGzx_public_ipv4_pool
-  vpc                  = var.aws_eip_pVGzx_vpc
+resource "aws_eip" "jPsnJ" {
+  instance             = var.aws_eip_jPsnJ_instance
+  network_border_group = var.aws_eip_jPsnJ_network_border_group
+  network_interface    = var.aws_eip_jPsnJ_network_interface
+  public_ipv4_pool     = var.aws_eip_jPsnJ_public_ipv4_pool
+  vpc                  = var.aws_eip_jPsnJ_vpc
 }
 
-resource "aws_eip" "vCCHd" {
-  network_border_group = var.aws_eip_vCCHd_network_border_group
-  network_interface    = var.aws_eip_vCCHd_network_interface
-  public_ipv4_pool     = var.aws_eip_vCCHd_public_ipv4_pool
-  vpc                  = var.aws_eip_vCCHd_vpc
+resource "aws_eip" "wLOAb" {
+  instance             = var.aws_eip_wLOAb_instance
+  network_border_group = var.aws_eip_wLOAb_network_border_group
+  network_interface    = var.aws_eip_wLOAb_network_interface
+  public_ipv4_pool     = var.aws_eip_wLOAb_public_ipv4_pool
+  vpc                  = var.aws_eip_wLOAb_vpc
 }
 
-resource "aws_instance" "Btcuq" {
+resource "aws_instance" "ARSRP" {
   tags = {
-    Name         = var.aws_instance_Btcuq_tags_Name
-    client       = var.aws_instance_Btcuq_tags_client
-    "cycloid.io" = var.aws_instance_Btcuq_tags_cycloid_io
-    env          = var.aws_instance_Btcuq_tags_env
-    project      = var.aws_instance_Btcuq_tags_project
-    role         = var.aws_instance_Btcuq_tags_role
+    Name         = var.aws_instance_ARSRP_tags_Name
+    client       = var.aws_instance_ARSRP_tags_client
+    "cycloid.io" = var.aws_instance_ARSRP_tags_cycloid_io
+    env          = var.aws_instance_ARSRP_tags_env
+    project      = var.aws_instance_ARSRP_tags_project
+    role         = var.aws_instance_ARSRP_tags_role
   }
 
   tags_all = {
-    Name         = var.aws_instance_Btcuq_tags_all_Name
-    client       = var.aws_instance_Btcuq_tags_all_client
-    "cycloid.io" = var.aws_instance_Btcuq_tags_all_cycloid_io
-    env          = var.aws_instance_Btcuq_tags_all_env
-    project      = var.aws_instance_Btcuq_tags_all_project
-    role         = var.aws_instance_Btcuq_tags_all_role
+    Name         = var.aws_instance_ARSRP_tags_all_Name
+    client       = var.aws_instance_ARSRP_tags_all_client
+    "cycloid.io" = var.aws_instance_ARSRP_tags_all_cycloid_io
+    env          = var.aws_instance_ARSRP_tags_all_env
+    project      = var.aws_instance_ARSRP_tags_all_project
+    role         = var.aws_instance_ARSRP_tags_all_role
   }
 
-  ami                         = var.aws_instance_Btcuq_ami
-  associate_public_ip_address = var.aws_instance_Btcuq_associate_public_ip_address
-  availability_zone           = var.aws_instance_Btcuq_availability_zone
-  cpu_core_count              = var.aws_instance_Btcuq_cpu_core_count
-  cpu_threads_per_core        = var.aws_instance_Btcuq_cpu_threads_per_core
+  ami                  = var.aws_instance_ARSRP_ami
+  availability_zone    = var.aws_instance_ARSRP_availability_zone
+  cpu_core_count       = var.aws_instance_ARSRP_cpu_core_count
+  cpu_threads_per_core = var.aws_instance_ARSRP_cpu_threads_per_core
+  credit_specification {
+    cpu_credits = var.aws_instance_ARSRP_credit_specification_cpu_credits
+  }
+
+  iam_instance_profile                 = var.aws_instance_ARSRP_iam_instance_profile
+  instance_initiated_shutdown_behavior = var.aws_instance_ARSRP_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_ARSRP_instance_type
+  key_name                             = var.aws_instance_ARSRP_key_name
+  metadata_options {
+    http_endpoint               = var.aws_instance_ARSRP_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_ARSRP_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_ARSRP_metadata_options_http_tokens
+  }
+
+  private_ip = var.aws_instance_ARSRP_private_ip
+  root_block_device {
+    tags = {
+      Name = var.aws_instance_ARSRP_root_block_device_tags_Name
+      role = var.aws_instance_ARSRP_root_block_device_tags_role
+    }
+
+    delete_on_termination = var.aws_instance_ARSRP_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_ARSRP_root_block_device_iops
+    volume_size           = var.aws_instance_ARSRP_root_block_device_volume_size
+    volume_type           = var.aws_instance_ARSRP_root_block_device_volume_type
+  }
+
+  source_dest_check      = var.aws_instance_ARSRP_source_dest_check
+  subnet_id              = var.aws_instance_ARSRP_subnet_id
+  tenancy                = var.aws_instance_ARSRP_tenancy
+  user_data              = var.aws_instance_ARSRP_user_data
+  vpc_security_group_ids = var.aws_instance_ARSRP_vpc_security_group_ids
+}
+
+resource "aws_instance" "CbJjB" {
+  tags = {
+    Name         = var.aws_instance_CbJjB_tags_Name
+    client       = var.aws_instance_CbJjB_tags_client
+    "cycloid.io" = var.aws_instance_CbJjB_tags_cycloid_io
+    env          = var.aws_instance_CbJjB_tags_env
+    project      = var.aws_instance_CbJjB_tags_project
+    role         = var.aws_instance_CbJjB_tags_role
+  }
+
+  tags_all = {
+    Name         = var.aws_instance_CbJjB_tags_all_Name
+    client       = var.aws_instance_CbJjB_tags_all_client
+    "cycloid.io" = var.aws_instance_CbJjB_tags_all_cycloid_io
+    env          = var.aws_instance_CbJjB_tags_all_env
+    project      = var.aws_instance_CbJjB_tags_all_project
+    role         = var.aws_instance_CbJjB_tags_all_role
+  }
+
+  ami                         = var.aws_instance_CbJjB_ami
+  associate_public_ip_address = var.aws_instance_CbJjB_associate_public_ip_address
+  availability_zone           = var.aws_instance_CbJjB_availability_zone
+  cpu_core_count              = var.aws_instance_CbJjB_cpu_core_count
+  cpu_threads_per_core        = var.aws_instance_CbJjB_cpu_threads_per_core
   ebs_block_device {
-    delete_on_termination = var.aws_instance_Btcuq_ebs_block_device_delete_on_termination
-    device_name           = var.aws_instance_Btcuq_ebs_block_device_device_name
-    iops                  = var.aws_instance_Btcuq_ebs_block_device_iops
+    delete_on_termination = var.aws_instance_CbJjB_ebs_block_device_delete_on_termination
+    device_name           = var.aws_instance_CbJjB_ebs_block_device_device_name
+    iops                  = var.aws_instance_CbJjB_ebs_block_device_iops
     tags {
-      Name         = var.aws_instance_Btcuq_ebs_block_device_tags_Name
-      client       = var.aws_instance_Btcuq_ebs_block_device_tags_client
-      "cycloid.io" = var.aws_instance_Btcuq_ebs_block_device_tags_cycloid_io
-      env          = var.aws_instance_Btcuq_ebs_block_device_tags_env
-      project      = var.aws_instance_Btcuq_ebs_block_device_tags_project
-      role         = var.aws_instance_Btcuq_ebs_block_device_tags_role
+      Name         = var.aws_instance_CbJjB_ebs_block_device_tags_Name
+      client       = var.aws_instance_CbJjB_ebs_block_device_tags_client
+      "cycloid.io" = var.aws_instance_CbJjB_ebs_block_device_tags_cycloid_io
+      env          = var.aws_instance_CbJjB_ebs_block_device_tags_env
+      project      = var.aws_instance_CbJjB_ebs_block_device_tags_project
+      role         = var.aws_instance_CbJjB_ebs_block_device_tags_role
     }
 
-    volume_size = var.aws_instance_Btcuq_ebs_block_device_volume_size
-    volume_type = var.aws_instance_Btcuq_ebs_block_device_volume_type
+    volume_size = var.aws_instance_CbJjB_ebs_block_device_volume_size
+    volume_type = var.aws_instance_CbJjB_ebs_block_device_volume_type
   }
 
-  ebs_optimized                        = var.aws_instance_Btcuq_ebs_optimized
-  iam_instance_profile                 = var.aws_instance_Btcuq_iam_instance_profile
-  instance_initiated_shutdown_behavior = var.aws_instance_Btcuq_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_Btcuq_instance_type
-  key_name                             = var.aws_instance_Btcuq_key_name
+  ebs_optimized                        = var.aws_instance_CbJjB_ebs_optimized
+  iam_instance_profile                 = var.aws_instance_CbJjB_iam_instance_profile
+  instance_initiated_shutdown_behavior = var.aws_instance_CbJjB_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_CbJjB_instance_type
+  key_name                             = var.aws_instance_CbJjB_key_name
   metadata_options {
-    http_endpoint               = var.aws_instance_Btcuq_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_Btcuq_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_Btcuq_metadata_options_http_tokens
+    http_endpoint               = var.aws_instance_CbJjB_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_CbJjB_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_CbJjB_metadata_options_http_tokens
   }
 
-  private_ip = var.aws_instance_Btcuq_private_ip
+  private_ip = var.aws_instance_CbJjB_private_ip
   root_block_device {
     tags = {
-      Name         = var.aws_instance_Btcuq_root_block_device_tags_Name
-      client       = var.aws_instance_Btcuq_root_block_device_tags_client
-      "cycloid.io" = var.aws_instance_Btcuq_root_block_device_tags_cycloid_io
-      env          = var.aws_instance_Btcuq_root_block_device_tags_env
-      project      = var.aws_instance_Btcuq_root_block_device_tags_project
-      role         = var.aws_instance_Btcuq_root_block_device_tags_role
+      Name         = var.aws_instance_CbJjB_root_block_device_tags_Name
+      client       = var.aws_instance_CbJjB_root_block_device_tags_client
+      "cycloid.io" = var.aws_instance_CbJjB_root_block_device_tags_cycloid_io
+      env          = var.aws_instance_CbJjB_root_block_device_tags_env
+      project      = var.aws_instance_CbJjB_root_block_device_tags_project
+      role         = var.aws_instance_CbJjB_root_block_device_tags_role
     }
 
-    delete_on_termination = var.aws_instance_Btcuq_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_Btcuq_root_block_device_iops
-    volume_size           = var.aws_instance_Btcuq_root_block_device_volume_size
-    volume_type           = var.aws_instance_Btcuq_root_block_device_volume_type
+    delete_on_termination = var.aws_instance_CbJjB_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_CbJjB_root_block_device_iops
+    volume_size           = var.aws_instance_CbJjB_root_block_device_volume_size
+    volume_type           = var.aws_instance_CbJjB_root_block_device_volume_type
   }
 
-  source_dest_check      = var.aws_instance_Btcuq_source_dest_check
-  subnet_id              = var.aws_instance_Btcuq_subnet_id
-  tenancy                = var.aws_instance_Btcuq_tenancy
-  user_data              = var.aws_instance_Btcuq_user_data
-  vpc_security_group_ids = var.aws_instance_Btcuq_vpc_security_group_ids
+  source_dest_check      = var.aws_instance_CbJjB_source_dest_check
+  subnet_id              = var.aws_instance_CbJjB_subnet_id
+  tenancy                = var.aws_instance_CbJjB_tenancy
+  user_data              = var.aws_instance_CbJjB_user_data
+  vpc_security_group_ids = var.aws_instance_CbJjB_vpc_security_group_ids
 }
 
-resource "aws_instance" "DPZMo" {
+resource "aws_instance" "OxiLu" {
   tags = {
-    Name                 = var.aws_instance_DPZMo_tags_Name
-    client               = var.aws_instance_DPZMo_tags_client
-    "cycloid.io"         = var.aws_instance_DPZMo_tags_cycloid_io
-    env                  = var.aws_instance_DPZMo_tags_env
-    monitoring_discovery = var.aws_instance_DPZMo_tags_monitoring_discovery
-    project              = var.aws_instance_DPZMo_tags_project
-    role                 = var.aws_instance_DPZMo_tags_role
+    Name         = var.aws_instance_OxiLu_tags_Name
+    client       = var.aws_instance_OxiLu_tags_client
+    "cycloid.io" = var.aws_instance_OxiLu_tags_cycloid_io
+    env          = var.aws_instance_OxiLu_tags_env
+    project      = var.aws_instance_OxiLu_tags_project
+    role         = var.aws_instance_OxiLu_tags_role
   }
 
   tags_all = {
-    Name                 = var.aws_instance_DPZMo_tags_all_Name
-    client               = var.aws_instance_DPZMo_tags_all_client
-    "cycloid.io"         = var.aws_instance_DPZMo_tags_all_cycloid_io
-    env                  = var.aws_instance_DPZMo_tags_all_env
-    monitoring_discovery = var.aws_instance_DPZMo_tags_all_monitoring_discovery
-    project              = var.aws_instance_DPZMo_tags_all_project
-    role                 = var.aws_instance_DPZMo_tags_all_role
+    Name         = var.aws_instance_OxiLu_tags_all_Name
+    client       = var.aws_instance_OxiLu_tags_all_client
+    "cycloid.io" = var.aws_instance_OxiLu_tags_all_cycloid_io
+    env          = var.aws_instance_OxiLu_tags_all_env
+    project      = var.aws_instance_OxiLu_tags_all_project
+    role         = var.aws_instance_OxiLu_tags_all_role
   }
 
-  ami                  = var.aws_instance_DPZMo_ami
-  availability_zone    = var.aws_instance_DPZMo_availability_zone
-  cpu_core_count       = var.aws_instance_DPZMo_cpu_core_count
-  cpu_threads_per_core = var.aws_instance_DPZMo_cpu_threads_per_core
+  ami                         = var.aws_instance_OxiLu_ami
+  associate_public_ip_address = var.aws_instance_OxiLu_associate_public_ip_address
+  availability_zone           = var.aws_instance_OxiLu_availability_zone
+  cpu_core_count              = var.aws_instance_OxiLu_cpu_core_count
+  cpu_threads_per_core        = var.aws_instance_OxiLu_cpu_threads_per_core
   credit_specification {
-    cpu_credits = var.aws_instance_DPZMo_credit_specification_cpu_credits
+    cpu_credits = var.aws_instance_OxiLu_credit_specification_cpu_credits
   }
 
-  iam_instance_profile                 = var.aws_instance_DPZMo_iam_instance_profile
-  instance_initiated_shutdown_behavior = var.aws_instance_DPZMo_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_DPZMo_instance_type
-  key_name                             = var.aws_instance_DPZMo_key_name
+  disable_api_termination              = var.aws_instance_OxiLu_disable_api_termination
+  iam_instance_profile                 = var.aws_instance_OxiLu_iam_instance_profile
+  instance_initiated_shutdown_behavior = var.aws_instance_OxiLu_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_OxiLu_instance_type
+  key_name                             = var.aws_instance_OxiLu_key_name
   metadata_options {
-    http_endpoint               = var.aws_instance_DPZMo_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_DPZMo_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_DPZMo_metadata_options_http_tokens
+    http_endpoint               = var.aws_instance_OxiLu_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_OxiLu_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_OxiLu_metadata_options_http_tokens
   }
 
-  private_ip = var.aws_instance_DPZMo_private_ip
+  private_ip = var.aws_instance_OxiLu_private_ip
   root_block_device {
-    tags = {
-      Name                 = var.aws_instance_DPZMo_root_block_device_tags_Name
-      monitoring_discovery = var.aws_instance_DPZMo_root_block_device_tags_monitoring_discovery
-      role                 = var.aws_instance_DPZMo_root_block_device_tags_role
-    }
-
-    delete_on_termination = var.aws_instance_DPZMo_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_DPZMo_root_block_device_iops
-    volume_size           = var.aws_instance_DPZMo_root_block_device_volume_size
-    volume_type           = var.aws_instance_DPZMo_root_block_device_volume_type
+    iops        = var.aws_instance_OxiLu_root_block_device_iops
+    volume_size = var.aws_instance_OxiLu_root_block_device_volume_size
+    volume_type = var.aws_instance_OxiLu_root_block_device_volume_type
   }
 
-  source_dest_check      = var.aws_instance_DPZMo_source_dest_check
-  subnet_id              = var.aws_instance_DPZMo_subnet_id
-  tenancy                = var.aws_instance_DPZMo_tenancy
-  user_data              = var.aws_instance_DPZMo_user_data
-  vpc_security_group_ids = var.aws_instance_DPZMo_vpc_security_group_ids
+  source_dest_check      = var.aws_instance_OxiLu_source_dest_check
+  subnet_id              = var.aws_instance_OxiLu_subnet_id
+  tenancy                = var.aws_instance_OxiLu_tenancy
+  vpc_security_group_ids = var.aws_instance_OxiLu_vpc_security_group_ids
 }
 
-resource "aws_instance" "EJYns" {
+resource "aws_instance" "QmbII" {
   tags = {
-    Name                 = var.aws_instance_EJYns_tags_Name
-    customer             = var.aws_instance_EJYns_tags_customer
-    "cycloid.io"         = var.aws_instance_EJYns_tags_cycloid_io
-    env                  = var.aws_instance_EJYns_tags_env
-    monitoring_discovery = var.aws_instance_EJYns_tags_monitoring_discovery
-    project              = var.aws_instance_EJYns_tags_project
-    role                 = var.aws_instance_EJYns_tags_role
+    Name                 = var.aws_instance_QmbII_tags_Name
+    client               = var.aws_instance_QmbII_tags_client
+    env                  = var.aws_instance_QmbII_tags_env
+    monitoring_discovery = var.aws_instance_QmbII_tags_monitoring_discovery
+    project              = var.aws_instance_QmbII_tags_project
   }
 
   tags_all = {
-    Name                 = var.aws_instance_EJYns_tags_all_Name
-    customer             = var.aws_instance_EJYns_tags_all_customer
-    "cycloid.io"         = var.aws_instance_EJYns_tags_all_cycloid_io
-    env                  = var.aws_instance_EJYns_tags_all_env
-    monitoring_discovery = var.aws_instance_EJYns_tags_all_monitoring_discovery
-    project              = var.aws_instance_EJYns_tags_all_project
-    role                 = var.aws_instance_EJYns_tags_all_role
+    Name                 = var.aws_instance_QmbII_tags_all_Name
+    client               = var.aws_instance_QmbII_tags_all_client
+    env                  = var.aws_instance_QmbII_tags_all_env
+    monitoring_discovery = var.aws_instance_QmbII_tags_all_monitoring_discovery
+    project              = var.aws_instance_QmbII_tags_all_project
   }
 
-  ami                         = var.aws_instance_EJYns_ami
-  associate_public_ip_address = var.aws_instance_EJYns_associate_public_ip_address
-  availability_zone           = var.aws_instance_EJYns_availability_zone
-  cpu_core_count              = var.aws_instance_EJYns_cpu_core_count
-  cpu_threads_per_core        = var.aws_instance_EJYns_cpu_threads_per_core
+  ami                                  = var.aws_instance_QmbII_ami
+  associate_public_ip_address          = var.aws_instance_QmbII_associate_public_ip_address
+  availability_zone                    = var.aws_instance_QmbII_availability_zone
+  cpu_core_count                       = var.aws_instance_QmbII_cpu_core_count
+  cpu_threads_per_core                 = var.aws_instance_QmbII_cpu_threads_per_core
+  disable_api_termination              = var.aws_instance_QmbII_disable_api_termination
+  instance_initiated_shutdown_behavior = var.aws_instance_QmbII_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_QmbII_instance_type
+  key_name                             = var.aws_instance_QmbII_key_name
+  metadata_options {
+    http_endpoint               = var.aws_instance_QmbII_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_QmbII_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_QmbII_metadata_options_http_tokens
+  }
+
+  private_ip = var.aws_instance_QmbII_private_ip
+  root_block_device {
+    tags = {
+      Name    = var.aws_instance_QmbII_root_block_device_tags_Name
+      client  = var.aws_instance_QmbII_root_block_device_tags_client
+      env     = var.aws_instance_QmbII_root_block_device_tags_env
+      project = var.aws_instance_QmbII_root_block_device_tags_project
+    }
+
+    delete_on_termination = var.aws_instance_QmbII_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_QmbII_root_block_device_iops
+    volume_size           = var.aws_instance_QmbII_root_block_device_volume_size
+    volume_type           = var.aws_instance_QmbII_root_block_device_volume_type
+  }
+
+  security_groups        = var.aws_instance_QmbII_security_groups
+  source_dest_check      = var.aws_instance_QmbII_source_dest_check
+  subnet_id              = var.aws_instance_QmbII_subnet_id
+  tenancy                = var.aws_instance_QmbII_tenancy
+  vpc_security_group_ids = var.aws_instance_QmbII_vpc_security_group_ids
+}
+
+resource "aws_instance" "TkHLz" {
+  tags = {
+    Name         = var.aws_instance_TkHLz_tags_Name
+    client       = var.aws_instance_TkHLz_tags_client
+    "cycloid.io" = var.aws_instance_TkHLz_tags_cycloid_io
+    env          = var.aws_instance_TkHLz_tags_env
+    project      = var.aws_instance_TkHLz_tags_project
+    role         = var.aws_instance_TkHLz_tags_role
+  }
+
+  tags_all = {
+    Name         = var.aws_instance_TkHLz_tags_all_Name
+    client       = var.aws_instance_TkHLz_tags_all_client
+    "cycloid.io" = var.aws_instance_TkHLz_tags_all_cycloid_io
+    env          = var.aws_instance_TkHLz_tags_all_env
+    project      = var.aws_instance_TkHLz_tags_all_project
+    role         = var.aws_instance_TkHLz_tags_all_role
+  }
+
+  ami                  = var.aws_instance_TkHLz_ami
+  availability_zone    = var.aws_instance_TkHLz_availability_zone
+  cpu_core_count       = var.aws_instance_TkHLz_cpu_core_count
+  cpu_threads_per_core = var.aws_instance_TkHLz_cpu_threads_per_core
   credit_specification {
-    cpu_credits = var.aws_instance_EJYns_credit_specification_cpu_credits
+    cpu_credits = var.aws_instance_TkHLz_credit_specification_cpu_credits
   }
 
+  iam_instance_profile                 = var.aws_instance_TkHLz_iam_instance_profile
+  instance_initiated_shutdown_behavior = var.aws_instance_TkHLz_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_TkHLz_instance_type
+  key_name                             = var.aws_instance_TkHLz_key_name
+  metadata_options {
+    http_endpoint               = var.aws_instance_TkHLz_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_TkHLz_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_TkHLz_metadata_options_http_tokens
+  }
+
+  private_ip = var.aws_instance_TkHLz_private_ip
+  root_block_device {
+    tags = {
+      Name = var.aws_instance_TkHLz_root_block_device_tags_Name
+      role = var.aws_instance_TkHLz_root_block_device_tags_role
+    }
+
+    delete_on_termination = var.aws_instance_TkHLz_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_TkHLz_root_block_device_iops
+    volume_size           = var.aws_instance_TkHLz_root_block_device_volume_size
+    volume_type           = var.aws_instance_TkHLz_root_block_device_volume_type
+  }
+
+  source_dest_check      = var.aws_instance_TkHLz_source_dest_check
+  subnet_id              = var.aws_instance_TkHLz_subnet_id
+  tenancy                = var.aws_instance_TkHLz_tenancy
+  user_data              = var.aws_instance_TkHLz_user_data
+  vpc_security_group_ids = var.aws_instance_TkHLz_vpc_security_group_ids
+}
+
+resource "aws_instance" "Trlpi" {
+  tags = {
+    Name         = var.aws_instance_Trlpi_tags_Name
+    client       = var.aws_instance_Trlpi_tags_client
+    "cycloid.io" = var.aws_instance_Trlpi_tags_cycloid_io
+    env          = var.aws_instance_Trlpi_tags_env
+    project      = var.aws_instance_Trlpi_tags_project
+    role         = var.aws_instance_Trlpi_tags_role
+  }
+
+  tags_all = {
+    Name         = var.aws_instance_Trlpi_tags_all_Name
+    client       = var.aws_instance_Trlpi_tags_all_client
+    "cycloid.io" = var.aws_instance_Trlpi_tags_all_cycloid_io
+    env          = var.aws_instance_Trlpi_tags_all_env
+    project      = var.aws_instance_Trlpi_tags_all_project
+    role         = var.aws_instance_Trlpi_tags_all_role
+  }
+
+  ami                         = var.aws_instance_Trlpi_ami
+  associate_public_ip_address = var.aws_instance_Trlpi_associate_public_ip_address
+  availability_zone           = var.aws_instance_Trlpi_availability_zone
+  cpu_core_count              = var.aws_instance_Trlpi_cpu_core_count
+  cpu_threads_per_core        = var.aws_instance_Trlpi_cpu_threads_per_core
   ebs_block_device {
-    delete_on_termination = var.aws_instance_EJYns_ebs_block_device_delete_on_termination
-    device_name           = var.aws_instance_EJYns_ebs_block_device_device_name
-    iops                  = var.aws_instance_EJYns_ebs_block_device_iops
-    volume_size           = var.aws_instance_EJYns_ebs_block_device_volume_size
-    volume_type           = var.aws_instance_EJYns_ebs_block_device_volume_type
-  }
-
-  iam_instance_profile                 = var.aws_instance_EJYns_iam_instance_profile
-  instance_initiated_shutdown_behavior = var.aws_instance_EJYns_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_EJYns_instance_type
-  key_name                             = var.aws_instance_EJYns_key_name
-  metadata_options {
-    http_endpoint               = var.aws_instance_EJYns_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_EJYns_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_EJYns_metadata_options_http_tokens
-  }
-
-  monitoring = var.aws_instance_EJYns_monitoring
-  private_ip = var.aws_instance_EJYns_private_ip
-  root_block_device {
-    delete_on_termination = var.aws_instance_EJYns_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_EJYns_root_block_device_iops
-    volume_size           = var.aws_instance_EJYns_root_block_device_volume_size
-    volume_type           = var.aws_instance_EJYns_root_block_device_volume_type
-  }
-
-  source_dest_check      = var.aws_instance_EJYns_source_dest_check
-  subnet_id              = var.aws_instance_EJYns_subnet_id
-  tenancy                = var.aws_instance_EJYns_tenancy
-  user_data              = var.aws_instance_EJYns_user_data
-  vpc_security_group_ids = var.aws_instance_EJYns_vpc_security_group_ids
-}
-
-resource "aws_instance" "OXtOE" {
-  tags = {
-    Name         = var.aws_instance_OXtOE_tags_Name
-    client       = var.aws_instance_OXtOE_tags_client
-    "cycloid.io" = var.aws_instance_OXtOE_tags_cycloid_io
-    env          = var.aws_instance_OXtOE_tags_env
-    project      = var.aws_instance_OXtOE_tags_project
-    role         = var.aws_instance_OXtOE_tags_role
-  }
-
-  tags_all = {
-    Name         = var.aws_instance_OXtOE_tags_all_Name
-    client       = var.aws_instance_OXtOE_tags_all_client
-    "cycloid.io" = var.aws_instance_OXtOE_tags_all_cycloid_io
-    env          = var.aws_instance_OXtOE_tags_all_env
-    project      = var.aws_instance_OXtOE_tags_all_project
-    role         = var.aws_instance_OXtOE_tags_all_role
-  }
-
-  ami                  = var.aws_instance_OXtOE_ami
-  availability_zone    = var.aws_instance_OXtOE_availability_zone
-  cpu_core_count       = var.aws_instance_OXtOE_cpu_core_count
-  cpu_threads_per_core = var.aws_instance_OXtOE_cpu_threads_per_core
-  credit_specification {
-    cpu_credits = var.aws_instance_OXtOE_credit_specification_cpu_credits
-  }
-
-  iam_instance_profile                 = var.aws_instance_OXtOE_iam_instance_profile
-  instance_initiated_shutdown_behavior = var.aws_instance_OXtOE_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_OXtOE_instance_type
-  key_name                             = var.aws_instance_OXtOE_key_name
-  metadata_options {
-    http_endpoint               = var.aws_instance_OXtOE_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_OXtOE_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_OXtOE_metadata_options_http_tokens
-  }
-
-  private_ip = var.aws_instance_OXtOE_private_ip
-  root_block_device {
-    tags = {
-      Name = var.aws_instance_OXtOE_root_block_device_tags_Name
-      role = var.aws_instance_OXtOE_root_block_device_tags_role
-    }
-
-    delete_on_termination = var.aws_instance_OXtOE_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_OXtOE_root_block_device_iops
-    volume_size           = var.aws_instance_OXtOE_root_block_device_volume_size
-    volume_type           = var.aws_instance_OXtOE_root_block_device_volume_type
-  }
-
-  source_dest_check      = var.aws_instance_OXtOE_source_dest_check
-  subnet_id              = var.aws_instance_OXtOE_subnet_id
-  tenancy                = var.aws_instance_OXtOE_tenancy
-  user_data              = var.aws_instance_OXtOE_user_data
-  vpc_security_group_ids = var.aws_instance_OXtOE_vpc_security_group_ids
-}
-
-resource "aws_instance" "QwQQi" {
-  tags = {
-    Name         = var.aws_instance_QwQQi_tags_Name
-    customer     = var.aws_instance_QwQQi_tags_customer
-    "cycloid.io" = var.aws_instance_QwQQi_tags_cycloid_io
-    env          = var.aws_instance_QwQQi_tags_env
-    project      = var.aws_instance_QwQQi_tags_project
-  }
-
-  tags_all = {
-    Name         = var.aws_instance_QwQQi_tags_all_Name
-    customer     = var.aws_instance_QwQQi_tags_all_customer
-    "cycloid.io" = var.aws_instance_QwQQi_tags_all_cycloid_io
-    env          = var.aws_instance_QwQQi_tags_all_env
-    project      = var.aws_instance_QwQQi_tags_all_project
-  }
-
-  ami                         = var.aws_instance_QwQQi_ami
-  associate_public_ip_address = var.aws_instance_QwQQi_associate_public_ip_address
-  availability_zone           = var.aws_instance_QwQQi_availability_zone
-  cpu_core_count              = var.aws_instance_QwQQi_cpu_core_count
-  cpu_threads_per_core        = var.aws_instance_QwQQi_cpu_threads_per_core
-  credit_specification {
-    cpu_credits = var.aws_instance_QwQQi_credit_specification_cpu_credits
-  }
-
-  instance_initiated_shutdown_behavior = var.aws_instance_QwQQi_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_QwQQi_instance_type
-  metadata_options {
-    http_endpoint               = var.aws_instance_QwQQi_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_QwQQi_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_QwQQi_metadata_options_http_tokens
-  }
-
-  private_ip = var.aws_instance_QwQQi_private_ip
-  root_block_device {
-    delete_on_termination = var.aws_instance_QwQQi_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_QwQQi_root_block_device_iops
-    volume_size           = var.aws_instance_QwQQi_root_block_device_volume_size
-    volume_type           = var.aws_instance_QwQQi_root_block_device_volume_type
-  }
-
-  security_groups        = var.aws_instance_QwQQi_security_groups
-  source_dest_check      = var.aws_instance_QwQQi_source_dest_check
-  subnet_id              = var.aws_instance_QwQQi_subnet_id
-  tenancy                = var.aws_instance_QwQQi_tenancy
-  user_data              = var.aws_instance_QwQQi_user_data
-  vpc_security_group_ids = var.aws_instance_QwQQi_vpc_security_group_ids
-}
-
-resource "aws_instance" "RwJes" {
-  tags = {
-    Name                 = var.aws_instance_RwJes_tags_Name
-    client               = var.aws_instance_RwJes_tags_client
-    "cycloid.io"         = var.aws_instance_RwJes_tags_cycloid_io
-    env                  = var.aws_instance_RwJes_tags_env
-    monitoring_discovery = var.aws_instance_RwJes_tags_monitoring_discovery
-    project              = var.aws_instance_RwJes_tags_project
-    role                 = var.aws_instance_RwJes_tags_role
-  }
-
-  tags_all = {
-    Name                 = var.aws_instance_RwJes_tags_all_Name
-    client               = var.aws_instance_RwJes_tags_all_client
-    "cycloid.io"         = var.aws_instance_RwJes_tags_all_cycloid_io
-    env                  = var.aws_instance_RwJes_tags_all_env
-    monitoring_discovery = var.aws_instance_RwJes_tags_all_monitoring_discovery
-    project              = var.aws_instance_RwJes_tags_all_project
-    role                 = var.aws_instance_RwJes_tags_all_role
-  }
-
-  ami                         = var.aws_instance_RwJes_ami
-  associate_public_ip_address = var.aws_instance_RwJes_associate_public_ip_address
-  availability_zone           = var.aws_instance_RwJes_availability_zone
-  cpu_core_count              = var.aws_instance_RwJes_cpu_core_count
-  cpu_threads_per_core        = var.aws_instance_RwJes_cpu_threads_per_core
-  credit_specification {
-    cpu_credits = var.aws_instance_RwJes_credit_specification_cpu_credits
-  }
-
-  iam_instance_profile                 = var.aws_instance_RwJes_iam_instance_profile
-  instance_initiated_shutdown_behavior = var.aws_instance_RwJes_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_RwJes_instance_type
-  key_name                             = var.aws_instance_RwJes_key_name
-  metadata_options {
-    http_endpoint               = var.aws_instance_RwJes_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_RwJes_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_RwJes_metadata_options_http_tokens
-  }
-
-  private_ip = var.aws_instance_RwJes_private_ip
-  root_block_device {
-    tags = {
-      Name                 = var.aws_instance_RwJes_root_block_device_tags_Name
-      client               = var.aws_instance_RwJes_root_block_device_tags_client
-      "cycloid.io"         = var.aws_instance_RwJes_root_block_device_tags_cycloid_io
-      env                  = var.aws_instance_RwJes_root_block_device_tags_env
-      monitoring_discovery = var.aws_instance_RwJes_root_block_device_tags_monitoring_discovery
-      project              = var.aws_instance_RwJes_root_block_device_tags_project
-      role                 = var.aws_instance_RwJes_root_block_device_tags_role
-    }
-
-    delete_on_termination = var.aws_instance_RwJes_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_RwJes_root_block_device_iops
-    volume_size           = var.aws_instance_RwJes_root_block_device_volume_size
-    volume_type           = var.aws_instance_RwJes_root_block_device_volume_type
-  }
-
-  source_dest_check      = var.aws_instance_RwJes_source_dest_check
-  subnet_id              = var.aws_instance_RwJes_subnet_id
-  tenancy                = var.aws_instance_RwJes_tenancy
-  vpc_security_group_ids = var.aws_instance_RwJes_vpc_security_group_ids
-}
-
-resource "aws_instance" "TuAXl" {
-  tags = {
-    Name                 = var.aws_instance_TuAXl_tags_Name
-    client               = var.aws_instance_TuAXl_tags_client
-    env                  = var.aws_instance_TuAXl_tags_env
-    monitoring_discovery = var.aws_instance_TuAXl_tags_monitoring_discovery
-    project              = var.aws_instance_TuAXl_tags_project
-  }
-
-  tags_all = {
-    Name                 = var.aws_instance_TuAXl_tags_all_Name
-    client               = var.aws_instance_TuAXl_tags_all_client
-    env                  = var.aws_instance_TuAXl_tags_all_env
-    monitoring_discovery = var.aws_instance_TuAXl_tags_all_monitoring_discovery
-    project              = var.aws_instance_TuAXl_tags_all_project
-  }
-
-  ami                                  = var.aws_instance_TuAXl_ami
-  associate_public_ip_address          = var.aws_instance_TuAXl_associate_public_ip_address
-  availability_zone                    = var.aws_instance_TuAXl_availability_zone
-  cpu_core_count                       = var.aws_instance_TuAXl_cpu_core_count
-  cpu_threads_per_core                 = var.aws_instance_TuAXl_cpu_threads_per_core
-  disable_api_termination              = var.aws_instance_TuAXl_disable_api_termination
-  instance_initiated_shutdown_behavior = var.aws_instance_TuAXl_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_TuAXl_instance_type
-  key_name                             = var.aws_instance_TuAXl_key_name
-  metadata_options {
-    http_endpoint               = var.aws_instance_TuAXl_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_TuAXl_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_TuAXl_metadata_options_http_tokens
-  }
-
-  private_ip = var.aws_instance_TuAXl_private_ip
-  root_block_device {
-    tags = {
-      Name    = var.aws_instance_TuAXl_root_block_device_tags_Name
-      client  = var.aws_instance_TuAXl_root_block_device_tags_client
-      env     = var.aws_instance_TuAXl_root_block_device_tags_env
-      project = var.aws_instance_TuAXl_root_block_device_tags_project
-    }
-
-    delete_on_termination = var.aws_instance_TuAXl_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_TuAXl_root_block_device_iops
-    volume_size           = var.aws_instance_TuAXl_root_block_device_volume_size
-    volume_type           = var.aws_instance_TuAXl_root_block_device_volume_type
-  }
-
-  security_groups        = var.aws_instance_TuAXl_security_groups
-  source_dest_check      = var.aws_instance_TuAXl_source_dest_check
-  subnet_id              = var.aws_instance_TuAXl_subnet_id
-  tenancy                = var.aws_instance_TuAXl_tenancy
-  vpc_security_group_ids = var.aws_instance_TuAXl_vpc_security_group_ids
-}
-
-resource "aws_instance" "UlkCB" {
-  tags = {
-    Name                 = var.aws_instance_UlkCB_tags_Name
-    client               = var.aws_instance_UlkCB_tags_client
-    env                  = var.aws_instance_UlkCB_tags_env
-    monitoring_discovery = var.aws_instance_UlkCB_tags_monitoring_discovery
-    project              = var.aws_instance_UlkCB_tags_project
-    role                 = var.aws_instance_UlkCB_tags_role
-  }
-
-  tags_all = {
-    Name                 = var.aws_instance_UlkCB_tags_all_Name
-    client               = var.aws_instance_UlkCB_tags_all_client
-    env                  = var.aws_instance_UlkCB_tags_all_env
-    monitoring_discovery = var.aws_instance_UlkCB_tags_all_monitoring_discovery
-    project              = var.aws_instance_UlkCB_tags_all_project
-    role                 = var.aws_instance_UlkCB_tags_all_role
-  }
-
-  ami                         = var.aws_instance_UlkCB_ami
-  associate_public_ip_address = var.aws_instance_UlkCB_associate_public_ip_address
-  availability_zone           = var.aws_instance_UlkCB_availability_zone
-  cpu_core_count              = var.aws_instance_UlkCB_cpu_core_count
-  cpu_threads_per_core        = var.aws_instance_UlkCB_cpu_threads_per_core
-  credit_specification {
-    cpu_credits = var.aws_instance_UlkCB_credit_specification_cpu_credits
-  }
-
-  disable_api_termination              = var.aws_instance_UlkCB_disable_api_termination
-  iam_instance_profile                 = var.aws_instance_UlkCB_iam_instance_profile
-  instance_initiated_shutdown_behavior = var.aws_instance_UlkCB_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_UlkCB_instance_type
-  key_name                             = var.aws_instance_UlkCB_key_name
-  metadata_options {
-    http_endpoint               = var.aws_instance_UlkCB_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_UlkCB_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_UlkCB_metadata_options_http_tokens
-  }
-
-  private_ip = var.aws_instance_UlkCB_private_ip
-  root_block_device {
-    delete_on_termination = var.aws_instance_UlkCB_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_UlkCB_root_block_device_iops
-    volume_size           = var.aws_instance_UlkCB_root_block_device_volume_size
-    volume_type           = var.aws_instance_UlkCB_root_block_device_volume_type
-  }
-
-  source_dest_check      = var.aws_instance_UlkCB_source_dest_check
-  subnet_id              = var.aws_instance_UlkCB_subnet_id
-  tenancy                = var.aws_instance_UlkCB_tenancy
-  vpc_security_group_ids = var.aws_instance_UlkCB_vpc_security_group_ids
-}
-
-resource "aws_instance" "VutoU" {
-  tags = {
-    Name         = var.aws_instance_VutoU_tags_Name
-    client       = var.aws_instance_VutoU_tags_client
-    "cycloid.io" = var.aws_instance_VutoU_tags_cycloid_io
-    env          = var.aws_instance_VutoU_tags_env
-    project      = var.aws_instance_VutoU_tags_project
-    role         = var.aws_instance_VutoU_tags_role
-  }
-
-  tags_all = {
-    Name         = var.aws_instance_VutoU_tags_all_Name
-    client       = var.aws_instance_VutoU_tags_all_client
-    "cycloid.io" = var.aws_instance_VutoU_tags_all_cycloid_io
-    env          = var.aws_instance_VutoU_tags_all_env
-    project      = var.aws_instance_VutoU_tags_all_project
-    role         = var.aws_instance_VutoU_tags_all_role
-  }
-
-  ami                         = var.aws_instance_VutoU_ami
-  associate_public_ip_address = var.aws_instance_VutoU_associate_public_ip_address
-  availability_zone           = var.aws_instance_VutoU_availability_zone
-  cpu_core_count              = var.aws_instance_VutoU_cpu_core_count
-  cpu_threads_per_core        = var.aws_instance_VutoU_cpu_threads_per_core
-  ebs_block_device {
-    delete_on_termination = var.aws_instance_VutoU_ebs_block_device_delete_on_termination
-    device_name           = var.aws_instance_VutoU_ebs_block_device_device_name
-    iops                  = var.aws_instance_VutoU_ebs_block_device_iops
+    delete_on_termination = var.aws_instance_Trlpi_ebs_block_device_delete_on_termination
+    device_name           = var.aws_instance_Trlpi_ebs_block_device_device_name
+    iops                  = var.aws_instance_Trlpi_ebs_block_device_iops
     tags {
-      Name         = var.aws_instance_VutoU_ebs_block_device_tags_Name
-      client       = var.aws_instance_VutoU_ebs_block_device_tags_client
-      "cycloid.io" = var.aws_instance_VutoU_ebs_block_device_tags_cycloid_io
-      env          = var.aws_instance_VutoU_ebs_block_device_tags_env
-      project      = var.aws_instance_VutoU_ebs_block_device_tags_project
-      role         = var.aws_instance_VutoU_ebs_block_device_tags_role
+      Name         = var.aws_instance_Trlpi_ebs_block_device_tags_Name
+      client       = var.aws_instance_Trlpi_ebs_block_device_tags_client
+      "cycloid.io" = var.aws_instance_Trlpi_ebs_block_device_tags_cycloid_io
+      env          = var.aws_instance_Trlpi_ebs_block_device_tags_env
+      project      = var.aws_instance_Trlpi_ebs_block_device_tags_project
+      role         = var.aws_instance_Trlpi_ebs_block_device_tags_role
     }
 
-    volume_size = var.aws_instance_VutoU_ebs_block_device_volume_size
-    volume_type = var.aws_instance_VutoU_ebs_block_device_volume_type
+    volume_size = var.aws_instance_Trlpi_ebs_block_device_volume_size
+    volume_type = var.aws_instance_Trlpi_ebs_block_device_volume_type
   }
 
-  ebs_optimized                        = var.aws_instance_VutoU_ebs_optimized
-  iam_instance_profile                 = var.aws_instance_VutoU_iam_instance_profile
-  instance_initiated_shutdown_behavior = var.aws_instance_VutoU_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_VutoU_instance_type
-  key_name                             = var.aws_instance_VutoU_key_name
+  ebs_optimized                        = var.aws_instance_Trlpi_ebs_optimized
+  iam_instance_profile                 = var.aws_instance_Trlpi_iam_instance_profile
+  instance_initiated_shutdown_behavior = var.aws_instance_Trlpi_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_Trlpi_instance_type
+  key_name                             = var.aws_instance_Trlpi_key_name
   metadata_options {
-    http_endpoint               = var.aws_instance_VutoU_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_VutoU_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_VutoU_metadata_options_http_tokens
+    http_endpoint               = var.aws_instance_Trlpi_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_Trlpi_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_Trlpi_metadata_options_http_tokens
   }
 
-  private_ip = var.aws_instance_VutoU_private_ip
+  private_ip = var.aws_instance_Trlpi_private_ip
   root_block_device {
     tags = {
-      Name         = var.aws_instance_VutoU_root_block_device_tags_Name
-      client       = var.aws_instance_VutoU_root_block_device_tags_client
-      "cycloid.io" = var.aws_instance_VutoU_root_block_device_tags_cycloid_io
-      env          = var.aws_instance_VutoU_root_block_device_tags_env
-      project      = var.aws_instance_VutoU_root_block_device_tags_project
-      role         = var.aws_instance_VutoU_root_block_device_tags_role
+      Name         = var.aws_instance_Trlpi_root_block_device_tags_Name
+      client       = var.aws_instance_Trlpi_root_block_device_tags_client
+      "cycloid.io" = var.aws_instance_Trlpi_root_block_device_tags_cycloid_io
+      env          = var.aws_instance_Trlpi_root_block_device_tags_env
+      project      = var.aws_instance_Trlpi_root_block_device_tags_project
+      role         = var.aws_instance_Trlpi_root_block_device_tags_role
     }
 
-    delete_on_termination = var.aws_instance_VutoU_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_VutoU_root_block_device_iops
-    volume_size           = var.aws_instance_VutoU_root_block_device_volume_size
-    volume_type           = var.aws_instance_VutoU_root_block_device_volume_type
+    delete_on_termination = var.aws_instance_Trlpi_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_Trlpi_root_block_device_iops
+    volume_size           = var.aws_instance_Trlpi_root_block_device_volume_size
+    volume_type           = var.aws_instance_Trlpi_root_block_device_volume_type
   }
 
-  source_dest_check      = var.aws_instance_VutoU_source_dest_check
-  subnet_id              = var.aws_instance_VutoU_subnet_id
-  tenancy                = var.aws_instance_VutoU_tenancy
-  user_data              = var.aws_instance_VutoU_user_data
-  vpc_security_group_ids = var.aws_instance_VutoU_vpc_security_group_ids
+  source_dest_check      = var.aws_instance_Trlpi_source_dest_check
+  subnet_id              = var.aws_instance_Trlpi_subnet_id
+  tenancy                = var.aws_instance_Trlpi_tenancy
+  user_data              = var.aws_instance_Trlpi_user_data
+  vpc_security_group_ids = var.aws_instance_Trlpi_vpc_security_group_ids
 }
 
-resource "aws_instance" "YOjGy" {
+resource "aws_instance" "VcXfO" {
   tags = {
-    Name         = var.aws_instance_YOjGy_tags_Name
-    customer     = var.aws_instance_YOjGy_tags_customer
-    "cycloid.io" = var.aws_instance_YOjGy_tags_cycloid_io
-    env          = var.aws_instance_YOjGy_tags_env
-    project      = var.aws_instance_YOjGy_tags_project
-    role         = var.aws_instance_YOjGy_tags_role
+    Name         = var.aws_instance_VcXfO_tags_Name
+    customer     = var.aws_instance_VcXfO_tags_customer
+    "cycloid.io" = var.aws_instance_VcXfO_tags_cycloid_io
+    env          = var.aws_instance_VcXfO_tags_env
+    project      = var.aws_instance_VcXfO_tags_project
   }
 
   tags_all = {
-    Name         = var.aws_instance_YOjGy_tags_all_Name
-    customer     = var.aws_instance_YOjGy_tags_all_customer
-    "cycloid.io" = var.aws_instance_YOjGy_tags_all_cycloid_io
-    env          = var.aws_instance_YOjGy_tags_all_env
-    project      = var.aws_instance_YOjGy_tags_all_project
-    role         = var.aws_instance_YOjGy_tags_all_role
+    Name         = var.aws_instance_VcXfO_tags_all_Name
+    customer     = var.aws_instance_VcXfO_tags_all_customer
+    "cycloid.io" = var.aws_instance_VcXfO_tags_all_cycloid_io
+    env          = var.aws_instance_VcXfO_tags_all_env
+    project      = var.aws_instance_VcXfO_tags_all_project
   }
 
-  ami                         = var.aws_instance_YOjGy_ami
-  associate_public_ip_address = var.aws_instance_YOjGy_associate_public_ip_address
-  availability_zone           = var.aws_instance_YOjGy_availability_zone
-  cpu_core_count              = var.aws_instance_YOjGy_cpu_core_count
-  cpu_threads_per_core        = var.aws_instance_YOjGy_cpu_threads_per_core
+  ami                         = var.aws_instance_VcXfO_ami
+  associate_public_ip_address = var.aws_instance_VcXfO_associate_public_ip_address
+  availability_zone           = var.aws_instance_VcXfO_availability_zone
+  cpu_core_count              = var.aws_instance_VcXfO_cpu_core_count
+  cpu_threads_per_core        = var.aws_instance_VcXfO_cpu_threads_per_core
   credit_specification {
-    cpu_credits = var.aws_instance_YOjGy_credit_specification_cpu_credits
+    cpu_credits = var.aws_instance_VcXfO_credit_specification_cpu_credits
   }
 
-  ebs_optimized                        = var.aws_instance_YOjGy_ebs_optimized
-  iam_instance_profile                 = var.aws_instance_YOjGy_iam_instance_profile
-  instance_initiated_shutdown_behavior = var.aws_instance_YOjGy_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_YOjGy_instance_type
-  key_name                             = var.aws_instance_YOjGy_key_name
+  instance_initiated_shutdown_behavior = var.aws_instance_VcXfO_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_VcXfO_instance_type
   metadata_options {
-    http_endpoint               = var.aws_instance_YOjGy_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_YOjGy_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_YOjGy_metadata_options_http_tokens
+    http_endpoint               = var.aws_instance_VcXfO_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_VcXfO_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_VcXfO_metadata_options_http_tokens
   }
 
-  private_ip = var.aws_instance_YOjGy_private_ip
+  private_ip = var.aws_instance_VcXfO_private_ip
   root_block_device {
-    tags = {
-      Name         = var.aws_instance_YOjGy_root_block_device_tags_Name
-      customer     = var.aws_instance_YOjGy_root_block_device_tags_customer
-      "cycloid.io" = var.aws_instance_YOjGy_root_block_device_tags_cycloid_io
-      env          = var.aws_instance_YOjGy_root_block_device_tags_env
-      project      = var.aws_instance_YOjGy_root_block_device_tags_project
-      role         = var.aws_instance_YOjGy_root_block_device_tags_role
-    }
-
-    delete_on_termination = var.aws_instance_YOjGy_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_YOjGy_root_block_device_iops
-    volume_size           = var.aws_instance_YOjGy_root_block_device_volume_size
-    volume_type           = var.aws_instance_YOjGy_root_block_device_volume_type
+    delete_on_termination = var.aws_instance_VcXfO_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_VcXfO_root_block_device_iops
+    volume_size           = var.aws_instance_VcXfO_root_block_device_volume_size
+    volume_type           = var.aws_instance_VcXfO_root_block_device_volume_type
   }
 
-  source_dest_check      = var.aws_instance_YOjGy_source_dest_check
-  subnet_id              = var.aws_instance_YOjGy_subnet_id
-  tenancy                = var.aws_instance_YOjGy_tenancy
-  vpc_security_group_ids = var.aws_instance_YOjGy_vpc_security_group_ids
+  security_groups        = var.aws_instance_VcXfO_security_groups
+  source_dest_check      = var.aws_instance_VcXfO_source_dest_check
+  subnet_id              = var.aws_instance_VcXfO_subnet_id
+  tenancy                = var.aws_instance_VcXfO_tenancy
+  user_data              = var.aws_instance_VcXfO_user_data
+  vpc_security_group_ids = var.aws_instance_VcXfO_vpc_security_group_ids
 }
 
-resource "aws_instance" "cMtaI" {
+resource "aws_instance" "gBYTJ" {
   tags = {
-    Name         = var.aws_instance_cMtaI_tags_Name
-    client       = var.aws_instance_cMtaI_tags_client
-    "cycloid.io" = var.aws_instance_cMtaI_tags_cycloid_io
-    env          = var.aws_instance_cMtaI_tags_env
-    project      = var.aws_instance_cMtaI_tags_project
-    role         = var.aws_instance_cMtaI_tags_role
+    Name         = var.aws_instance_gBYTJ_tags_Name
+    "cycloid.io" = var.aws_instance_gBYTJ_tags_cycloid_io
+    env          = var.aws_instance_gBYTJ_tags_env
+    project      = var.aws_instance_gBYTJ_tags_project
+    role         = var.aws_instance_gBYTJ_tags_role
   }
 
   tags_all = {
-    Name         = var.aws_instance_cMtaI_tags_all_Name
-    client       = var.aws_instance_cMtaI_tags_all_client
-    "cycloid.io" = var.aws_instance_cMtaI_tags_all_cycloid_io
-    env          = var.aws_instance_cMtaI_tags_all_env
-    project      = var.aws_instance_cMtaI_tags_all_project
-    role         = var.aws_instance_cMtaI_tags_all_role
+    Name         = var.aws_instance_gBYTJ_tags_all_Name
+    "cycloid.io" = var.aws_instance_gBYTJ_tags_all_cycloid_io
+    env          = var.aws_instance_gBYTJ_tags_all_env
+    project      = var.aws_instance_gBYTJ_tags_all_project
+    role         = var.aws_instance_gBYTJ_tags_all_role
   }
 
-  ami                  = var.aws_instance_cMtaI_ami
-  availability_zone    = var.aws_instance_cMtaI_availability_zone
-  cpu_core_count       = var.aws_instance_cMtaI_cpu_core_count
-  cpu_threads_per_core = var.aws_instance_cMtaI_cpu_threads_per_core
+  ami                  = var.aws_instance_gBYTJ_ami
+  availability_zone    = var.aws_instance_gBYTJ_availability_zone
+  cpu_core_count       = var.aws_instance_gBYTJ_cpu_core_count
+  cpu_threads_per_core = var.aws_instance_gBYTJ_cpu_threads_per_core
   credit_specification {
-    cpu_credits = var.aws_instance_cMtaI_credit_specification_cpu_credits
+    cpu_credits = var.aws_instance_gBYTJ_credit_specification_cpu_credits
   }
 
-  iam_instance_profile                 = var.aws_instance_cMtaI_iam_instance_profile
-  instance_initiated_shutdown_behavior = var.aws_instance_cMtaI_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_cMtaI_instance_type
-  key_name                             = var.aws_instance_cMtaI_key_name
+  iam_instance_profile                 = var.aws_instance_gBYTJ_iam_instance_profile
+  instance_initiated_shutdown_behavior = var.aws_instance_gBYTJ_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_gBYTJ_instance_type
+  key_name                             = var.aws_instance_gBYTJ_key_name
   metadata_options {
-    http_endpoint               = var.aws_instance_cMtaI_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_cMtaI_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_cMtaI_metadata_options_http_tokens
+    http_endpoint               = var.aws_instance_gBYTJ_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_gBYTJ_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_gBYTJ_metadata_options_http_tokens
   }
 
-  private_ip = var.aws_instance_cMtaI_private_ip
+  private_ip = var.aws_instance_gBYTJ_private_ip
   root_block_device {
-    tags = {
-      Name = var.aws_instance_cMtaI_root_block_device_tags_Name
-      role = var.aws_instance_cMtaI_root_block_device_tags_role
-    }
-
-    delete_on_termination = var.aws_instance_cMtaI_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_cMtaI_root_block_device_iops
-    volume_size           = var.aws_instance_cMtaI_root_block_device_volume_size
-    volume_type           = var.aws_instance_cMtaI_root_block_device_volume_type
+    delete_on_termination = var.aws_instance_gBYTJ_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_gBYTJ_root_block_device_iops
+    volume_size           = var.aws_instance_gBYTJ_root_block_device_volume_size
+    volume_type           = var.aws_instance_gBYTJ_root_block_device_volume_type
   }
 
-  source_dest_check      = var.aws_instance_cMtaI_source_dest_check
-  subnet_id              = var.aws_instance_cMtaI_subnet_id
-  tenancy                = var.aws_instance_cMtaI_tenancy
-  user_data              = var.aws_instance_cMtaI_user_data
-  vpc_security_group_ids = var.aws_instance_cMtaI_vpc_security_group_ids
+  source_dest_check      = var.aws_instance_gBYTJ_source_dest_check
+  subnet_id              = var.aws_instance_gBYTJ_subnet_id
+  tenancy                = var.aws_instance_gBYTJ_tenancy
+  vpc_security_group_ids = var.aws_instance_gBYTJ_vpc_security_group_ids
 }
 
-resource "aws_instance" "gLgtz" {
+resource "aws_instance" "gcsnH" {
   tags = {
-    Name         = var.aws_instance_gLgtz_tags_Name
-    "cycloid.io" = var.aws_instance_gLgtz_tags_cycloid_io
-    env          = var.aws_instance_gLgtz_tags_env
-    project      = var.aws_instance_gLgtz_tags_project
-    role         = var.aws_instance_gLgtz_tags_role
+    Name                 = var.aws_instance_gcsnH_tags_Name
+    client               = var.aws_instance_gcsnH_tags_client
+    env                  = var.aws_instance_gcsnH_tags_env
+    monitoring_discovery = var.aws_instance_gcsnH_tags_monitoring_discovery
+    project              = var.aws_instance_gcsnH_tags_project
+    role                 = var.aws_instance_gcsnH_tags_role
   }
 
   tags_all = {
-    Name         = var.aws_instance_gLgtz_tags_all_Name
-    "cycloid.io" = var.aws_instance_gLgtz_tags_all_cycloid_io
-    env          = var.aws_instance_gLgtz_tags_all_env
-    project      = var.aws_instance_gLgtz_tags_all_project
-    role         = var.aws_instance_gLgtz_tags_all_role
+    Name                 = var.aws_instance_gcsnH_tags_all_Name
+    client               = var.aws_instance_gcsnH_tags_all_client
+    env                  = var.aws_instance_gcsnH_tags_all_env
+    monitoring_discovery = var.aws_instance_gcsnH_tags_all_monitoring_discovery
+    project              = var.aws_instance_gcsnH_tags_all_project
+    role                 = var.aws_instance_gcsnH_tags_all_role
   }
 
-  ami                  = var.aws_instance_gLgtz_ami
-  availability_zone    = var.aws_instance_gLgtz_availability_zone
-  cpu_core_count       = var.aws_instance_gLgtz_cpu_core_count
-  cpu_threads_per_core = var.aws_instance_gLgtz_cpu_threads_per_core
+  ami                         = var.aws_instance_gcsnH_ami
+  associate_public_ip_address = var.aws_instance_gcsnH_associate_public_ip_address
+  availability_zone           = var.aws_instance_gcsnH_availability_zone
+  cpu_core_count              = var.aws_instance_gcsnH_cpu_core_count
+  cpu_threads_per_core        = var.aws_instance_gcsnH_cpu_threads_per_core
   credit_specification {
-    cpu_credits = var.aws_instance_gLgtz_credit_specification_cpu_credits
+    cpu_credits = var.aws_instance_gcsnH_credit_specification_cpu_credits
   }
 
-  iam_instance_profile                 = var.aws_instance_gLgtz_iam_instance_profile
-  instance_initiated_shutdown_behavior = var.aws_instance_gLgtz_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_gLgtz_instance_type
-  key_name                             = var.aws_instance_gLgtz_key_name
+  disable_api_termination              = var.aws_instance_gcsnH_disable_api_termination
+  iam_instance_profile                 = var.aws_instance_gcsnH_iam_instance_profile
+  instance_initiated_shutdown_behavior = var.aws_instance_gcsnH_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_gcsnH_instance_type
+  key_name                             = var.aws_instance_gcsnH_key_name
   metadata_options {
-    http_endpoint               = var.aws_instance_gLgtz_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_gLgtz_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_gLgtz_metadata_options_http_tokens
+    http_endpoint               = var.aws_instance_gcsnH_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_gcsnH_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_gcsnH_metadata_options_http_tokens
   }
 
-  private_ip = var.aws_instance_gLgtz_private_ip
+  private_ip = var.aws_instance_gcsnH_private_ip
   root_block_device {
-    delete_on_termination = var.aws_instance_gLgtz_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_gLgtz_root_block_device_iops
-    volume_size           = var.aws_instance_gLgtz_root_block_device_volume_size
-    volume_type           = var.aws_instance_gLgtz_root_block_device_volume_type
+    delete_on_termination = var.aws_instance_gcsnH_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_gcsnH_root_block_device_iops
+    volume_size           = var.aws_instance_gcsnH_root_block_device_volume_size
+    volume_type           = var.aws_instance_gcsnH_root_block_device_volume_type
   }
 
-  source_dest_check      = var.aws_instance_gLgtz_source_dest_check
-  subnet_id              = var.aws_instance_gLgtz_subnet_id
-  tenancy                = var.aws_instance_gLgtz_tenancy
-  vpc_security_group_ids = var.aws_instance_gLgtz_vpc_security_group_ids
+  source_dest_check      = var.aws_instance_gcsnH_source_dest_check
+  subnet_id              = var.aws_instance_gcsnH_subnet_id
+  tenancy                = var.aws_instance_gcsnH_tenancy
+  vpc_security_group_ids = var.aws_instance_gcsnH_vpc_security_group_ids
 }
 
-resource "aws_instance" "hVsRZ" {
+resource "aws_instance" "iKFtK" {
   tags = {
-    Name                 = var.aws_instance_hVsRZ_tags_Name
-    client               = var.aws_instance_hVsRZ_tags_client
-    env                  = var.aws_instance_hVsRZ_tags_env
-    monitoring_discovery = var.aws_instance_hVsRZ_tags_monitoring_discovery
-    project              = var.aws_instance_hVsRZ_tags_project
+    Name                 = var.aws_instance_iKFtK_tags_Name
+    customer             = var.aws_instance_iKFtK_tags_customer
+    "cycloid.io"         = var.aws_instance_iKFtK_tags_cycloid_io
+    env                  = var.aws_instance_iKFtK_tags_env
+    monitoring_discovery = var.aws_instance_iKFtK_tags_monitoring_discovery
+    project              = var.aws_instance_iKFtK_tags_project
+    role                 = var.aws_instance_iKFtK_tags_role
   }
 
   tags_all = {
-    Name                 = var.aws_instance_hVsRZ_tags_all_Name
-    client               = var.aws_instance_hVsRZ_tags_all_client
-    env                  = var.aws_instance_hVsRZ_tags_all_env
-    monitoring_discovery = var.aws_instance_hVsRZ_tags_all_monitoring_discovery
-    project              = var.aws_instance_hVsRZ_tags_all_project
+    Name                 = var.aws_instance_iKFtK_tags_all_Name
+    customer             = var.aws_instance_iKFtK_tags_all_customer
+    "cycloid.io"         = var.aws_instance_iKFtK_tags_all_cycloid_io
+    env                  = var.aws_instance_iKFtK_tags_all_env
+    monitoring_discovery = var.aws_instance_iKFtK_tags_all_monitoring_discovery
+    project              = var.aws_instance_iKFtK_tags_all_project
+    role                 = var.aws_instance_iKFtK_tags_all_role
   }
 
-  ami                         = var.aws_instance_hVsRZ_ami
-  associate_public_ip_address = var.aws_instance_hVsRZ_associate_public_ip_address
-  availability_zone           = var.aws_instance_hVsRZ_availability_zone
-  cpu_core_count              = var.aws_instance_hVsRZ_cpu_core_count
-  cpu_threads_per_core        = var.aws_instance_hVsRZ_cpu_threads_per_core
+  ami                         = var.aws_instance_iKFtK_ami
+  associate_public_ip_address = var.aws_instance_iKFtK_associate_public_ip_address
+  availability_zone           = var.aws_instance_iKFtK_availability_zone
+  cpu_core_count              = var.aws_instance_iKFtK_cpu_core_count
+  cpu_threads_per_core        = var.aws_instance_iKFtK_cpu_threads_per_core
   credit_specification {
-    cpu_credits = var.aws_instance_hVsRZ_credit_specification_cpu_credits
+    cpu_credits = var.aws_instance_iKFtK_credit_specification_cpu_credits
   }
 
-  disable_api_termination              = var.aws_instance_hVsRZ_disable_api_termination
-  instance_initiated_shutdown_behavior = var.aws_instance_hVsRZ_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_hVsRZ_instance_type
-  key_name                             = var.aws_instance_hVsRZ_key_name
-  metadata_options {
-    http_endpoint               = var.aws_instance_hVsRZ_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_hVsRZ_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_hVsRZ_metadata_options_http_tokens
-  }
-
-  private_ip = var.aws_instance_hVsRZ_private_ip
-  root_block_device {
-    tags = {
-      Name    = var.aws_instance_hVsRZ_root_block_device_tags_Name
-      client  = var.aws_instance_hVsRZ_root_block_device_tags_client
-      env     = var.aws_instance_hVsRZ_root_block_device_tags_env
-      project = var.aws_instance_hVsRZ_root_block_device_tags_project
-    }
-
-    delete_on_termination = var.aws_instance_hVsRZ_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_hVsRZ_root_block_device_iops
-    volume_size           = var.aws_instance_hVsRZ_root_block_device_volume_size
-    volume_type           = var.aws_instance_hVsRZ_root_block_device_volume_type
-  }
-
-  security_groups        = var.aws_instance_hVsRZ_security_groups
-  source_dest_check      = var.aws_instance_hVsRZ_source_dest_check
-  subnet_id              = var.aws_instance_hVsRZ_subnet_id
-  tenancy                = var.aws_instance_hVsRZ_tenancy
-  vpc_security_group_ids = var.aws_instance_hVsRZ_vpc_security_group_ids
-}
-
-resource "aws_instance" "qjIxN" {
-  tags = {
-    Name         = var.aws_instance_qjIxN_tags_Name
-    client       = var.aws_instance_qjIxN_tags_client
-    "cycloid.io" = var.aws_instance_qjIxN_tags_cycloid_io
-    env          = var.aws_instance_qjIxN_tags_env
-    project      = var.aws_instance_qjIxN_tags_project
-    role         = var.aws_instance_qjIxN_tags_role
-  }
-
-  tags_all = {
-    Name         = var.aws_instance_qjIxN_tags_all_Name
-    client       = var.aws_instance_qjIxN_tags_all_client
-    "cycloid.io" = var.aws_instance_qjIxN_tags_all_cycloid_io
-    env          = var.aws_instance_qjIxN_tags_all_env
-    project      = var.aws_instance_qjIxN_tags_all_project
-    role         = var.aws_instance_qjIxN_tags_all_role
-  }
-
-  ami                         = var.aws_instance_qjIxN_ami
-  associate_public_ip_address = var.aws_instance_qjIxN_associate_public_ip_address
-  availability_zone           = var.aws_instance_qjIxN_availability_zone
-  cpu_core_count              = var.aws_instance_qjIxN_cpu_core_count
-  cpu_threads_per_core        = var.aws_instance_qjIxN_cpu_threads_per_core
-  credit_specification {
-    cpu_credits = var.aws_instance_qjIxN_credit_specification_cpu_credits
-  }
-
-  disable_api_termination              = var.aws_instance_qjIxN_disable_api_termination
-  iam_instance_profile                 = var.aws_instance_qjIxN_iam_instance_profile
-  instance_initiated_shutdown_behavior = var.aws_instance_qjIxN_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_qjIxN_instance_type
-  key_name                             = var.aws_instance_qjIxN_key_name
-  metadata_options {
-    http_endpoint               = var.aws_instance_qjIxN_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_qjIxN_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_qjIxN_metadata_options_http_tokens
-  }
-
-  private_ip = var.aws_instance_qjIxN_private_ip
-  root_block_device {
-    iops        = var.aws_instance_qjIxN_root_block_device_iops
-    volume_size = var.aws_instance_qjIxN_root_block_device_volume_size
-    volume_type = var.aws_instance_qjIxN_root_block_device_volume_type
-  }
-
-  source_dest_check      = var.aws_instance_qjIxN_source_dest_check
-  subnet_id              = var.aws_instance_qjIxN_subnet_id
-  tenancy                = var.aws_instance_qjIxN_tenancy
-  vpc_security_group_ids = var.aws_instance_qjIxN_vpc_security_group_ids
-}
-
-resource "aws_instance" "uzWaE" {
-  tags = {
-    Name         = var.aws_instance_uzWaE_tags_Name
-    client       = var.aws_instance_uzWaE_tags_client
-    "cycloid.io" = var.aws_instance_uzWaE_tags_cycloid_io
-    env          = var.aws_instance_uzWaE_tags_env
-    project      = var.aws_instance_uzWaE_tags_project
-    role         = var.aws_instance_uzWaE_tags_role
-  }
-
-  tags_all = {
-    Name         = var.aws_instance_uzWaE_tags_all_Name
-    client       = var.aws_instance_uzWaE_tags_all_client
-    "cycloid.io" = var.aws_instance_uzWaE_tags_all_cycloid_io
-    env          = var.aws_instance_uzWaE_tags_all_env
-    project      = var.aws_instance_uzWaE_tags_all_project
-    role         = var.aws_instance_uzWaE_tags_all_role
-  }
-
-  ami                         = var.aws_instance_uzWaE_ami
-  associate_public_ip_address = var.aws_instance_uzWaE_associate_public_ip_address
-  availability_zone           = var.aws_instance_uzWaE_availability_zone
-  cpu_core_count              = var.aws_instance_uzWaE_cpu_core_count
-  cpu_threads_per_core        = var.aws_instance_uzWaE_cpu_threads_per_core
   ebs_block_device {
-    delete_on_termination = var.aws_instance_uzWaE_ebs_block_device_delete_on_termination
-    device_name           = var.aws_instance_uzWaE_ebs_block_device_device_name
-    iops                  = var.aws_instance_uzWaE_ebs_block_device_iops
-    tags {
-      Name         = var.aws_instance_uzWaE_ebs_block_device_tags_Name
-      client       = var.aws_instance_uzWaE_ebs_block_device_tags_client
-      "cycloid.io" = var.aws_instance_uzWaE_ebs_block_device_tags_cycloid_io
-      env          = var.aws_instance_uzWaE_ebs_block_device_tags_env
-      project      = var.aws_instance_uzWaE_ebs_block_device_tags_project
-      role         = var.aws_instance_uzWaE_ebs_block_device_tags_role
-    }
-
-    volume_size = var.aws_instance_uzWaE_ebs_block_device_volume_size
-    volume_type = var.aws_instance_uzWaE_ebs_block_device_volume_type
+    delete_on_termination = var.aws_instance_iKFtK_ebs_block_device_delete_on_termination
+    device_name           = var.aws_instance_iKFtK_ebs_block_device_device_name
+    iops                  = var.aws_instance_iKFtK_ebs_block_device_iops
+    volume_size           = var.aws_instance_iKFtK_ebs_block_device_volume_size
+    volume_type           = var.aws_instance_iKFtK_ebs_block_device_volume_type
   }
 
-  ebs_optimized                        = var.aws_instance_uzWaE_ebs_optimized
-  iam_instance_profile                 = var.aws_instance_uzWaE_iam_instance_profile
-  instance_initiated_shutdown_behavior = var.aws_instance_uzWaE_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_uzWaE_instance_type
-  key_name                             = var.aws_instance_uzWaE_key_name
+  iam_instance_profile                 = var.aws_instance_iKFtK_iam_instance_profile
+  instance_initiated_shutdown_behavior = var.aws_instance_iKFtK_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_iKFtK_instance_type
+  key_name                             = var.aws_instance_iKFtK_key_name
   metadata_options {
-    http_endpoint               = var.aws_instance_uzWaE_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_uzWaE_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_uzWaE_metadata_options_http_tokens
+    http_endpoint               = var.aws_instance_iKFtK_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_iKFtK_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_iKFtK_metadata_options_http_tokens
   }
 
-  private_ip = var.aws_instance_uzWaE_private_ip
+  monitoring = var.aws_instance_iKFtK_monitoring
+  private_ip = var.aws_instance_iKFtK_private_ip
   root_block_device {
-    tags = {
-      Name         = var.aws_instance_uzWaE_root_block_device_tags_Name
-      client       = var.aws_instance_uzWaE_root_block_device_tags_client
-      "cycloid.io" = var.aws_instance_uzWaE_root_block_device_tags_cycloid_io
-      env          = var.aws_instance_uzWaE_root_block_device_tags_env
-      project      = var.aws_instance_uzWaE_root_block_device_tags_project
-      role         = var.aws_instance_uzWaE_root_block_device_tags_role
-    }
-
-    delete_on_termination = var.aws_instance_uzWaE_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_uzWaE_root_block_device_iops
-    volume_size           = var.aws_instance_uzWaE_root_block_device_volume_size
-    volume_type           = var.aws_instance_uzWaE_root_block_device_volume_type
+    delete_on_termination = var.aws_instance_iKFtK_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_iKFtK_root_block_device_iops
+    volume_size           = var.aws_instance_iKFtK_root_block_device_volume_size
+    volume_type           = var.aws_instance_iKFtK_root_block_device_volume_type
   }
 
-  source_dest_check      = var.aws_instance_uzWaE_source_dest_check
-  subnet_id              = var.aws_instance_uzWaE_subnet_id
-  tenancy                = var.aws_instance_uzWaE_tenancy
-  user_data              = var.aws_instance_uzWaE_user_data
-  vpc_security_group_ids = var.aws_instance_uzWaE_vpc_security_group_ids
+  source_dest_check      = var.aws_instance_iKFtK_source_dest_check
+  subnet_id              = var.aws_instance_iKFtK_subnet_id
+  tenancy                = var.aws_instance_iKFtK_tenancy
+  user_data              = var.aws_instance_iKFtK_user_data
+  vpc_security_group_ids = var.aws_instance_iKFtK_vpc_security_group_ids
 }
 
-resource "aws_instance" "xZrPW" {
+resource "aws_instance" "jrtPx" {
   tags = {
-    Name         = var.aws_instance_xZrPW_tags_Name
-    client       = var.aws_instance_xZrPW_tags_client
-    "cycloid.io" = var.aws_instance_xZrPW_tags_cycloid_io
-    env          = var.aws_instance_xZrPW_tags_env
-    project      = var.aws_instance_xZrPW_tags_project
-    role         = var.aws_instance_xZrPW_tags_role
+    Name                 = var.aws_instance_jrtPx_tags_Name
+    client               = var.aws_instance_jrtPx_tags_client
+    env                  = var.aws_instance_jrtPx_tags_env
+    monitoring_discovery = var.aws_instance_jrtPx_tags_monitoring_discovery
+    project              = var.aws_instance_jrtPx_tags_project
   }
 
   tags_all = {
-    Name         = var.aws_instance_xZrPW_tags_all_Name
-    client       = var.aws_instance_xZrPW_tags_all_client
-    "cycloid.io" = var.aws_instance_xZrPW_tags_all_cycloid_io
-    env          = var.aws_instance_xZrPW_tags_all_env
-    project      = var.aws_instance_xZrPW_tags_all_project
-    role         = var.aws_instance_xZrPW_tags_all_role
+    Name                 = var.aws_instance_jrtPx_tags_all_Name
+    client               = var.aws_instance_jrtPx_tags_all_client
+    env                  = var.aws_instance_jrtPx_tags_all_env
+    monitoring_discovery = var.aws_instance_jrtPx_tags_all_monitoring_discovery
+    project              = var.aws_instance_jrtPx_tags_all_project
   }
 
-  ami                         = var.aws_instance_xZrPW_ami
-  associate_public_ip_address = var.aws_instance_xZrPW_associate_public_ip_address
-  availability_zone           = var.aws_instance_xZrPW_availability_zone
-  cpu_core_count              = var.aws_instance_xZrPW_cpu_core_count
-  cpu_threads_per_core        = var.aws_instance_xZrPW_cpu_threads_per_core
-  ebs_block_device {
-    delete_on_termination = var.aws_instance_xZrPW_ebs_block_device_delete_on_termination
-    device_name           = var.aws_instance_xZrPW_ebs_block_device_device_name
-    iops                  = var.aws_instance_xZrPW_ebs_block_device_iops
-    tags {
-      Name         = var.aws_instance_xZrPW_ebs_block_device_tags_Name
-      client       = var.aws_instance_xZrPW_ebs_block_device_tags_client
-      "cycloid.io" = var.aws_instance_xZrPW_ebs_block_device_tags_cycloid_io
-      env          = var.aws_instance_xZrPW_ebs_block_device_tags_env
-      project      = var.aws_instance_xZrPW_ebs_block_device_tags_project
-      role         = var.aws_instance_xZrPW_ebs_block_device_tags_role
-    }
-
-    volume_size = var.aws_instance_xZrPW_ebs_block_device_volume_size
-    volume_type = var.aws_instance_xZrPW_ebs_block_device_volume_type
+  ami                         = var.aws_instance_jrtPx_ami
+  associate_public_ip_address = var.aws_instance_jrtPx_associate_public_ip_address
+  availability_zone           = var.aws_instance_jrtPx_availability_zone
+  cpu_core_count              = var.aws_instance_jrtPx_cpu_core_count
+  cpu_threads_per_core        = var.aws_instance_jrtPx_cpu_threads_per_core
+  credit_specification {
+    cpu_credits = var.aws_instance_jrtPx_credit_specification_cpu_credits
   }
 
-  ebs_optimized                        = var.aws_instance_xZrPW_ebs_optimized
-  iam_instance_profile                 = var.aws_instance_xZrPW_iam_instance_profile
-  instance_initiated_shutdown_behavior = var.aws_instance_xZrPW_instance_initiated_shutdown_behavior
-  instance_type                        = var.aws_instance_xZrPW_instance_type
-  key_name                             = var.aws_instance_xZrPW_key_name
+  disable_api_termination              = var.aws_instance_jrtPx_disable_api_termination
+  instance_initiated_shutdown_behavior = var.aws_instance_jrtPx_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_jrtPx_instance_type
+  key_name                             = var.aws_instance_jrtPx_key_name
   metadata_options {
-    http_endpoint               = var.aws_instance_xZrPW_metadata_options_http_endpoint
-    http_put_response_hop_limit = var.aws_instance_xZrPW_metadata_options_http_put_response_hop_limit
-    http_tokens                 = var.aws_instance_xZrPW_metadata_options_http_tokens
+    http_endpoint               = var.aws_instance_jrtPx_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_jrtPx_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_jrtPx_metadata_options_http_tokens
   }
 
-  private_ip = var.aws_instance_xZrPW_private_ip
+  private_ip = var.aws_instance_jrtPx_private_ip
   root_block_device {
     tags = {
-      Name         = var.aws_instance_xZrPW_root_block_device_tags_Name
-      client       = var.aws_instance_xZrPW_root_block_device_tags_client
-      "cycloid.io" = var.aws_instance_xZrPW_root_block_device_tags_cycloid_io
-      env          = var.aws_instance_xZrPW_root_block_device_tags_env
-      project      = var.aws_instance_xZrPW_root_block_device_tags_project
-      role         = var.aws_instance_xZrPW_root_block_device_tags_role
+      Name    = var.aws_instance_jrtPx_root_block_device_tags_Name
+      client  = var.aws_instance_jrtPx_root_block_device_tags_client
+      env     = var.aws_instance_jrtPx_root_block_device_tags_env
+      project = var.aws_instance_jrtPx_root_block_device_tags_project
     }
 
-    delete_on_termination = var.aws_instance_xZrPW_root_block_device_delete_on_termination
-    iops                  = var.aws_instance_xZrPW_root_block_device_iops
-    volume_size           = var.aws_instance_xZrPW_root_block_device_volume_size
-    volume_type           = var.aws_instance_xZrPW_root_block_device_volume_type
+    delete_on_termination = var.aws_instance_jrtPx_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_jrtPx_root_block_device_iops
+    volume_size           = var.aws_instance_jrtPx_root_block_device_volume_size
+    volume_type           = var.aws_instance_jrtPx_root_block_device_volume_type
   }
 
-  source_dest_check      = var.aws_instance_xZrPW_source_dest_check
-  subnet_id              = var.aws_instance_xZrPW_subnet_id
-  tenancy                = var.aws_instance_xZrPW_tenancy
-  user_data              = var.aws_instance_xZrPW_user_data
-  vpc_security_group_ids = var.aws_instance_xZrPW_vpc_security_group_ids
+  security_groups        = var.aws_instance_jrtPx_security_groups
+  source_dest_check      = var.aws_instance_jrtPx_source_dest_check
+  subnet_id              = var.aws_instance_jrtPx_subnet_id
+  tenancy                = var.aws_instance_jrtPx_tenancy
+  vpc_security_group_ids = var.aws_instance_jrtPx_vpc_security_group_ids
 }
 
-resource "aws_key_pair" "DSsvF" {
-  key_name   = var.aws_key_pair_DSsvF_key_name
-  public_key = var.aws_key_pair_DSsvF_public_key
+resource "aws_instance" "lhtRy" {
+  tags = {
+    Name         = var.aws_instance_lhtRy_tags_Name
+    customer     = var.aws_instance_lhtRy_tags_customer
+    "cycloid.io" = var.aws_instance_lhtRy_tags_cycloid_io
+    env          = var.aws_instance_lhtRy_tags_env
+    project      = var.aws_instance_lhtRy_tags_project
+    role         = var.aws_instance_lhtRy_tags_role
+  }
+
+  tags_all = {
+    Name         = var.aws_instance_lhtRy_tags_all_Name
+    customer     = var.aws_instance_lhtRy_tags_all_customer
+    "cycloid.io" = var.aws_instance_lhtRy_tags_all_cycloid_io
+    env          = var.aws_instance_lhtRy_tags_all_env
+    project      = var.aws_instance_lhtRy_tags_all_project
+    role         = var.aws_instance_lhtRy_tags_all_role
+  }
+
+  ami                         = var.aws_instance_lhtRy_ami
+  associate_public_ip_address = var.aws_instance_lhtRy_associate_public_ip_address
+  availability_zone           = var.aws_instance_lhtRy_availability_zone
+  cpu_core_count              = var.aws_instance_lhtRy_cpu_core_count
+  cpu_threads_per_core        = var.aws_instance_lhtRy_cpu_threads_per_core
+  credit_specification {
+    cpu_credits = var.aws_instance_lhtRy_credit_specification_cpu_credits
+  }
+
+  ebs_optimized                        = var.aws_instance_lhtRy_ebs_optimized
+  iam_instance_profile                 = var.aws_instance_lhtRy_iam_instance_profile
+  instance_initiated_shutdown_behavior = var.aws_instance_lhtRy_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_lhtRy_instance_type
+  key_name                             = var.aws_instance_lhtRy_key_name
+  metadata_options {
+    http_endpoint               = var.aws_instance_lhtRy_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_lhtRy_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_lhtRy_metadata_options_http_tokens
+  }
+
+  private_ip = var.aws_instance_lhtRy_private_ip
+  root_block_device {
+    tags = {
+      Name         = var.aws_instance_lhtRy_root_block_device_tags_Name
+      customer     = var.aws_instance_lhtRy_root_block_device_tags_customer
+      "cycloid.io" = var.aws_instance_lhtRy_root_block_device_tags_cycloid_io
+      env          = var.aws_instance_lhtRy_root_block_device_tags_env
+      project      = var.aws_instance_lhtRy_root_block_device_tags_project
+      role         = var.aws_instance_lhtRy_root_block_device_tags_role
+    }
+
+    delete_on_termination = var.aws_instance_lhtRy_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_lhtRy_root_block_device_iops
+    volume_size           = var.aws_instance_lhtRy_root_block_device_volume_size
+    volume_type           = var.aws_instance_lhtRy_root_block_device_volume_type
+  }
+
+  source_dest_check      = var.aws_instance_lhtRy_source_dest_check
+  subnet_id              = var.aws_instance_lhtRy_subnet_id
+  tenancy                = var.aws_instance_lhtRy_tenancy
+  vpc_security_group_ids = var.aws_instance_lhtRy_vpc_security_group_ids
 }
 
-resource "aws_key_pair" "IaUHQ" {
-  key_name   = var.aws_key_pair_IaUHQ_key_name
-  public_key = var.aws_key_pair_IaUHQ_public_key
+resource "aws_instance" "nZWcM" {
+  tags = {
+    Name         = var.aws_instance_nZWcM_tags_Name
+    client       = var.aws_instance_nZWcM_tags_client
+    "cycloid.io" = var.aws_instance_nZWcM_tags_cycloid_io
+    env          = var.aws_instance_nZWcM_tags_env
+    project      = var.aws_instance_nZWcM_tags_project
+    role         = var.aws_instance_nZWcM_tags_role
+  }
+
+  tags_all = {
+    Name         = var.aws_instance_nZWcM_tags_all_Name
+    client       = var.aws_instance_nZWcM_tags_all_client
+    "cycloid.io" = var.aws_instance_nZWcM_tags_all_cycloid_io
+    env          = var.aws_instance_nZWcM_tags_all_env
+    project      = var.aws_instance_nZWcM_tags_all_project
+    role         = var.aws_instance_nZWcM_tags_all_role
+  }
+
+  ami                         = var.aws_instance_nZWcM_ami
+  associate_public_ip_address = var.aws_instance_nZWcM_associate_public_ip_address
+  availability_zone           = var.aws_instance_nZWcM_availability_zone
+  cpu_core_count              = var.aws_instance_nZWcM_cpu_core_count
+  cpu_threads_per_core        = var.aws_instance_nZWcM_cpu_threads_per_core
+  ebs_block_device {
+    delete_on_termination = var.aws_instance_nZWcM_ebs_block_device_delete_on_termination
+    device_name           = var.aws_instance_nZWcM_ebs_block_device_device_name
+    iops                  = var.aws_instance_nZWcM_ebs_block_device_iops
+    tags {
+      Name         = var.aws_instance_nZWcM_ebs_block_device_tags_Name
+      client       = var.aws_instance_nZWcM_ebs_block_device_tags_client
+      "cycloid.io" = var.aws_instance_nZWcM_ebs_block_device_tags_cycloid_io
+      env          = var.aws_instance_nZWcM_ebs_block_device_tags_env
+      project      = var.aws_instance_nZWcM_ebs_block_device_tags_project
+      role         = var.aws_instance_nZWcM_ebs_block_device_tags_role
+    }
+
+    volume_size = var.aws_instance_nZWcM_ebs_block_device_volume_size
+    volume_type = var.aws_instance_nZWcM_ebs_block_device_volume_type
+  }
+
+  ebs_optimized                        = var.aws_instance_nZWcM_ebs_optimized
+  iam_instance_profile                 = var.aws_instance_nZWcM_iam_instance_profile
+  instance_initiated_shutdown_behavior = var.aws_instance_nZWcM_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_nZWcM_instance_type
+  key_name                             = var.aws_instance_nZWcM_key_name
+  metadata_options {
+    http_endpoint               = var.aws_instance_nZWcM_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_nZWcM_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_nZWcM_metadata_options_http_tokens
+  }
+
+  private_ip = var.aws_instance_nZWcM_private_ip
+  root_block_device {
+    tags = {
+      Name         = var.aws_instance_nZWcM_root_block_device_tags_Name
+      client       = var.aws_instance_nZWcM_root_block_device_tags_client
+      "cycloid.io" = var.aws_instance_nZWcM_root_block_device_tags_cycloid_io
+      env          = var.aws_instance_nZWcM_root_block_device_tags_env
+      project      = var.aws_instance_nZWcM_root_block_device_tags_project
+      role         = var.aws_instance_nZWcM_root_block_device_tags_role
+    }
+
+    delete_on_termination = var.aws_instance_nZWcM_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_nZWcM_root_block_device_iops
+    volume_size           = var.aws_instance_nZWcM_root_block_device_volume_size
+    volume_type           = var.aws_instance_nZWcM_root_block_device_volume_type
+  }
+
+  source_dest_check      = var.aws_instance_nZWcM_source_dest_check
+  subnet_id              = var.aws_instance_nZWcM_subnet_id
+  tenancy                = var.aws_instance_nZWcM_tenancy
+  user_data              = var.aws_instance_nZWcM_user_data
+  vpc_security_group_ids = var.aws_instance_nZWcM_vpc_security_group_ids
 }
 
-resource "aws_key_pair" "YjhID" {
-  key_name   = var.aws_key_pair_YjhID_key_name
-  public_key = var.aws_key_pair_YjhID_public_key
+resource "aws_instance" "qwqGR" {
+  tags = {
+    Name                 = var.aws_instance_qwqGR_tags_Name
+    client               = var.aws_instance_qwqGR_tags_client
+    "cycloid.io"         = var.aws_instance_qwqGR_tags_cycloid_io
+    env                  = var.aws_instance_qwqGR_tags_env
+    monitoring_discovery = var.aws_instance_qwqGR_tags_monitoring_discovery
+    project              = var.aws_instance_qwqGR_tags_project
+    role                 = var.aws_instance_qwqGR_tags_role
+  }
+
+  tags_all = {
+    Name                 = var.aws_instance_qwqGR_tags_all_Name
+    client               = var.aws_instance_qwqGR_tags_all_client
+    "cycloid.io"         = var.aws_instance_qwqGR_tags_all_cycloid_io
+    env                  = var.aws_instance_qwqGR_tags_all_env
+    monitoring_discovery = var.aws_instance_qwqGR_tags_all_monitoring_discovery
+    project              = var.aws_instance_qwqGR_tags_all_project
+    role                 = var.aws_instance_qwqGR_tags_all_role
+  }
+
+  ami                  = var.aws_instance_qwqGR_ami
+  availability_zone    = var.aws_instance_qwqGR_availability_zone
+  cpu_core_count       = var.aws_instance_qwqGR_cpu_core_count
+  cpu_threads_per_core = var.aws_instance_qwqGR_cpu_threads_per_core
+  credit_specification {
+    cpu_credits = var.aws_instance_qwqGR_credit_specification_cpu_credits
+  }
+
+  iam_instance_profile                 = var.aws_instance_qwqGR_iam_instance_profile
+  instance_initiated_shutdown_behavior = var.aws_instance_qwqGR_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_qwqGR_instance_type
+  key_name                             = var.aws_instance_qwqGR_key_name
+  metadata_options {
+    http_endpoint               = var.aws_instance_qwqGR_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_qwqGR_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_qwqGR_metadata_options_http_tokens
+  }
+
+  private_ip = var.aws_instance_qwqGR_private_ip
+  root_block_device {
+    tags = {
+      Name                 = var.aws_instance_qwqGR_root_block_device_tags_Name
+      monitoring_discovery = var.aws_instance_qwqGR_root_block_device_tags_monitoring_discovery
+      role                 = var.aws_instance_qwqGR_root_block_device_tags_role
+    }
+
+    delete_on_termination = var.aws_instance_qwqGR_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_qwqGR_root_block_device_iops
+    volume_size           = var.aws_instance_qwqGR_root_block_device_volume_size
+    volume_type           = var.aws_instance_qwqGR_root_block_device_volume_type
+  }
+
+  source_dest_check      = var.aws_instance_qwqGR_source_dest_check
+  subnet_id              = var.aws_instance_qwqGR_subnet_id
+  tenancy                = var.aws_instance_qwqGR_tenancy
+  user_data              = var.aws_instance_qwqGR_user_data
+  vpc_security_group_ids = var.aws_instance_qwqGR_vpc_security_group_ids
+}
+
+resource "aws_instance" "rhurJ" {
+  tags = {
+    Name                 = var.aws_instance_rhurJ_tags_Name
+    client               = var.aws_instance_rhurJ_tags_client
+    "cycloid.io"         = var.aws_instance_rhurJ_tags_cycloid_io
+    env                  = var.aws_instance_rhurJ_tags_env
+    monitoring_discovery = var.aws_instance_rhurJ_tags_monitoring_discovery
+    project              = var.aws_instance_rhurJ_tags_project
+    role                 = var.aws_instance_rhurJ_tags_role
+  }
+
+  tags_all = {
+    Name                 = var.aws_instance_rhurJ_tags_all_Name
+    client               = var.aws_instance_rhurJ_tags_all_client
+    "cycloid.io"         = var.aws_instance_rhurJ_tags_all_cycloid_io
+    env                  = var.aws_instance_rhurJ_tags_all_env
+    monitoring_discovery = var.aws_instance_rhurJ_tags_all_monitoring_discovery
+    project              = var.aws_instance_rhurJ_tags_all_project
+    role                 = var.aws_instance_rhurJ_tags_all_role
+  }
+
+  ami                         = var.aws_instance_rhurJ_ami
+  associate_public_ip_address = var.aws_instance_rhurJ_associate_public_ip_address
+  availability_zone           = var.aws_instance_rhurJ_availability_zone
+  cpu_core_count              = var.aws_instance_rhurJ_cpu_core_count
+  cpu_threads_per_core        = var.aws_instance_rhurJ_cpu_threads_per_core
+  credit_specification {
+    cpu_credits = var.aws_instance_rhurJ_credit_specification_cpu_credits
+  }
+
+  iam_instance_profile                 = var.aws_instance_rhurJ_iam_instance_profile
+  instance_initiated_shutdown_behavior = var.aws_instance_rhurJ_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_rhurJ_instance_type
+  key_name                             = var.aws_instance_rhurJ_key_name
+  metadata_options {
+    http_endpoint               = var.aws_instance_rhurJ_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_rhurJ_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_rhurJ_metadata_options_http_tokens
+  }
+
+  private_ip = var.aws_instance_rhurJ_private_ip
+  root_block_device {
+    tags = {
+      Name                 = var.aws_instance_rhurJ_root_block_device_tags_Name
+      client               = var.aws_instance_rhurJ_root_block_device_tags_client
+      "cycloid.io"         = var.aws_instance_rhurJ_root_block_device_tags_cycloid_io
+      env                  = var.aws_instance_rhurJ_root_block_device_tags_env
+      monitoring_discovery = var.aws_instance_rhurJ_root_block_device_tags_monitoring_discovery
+      project              = var.aws_instance_rhurJ_root_block_device_tags_project
+      role                 = var.aws_instance_rhurJ_root_block_device_tags_role
+    }
+
+    delete_on_termination = var.aws_instance_rhurJ_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_rhurJ_root_block_device_iops
+    volume_size           = var.aws_instance_rhurJ_root_block_device_volume_size
+    volume_type           = var.aws_instance_rhurJ_root_block_device_volume_type
+  }
+
+  source_dest_check      = var.aws_instance_rhurJ_source_dest_check
+  subnet_id              = var.aws_instance_rhurJ_subnet_id
+  tenancy                = var.aws_instance_rhurJ_tenancy
+  vpc_security_group_ids = var.aws_instance_rhurJ_vpc_security_group_ids
+}
+
+resource "aws_instance" "xOGfS" {
+  tags = {
+    Name         = var.aws_instance_xOGfS_tags_Name
+    client       = var.aws_instance_xOGfS_tags_client
+    "cycloid.io" = var.aws_instance_xOGfS_tags_cycloid_io
+    env          = var.aws_instance_xOGfS_tags_env
+    project      = var.aws_instance_xOGfS_tags_project
+    role         = var.aws_instance_xOGfS_tags_role
+  }
+
+  tags_all = {
+    Name         = var.aws_instance_xOGfS_tags_all_Name
+    client       = var.aws_instance_xOGfS_tags_all_client
+    "cycloid.io" = var.aws_instance_xOGfS_tags_all_cycloid_io
+    env          = var.aws_instance_xOGfS_tags_all_env
+    project      = var.aws_instance_xOGfS_tags_all_project
+    role         = var.aws_instance_xOGfS_tags_all_role
+  }
+
+  ami                         = var.aws_instance_xOGfS_ami
+  associate_public_ip_address = var.aws_instance_xOGfS_associate_public_ip_address
+  availability_zone           = var.aws_instance_xOGfS_availability_zone
+  cpu_core_count              = var.aws_instance_xOGfS_cpu_core_count
+  cpu_threads_per_core        = var.aws_instance_xOGfS_cpu_threads_per_core
+  ebs_block_device {
+    delete_on_termination = var.aws_instance_xOGfS_ebs_block_device_delete_on_termination
+    device_name           = var.aws_instance_xOGfS_ebs_block_device_device_name
+    iops                  = var.aws_instance_xOGfS_ebs_block_device_iops
+    tags {
+      Name         = var.aws_instance_xOGfS_ebs_block_device_tags_Name
+      client       = var.aws_instance_xOGfS_ebs_block_device_tags_client
+      "cycloid.io" = var.aws_instance_xOGfS_ebs_block_device_tags_cycloid_io
+      env          = var.aws_instance_xOGfS_ebs_block_device_tags_env
+      project      = var.aws_instance_xOGfS_ebs_block_device_tags_project
+      role         = var.aws_instance_xOGfS_ebs_block_device_tags_role
+    }
+
+    volume_size = var.aws_instance_xOGfS_ebs_block_device_volume_size
+    volume_type = var.aws_instance_xOGfS_ebs_block_device_volume_type
+  }
+
+  ebs_optimized                        = var.aws_instance_xOGfS_ebs_optimized
+  iam_instance_profile                 = var.aws_instance_xOGfS_iam_instance_profile
+  instance_initiated_shutdown_behavior = var.aws_instance_xOGfS_instance_initiated_shutdown_behavior
+  instance_type                        = var.aws_instance_xOGfS_instance_type
+  key_name                             = var.aws_instance_xOGfS_key_name
+  metadata_options {
+    http_endpoint               = var.aws_instance_xOGfS_metadata_options_http_endpoint
+    http_put_response_hop_limit = var.aws_instance_xOGfS_metadata_options_http_put_response_hop_limit
+    http_tokens                 = var.aws_instance_xOGfS_metadata_options_http_tokens
+  }
+
+  private_ip = var.aws_instance_xOGfS_private_ip
+  root_block_device {
+    tags = {
+      Name         = var.aws_instance_xOGfS_root_block_device_tags_Name
+      client       = var.aws_instance_xOGfS_root_block_device_tags_client
+      "cycloid.io" = var.aws_instance_xOGfS_root_block_device_tags_cycloid_io
+      env          = var.aws_instance_xOGfS_root_block_device_tags_env
+      project      = var.aws_instance_xOGfS_root_block_device_tags_project
+      role         = var.aws_instance_xOGfS_root_block_device_tags_role
+    }
+
+    delete_on_termination = var.aws_instance_xOGfS_root_block_device_delete_on_termination
+    iops                  = var.aws_instance_xOGfS_root_block_device_iops
+    volume_size           = var.aws_instance_xOGfS_root_block_device_volume_size
+    volume_type           = var.aws_instance_xOGfS_root_block_device_volume_type
+  }
+
+  source_dest_check      = var.aws_instance_xOGfS_source_dest_check
+  subnet_id              = var.aws_instance_xOGfS_subnet_id
+  tenancy                = var.aws_instance_xOGfS_tenancy
+  user_data              = var.aws_instance_xOGfS_user_data
+  vpc_security_group_ids = var.aws_instance_xOGfS_vpc_security_group_ids
+}
+
+resource "aws_key_pair" "RZQdK" {
+  key_name   = var.aws_key_pair_RZQdK_key_name
+  public_key = var.aws_key_pair_RZQdK_public_key
+}
+
+resource "aws_key_pair" "XckLE" {
+  key_name   = var.aws_key_pair_XckLE_key_name
+  public_key = var.aws_key_pair_XckLE_public_key
+}
+
+resource "aws_key_pair" "XhEkf" {
+  key_name   = var.aws_key_pair_XhEkf_key_name
+  public_key = var.aws_key_pair_XhEkf_public_key
+}
+
+resource "aws_key_pair" "ZQlmu" {
+  key_name   = var.aws_key_pair_ZQlmu_key_name
+  public_key = var.aws_key_pair_ZQlmu_public_key
 }
 
 resource "aws_key_pair" "cycloid" {
@@ -1083,672 +1088,667 @@ resource "aws_key_pair" "demo" {
   public_key = var.aws_key_pair_demo_public_key
 }
 
-resource "aws_key_pair" "fJYid" {
-  key_name   = var.aws_key_pair_fJYid_key_name
-  public_key = var.aws_key_pair_fJYid_public_key
+resource "aws_key_pair" "qmEyb" {
+  key_name   = var.aws_key_pair_qmEyb_key_name
+  public_key = var.aws_key_pair_qmEyb_public_key
 }
 
-resource "aws_key_pair" "vXYAc" {
-  key_name   = var.aws_key_pair_vXYAc_key_name
-  public_key = var.aws_key_pair_vXYAc_public_key
+resource "aws_key_pair" "sOjVT" {
+  key_name   = var.aws_key_pair_sOjVT_key_name
+  public_key = var.aws_key_pair_sOjVT_public_key
 }
 
-resource "aws_key_pair" "wAFNg" {
-  key_name   = var.aws_key_pair_wAFNg_key_name
-  public_key = var.aws_key_pair_wAFNg_public_key
-}
-
-resource "aws_launch_template" "KRHYD" {
+resource "aws_launch_template" "CcssD" {
   tags = {
-    Name         = var.aws_launch_template_KRHYD_tags_Name
-    client       = var.aws_launch_template_KRHYD_tags_client
-    "cycloid.io" = var.aws_launch_template_KRHYD_tags_cycloid_io
-    env          = var.aws_launch_template_KRHYD_tags_env
-    project      = var.aws_launch_template_KRHYD_tags_project
-    role         = var.aws_launch_template_KRHYD_tags_role
+    Name         = var.aws_launch_template_CcssD_tags_Name
+    client       = var.aws_launch_template_CcssD_tags_client
+    "cycloid.io" = var.aws_launch_template_CcssD_tags_cycloid_io
+    env          = var.aws_launch_template_CcssD_tags_env
+    project      = var.aws_launch_template_CcssD_tags_project
+    role         = var.aws_launch_template_CcssD_tags_role
   }
 
   tags_all = {
-    Name         = var.aws_launch_template_KRHYD_tags_all_Name
-    client       = var.aws_launch_template_KRHYD_tags_all_client
-    "cycloid.io" = var.aws_launch_template_KRHYD_tags_all_cycloid_io
-    env          = var.aws_launch_template_KRHYD_tags_all_env
-    project      = var.aws_launch_template_KRHYD_tags_all_project
-    role         = var.aws_launch_template_KRHYD_tags_all_role
+    Name         = var.aws_launch_template_CcssD_tags_all_Name
+    client       = var.aws_launch_template_CcssD_tags_all_client
+    "cycloid.io" = var.aws_launch_template_CcssD_tags_all_cycloid_io
+    env          = var.aws_launch_template_CcssD_tags_all_env
+    project      = var.aws_launch_template_CcssD_tags_all_project
+    role         = var.aws_launch_template_CcssD_tags_all_role
   }
 
   block_device_mappings {
-    device_name = var.aws_launch_template_KRHYD_block_device_mappings_device_name
+    device_name = var.aws_launch_template_CcssD_block_device_mappings_device_name
     ebs {
-      delete_on_termination = var.aws_launch_template_KRHYD_block_device_mappings_ebs_delete_on_termination
-      volume_size           = var.aws_launch_template_KRHYD_block_device_mappings_ebs_volume_size
-      volume_type           = var.aws_launch_template_KRHYD_block_device_mappings_ebs_volume_type
+      delete_on_termination = var.aws_launch_template_CcssD_block_device_mappings_ebs_delete_on_termination
+      volume_size           = var.aws_launch_template_CcssD_block_device_mappings_ebs_volume_size
+      volume_type           = var.aws_launch_template_CcssD_block_device_mappings_ebs_volume_type
     }
 
   }
 
-  default_version = var.aws_launch_template_KRHYD_default_version
-  ebs_optimized   = var.aws_launch_template_KRHYD_ebs_optimized
-  iam_instance_profile {
-    name = var.aws_launch_template_KRHYD_iam_instance_profile_name
+  block_device_mappings {
+    device_name = var.aws_launch_template_CcssD_block_device_mappings_device_name
+    ebs {
+      delete_on_termination = var.aws_launch_template_CcssD_block_device_mappings_ebs_delete_on_termination
+      volume_size           = var.aws_launch_template_CcssD_block_device_mappings_ebs_volume_size
+      volume_type           = var.aws_launch_template_CcssD_block_device_mappings_ebs_volume_type
+    }
+
+    virtual_name = var.aws_launch_template_CcssD_block_device_mappings_virtual_name
   }
 
-  image_id      = var.aws_launch_template_KRHYD_image_id
-  instance_type = var.aws_launch_template_KRHYD_instance_type
-  key_name      = var.aws_launch_template_KRHYD_key_name
-  name          = var.aws_launch_template_KRHYD_name
+  block_device_mappings {
+    device_name  = var.aws_launch_template_CcssD_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_CcssD_block_device_mappings_virtual_name
+  }
+
+  block_device_mappings {
+    device_name  = var.aws_launch_template_CcssD_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_CcssD_block_device_mappings_virtual_name
+  }
+
+  block_device_mappings {
+    device_name  = var.aws_launch_template_CcssD_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_CcssD_block_device_mappings_virtual_name
+  }
+
+  block_device_mappings {
+    device_name  = var.aws_launch_template_CcssD_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_CcssD_block_device_mappings_virtual_name
+  }
+
+  block_device_mappings {
+    device_name  = var.aws_launch_template_CcssD_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_CcssD_block_device_mappings_virtual_name
+  }
+
+  block_device_mappings {
+    device_name  = var.aws_launch_template_CcssD_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_CcssD_block_device_mappings_virtual_name
+  }
+
+  block_device_mappings {
+    device_name  = var.aws_launch_template_CcssD_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_CcssD_block_device_mappings_virtual_name
+  }
+
+  block_device_mappings {
+    device_name  = var.aws_launch_template_CcssD_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_CcssD_block_device_mappings_virtual_name
+  }
+
+  default_version = var.aws_launch_template_CcssD_default_version
+  ebs_optimized   = var.aws_launch_template_CcssD_ebs_optimized
+  iam_instance_profile {
+    name = var.aws_launch_template_CcssD_iam_instance_profile_name
+  }
+
+  image_id      = var.aws_launch_template_CcssD_image_id
+  instance_type = var.aws_launch_template_CcssD_instance_type
+  key_name      = var.aws_launch_template_CcssD_key_name
+  name          = var.aws_launch_template_CcssD_name
   network_interfaces {
-    associate_public_ip_address = var.aws_launch_template_KRHYD_network_interfaces_associate_public_ip_address
-    delete_on_termination       = var.aws_launch_template_KRHYD_network_interfaces_delete_on_termination
-    security_groups             = var.aws_launch_template_KRHYD_network_interfaces_security_groups
+    associate_public_ip_address = var.aws_launch_template_CcssD_network_interfaces_associate_public_ip_address
+    delete_on_termination       = var.aws_launch_template_CcssD_network_interfaces_delete_on_termination
+    security_groups             = var.aws_launch_template_CcssD_network_interfaces_security_groups
   }
 
   tag_specifications {
     tags = {
-      Name = var.aws_launch_template_KRHYD_tag_specifications_tags_Name
-      role = var.aws_launch_template_KRHYD_tag_specifications_tags_role
+      Name         = var.aws_launch_template_CcssD_tag_specifications_tags_Name
+      client       = var.aws_launch_template_CcssD_tag_specifications_tags_client
+      "cycloid.io" = var.aws_launch_template_CcssD_tag_specifications_tags_cycloid_io
+      env          = var.aws_launch_template_CcssD_tag_specifications_tags_env
+      project      = var.aws_launch_template_CcssD_tag_specifications_tags_project
+      role         = var.aws_launch_template_CcssD_tag_specifications_tags_role
     }
 
-    resource_type = var.aws_launch_template_KRHYD_tag_specifications_resource_type
+    resource_type = var.aws_launch_template_CcssD_tag_specifications_resource_type
   }
 
   tag_specifications {
     tags = {
-      Name = var.aws_launch_template_KRHYD_tag_specifications_tags_Name
-      role = var.aws_launch_template_KRHYD_tag_specifications_tags_role
+      Name         = var.aws_launch_template_CcssD_tag_specifications_tags_Name
+      client       = var.aws_launch_template_CcssD_tag_specifications_tags_client
+      "cycloid.io" = var.aws_launch_template_CcssD_tag_specifications_tags_cycloid_io
+      env          = var.aws_launch_template_CcssD_tag_specifications_tags_env
+      project      = var.aws_launch_template_CcssD_tag_specifications_tags_project
+      role         = var.aws_launch_template_CcssD_tag_specifications_tags_role
     }
 
-    resource_type = var.aws_launch_template_KRHYD_tag_specifications_resource_type
+    resource_type = var.aws_launch_template_CcssD_tag_specifications_resource_type
   }
 
-  user_data = var.aws_launch_template_KRHYD_user_data
+  user_data = var.aws_launch_template_CcssD_user_data
 }
 
-resource "aws_launch_template" "MhryG" {
+resource "aws_launch_template" "WlxtN" {
   tags = {
-    Name         = var.aws_launch_template_MhryG_tags_Name
-    client       = var.aws_launch_template_MhryG_tags_client
-    "cycloid.io" = var.aws_launch_template_MhryG_tags_cycloid_io
-    env          = var.aws_launch_template_MhryG_tags_env
-    project      = var.aws_launch_template_MhryG_tags_project
-    role         = var.aws_launch_template_MhryG_tags_role
+    Name         = var.aws_launch_template_WlxtN_tags_Name
+    client       = var.aws_launch_template_WlxtN_tags_client
+    "cycloid.io" = var.aws_launch_template_WlxtN_tags_cycloid_io
+    env          = var.aws_launch_template_WlxtN_tags_env
+    project      = var.aws_launch_template_WlxtN_tags_project
+    role         = var.aws_launch_template_WlxtN_tags_role
   }
 
   tags_all = {
-    Name         = var.aws_launch_template_MhryG_tags_all_Name
-    client       = var.aws_launch_template_MhryG_tags_all_client
-    "cycloid.io" = var.aws_launch_template_MhryG_tags_all_cycloid_io
-    env          = var.aws_launch_template_MhryG_tags_all_env
-    project      = var.aws_launch_template_MhryG_tags_all_project
-    role         = var.aws_launch_template_MhryG_tags_all_role
+    Name         = var.aws_launch_template_WlxtN_tags_all_Name
+    client       = var.aws_launch_template_WlxtN_tags_all_client
+    "cycloid.io" = var.aws_launch_template_WlxtN_tags_all_cycloid_io
+    env          = var.aws_launch_template_WlxtN_tags_all_env
+    project      = var.aws_launch_template_WlxtN_tags_all_project
+    role         = var.aws_launch_template_WlxtN_tags_all_role
   }
 
   block_device_mappings {
-    device_name = var.aws_launch_template_MhryG_block_device_mappings_device_name
+    device_name = var.aws_launch_template_WlxtN_block_device_mappings_device_name
     ebs {
-      delete_on_termination = var.aws_launch_template_MhryG_block_device_mappings_ebs_delete_on_termination
-      volume_size           = var.aws_launch_template_MhryG_block_device_mappings_ebs_volume_size
-      volume_type           = var.aws_launch_template_MhryG_block_device_mappings_ebs_volume_type
+      delete_on_termination = var.aws_launch_template_WlxtN_block_device_mappings_ebs_delete_on_termination
+      volume_size           = var.aws_launch_template_WlxtN_block_device_mappings_ebs_volume_size
+      volume_type           = var.aws_launch_template_WlxtN_block_device_mappings_ebs_volume_type
     }
 
   }
 
   block_device_mappings {
-    device_name = var.aws_launch_template_MhryG_block_device_mappings_device_name
+    device_name = var.aws_launch_template_WlxtN_block_device_mappings_device_name
     ebs {
-      delete_on_termination = var.aws_launch_template_MhryG_block_device_mappings_ebs_delete_on_termination
-      volume_size           = var.aws_launch_template_MhryG_block_device_mappings_ebs_volume_size
-      volume_type           = var.aws_launch_template_MhryG_block_device_mappings_ebs_volume_type
+      delete_on_termination = var.aws_launch_template_WlxtN_block_device_mappings_ebs_delete_on_termination
+      volume_size           = var.aws_launch_template_WlxtN_block_device_mappings_ebs_volume_size
+      volume_type           = var.aws_launch_template_WlxtN_block_device_mappings_ebs_volume_type
     }
 
-    virtual_name = var.aws_launch_template_MhryG_block_device_mappings_virtual_name
+    virtual_name = var.aws_launch_template_WlxtN_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_MhryG_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_MhryG_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_WlxtN_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_WlxtN_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_MhryG_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_MhryG_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_WlxtN_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_WlxtN_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_MhryG_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_MhryG_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_WlxtN_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_WlxtN_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_MhryG_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_MhryG_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_WlxtN_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_WlxtN_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_MhryG_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_MhryG_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_WlxtN_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_WlxtN_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_MhryG_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_MhryG_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_WlxtN_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_WlxtN_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_MhryG_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_MhryG_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_WlxtN_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_WlxtN_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_MhryG_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_MhryG_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_WlxtN_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_WlxtN_block_device_mappings_virtual_name
   }
 
-  default_version = var.aws_launch_template_MhryG_default_version
-  ebs_optimized   = var.aws_launch_template_MhryG_ebs_optimized
+  default_version = var.aws_launch_template_WlxtN_default_version
+  ebs_optimized   = var.aws_launch_template_WlxtN_ebs_optimized
   iam_instance_profile {
-    name = var.aws_launch_template_MhryG_iam_instance_profile_name
+    name = var.aws_launch_template_WlxtN_iam_instance_profile_name
   }
 
-  image_id      = var.aws_launch_template_MhryG_image_id
-  instance_type = var.aws_launch_template_MhryG_instance_type
-  key_name      = var.aws_launch_template_MhryG_key_name
-  name          = var.aws_launch_template_MhryG_name
+  image_id      = var.aws_launch_template_WlxtN_image_id
+  instance_type = var.aws_launch_template_WlxtN_instance_type
+  key_name      = var.aws_launch_template_WlxtN_key_name
+  name          = var.aws_launch_template_WlxtN_name
   network_interfaces {
-    associate_public_ip_address = var.aws_launch_template_MhryG_network_interfaces_associate_public_ip_address
-    delete_on_termination       = var.aws_launch_template_MhryG_network_interfaces_delete_on_termination
-    security_groups             = var.aws_launch_template_MhryG_network_interfaces_security_groups
+    associate_public_ip_address = var.aws_launch_template_WlxtN_network_interfaces_associate_public_ip_address
+    delete_on_termination       = var.aws_launch_template_WlxtN_network_interfaces_delete_on_termination
+    security_groups             = var.aws_launch_template_WlxtN_network_interfaces_security_groups
   }
 
   tag_specifications {
     tags = {
-      Name         = var.aws_launch_template_MhryG_tag_specifications_tags_Name
-      client       = var.aws_launch_template_MhryG_tag_specifications_tags_client
-      "cycloid.io" = var.aws_launch_template_MhryG_tag_specifications_tags_cycloid_io
-      env          = var.aws_launch_template_MhryG_tag_specifications_tags_env
-      project      = var.aws_launch_template_MhryG_tag_specifications_tags_project
-      role         = var.aws_launch_template_MhryG_tag_specifications_tags_role
+      Name         = var.aws_launch_template_WlxtN_tag_specifications_tags_Name
+      client       = var.aws_launch_template_WlxtN_tag_specifications_tags_client
+      "cycloid.io" = var.aws_launch_template_WlxtN_tag_specifications_tags_cycloid_io
+      env          = var.aws_launch_template_WlxtN_tag_specifications_tags_env
+      project      = var.aws_launch_template_WlxtN_tag_specifications_tags_project
+      role         = var.aws_launch_template_WlxtN_tag_specifications_tags_role
     }
 
-    resource_type = var.aws_launch_template_MhryG_tag_specifications_resource_type
+    resource_type = var.aws_launch_template_WlxtN_tag_specifications_resource_type
   }
 
   tag_specifications {
     tags = {
-      Name         = var.aws_launch_template_MhryG_tag_specifications_tags_Name
-      client       = var.aws_launch_template_MhryG_tag_specifications_tags_client
-      "cycloid.io" = var.aws_launch_template_MhryG_tag_specifications_tags_cycloid_io
-      env          = var.aws_launch_template_MhryG_tag_specifications_tags_env
-      project      = var.aws_launch_template_MhryG_tag_specifications_tags_project
-      role         = var.aws_launch_template_MhryG_tag_specifications_tags_role
+      Name         = var.aws_launch_template_WlxtN_tag_specifications_tags_Name
+      client       = var.aws_launch_template_WlxtN_tag_specifications_tags_client
+      "cycloid.io" = var.aws_launch_template_WlxtN_tag_specifications_tags_cycloid_io
+      env          = var.aws_launch_template_WlxtN_tag_specifications_tags_env
+      project      = var.aws_launch_template_WlxtN_tag_specifications_tags_project
+      role         = var.aws_launch_template_WlxtN_tag_specifications_tags_role
     }
 
-    resource_type = var.aws_launch_template_MhryG_tag_specifications_resource_type
+    resource_type = var.aws_launch_template_WlxtN_tag_specifications_resource_type
   }
 
-  user_data = var.aws_launch_template_MhryG_user_data
+  user_data = var.aws_launch_template_WlxtN_user_data
 }
 
-resource "aws_launch_template" "THAPr" {
+resource "aws_launch_template" "aPUci" {
   tags = {
-    Name                 = var.aws_launch_template_THAPr_tags_Name
-    client               = var.aws_launch_template_THAPr_tags_client
-    "cycloid.io"         = var.aws_launch_template_THAPr_tags_cycloid_io
-    env                  = var.aws_launch_template_THAPr_tags_env
-    monitoring_discovery = var.aws_launch_template_THAPr_tags_monitoring_discovery
-    project              = var.aws_launch_template_THAPr_tags_project
-    role                 = var.aws_launch_template_THAPr_tags_role
+    Name         = var.aws_launch_template_aPUci_tags_Name
+    client       = var.aws_launch_template_aPUci_tags_client
+    "cycloid.io" = var.aws_launch_template_aPUci_tags_cycloid_io
+    env          = var.aws_launch_template_aPUci_tags_env
+    project      = var.aws_launch_template_aPUci_tags_project
+    role         = var.aws_launch_template_aPUci_tags_role
   }
 
   tags_all = {
-    Name                 = var.aws_launch_template_THAPr_tags_all_Name
-    client               = var.aws_launch_template_THAPr_tags_all_client
-    "cycloid.io"         = var.aws_launch_template_THAPr_tags_all_cycloid_io
-    env                  = var.aws_launch_template_THAPr_tags_all_env
-    monitoring_discovery = var.aws_launch_template_THAPr_tags_all_monitoring_discovery
-    project              = var.aws_launch_template_THAPr_tags_all_project
-    role                 = var.aws_launch_template_THAPr_tags_all_role
+    Name         = var.aws_launch_template_aPUci_tags_all_Name
+    client       = var.aws_launch_template_aPUci_tags_all_client
+    "cycloid.io" = var.aws_launch_template_aPUci_tags_all_cycloid_io
+    env          = var.aws_launch_template_aPUci_tags_all_env
+    project      = var.aws_launch_template_aPUci_tags_all_project
+    role         = var.aws_launch_template_aPUci_tags_all_role
   }
 
   block_device_mappings {
-    device_name = var.aws_launch_template_THAPr_block_device_mappings_device_name
+    device_name = var.aws_launch_template_aPUci_block_device_mappings_device_name
     ebs {
-      delete_on_termination = var.aws_launch_template_THAPr_block_device_mappings_ebs_delete_on_termination
-      volume_size           = var.aws_launch_template_THAPr_block_device_mappings_ebs_volume_size
-      volume_type           = var.aws_launch_template_THAPr_block_device_mappings_ebs_volume_type
+      delete_on_termination = var.aws_launch_template_aPUci_block_device_mappings_ebs_delete_on_termination
+      volume_size           = var.aws_launch_template_aPUci_block_device_mappings_ebs_volume_size
+      volume_type           = var.aws_launch_template_aPUci_block_device_mappings_ebs_volume_type
     }
 
   }
 
-  default_version = var.aws_launch_template_THAPr_default_version
-  ebs_optimized   = var.aws_launch_template_THAPr_ebs_optimized
+  default_version = var.aws_launch_template_aPUci_default_version
+  ebs_optimized   = var.aws_launch_template_aPUci_ebs_optimized
   iam_instance_profile {
-    name = var.aws_launch_template_THAPr_iam_instance_profile_name
+    name = var.aws_launch_template_aPUci_iam_instance_profile_name
   }
 
-  image_id      = var.aws_launch_template_THAPr_image_id
-  instance_type = var.aws_launch_template_THAPr_instance_type
-  key_name      = var.aws_launch_template_THAPr_key_name
-  name          = var.aws_launch_template_THAPr_name
+  image_id      = var.aws_launch_template_aPUci_image_id
+  instance_type = var.aws_launch_template_aPUci_instance_type
+  key_name      = var.aws_launch_template_aPUci_key_name
+  name          = var.aws_launch_template_aPUci_name
   network_interfaces {
-    associate_public_ip_address = var.aws_launch_template_THAPr_network_interfaces_associate_public_ip_address
-    delete_on_termination       = var.aws_launch_template_THAPr_network_interfaces_delete_on_termination
-    security_groups             = var.aws_launch_template_THAPr_network_interfaces_security_groups
+    associate_public_ip_address = var.aws_launch_template_aPUci_network_interfaces_associate_public_ip_address
+    delete_on_termination       = var.aws_launch_template_aPUci_network_interfaces_delete_on_termination
+    security_groups             = var.aws_launch_template_aPUci_network_interfaces_security_groups
   }
 
   tag_specifications {
     tags = {
-      Name                 = var.aws_launch_template_THAPr_tag_specifications_tags_Name
-      monitoring_discovery = var.aws_launch_template_THAPr_tag_specifications_tags_monitoring_discovery
-      role                 = var.aws_launch_template_THAPr_tag_specifications_tags_role
+      Name = var.aws_launch_template_aPUci_tag_specifications_tags_Name
+      role = var.aws_launch_template_aPUci_tag_specifications_tags_role
     }
 
-    resource_type = var.aws_launch_template_THAPr_tag_specifications_resource_type
+    resource_type = var.aws_launch_template_aPUci_tag_specifications_resource_type
   }
 
   tag_specifications {
     tags = {
-      Name                 = var.aws_launch_template_THAPr_tag_specifications_tags_Name
-      monitoring_discovery = var.aws_launch_template_THAPr_tag_specifications_tags_monitoring_discovery
-      role                 = var.aws_launch_template_THAPr_tag_specifications_tags_role
+      Name = var.aws_launch_template_aPUci_tag_specifications_tags_Name
+      role = var.aws_launch_template_aPUci_tag_specifications_tags_role
     }
 
-    resource_type = var.aws_launch_template_THAPr_tag_specifications_resource_type
+    resource_type = var.aws_launch_template_aPUci_tag_specifications_resource_type
   }
 
-  user_data = var.aws_launch_template_THAPr_user_data
+  user_data = var.aws_launch_template_aPUci_user_data
 }
 
-resource "aws_launch_template" "WPzVm" {
+resource "aws_launch_template" "afdSK" {
   tags = {
-    Name         = var.aws_launch_template_WPzVm_tags_Name
-    client       = var.aws_launch_template_WPzVm_tags_client
-    "cycloid.io" = var.aws_launch_template_WPzVm_tags_cycloid_io
-    env          = var.aws_launch_template_WPzVm_tags_env
-    project      = var.aws_launch_template_WPzVm_tags_project
-    role         = var.aws_launch_template_WPzVm_tags_role
+    Name         = var.aws_launch_template_afdSK_tags_Name
+    client       = var.aws_launch_template_afdSK_tags_client
+    "cycloid.io" = var.aws_launch_template_afdSK_tags_cycloid_io
+    env          = var.aws_launch_template_afdSK_tags_env
+    project      = var.aws_launch_template_afdSK_tags_project
+    role         = var.aws_launch_template_afdSK_tags_role
   }
 
   tags_all = {
-    Name         = var.aws_launch_template_WPzVm_tags_all_Name
-    client       = var.aws_launch_template_WPzVm_tags_all_client
-    "cycloid.io" = var.aws_launch_template_WPzVm_tags_all_cycloid_io
-    env          = var.aws_launch_template_WPzVm_tags_all_env
-    project      = var.aws_launch_template_WPzVm_tags_all_project
-    role         = var.aws_launch_template_WPzVm_tags_all_role
+    Name         = var.aws_launch_template_afdSK_tags_all_Name
+    client       = var.aws_launch_template_afdSK_tags_all_client
+    "cycloid.io" = var.aws_launch_template_afdSK_tags_all_cycloid_io
+    env          = var.aws_launch_template_afdSK_tags_all_env
+    project      = var.aws_launch_template_afdSK_tags_all_project
+    role         = var.aws_launch_template_afdSK_tags_all_role
   }
 
   block_device_mappings {
-    device_name = var.aws_launch_template_WPzVm_block_device_mappings_device_name
+    device_name = var.aws_launch_template_afdSK_block_device_mappings_device_name
     ebs {
-      delete_on_termination = var.aws_launch_template_WPzVm_block_device_mappings_ebs_delete_on_termination
-      volume_size           = var.aws_launch_template_WPzVm_block_device_mappings_ebs_volume_size
-      volume_type           = var.aws_launch_template_WPzVm_block_device_mappings_ebs_volume_type
+      delete_on_termination = var.aws_launch_template_afdSK_block_device_mappings_ebs_delete_on_termination
+      volume_size           = var.aws_launch_template_afdSK_block_device_mappings_ebs_volume_size
+      volume_type           = var.aws_launch_template_afdSK_block_device_mappings_ebs_volume_type
     }
 
   }
 
   block_device_mappings {
-    device_name = var.aws_launch_template_WPzVm_block_device_mappings_device_name
+    device_name = var.aws_launch_template_afdSK_block_device_mappings_device_name
     ebs {
-      delete_on_termination = var.aws_launch_template_WPzVm_block_device_mappings_ebs_delete_on_termination
-      volume_size           = var.aws_launch_template_WPzVm_block_device_mappings_ebs_volume_size
-      volume_type           = var.aws_launch_template_WPzVm_block_device_mappings_ebs_volume_type
+      delete_on_termination = var.aws_launch_template_afdSK_block_device_mappings_ebs_delete_on_termination
+      volume_size           = var.aws_launch_template_afdSK_block_device_mappings_ebs_volume_size
+      volume_type           = var.aws_launch_template_afdSK_block_device_mappings_ebs_volume_type
     }
 
-    virtual_name = var.aws_launch_template_WPzVm_block_device_mappings_virtual_name
+    virtual_name = var.aws_launch_template_afdSK_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_WPzVm_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_WPzVm_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_afdSK_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_afdSK_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_WPzVm_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_WPzVm_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_afdSK_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_afdSK_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_WPzVm_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_WPzVm_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_afdSK_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_afdSK_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_WPzVm_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_WPzVm_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_afdSK_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_afdSK_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_WPzVm_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_WPzVm_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_afdSK_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_afdSK_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_WPzVm_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_WPzVm_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_afdSK_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_afdSK_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_WPzVm_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_WPzVm_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_afdSK_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_afdSK_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_WPzVm_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_WPzVm_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_afdSK_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_afdSK_block_device_mappings_virtual_name
   }
 
-  default_version = var.aws_launch_template_WPzVm_default_version
-  ebs_optimized   = var.aws_launch_template_WPzVm_ebs_optimized
+  default_version = var.aws_launch_template_afdSK_default_version
+  ebs_optimized   = var.aws_launch_template_afdSK_ebs_optimized
   iam_instance_profile {
-    name = var.aws_launch_template_WPzVm_iam_instance_profile_name
+    name = var.aws_launch_template_afdSK_iam_instance_profile_name
   }
 
-  image_id = var.aws_launch_template_WPzVm_image_id
+  image_id = var.aws_launch_template_afdSK_image_id
   instance_market_options {
-    market_type = var.aws_launch_template_WPzVm_instance_market_options_market_type
+    market_type = var.aws_launch_template_afdSK_instance_market_options_market_type
     spot_options {
-      max_price          = var.aws_launch_template_WPzVm_instance_market_options_spot_options_max_price
-      spot_instance_type = var.aws_launch_template_WPzVm_instance_market_options_spot_options_spot_instance_type
+      max_price          = var.aws_launch_template_afdSK_instance_market_options_spot_options_max_price
+      spot_instance_type = var.aws_launch_template_afdSK_instance_market_options_spot_options_spot_instance_type
     }
 
   }
 
-  instance_type = var.aws_launch_template_WPzVm_instance_type
-  key_name      = var.aws_launch_template_WPzVm_key_name
-  name          = var.aws_launch_template_WPzVm_name
+  instance_type = var.aws_launch_template_afdSK_instance_type
+  key_name      = var.aws_launch_template_afdSK_key_name
+  name          = var.aws_launch_template_afdSK_name
   network_interfaces {
-    associate_public_ip_address = var.aws_launch_template_WPzVm_network_interfaces_associate_public_ip_address
-    delete_on_termination       = var.aws_launch_template_WPzVm_network_interfaces_delete_on_termination
-    security_groups             = var.aws_launch_template_WPzVm_network_interfaces_security_groups
+    associate_public_ip_address = var.aws_launch_template_afdSK_network_interfaces_associate_public_ip_address
+    delete_on_termination       = var.aws_launch_template_afdSK_network_interfaces_delete_on_termination
+    security_groups             = var.aws_launch_template_afdSK_network_interfaces_security_groups
   }
 
   tag_specifications {
     tags = {
-      Name         = var.aws_launch_template_WPzVm_tag_specifications_tags_Name
-      client       = var.aws_launch_template_WPzVm_tag_specifications_tags_client
-      "cycloid.io" = var.aws_launch_template_WPzVm_tag_specifications_tags_cycloid_io
-      env          = var.aws_launch_template_WPzVm_tag_specifications_tags_env
-      project      = var.aws_launch_template_WPzVm_tag_specifications_tags_project
-      role         = var.aws_launch_template_WPzVm_tag_specifications_tags_role
+      Name         = var.aws_launch_template_afdSK_tag_specifications_tags_Name
+      client       = var.aws_launch_template_afdSK_tag_specifications_tags_client
+      "cycloid.io" = var.aws_launch_template_afdSK_tag_specifications_tags_cycloid_io
+      env          = var.aws_launch_template_afdSK_tag_specifications_tags_env
+      project      = var.aws_launch_template_afdSK_tag_specifications_tags_project
+      role         = var.aws_launch_template_afdSK_tag_specifications_tags_role
     }
 
-    resource_type = var.aws_launch_template_WPzVm_tag_specifications_resource_type
+    resource_type = var.aws_launch_template_afdSK_tag_specifications_resource_type
   }
 
   tag_specifications {
     tags = {
-      Name         = var.aws_launch_template_WPzVm_tag_specifications_tags_Name
-      client       = var.aws_launch_template_WPzVm_tag_specifications_tags_client
-      "cycloid.io" = var.aws_launch_template_WPzVm_tag_specifications_tags_cycloid_io
-      env          = var.aws_launch_template_WPzVm_tag_specifications_tags_env
-      project      = var.aws_launch_template_WPzVm_tag_specifications_tags_project
-      role         = var.aws_launch_template_WPzVm_tag_specifications_tags_role
+      Name         = var.aws_launch_template_afdSK_tag_specifications_tags_Name
+      client       = var.aws_launch_template_afdSK_tag_specifications_tags_client
+      "cycloid.io" = var.aws_launch_template_afdSK_tag_specifications_tags_cycloid_io
+      env          = var.aws_launch_template_afdSK_tag_specifications_tags_env
+      project      = var.aws_launch_template_afdSK_tag_specifications_tags_project
+      role         = var.aws_launch_template_afdSK_tag_specifications_tags_role
     }
 
-    resource_type = var.aws_launch_template_WPzVm_tag_specifications_resource_type
+    resource_type = var.aws_launch_template_afdSK_tag_specifications_resource_type
   }
 
-  user_data = var.aws_launch_template_WPzVm_user_data
+  user_data = var.aws_launch_template_afdSK_user_data
 }
 
-resource "aws_launch_template" "ecCvX" {
+resource "aws_launch_template" "gazPh" {
   tags = {
-    Name         = var.aws_launch_template_ecCvX_tags_Name
-    client       = var.aws_launch_template_ecCvX_tags_client
-    "cycloid.io" = var.aws_launch_template_ecCvX_tags_cycloid_io
-    env          = var.aws_launch_template_ecCvX_tags_env
-    project      = var.aws_launch_template_ecCvX_tags_project
-    role         = var.aws_launch_template_ecCvX_tags_role
+    Name         = var.aws_launch_template_gazPh_tags_Name
+    client       = var.aws_launch_template_gazPh_tags_client
+    "cycloid.io" = var.aws_launch_template_gazPh_tags_cycloid_io
+    env          = var.aws_launch_template_gazPh_tags_env
+    project      = var.aws_launch_template_gazPh_tags_project
+    role         = var.aws_launch_template_gazPh_tags_role
   }
 
   tags_all = {
-    Name         = var.aws_launch_template_ecCvX_tags_all_Name
-    client       = var.aws_launch_template_ecCvX_tags_all_client
-    "cycloid.io" = var.aws_launch_template_ecCvX_tags_all_cycloid_io
-    env          = var.aws_launch_template_ecCvX_tags_all_env
-    project      = var.aws_launch_template_ecCvX_tags_all_project
-    role         = var.aws_launch_template_ecCvX_tags_all_role
+    Name         = var.aws_launch_template_gazPh_tags_all_Name
+    client       = var.aws_launch_template_gazPh_tags_all_client
+    "cycloid.io" = var.aws_launch_template_gazPh_tags_all_cycloid_io
+    env          = var.aws_launch_template_gazPh_tags_all_env
+    project      = var.aws_launch_template_gazPh_tags_all_project
+    role         = var.aws_launch_template_gazPh_tags_all_role
   }
 
   block_device_mappings {
-    device_name = var.aws_launch_template_ecCvX_block_device_mappings_device_name
+    device_name = var.aws_launch_template_gazPh_block_device_mappings_device_name
     ebs {
-      delete_on_termination = var.aws_launch_template_ecCvX_block_device_mappings_ebs_delete_on_termination
-      volume_size           = var.aws_launch_template_ecCvX_block_device_mappings_ebs_volume_size
-      volume_type           = var.aws_launch_template_ecCvX_block_device_mappings_ebs_volume_type
+      delete_on_termination = var.aws_launch_template_gazPh_block_device_mappings_ebs_delete_on_termination
+      volume_size           = var.aws_launch_template_gazPh_block_device_mappings_ebs_volume_size
+      volume_type           = var.aws_launch_template_gazPh_block_device_mappings_ebs_volume_type
     }
 
   }
 
   block_device_mappings {
-    device_name = var.aws_launch_template_ecCvX_block_device_mappings_device_name
+    device_name = var.aws_launch_template_gazPh_block_device_mappings_device_name
     ebs {
-      delete_on_termination = var.aws_launch_template_ecCvX_block_device_mappings_ebs_delete_on_termination
-      volume_size           = var.aws_launch_template_ecCvX_block_device_mappings_ebs_volume_size
-      volume_type           = var.aws_launch_template_ecCvX_block_device_mappings_ebs_volume_type
+      delete_on_termination = var.aws_launch_template_gazPh_block_device_mappings_ebs_delete_on_termination
+      volume_size           = var.aws_launch_template_gazPh_block_device_mappings_ebs_volume_size
+      volume_type           = var.aws_launch_template_gazPh_block_device_mappings_ebs_volume_type
     }
 
-    virtual_name = var.aws_launch_template_ecCvX_block_device_mappings_virtual_name
+    virtual_name = var.aws_launch_template_gazPh_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_ecCvX_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_ecCvX_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_gazPh_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_gazPh_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_ecCvX_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_ecCvX_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_gazPh_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_gazPh_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_ecCvX_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_ecCvX_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_gazPh_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_gazPh_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_ecCvX_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_ecCvX_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_gazPh_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_gazPh_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_ecCvX_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_ecCvX_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_gazPh_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_gazPh_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_ecCvX_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_ecCvX_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_gazPh_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_gazPh_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_ecCvX_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_ecCvX_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_gazPh_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_gazPh_block_device_mappings_virtual_name
   }
 
   block_device_mappings {
-    device_name  = var.aws_launch_template_ecCvX_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_ecCvX_block_device_mappings_virtual_name
+    device_name  = var.aws_launch_template_gazPh_block_device_mappings_device_name
+    virtual_name = var.aws_launch_template_gazPh_block_device_mappings_virtual_name
   }
 
-  default_version = var.aws_launch_template_ecCvX_default_version
-  ebs_optimized   = var.aws_launch_template_ecCvX_ebs_optimized
+  default_version = var.aws_launch_template_gazPh_default_version
+  ebs_optimized   = var.aws_launch_template_gazPh_ebs_optimized
   iam_instance_profile {
-    name = var.aws_launch_template_ecCvX_iam_instance_profile_name
+    name = var.aws_launch_template_gazPh_iam_instance_profile_name
   }
 
-  image_id      = var.aws_launch_template_ecCvX_image_id
-  instance_type = var.aws_launch_template_ecCvX_instance_type
-  key_name      = var.aws_launch_template_ecCvX_key_name
-  name          = var.aws_launch_template_ecCvX_name
-  network_interfaces {
-    associate_public_ip_address = var.aws_launch_template_ecCvX_network_interfaces_associate_public_ip_address
-    delete_on_termination       = var.aws_launch_template_ecCvX_network_interfaces_delete_on_termination
-    security_groups             = var.aws_launch_template_ecCvX_network_interfaces_security_groups
-  }
-
-  tag_specifications {
-    tags = {
-      Name         = var.aws_launch_template_ecCvX_tag_specifications_tags_Name
-      client       = var.aws_launch_template_ecCvX_tag_specifications_tags_client
-      "cycloid.io" = var.aws_launch_template_ecCvX_tag_specifications_tags_cycloid_io
-      env          = var.aws_launch_template_ecCvX_tag_specifications_tags_env
-      project      = var.aws_launch_template_ecCvX_tag_specifications_tags_project
-      role         = var.aws_launch_template_ecCvX_tag_specifications_tags_role
-    }
-
-    resource_type = var.aws_launch_template_ecCvX_tag_specifications_resource_type
-  }
-
-  tag_specifications {
-    tags = {
-      Name         = var.aws_launch_template_ecCvX_tag_specifications_tags_Name
-      client       = var.aws_launch_template_ecCvX_tag_specifications_tags_client
-      "cycloid.io" = var.aws_launch_template_ecCvX_tag_specifications_tags_cycloid_io
-      env          = var.aws_launch_template_ecCvX_tag_specifications_tags_env
-      project      = var.aws_launch_template_ecCvX_tag_specifications_tags_project
-      role         = var.aws_launch_template_ecCvX_tag_specifications_tags_role
-    }
-
-    resource_type = var.aws_launch_template_ecCvX_tag_specifications_resource_type
-  }
-
-  user_data = var.aws_launch_template_ecCvX_user_data
-}
-
-resource "aws_launch_template" "fXYrA" {
-  tags = {
-    Name         = var.aws_launch_template_fXYrA_tags_Name
-    client       = var.aws_launch_template_fXYrA_tags_client
-    "cycloid.io" = var.aws_launch_template_fXYrA_tags_cycloid_io
-    env          = var.aws_launch_template_fXYrA_tags_env
-    project      = var.aws_launch_template_fXYrA_tags_project
-    role         = var.aws_launch_template_fXYrA_tags_role
-  }
-
-  tags_all = {
-    Name         = var.aws_launch_template_fXYrA_tags_all_Name
-    client       = var.aws_launch_template_fXYrA_tags_all_client
-    "cycloid.io" = var.aws_launch_template_fXYrA_tags_all_cycloid_io
-    env          = var.aws_launch_template_fXYrA_tags_all_env
-    project      = var.aws_launch_template_fXYrA_tags_all_project
-    role         = var.aws_launch_template_fXYrA_tags_all_role
-  }
-
-  block_device_mappings {
-    device_name = var.aws_launch_template_fXYrA_block_device_mappings_device_name
-    ebs {
-      delete_on_termination = var.aws_launch_template_fXYrA_block_device_mappings_ebs_delete_on_termination
-      volume_size           = var.aws_launch_template_fXYrA_block_device_mappings_ebs_volume_size
-      volume_type           = var.aws_launch_template_fXYrA_block_device_mappings_ebs_volume_type
-    }
-
-  }
-
-  block_device_mappings {
-    device_name = var.aws_launch_template_fXYrA_block_device_mappings_device_name
-    ebs {
-      delete_on_termination = var.aws_launch_template_fXYrA_block_device_mappings_ebs_delete_on_termination
-      volume_size           = var.aws_launch_template_fXYrA_block_device_mappings_ebs_volume_size
-      volume_type           = var.aws_launch_template_fXYrA_block_device_mappings_ebs_volume_type
-    }
-
-    virtual_name = var.aws_launch_template_fXYrA_block_device_mappings_virtual_name
-  }
-
-  block_device_mappings {
-    device_name  = var.aws_launch_template_fXYrA_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_fXYrA_block_device_mappings_virtual_name
-  }
-
-  block_device_mappings {
-    device_name  = var.aws_launch_template_fXYrA_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_fXYrA_block_device_mappings_virtual_name
-  }
-
-  block_device_mappings {
-    device_name  = var.aws_launch_template_fXYrA_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_fXYrA_block_device_mappings_virtual_name
-  }
-
-  block_device_mappings {
-    device_name  = var.aws_launch_template_fXYrA_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_fXYrA_block_device_mappings_virtual_name
-  }
-
-  block_device_mappings {
-    device_name  = var.aws_launch_template_fXYrA_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_fXYrA_block_device_mappings_virtual_name
-  }
-
-  block_device_mappings {
-    device_name  = var.aws_launch_template_fXYrA_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_fXYrA_block_device_mappings_virtual_name
-  }
-
-  block_device_mappings {
-    device_name  = var.aws_launch_template_fXYrA_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_fXYrA_block_device_mappings_virtual_name
-  }
-
-  block_device_mappings {
-    device_name  = var.aws_launch_template_fXYrA_block_device_mappings_device_name
-    virtual_name = var.aws_launch_template_fXYrA_block_device_mappings_virtual_name
-  }
-
-  default_version = var.aws_launch_template_fXYrA_default_version
-  ebs_optimized   = var.aws_launch_template_fXYrA_ebs_optimized
-  iam_instance_profile {
-    name = var.aws_launch_template_fXYrA_iam_instance_profile_name
-  }
-
-  image_id = var.aws_launch_template_fXYrA_image_id
+  image_id = var.aws_launch_template_gazPh_image_id
   instance_market_options {
-    market_type = var.aws_launch_template_fXYrA_instance_market_options_market_type
+    market_type = var.aws_launch_template_gazPh_instance_market_options_market_type
     spot_options {
-      max_price          = var.aws_launch_template_fXYrA_instance_market_options_spot_options_max_price
-      spot_instance_type = var.aws_launch_template_fXYrA_instance_market_options_spot_options_spot_instance_type
+      max_price          = var.aws_launch_template_gazPh_instance_market_options_spot_options_max_price
+      spot_instance_type = var.aws_launch_template_gazPh_instance_market_options_spot_options_spot_instance_type
     }
 
   }
 
-  instance_type = var.aws_launch_template_fXYrA_instance_type
-  key_name      = var.aws_launch_template_fXYrA_key_name
-  name          = var.aws_launch_template_fXYrA_name
+  instance_type = var.aws_launch_template_gazPh_instance_type
+  key_name      = var.aws_launch_template_gazPh_key_name
+  name          = var.aws_launch_template_gazPh_name
   network_interfaces {
-    associate_public_ip_address = var.aws_launch_template_fXYrA_network_interfaces_associate_public_ip_address
-    delete_on_termination       = var.aws_launch_template_fXYrA_network_interfaces_delete_on_termination
-    security_groups             = var.aws_launch_template_fXYrA_network_interfaces_security_groups
+    associate_public_ip_address = var.aws_launch_template_gazPh_network_interfaces_associate_public_ip_address
+    delete_on_termination       = var.aws_launch_template_gazPh_network_interfaces_delete_on_termination
+    security_groups             = var.aws_launch_template_gazPh_network_interfaces_security_groups
   }
 
   tag_specifications {
     tags = {
-      Name         = var.aws_launch_template_fXYrA_tag_specifications_tags_Name
-      client       = var.aws_launch_template_fXYrA_tag_specifications_tags_client
-      "cycloid.io" = var.aws_launch_template_fXYrA_tag_specifications_tags_cycloid_io
-      env          = var.aws_launch_template_fXYrA_tag_specifications_tags_env
-      project      = var.aws_launch_template_fXYrA_tag_specifications_tags_project
-      role         = var.aws_launch_template_fXYrA_tag_specifications_tags_role
+      Name         = var.aws_launch_template_gazPh_tag_specifications_tags_Name
+      client       = var.aws_launch_template_gazPh_tag_specifications_tags_client
+      "cycloid.io" = var.aws_launch_template_gazPh_tag_specifications_tags_cycloid_io
+      env          = var.aws_launch_template_gazPh_tag_specifications_tags_env
+      project      = var.aws_launch_template_gazPh_tag_specifications_tags_project
+      role         = var.aws_launch_template_gazPh_tag_specifications_tags_role
     }
 
-    resource_type = var.aws_launch_template_fXYrA_tag_specifications_resource_type
+    resource_type = var.aws_launch_template_gazPh_tag_specifications_resource_type
   }
 
   tag_specifications {
     tags = {
-      Name         = var.aws_launch_template_fXYrA_tag_specifications_tags_Name
-      client       = var.aws_launch_template_fXYrA_tag_specifications_tags_client
-      "cycloid.io" = var.aws_launch_template_fXYrA_tag_specifications_tags_cycloid_io
-      env          = var.aws_launch_template_fXYrA_tag_specifications_tags_env
-      project      = var.aws_launch_template_fXYrA_tag_specifications_tags_project
-      role         = var.aws_launch_template_fXYrA_tag_specifications_tags_role
+      Name         = var.aws_launch_template_gazPh_tag_specifications_tags_Name
+      client       = var.aws_launch_template_gazPh_tag_specifications_tags_client
+      "cycloid.io" = var.aws_launch_template_gazPh_tag_specifications_tags_cycloid_io
+      env          = var.aws_launch_template_gazPh_tag_specifications_tags_env
+      project      = var.aws_launch_template_gazPh_tag_specifications_tags_project
+      role         = var.aws_launch_template_gazPh_tag_specifications_tags_role
     }
 
-    resource_type = var.aws_launch_template_fXYrA_tag_specifications_resource_type
+    resource_type = var.aws_launch_template_gazPh_tag_specifications_resource_type
   }
 
-  user_data = var.aws_launch_template_fXYrA_user_data
+  user_data = var.aws_launch_template_gazPh_user_data
+}
+
+resource "aws_launch_template" "ylUbY" {
+  tags = {
+    Name                 = var.aws_launch_template_ylUbY_tags_Name
+    client               = var.aws_launch_template_ylUbY_tags_client
+    "cycloid.io"         = var.aws_launch_template_ylUbY_tags_cycloid_io
+    env                  = var.aws_launch_template_ylUbY_tags_env
+    monitoring_discovery = var.aws_launch_template_ylUbY_tags_monitoring_discovery
+    project              = var.aws_launch_template_ylUbY_tags_project
+    role                 = var.aws_launch_template_ylUbY_tags_role
+  }
+
+  tags_all = {
+    Name                 = var.aws_launch_template_ylUbY_tags_all_Name
+    client               = var.aws_launch_template_ylUbY_tags_all_client
+    "cycloid.io"         = var.aws_launch_template_ylUbY_tags_all_cycloid_io
+    env                  = var.aws_launch_template_ylUbY_tags_all_env
+    monitoring_discovery = var.aws_launch_template_ylUbY_tags_all_monitoring_discovery
+    project              = var.aws_launch_template_ylUbY_tags_all_project
+    role                 = var.aws_launch_template_ylUbY_tags_all_role
+  }
+
+  block_device_mappings {
+    device_name = var.aws_launch_template_ylUbY_block_device_mappings_device_name
+    ebs {
+      delete_on_termination = var.aws_launch_template_ylUbY_block_device_mappings_ebs_delete_on_termination
+      volume_size           = var.aws_launch_template_ylUbY_block_device_mappings_ebs_volume_size
+      volume_type           = var.aws_launch_template_ylUbY_block_device_mappings_ebs_volume_type
+    }
+
+  }
+
+  default_version = var.aws_launch_template_ylUbY_default_version
+  ebs_optimized   = var.aws_launch_template_ylUbY_ebs_optimized
+  iam_instance_profile {
+    name = var.aws_launch_template_ylUbY_iam_instance_profile_name
+  }
+
+  image_id      = var.aws_launch_template_ylUbY_image_id
+  instance_type = var.aws_launch_template_ylUbY_instance_type
+  key_name      = var.aws_launch_template_ylUbY_key_name
+  name          = var.aws_launch_template_ylUbY_name
+  network_interfaces {
+    associate_public_ip_address = var.aws_launch_template_ylUbY_network_interfaces_associate_public_ip_address
+    delete_on_termination       = var.aws_launch_template_ylUbY_network_interfaces_delete_on_termination
+    security_groups             = var.aws_launch_template_ylUbY_network_interfaces_security_groups
+  }
+
+  tag_specifications {
+    tags = {
+      Name                 = var.aws_launch_template_ylUbY_tag_specifications_tags_Name
+      monitoring_discovery = var.aws_launch_template_ylUbY_tag_specifications_tags_monitoring_discovery
+      role                 = var.aws_launch_template_ylUbY_tag_specifications_tags_role
+    }
+
+    resource_type = var.aws_launch_template_ylUbY_tag_specifications_resource_type
+  }
+
+  tag_specifications {
+    tags = {
+      Name                 = var.aws_launch_template_ylUbY_tag_specifications_tags_Name
+      monitoring_discovery = var.aws_launch_template_ylUbY_tag_specifications_tags_monitoring_discovery
+      role                 = var.aws_launch_template_ylUbY_tag_specifications_tags_role
+    }
+
+    resource_type = var.aws_launch_template_ylUbY_tag_specifications_resource_type
+  }
+
+  user_data = var.aws_launch_template_ylUbY_user_data
 }
 

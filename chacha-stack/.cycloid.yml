@@ -19,3 +19,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      chacha-stack:
+        destination: ($ project $)/default/terraform/($ environment $)/chacha-stack.tf
+        path: default/terraform/chacha-stack.tf.sample

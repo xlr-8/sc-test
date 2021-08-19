@@ -1,0 +1,4 @@
+module "freg" {
+  source = "module-freg"
+}
+

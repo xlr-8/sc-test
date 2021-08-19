@@ -19,3 +19,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      retryprojectimport:
+        destination: ($ project $)/default/terraform/($ environment $)/retryprojectimport.tf
+        path: default/terraform/retryprojectimport.tf.sample

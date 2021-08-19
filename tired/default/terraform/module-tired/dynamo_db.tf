@@ -1,38 +1,38 @@
-resource "aws_dynamodb_table" "oXRAk" {
+resource "aws_dynamodb_table" "oEAoU" {
   attribute {
-    name = var.aws_dynamodb_table_oXRAk_attribute_name
-    type = var.aws_dynamodb_table_oXRAk_attribute_type
+    name = var.aws_dynamodb_table_oEAoU_attribute_name
+    type = var.aws_dynamodb_table_oEAoU_attribute_type
   }
 
   attribute {
-    name = var.aws_dynamodb_table_oXRAk_attribute_name
-    type = var.aws_dynamodb_table_oXRAk_attribute_type
+    name = var.aws_dynamodb_table_oEAoU_attribute_name
+    type = var.aws_dynamodb_table_oEAoU_attribute_type
   }
 
   attribute {
-    name = var.aws_dynamodb_table_oXRAk_attribute_name
-    type = var.aws_dynamodb_table_oXRAk_attribute_type
+    name = var.aws_dynamodb_table_oEAoU_attribute_name
+    type = var.aws_dynamodb_table_oEAoU_attribute_type
   }
 
-  billing_mode = var.aws_dynamodb_table_oXRAk_billing_mode
-  hash_key     = var.aws_dynamodb_table_oXRAk_hash_key
+  billing_mode = var.aws_dynamodb_table_oEAoU_billing_mode
+  hash_key     = var.aws_dynamodb_table_oEAoU_hash_key
   local_secondary_index {
-    name            = var.aws_dynamodb_table_oXRAk_local_secondary_index_name
-    projection_type = var.aws_dynamodb_table_oXRAk_local_secondary_index_projection_type
-    range_key       = var.aws_dynamodb_table_oXRAk_local_secondary_index_range_key
+    name            = var.aws_dynamodb_table_oEAoU_local_secondary_index_name
+    projection_type = var.aws_dynamodb_table_oEAoU_local_secondary_index_projection_type
+    range_key       = var.aws_dynamodb_table_oEAoU_local_secondary_index_range_key
   }
 
-  name = var.aws_dynamodb_table_oXRAk_name
+  name = var.aws_dynamodb_table_oEAoU_name
   point_in_time_recovery {
-    enabled = var.aws_dynamodb_table_oXRAk_point_in_time_recovery_enabled
+    enabled = var.aws_dynamodb_table_oEAoU_point_in_time_recovery_enabled
   }
 
-  range_key     = var.aws_dynamodb_table_oXRAk_range_key
-  read_capacity = var.aws_dynamodb_table_oXRAk_read_capacity
+  range_key     = var.aws_dynamodb_table_oEAoU_range_key
+  read_capacity = var.aws_dynamodb_table_oEAoU_read_capacity
   ttl {
-    attribute_name = var.aws_dynamodb_table_oXRAk_ttl_attribute_name
+    attribute_name = var.aws_dynamodb_table_oEAoU_ttl_attribute_name
   }
 
-  write_capacity = var.aws_dynamodb_table_oXRAk_write_capacity
+  write_capacity = var.aws_dynamodb_table_oEAoU_write_capacity
 }
 

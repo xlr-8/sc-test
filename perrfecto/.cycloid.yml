@@ -19,3 +19,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: default/pipeline/variables.sample.yaml
+    terraform:
+      perrfecto:
+        destination: ($ project $)/default/terraform/($ environment $)/perrfecto.tf
+        path: default/terraform/perrfecto.tf.sample

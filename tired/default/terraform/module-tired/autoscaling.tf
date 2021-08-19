@@ -1,555 +1,555 @@
-resource "aws_autoscaling_group" "BhoPf" {
-  availability_zones        = var.aws_autoscaling_group_BhoPf_availability_zones
-  default_cooldown          = var.aws_autoscaling_group_BhoPf_default_cooldown
-  desired_capacity          = var.aws_autoscaling_group_BhoPf_desired_capacity
-  health_check_grace_period = var.aws_autoscaling_group_BhoPf_health_check_grace_period
-  health_check_type         = var.aws_autoscaling_group_BhoPf_health_check_type
+resource "aws_autoscaling_group" "DPGll" {
+  availability_zones        = var.aws_autoscaling_group_DPGll_availability_zones
+  default_cooldown          = var.aws_autoscaling_group_DPGll_default_cooldown
+  desired_capacity          = var.aws_autoscaling_group_DPGll_desired_capacity
+  health_check_grace_period = var.aws_autoscaling_group_DPGll_health_check_grace_period
+  health_check_type         = var.aws_autoscaling_group_DPGll_health_check_type
   launch_template {
-    name    = var.aws_autoscaling_group_BhoPf_launch_template_name
-    version = var.aws_autoscaling_group_BhoPf_launch_template_version
+    id      = var.aws_autoscaling_group_DPGll_launch_template_id
+    version = var.aws_autoscaling_group_DPGll_launch_template_version
   }
 
-  max_size                = var.aws_autoscaling_group_BhoPf_max_size
-  metrics_granularity     = var.aws_autoscaling_group_BhoPf_metrics_granularity
-  min_size                = var.aws_autoscaling_group_BhoPf_min_size
-  name                    = var.aws_autoscaling_group_BhoPf_name
-  service_linked_role_arn = var.aws_autoscaling_group_BhoPf_service_linked_role_arn
+  max_size                = var.aws_autoscaling_group_DPGll_max_size
+  metrics_granularity     = var.aws_autoscaling_group_DPGll_metrics_granularity
+  min_size                = var.aws_autoscaling_group_DPGll_min_size
+  name                    = var.aws_autoscaling_group_DPGll_name
+  service_linked_role_arn = var.aws_autoscaling_group_DPGll_service_linked_role_arn
   tag {
-    key                 = var.aws_autoscaling_group_BhoPf_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_BhoPf_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_BhoPf_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_BhoPf_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_BhoPf_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_BhoPf_tag_value
+    key                 = var.aws_autoscaling_group_DPGll_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_DPGll_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_DPGll_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_BhoPf_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_BhoPf_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_BhoPf_tag_value
+    key                 = var.aws_autoscaling_group_DPGll_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_DPGll_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_DPGll_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_BhoPf_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_BhoPf_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_BhoPf_tag_value
+    key                 = var.aws_autoscaling_group_DPGll_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_DPGll_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_DPGll_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_BhoPf_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_BhoPf_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_BhoPf_tag_value
+    key                 = var.aws_autoscaling_group_DPGll_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_DPGll_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_DPGll_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_BhoPf_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_BhoPf_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_BhoPf_tag_value
+    key                 = var.aws_autoscaling_group_DPGll_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_DPGll_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_DPGll_tag_value
   }
 
-  target_group_arns    = var.aws_autoscaling_group_BhoPf_target_group_arns
-  termination_policies = var.aws_autoscaling_group_BhoPf_termination_policies
+  tag {
+    key                 = var.aws_autoscaling_group_DPGll_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_DPGll_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_DPGll_tag_value
+  }
+
+  target_group_arns    = var.aws_autoscaling_group_DPGll_target_group_arns
+  termination_policies = var.aws_autoscaling_group_DPGll_termination_policies
 }
 
-resource "aws_autoscaling_group" "KrgMQ" {
-  default_cooldown          = var.aws_autoscaling_group_KrgMQ_default_cooldown
-  health_check_grace_period = var.aws_autoscaling_group_KrgMQ_health_check_grace_period
-  health_check_type         = var.aws_autoscaling_group_KrgMQ_health_check_type
+resource "aws_autoscaling_group" "NyBDQ" {
+  default_cooldown          = var.aws_autoscaling_group_NyBDQ_default_cooldown
+  health_check_grace_period = var.aws_autoscaling_group_NyBDQ_health_check_grace_period
+  health_check_type         = var.aws_autoscaling_group_NyBDQ_health_check_type
   launch_template {
-    id      = var.aws_autoscaling_group_KrgMQ_launch_template_id
-    version = var.aws_autoscaling_group_KrgMQ_launch_template_version
+    id      = var.aws_autoscaling_group_NyBDQ_launch_template_id
+    version = var.aws_autoscaling_group_NyBDQ_launch_template_version
   }
 
-  max_size                = var.aws_autoscaling_group_KrgMQ_max_size
-  metrics_granularity     = var.aws_autoscaling_group_KrgMQ_metrics_granularity
-  min_size                = var.aws_autoscaling_group_KrgMQ_min_size
-  name                    = var.aws_autoscaling_group_KrgMQ_name
-  service_linked_role_arn = var.aws_autoscaling_group_KrgMQ_service_linked_role_arn
+  max_size                = var.aws_autoscaling_group_NyBDQ_max_size
+  metrics_granularity     = var.aws_autoscaling_group_NyBDQ_metrics_granularity
+  min_size                = var.aws_autoscaling_group_NyBDQ_min_size
+  name                    = var.aws_autoscaling_group_NyBDQ_name
+  service_linked_role_arn = var.aws_autoscaling_group_NyBDQ_service_linked_role_arn
   tag {
-    key                 = var.aws_autoscaling_group_KrgMQ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_KrgMQ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_KrgMQ_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_KrgMQ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_KrgMQ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_KrgMQ_tag_value
+    key                 = var.aws_autoscaling_group_NyBDQ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_NyBDQ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_NyBDQ_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_KrgMQ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_KrgMQ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_KrgMQ_tag_value
+    key                 = var.aws_autoscaling_group_NyBDQ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_NyBDQ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_NyBDQ_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_KrgMQ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_KrgMQ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_KrgMQ_tag_value
+    key                 = var.aws_autoscaling_group_NyBDQ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_NyBDQ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_NyBDQ_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_KrgMQ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_KrgMQ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_KrgMQ_tag_value
+    key                 = var.aws_autoscaling_group_NyBDQ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_NyBDQ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_NyBDQ_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_KrgMQ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_KrgMQ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_KrgMQ_tag_value
+    key                 = var.aws_autoscaling_group_NyBDQ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_NyBDQ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_NyBDQ_tag_value
   }
 
-  termination_policies = var.aws_autoscaling_group_KrgMQ_termination_policies
-  vpc_zone_identifier  = var.aws_autoscaling_group_KrgMQ_vpc_zone_identifier
+  tag {
+    key                 = var.aws_autoscaling_group_NyBDQ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_NyBDQ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_NyBDQ_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_NyBDQ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_NyBDQ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_NyBDQ_tag_value
+  }
+
+  target_group_arns    = var.aws_autoscaling_group_NyBDQ_target_group_arns
+  termination_policies = var.aws_autoscaling_group_NyBDQ_termination_policies
+  vpc_zone_identifier  = var.aws_autoscaling_group_NyBDQ_vpc_zone_identifier
 }
 
-resource "aws_autoscaling_group" "QsBXH" {
-  default_cooldown        = var.aws_autoscaling_group_QsBXH_default_cooldown
-  desired_capacity        = var.aws_autoscaling_group_QsBXH_desired_capacity
-  health_check_type       = var.aws_autoscaling_group_QsBXH_health_check_type
-  launch_configuration    = var.aws_autoscaling_group_QsBXH_launch_configuration
-  max_size                = var.aws_autoscaling_group_QsBXH_max_size
-  metrics_granularity     = var.aws_autoscaling_group_QsBXH_metrics_granularity
-  min_size                = var.aws_autoscaling_group_QsBXH_min_size
-  name                    = var.aws_autoscaling_group_QsBXH_name
-  service_linked_role_arn = var.aws_autoscaling_group_QsBXH_service_linked_role_arn
-  tag {
-    key                 = var.aws_autoscaling_group_QsBXH_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_QsBXH_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_QsBXH_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_QsBXH_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_QsBXH_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_QsBXH_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_QsBXH_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_QsBXH_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_QsBXH_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_QsBXH_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_QsBXH_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_QsBXH_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_QsBXH_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_QsBXH_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_QsBXH_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_QsBXH_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_QsBXH_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_QsBXH_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_QsBXH_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_QsBXH_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_QsBXH_tag_value
-  }
-
-  vpc_zone_identifier = var.aws_autoscaling_group_QsBXH_vpc_zone_identifier
-}
-
-resource "aws_autoscaling_group" "UaBEZ" {
-  availability_zones      = var.aws_autoscaling_group_UaBEZ_availability_zones
-  default_cooldown        = var.aws_autoscaling_group_UaBEZ_default_cooldown
-  health_check_type       = var.aws_autoscaling_group_UaBEZ_health_check_type
-  launch_configuration    = var.aws_autoscaling_group_UaBEZ_launch_configuration
-  max_size                = var.aws_autoscaling_group_UaBEZ_max_size
-  metrics_granularity     = var.aws_autoscaling_group_UaBEZ_metrics_granularity
-  min_size                = var.aws_autoscaling_group_UaBEZ_min_size
-  name                    = var.aws_autoscaling_group_UaBEZ_name
-  service_linked_role_arn = var.aws_autoscaling_group_UaBEZ_service_linked_role_arn
-  tag {
-    key                 = var.aws_autoscaling_group_UaBEZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_UaBEZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_UaBEZ_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_UaBEZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_UaBEZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_UaBEZ_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_UaBEZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_UaBEZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_UaBEZ_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_UaBEZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_UaBEZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_UaBEZ_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_UaBEZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_UaBEZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_UaBEZ_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_UaBEZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_UaBEZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_UaBEZ_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_UaBEZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_UaBEZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_UaBEZ_tag_value
-  }
-
-}
-
-resource "aws_autoscaling_group" "ZxlGZ" {
-  availability_zones        = var.aws_autoscaling_group_ZxlGZ_availability_zones
-  default_cooldown          = var.aws_autoscaling_group_ZxlGZ_default_cooldown
-  health_check_grace_period = var.aws_autoscaling_group_ZxlGZ_health_check_grace_period
-  health_check_type         = var.aws_autoscaling_group_ZxlGZ_health_check_type
-  launch_configuration      = var.aws_autoscaling_group_ZxlGZ_launch_configuration
-  load_balancers            = var.aws_autoscaling_group_ZxlGZ_load_balancers
-  max_size                  = var.aws_autoscaling_group_ZxlGZ_max_size
-  metrics_granularity       = var.aws_autoscaling_group_ZxlGZ_metrics_granularity
-  min_size                  = var.aws_autoscaling_group_ZxlGZ_min_size
-  name                      = var.aws_autoscaling_group_ZxlGZ_name
-  service_linked_role_arn   = var.aws_autoscaling_group_ZxlGZ_service_linked_role_arn
-  tag {
-    key                 = var.aws_autoscaling_group_ZxlGZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_ZxlGZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_ZxlGZ_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_ZxlGZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_ZxlGZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_ZxlGZ_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_ZxlGZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_ZxlGZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_ZxlGZ_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_ZxlGZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_ZxlGZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_ZxlGZ_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_ZxlGZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_ZxlGZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_ZxlGZ_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_ZxlGZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_ZxlGZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_ZxlGZ_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_ZxlGZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_ZxlGZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_ZxlGZ_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_ZxlGZ_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_ZxlGZ_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_ZxlGZ_tag_value
-  }
-
-}
-
-resource "aws_autoscaling_group" "eFkga" {
-  default_cooldown          = var.aws_autoscaling_group_eFkga_default_cooldown
-  health_check_grace_period = var.aws_autoscaling_group_eFkga_health_check_grace_period
-  health_check_type         = var.aws_autoscaling_group_eFkga_health_check_type
+resource "aws_autoscaling_group" "OoCgA" {
+  availability_zones        = var.aws_autoscaling_group_OoCgA_availability_zones
+  default_cooldown          = var.aws_autoscaling_group_OoCgA_default_cooldown
+  desired_capacity          = var.aws_autoscaling_group_OoCgA_desired_capacity
+  health_check_grace_period = var.aws_autoscaling_group_OoCgA_health_check_grace_period
+  health_check_type         = var.aws_autoscaling_group_OoCgA_health_check_type
   launch_template {
-    id      = var.aws_autoscaling_group_eFkga_launch_template_id
-    version = var.aws_autoscaling_group_eFkga_launch_template_version
+    id      = var.aws_autoscaling_group_OoCgA_launch_template_id
+    version = var.aws_autoscaling_group_OoCgA_launch_template_version
   }
 
-  max_size                = var.aws_autoscaling_group_eFkga_max_size
-  metrics_granularity     = var.aws_autoscaling_group_eFkga_metrics_granularity
-  min_size                = var.aws_autoscaling_group_eFkga_min_size
-  name                    = var.aws_autoscaling_group_eFkga_name
-  service_linked_role_arn = var.aws_autoscaling_group_eFkga_service_linked_role_arn
+  max_size                = var.aws_autoscaling_group_OoCgA_max_size
+  metrics_granularity     = var.aws_autoscaling_group_OoCgA_metrics_granularity
+  min_size                = var.aws_autoscaling_group_OoCgA_min_size
+  name                    = var.aws_autoscaling_group_OoCgA_name
+  service_linked_role_arn = var.aws_autoscaling_group_OoCgA_service_linked_role_arn
   tag {
-    key                 = var.aws_autoscaling_group_eFkga_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_eFkga_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_eFkga_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_eFkga_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_eFkga_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_eFkga_tag_value
+    key                 = var.aws_autoscaling_group_OoCgA_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_OoCgA_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_OoCgA_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_eFkga_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_eFkga_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_eFkga_tag_value
+    key                 = var.aws_autoscaling_group_OoCgA_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_OoCgA_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_OoCgA_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_eFkga_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_eFkga_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_eFkga_tag_value
+    key                 = var.aws_autoscaling_group_OoCgA_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_OoCgA_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_OoCgA_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_eFkga_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_eFkga_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_eFkga_tag_value
+    key                 = var.aws_autoscaling_group_OoCgA_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_OoCgA_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_OoCgA_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_eFkga_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_eFkga_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_eFkga_tag_value
+    key                 = var.aws_autoscaling_group_OoCgA_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_OoCgA_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_OoCgA_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_eFkga_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_eFkga_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_eFkga_tag_value
+    key                 = var.aws_autoscaling_group_OoCgA_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_OoCgA_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_OoCgA_tag_value
   }
 
-  target_group_arns    = var.aws_autoscaling_group_eFkga_target_group_arns
-  termination_policies = var.aws_autoscaling_group_eFkga_termination_policies
-  vpc_zone_identifier  = var.aws_autoscaling_group_eFkga_vpc_zone_identifier
+  termination_policies = var.aws_autoscaling_group_OoCgA_termination_policies
 }
 
-resource "aws_autoscaling_group" "gmlyd" {
-  default_cooldown          = var.aws_autoscaling_group_gmlyd_default_cooldown
-  desired_capacity          = var.aws_autoscaling_group_gmlyd_desired_capacity
-  health_check_grace_period = var.aws_autoscaling_group_gmlyd_health_check_grace_period
-  health_check_type         = var.aws_autoscaling_group_gmlyd_health_check_type
+resource "aws_autoscaling_group" "cTFBd" {
+  availability_zones        = var.aws_autoscaling_group_cTFBd_availability_zones
+  default_cooldown          = var.aws_autoscaling_group_cTFBd_default_cooldown
+  health_check_grace_period = var.aws_autoscaling_group_cTFBd_health_check_grace_period
+  health_check_type         = var.aws_autoscaling_group_cTFBd_health_check_type
   launch_template {
-    id      = var.aws_autoscaling_group_gmlyd_launch_template_id
-    version = var.aws_autoscaling_group_gmlyd_launch_template_version
+    id      = var.aws_autoscaling_group_cTFBd_launch_template_id
+    version = var.aws_autoscaling_group_cTFBd_launch_template_version
   }
 
-  max_size                = var.aws_autoscaling_group_gmlyd_max_size
-  metrics_granularity     = var.aws_autoscaling_group_gmlyd_metrics_granularity
-  min_size                = var.aws_autoscaling_group_gmlyd_min_size
-  name                    = var.aws_autoscaling_group_gmlyd_name
-  service_linked_role_arn = var.aws_autoscaling_group_gmlyd_service_linked_role_arn
+  max_size                = var.aws_autoscaling_group_cTFBd_max_size
+  metrics_granularity     = var.aws_autoscaling_group_cTFBd_metrics_granularity
+  min_size                = var.aws_autoscaling_group_cTFBd_min_size
+  name                    = var.aws_autoscaling_group_cTFBd_name
+  service_linked_role_arn = var.aws_autoscaling_group_cTFBd_service_linked_role_arn
   tag {
-    key                 = var.aws_autoscaling_group_gmlyd_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_gmlyd_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_gmlyd_tag_value
-  }
-
-  tag {
-    key                 = var.aws_autoscaling_group_gmlyd_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_gmlyd_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_gmlyd_tag_value
+    key                 = var.aws_autoscaling_group_cTFBd_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_cTFBd_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_cTFBd_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_gmlyd_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_gmlyd_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_gmlyd_tag_value
+    key                 = var.aws_autoscaling_group_cTFBd_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_cTFBd_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_cTFBd_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_gmlyd_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_gmlyd_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_gmlyd_tag_value
+    key                 = var.aws_autoscaling_group_cTFBd_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_cTFBd_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_cTFBd_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_gmlyd_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_gmlyd_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_gmlyd_tag_value
+    key                 = var.aws_autoscaling_group_cTFBd_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_cTFBd_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_cTFBd_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_gmlyd_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_gmlyd_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_gmlyd_tag_value
+    key                 = var.aws_autoscaling_group_cTFBd_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_cTFBd_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_cTFBd_tag_value
   }
 
-  termination_policies = var.aws_autoscaling_group_gmlyd_termination_policies
-  vpc_zone_identifier  = var.aws_autoscaling_group_gmlyd_vpc_zone_identifier
+  tag {
+    key                 = var.aws_autoscaling_group_cTFBd_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_cTFBd_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_cTFBd_tag_value
+  }
+
+  termination_policies = var.aws_autoscaling_group_cTFBd_termination_policies
 }
 
-resource "aws_autoscaling_group" "pZacg" {
-  default_cooldown        = var.aws_autoscaling_group_pZacg_default_cooldown
-  health_check_type       = var.aws_autoscaling_group_pZacg_health_check_type
-  launch_configuration    = var.aws_autoscaling_group_pZacg_launch_configuration
-  max_size                = var.aws_autoscaling_group_pZacg_max_size
-  metrics_granularity     = var.aws_autoscaling_group_pZacg_metrics_granularity
-  min_size                = var.aws_autoscaling_group_pZacg_min_size
-  name                    = var.aws_autoscaling_group_pZacg_name
-  service_linked_role_arn = var.aws_autoscaling_group_pZacg_service_linked_role_arn
+resource "aws_autoscaling_group" "dwseT" {
+  availability_zones      = var.aws_autoscaling_group_dwseT_availability_zones
+  default_cooldown        = var.aws_autoscaling_group_dwseT_default_cooldown
+  desired_capacity        = var.aws_autoscaling_group_dwseT_desired_capacity
+  health_check_type       = var.aws_autoscaling_group_dwseT_health_check_type
+  launch_configuration    = var.aws_autoscaling_group_dwseT_launch_configuration
+  max_size                = var.aws_autoscaling_group_dwseT_max_size
+  metrics_granularity     = var.aws_autoscaling_group_dwseT_metrics_granularity
+  min_size                = var.aws_autoscaling_group_dwseT_min_size
+  name                    = var.aws_autoscaling_group_dwseT_name
+  service_linked_role_arn = var.aws_autoscaling_group_dwseT_service_linked_role_arn
   tag {
-    key                 = var.aws_autoscaling_group_pZacg_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_pZacg_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_pZacg_tag_value
+    key                 = var.aws_autoscaling_group_dwseT_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_dwseT_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_dwseT_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_pZacg_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_pZacg_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_pZacg_tag_value
+    key                 = var.aws_autoscaling_group_dwseT_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_dwseT_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_dwseT_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_pZacg_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_pZacg_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_pZacg_tag_value
+    key                 = var.aws_autoscaling_group_dwseT_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_dwseT_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_dwseT_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_pZacg_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_pZacg_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_pZacg_tag_value
+    key                 = var.aws_autoscaling_group_dwseT_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_dwseT_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_dwseT_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_pZacg_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_pZacg_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_pZacg_tag_value
+    key                 = var.aws_autoscaling_group_dwseT_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_dwseT_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_dwseT_tag_value
   }
 
   tag {
-    key                 = var.aws_autoscaling_group_pZacg_tag_key
-    propagate_at_launch = var.aws_autoscaling_group_pZacg_tag_propagate_at_launch
-    value               = var.aws_autoscaling_group_pZacg_tag_value
+    key                 = var.aws_autoscaling_group_dwseT_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_dwseT_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_dwseT_tag_value
   }
 
-  vpc_zone_identifier = var.aws_autoscaling_group_pZacg_vpc_zone_identifier
+  tag {
+    key                 = var.aws_autoscaling_group_dwseT_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_dwseT_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_dwseT_tag_value
+  }
+
 }
 
-resource "aws_autoscaling_policy" "KkbFa" {
-  adjustment_type        = var.aws_autoscaling_policy_KkbFa_adjustment_type
-  autoscaling_group_name = var.aws_autoscaling_policy_KkbFa_autoscaling_group_name
-  cooldown               = var.aws_autoscaling_policy_KkbFa_cooldown
-  name                   = var.aws_autoscaling_policy_KkbFa_name
-  policy_type            = var.aws_autoscaling_policy_KkbFa_policy_type
-  scaling_adjustment     = var.aws_autoscaling_policy_KkbFa_scaling_adjustment
+resource "aws_autoscaling_group" "hNWrZ" {
+  availability_zones        = var.aws_autoscaling_group_hNWrZ_availability_zones
+  default_cooldown          = var.aws_autoscaling_group_hNWrZ_default_cooldown
+  health_check_grace_period = var.aws_autoscaling_group_hNWrZ_health_check_grace_period
+  health_check_type         = var.aws_autoscaling_group_hNWrZ_health_check_type
+  launch_configuration      = var.aws_autoscaling_group_hNWrZ_launch_configuration
+  load_balancers            = var.aws_autoscaling_group_hNWrZ_load_balancers
+  max_size                  = var.aws_autoscaling_group_hNWrZ_max_size
+  metrics_granularity       = var.aws_autoscaling_group_hNWrZ_metrics_granularity
+  min_size                  = var.aws_autoscaling_group_hNWrZ_min_size
+  name                      = var.aws_autoscaling_group_hNWrZ_name
+  service_linked_role_arn   = var.aws_autoscaling_group_hNWrZ_service_linked_role_arn
+  tag {
+    key                 = var.aws_autoscaling_group_hNWrZ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_hNWrZ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_hNWrZ_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_hNWrZ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_hNWrZ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_hNWrZ_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_hNWrZ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_hNWrZ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_hNWrZ_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_hNWrZ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_hNWrZ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_hNWrZ_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_hNWrZ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_hNWrZ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_hNWrZ_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_hNWrZ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_hNWrZ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_hNWrZ_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_hNWrZ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_hNWrZ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_hNWrZ_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_hNWrZ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_hNWrZ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_hNWrZ_tag_value
+  }
+
 }
 
-resource "aws_autoscaling_policy" "LHIXu" {
-  adjustment_type        = var.aws_autoscaling_policy_LHIXu_adjustment_type
-  autoscaling_group_name = var.aws_autoscaling_policy_LHIXu_autoscaling_group_name
-  cooldown               = var.aws_autoscaling_policy_LHIXu_cooldown
-  name                   = var.aws_autoscaling_policy_LHIXu_name
-  policy_type            = var.aws_autoscaling_policy_LHIXu_policy_type
-  scaling_adjustment     = var.aws_autoscaling_policy_LHIXu_scaling_adjustment
+resource "aws_autoscaling_group" "oSqAZ" {
+  default_cooldown        = var.aws_autoscaling_group_oSqAZ_default_cooldown
+  health_check_type       = var.aws_autoscaling_group_oSqAZ_health_check_type
+  launch_configuration    = var.aws_autoscaling_group_oSqAZ_launch_configuration
+  max_size                = var.aws_autoscaling_group_oSqAZ_max_size
+  metrics_granularity     = var.aws_autoscaling_group_oSqAZ_metrics_granularity
+  min_size                = var.aws_autoscaling_group_oSqAZ_min_size
+  name                    = var.aws_autoscaling_group_oSqAZ_name
+  service_linked_role_arn = var.aws_autoscaling_group_oSqAZ_service_linked_role_arn
+  tag {
+    key                 = var.aws_autoscaling_group_oSqAZ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_oSqAZ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_oSqAZ_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_oSqAZ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_oSqAZ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_oSqAZ_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_oSqAZ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_oSqAZ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_oSqAZ_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_oSqAZ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_oSqAZ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_oSqAZ_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_oSqAZ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_oSqAZ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_oSqAZ_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_oSqAZ_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_oSqAZ_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_oSqAZ_tag_value
+  }
+
+  vpc_zone_identifier = var.aws_autoscaling_group_oSqAZ_vpc_zone_identifier
 }
 
-resource "aws_autoscaling_policy" "aPHNE" {
-  adjustment_type        = var.aws_autoscaling_policy_aPHNE_adjustment_type
-  autoscaling_group_name = var.aws_autoscaling_policy_aPHNE_autoscaling_group_name
-  cooldown               = var.aws_autoscaling_policy_aPHNE_cooldown
-  name                   = var.aws_autoscaling_policy_aPHNE_name
-  policy_type            = var.aws_autoscaling_policy_aPHNE_policy_type
-  scaling_adjustment     = var.aws_autoscaling_policy_aPHNE_scaling_adjustment
+resource "aws_autoscaling_group" "rSYKs" {
+  availability_zones      = var.aws_autoscaling_group_rSYKs_availability_zones
+  default_cooldown        = var.aws_autoscaling_group_rSYKs_default_cooldown
+  health_check_type       = var.aws_autoscaling_group_rSYKs_health_check_type
+  launch_configuration    = var.aws_autoscaling_group_rSYKs_launch_configuration
+  max_size                = var.aws_autoscaling_group_rSYKs_max_size
+  metrics_granularity     = var.aws_autoscaling_group_rSYKs_metrics_granularity
+  min_size                = var.aws_autoscaling_group_rSYKs_min_size
+  name                    = var.aws_autoscaling_group_rSYKs_name
+  service_linked_role_arn = var.aws_autoscaling_group_rSYKs_service_linked_role_arn
+  tag {
+    key                 = var.aws_autoscaling_group_rSYKs_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_rSYKs_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_rSYKs_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_rSYKs_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_rSYKs_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_rSYKs_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_rSYKs_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_rSYKs_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_rSYKs_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_rSYKs_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_rSYKs_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_rSYKs_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_rSYKs_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_rSYKs_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_rSYKs_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_rSYKs_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_rSYKs_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_rSYKs_tag_value
+  }
+
+  tag {
+    key                 = var.aws_autoscaling_group_rSYKs_tag_key
+    propagate_at_launch = var.aws_autoscaling_group_rSYKs_tag_propagate_at_launch
+    value               = var.aws_autoscaling_group_rSYKs_tag_value
+  }
+
 }
 
-resource "aws_autoscaling_policy" "ntyNl" {
-  adjustment_type        = var.aws_autoscaling_policy_ntyNl_adjustment_type
-  autoscaling_group_name = var.aws_autoscaling_policy_ntyNl_autoscaling_group_name
-  cooldown               = var.aws_autoscaling_policy_ntyNl_cooldown
-  name                   = var.aws_autoscaling_policy_ntyNl_name
-  policy_type            = var.aws_autoscaling_policy_ntyNl_policy_type
-  scaling_adjustment     = var.aws_autoscaling_policy_ntyNl_scaling_adjustment
+resource "aws_autoscaling_policy" "DKtgD" {
+  adjustment_type        = var.aws_autoscaling_policy_DKtgD_adjustment_type
+  autoscaling_group_name = var.aws_autoscaling_policy_DKtgD_autoscaling_group_name
+  cooldown               = var.aws_autoscaling_policy_DKtgD_cooldown
+  name                   = var.aws_autoscaling_policy_DKtgD_name
+  policy_type            = var.aws_autoscaling_policy_DKtgD_policy_type
+  scaling_adjustment     = var.aws_autoscaling_policy_DKtgD_scaling_adjustment
 }
 
-resource "aws_autoscaling_policy" "pIQCf" {
-  adjustment_type        = var.aws_autoscaling_policy_pIQCf_adjustment_type
-  autoscaling_group_name = var.aws_autoscaling_policy_pIQCf_autoscaling_group_name
-  cooldown               = var.aws_autoscaling_policy_pIQCf_cooldown
-  name                   = var.aws_autoscaling_policy_pIQCf_name
-  policy_type            = var.aws_autoscaling_policy_pIQCf_policy_type
-  scaling_adjustment     = var.aws_autoscaling_policy_pIQCf_scaling_adjustment
+resource "aws_autoscaling_policy" "MLoiY" {
+  adjustment_type        = var.aws_autoscaling_policy_MLoiY_adjustment_type
+  autoscaling_group_name = var.aws_autoscaling_policy_MLoiY_autoscaling_group_name
+  cooldown               = var.aws_autoscaling_policy_MLoiY_cooldown
+  name                   = var.aws_autoscaling_policy_MLoiY_name
+  policy_type            = var.aws_autoscaling_policy_MLoiY_policy_type
+  scaling_adjustment     = var.aws_autoscaling_policy_MLoiY_scaling_adjustment
 }
 
-resource "aws_launch_configuration" "FygtM" {
-  enable_monitoring = var.aws_launch_configuration_FygtM_enable_monitoring
-  image_id          = var.aws_launch_configuration_FygtM_image_id
-  instance_type     = var.aws_launch_configuration_FygtM_instance_type
-  key_name          = var.aws_launch_configuration_FygtM_key_name
-  name              = var.aws_launch_configuration_FygtM_name
-  security_groups   = var.aws_launch_configuration_FygtM_security_groups
-  user_data         = var.aws_launch_configuration_FygtM_user_data
+resource "aws_autoscaling_policy" "QxOqY" {
+  adjustment_type        = var.aws_autoscaling_policy_QxOqY_adjustment_type
+  autoscaling_group_name = var.aws_autoscaling_policy_QxOqY_autoscaling_group_name
+  cooldown               = var.aws_autoscaling_policy_QxOqY_cooldown
+  name                   = var.aws_autoscaling_policy_QxOqY_name
+  policy_type            = var.aws_autoscaling_policy_QxOqY_policy_type
+  scaling_adjustment     = var.aws_autoscaling_policy_QxOqY_scaling_adjustment
 }
 
-resource "aws_launch_configuration" "HBbSQ" {
+resource "aws_autoscaling_policy" "igSdi" {
+  adjustment_type        = var.aws_autoscaling_policy_igSdi_adjustment_type
+  autoscaling_group_name = var.aws_autoscaling_policy_igSdi_autoscaling_group_name
+  cooldown               = var.aws_autoscaling_policy_igSdi_cooldown
+  name                   = var.aws_autoscaling_policy_igSdi_name
+  policy_type            = var.aws_autoscaling_policy_igSdi_policy_type
+  scaling_adjustment     = var.aws_autoscaling_policy_igSdi_scaling_adjustment
+}
+
+resource "aws_autoscaling_policy" "yBwpD" {
+  adjustment_type        = var.aws_autoscaling_policy_yBwpD_adjustment_type
+  autoscaling_group_name = var.aws_autoscaling_policy_yBwpD_autoscaling_group_name
+  cooldown               = var.aws_autoscaling_policy_yBwpD_cooldown
+  name                   = var.aws_autoscaling_policy_yBwpD_name
+  policy_type            = var.aws_autoscaling_policy_yBwpD_policy_type
+  scaling_adjustment     = var.aws_autoscaling_policy_yBwpD_scaling_adjustment
+}
+
+resource "aws_launch_configuration" "PewBf" {
   ebs_block_device {
-    delete_on_termination = var.aws_launch_configuration_HBbSQ_ebs_block_device_delete_on_termination
-    device_name           = var.aws_launch_configuration_HBbSQ_ebs_block_device_device_name
-    volume_size           = var.aws_launch_configuration_HBbSQ_ebs_block_device_volume_size
-    volume_type           = var.aws_launch_configuration_HBbSQ_ebs_block_device_volume_type
+    delete_on_termination = var.aws_launch_configuration_PewBf_ebs_block_device_delete_on_termination
+    device_name           = var.aws_launch_configuration_PewBf_ebs_block_device_device_name
+    volume_size           = var.aws_launch_configuration_PewBf_ebs_block_device_volume_size
+    volume_type           = var.aws_launch_configuration_PewBf_ebs_block_device_volume_type
   }
 
-  enable_monitoring    = var.aws_launch_configuration_HBbSQ_enable_monitoring
-  iam_instance_profile = var.aws_launch_configuration_HBbSQ_iam_instance_profile
-  image_id             = var.aws_launch_configuration_HBbSQ_image_id
-  instance_type        = var.aws_launch_configuration_HBbSQ_instance_type
-  key_name             = var.aws_launch_configuration_HBbSQ_key_name
-  name                 = var.aws_launch_configuration_HBbSQ_name
-  security_groups      = var.aws_launch_configuration_HBbSQ_security_groups
-  user_data            = var.aws_launch_configuration_HBbSQ_user_data
+  enable_monitoring    = var.aws_launch_configuration_PewBf_enable_monitoring
+  iam_instance_profile = var.aws_launch_configuration_PewBf_iam_instance_profile
+  image_id             = var.aws_launch_configuration_PewBf_image_id
+  instance_type        = var.aws_launch_configuration_PewBf_instance_type
+  key_name             = var.aws_launch_configuration_PewBf_key_name
+  name                 = var.aws_launch_configuration_PewBf_name
+  security_groups      = var.aws_launch_configuration_PewBf_security_groups
+  user_data            = var.aws_launch_configuration_PewBf_user_data
 }
 
-resource "aws_launch_configuration" "XKoWQ" {
+resource "aws_launch_configuration" "VbqLk" {
   ebs_block_device {
-    delete_on_termination = var.aws_launch_configuration_XKoWQ_ebs_block_device_delete_on_termination
-    device_name           = var.aws_launch_configuration_XKoWQ_ebs_block_device_device_name
-    volume_size           = var.aws_launch_configuration_XKoWQ_ebs_block_device_volume_size
-    volume_type           = var.aws_launch_configuration_XKoWQ_ebs_block_device_volume_type
+    delete_on_termination = var.aws_launch_configuration_VbqLk_ebs_block_device_delete_on_termination
+    device_name           = var.aws_launch_configuration_VbqLk_ebs_block_device_device_name
+    volume_size           = var.aws_launch_configuration_VbqLk_ebs_block_device_volume_size
+    volume_type           = var.aws_launch_configuration_VbqLk_ebs_block_device_volume_type
   }
 
-  enable_monitoring    = var.aws_launch_configuration_XKoWQ_enable_monitoring
-  iam_instance_profile = var.aws_launch_configuration_XKoWQ_iam_instance_profile
-  image_id             = var.aws_launch_configuration_XKoWQ_image_id
-  instance_type        = var.aws_launch_configuration_XKoWQ_instance_type
-  key_name             = var.aws_launch_configuration_XKoWQ_key_name
-  name                 = var.aws_launch_configuration_XKoWQ_name
-  security_groups      = var.aws_launch_configuration_XKoWQ_security_groups
-  user_data            = var.aws_launch_configuration_XKoWQ_user_data
+  enable_monitoring    = var.aws_launch_configuration_VbqLk_enable_monitoring
+  iam_instance_profile = var.aws_launch_configuration_VbqLk_iam_instance_profile
+  image_id             = var.aws_launch_configuration_VbqLk_image_id
+  instance_type        = var.aws_launch_configuration_VbqLk_instance_type
+  key_name             = var.aws_launch_configuration_VbqLk_key_name
+  name                 = var.aws_launch_configuration_VbqLk_name
+  security_groups      = var.aws_launch_configuration_VbqLk_security_groups
+  spot_price           = var.aws_launch_configuration_VbqLk_spot_price
+  user_data            = var.aws_launch_configuration_VbqLk_user_data
 }
 
-resource "aws_launch_configuration" "jkdtD" {
+resource "aws_launch_configuration" "ttfjn" {
   ebs_block_device {
-    delete_on_termination = var.aws_launch_configuration_jkdtD_ebs_block_device_delete_on_termination
-    device_name           = var.aws_launch_configuration_jkdtD_ebs_block_device_device_name
-    volume_size           = var.aws_launch_configuration_jkdtD_ebs_block_device_volume_size
-    volume_type           = var.aws_launch_configuration_jkdtD_ebs_block_device_volume_type
+    delete_on_termination = var.aws_launch_configuration_ttfjn_ebs_block_device_delete_on_termination
+    device_name           = var.aws_launch_configuration_ttfjn_ebs_block_device_device_name
+    volume_size           = var.aws_launch_configuration_ttfjn_ebs_block_device_volume_size
+    volume_type           = var.aws_launch_configuration_ttfjn_ebs_block_device_volume_type
   }
 
-  enable_monitoring    = var.aws_launch_configuration_jkdtD_enable_monitoring
-  iam_instance_profile = var.aws_launch_configuration_jkdtD_iam_instance_profile
-  image_id             = var.aws_launch_configuration_jkdtD_image_id
-  instance_type        = var.aws_launch_configuration_jkdtD_instance_type
-  key_name             = var.aws_launch_configuration_jkdtD_key_name
-  name                 = var.aws_launch_configuration_jkdtD_name
-  security_groups      = var.aws_launch_configuration_jkdtD_security_groups
-  spot_price           = var.aws_launch_configuration_jkdtD_spot_price
-  user_data            = var.aws_launch_configuration_jkdtD_user_data
+  enable_monitoring    = var.aws_launch_configuration_ttfjn_enable_monitoring
+  iam_instance_profile = var.aws_launch_configuration_ttfjn_iam_instance_profile
+  image_id             = var.aws_launch_configuration_ttfjn_image_id
+  instance_type        = var.aws_launch_configuration_ttfjn_instance_type
+  key_name             = var.aws_launch_configuration_ttfjn_key_name
+  name                 = var.aws_launch_configuration_ttfjn_name
+  security_groups      = var.aws_launch_configuration_ttfjn_security_groups
+  user_data            = var.aws_launch_configuration_ttfjn_user_data
+}
+
+resource "aws_launch_configuration" "zwXoN" {
+  enable_monitoring = var.aws_launch_configuration_zwXoN_enable_monitoring
+  image_id          = var.aws_launch_configuration_zwXoN_image_id
+  instance_type     = var.aws_launch_configuration_zwXoN_instance_type
+  key_name          = var.aws_launch_configuration_zwXoN_key_name
+  name              = var.aws_launch_configuration_zwXoN_name
+  security_groups   = var.aws_launch_configuration_zwXoN_security_groups
+  user_data         = var.aws_launch_configuration_zwXoN_user_data
 }
 

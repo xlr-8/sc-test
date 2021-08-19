@@ -1,0 +1,21 @@
+version: "2"
+name: all-stacks
+canonical: all-stacks
+author: cycloidio
+status: private
+description: all-stacks
+image: ""
+keywords:
+- all-stacks
+technologies: []
+dependencies: []
+config:
+  default:
+    description: ""
+    name: default
+    pipeline:
+      pipeline:
+        path: default/pipeline/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: default/pipeline/variables.sample.yaml

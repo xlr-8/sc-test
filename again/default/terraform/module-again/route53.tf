@@ -1,2380 +1,2396 @@
-resource "aws_route53_record" "AZrWP" {
-  name    = var.aws_route53_record_AZrWP_name
-  records = var.aws_route53_record_AZrWP_records
-  ttl     = var.aws_route53_record_AZrWP_ttl
-  type    = var.aws_route53_record_AZrWP_type
-  zone_id = var.aws_route53_record_AZrWP_zone_id
+resource "aws_route53_record" "AOEnq" {
+  name    = var.aws_route53_record_AOEnq_name
+  records = var.aws_route53_record_AOEnq_records
+  ttl     = var.aws_route53_record_AOEnq_ttl
+  type    = var.aws_route53_record_AOEnq_type
+  zone_id = var.aws_route53_record_AOEnq_zone_id
 }
 
-resource "aws_route53_record" "AcwbO" {
-  name    = var.aws_route53_record_AcwbO_name
-  records = var.aws_route53_record_AcwbO_records
-  ttl     = var.aws_route53_record_AcwbO_ttl
-  type    = var.aws_route53_record_AcwbO_type
-  zone_id = var.aws_route53_record_AcwbO_zone_id
+resource "aws_route53_record" "AOHRh" {
+  name    = var.aws_route53_record_AOHRh_name
+  records = var.aws_route53_record_AOHRh_records
+  ttl     = var.aws_route53_record_AOHRh_ttl
+  type    = var.aws_route53_record_AOHRh_type
+  zone_id = var.aws_route53_record_AOHRh_zone_id
 }
 
-resource "aws_route53_record" "BBJWq" {
-  name    = var.aws_route53_record_BBJWq_name
-  records = var.aws_route53_record_BBJWq_records
-  ttl     = var.aws_route53_record_BBJWq_ttl
-  type    = var.aws_route53_record_BBJWq_type
-  zone_id = var.aws_route53_record_BBJWq_zone_id
+resource "aws_route53_record" "AVtDq" {
+  name    = var.aws_route53_record_AVtDq_name
+  records = var.aws_route53_record_AVtDq_records
+  ttl     = var.aws_route53_record_AVtDq_ttl
+  type    = var.aws_route53_record_AVtDq_type
+  zone_id = var.aws_route53_record_AVtDq_zone_id
 }
 
-resource "aws_route53_record" "BWuuB" {
-  name    = var.aws_route53_record_BWuuB_name
-  records = var.aws_route53_record_BWuuB_records
-  ttl     = var.aws_route53_record_BWuuB_ttl
-  type    = var.aws_route53_record_BWuuB_type
-  zone_id = var.aws_route53_record_BWuuB_zone_id
+resource "aws_route53_record" "AcKFB" {
+  name    = var.aws_route53_record_AcKFB_name
+  records = var.aws_route53_record_AcKFB_records
+  ttl     = var.aws_route53_record_AcKFB_ttl
+  type    = var.aws_route53_record_AcKFB_type
+  zone_id = var.aws_route53_record_AcKFB_zone_id
 }
 
-resource "aws_route53_record" "BfGxd" {
-  name    = var.aws_route53_record_BfGxd_name
-  records = var.aws_route53_record_BfGxd_records
-  ttl     = var.aws_route53_record_BfGxd_ttl
-  type    = var.aws_route53_record_BfGxd_type
-  zone_id = var.aws_route53_record_BfGxd_zone_id
+resource "aws_route53_record" "AdIlu" {
+  name    = var.aws_route53_record_AdIlu_name
+  records = var.aws_route53_record_AdIlu_records
+  ttl     = var.aws_route53_record_AdIlu_ttl
+  type    = var.aws_route53_record_AdIlu_type
+  zone_id = var.aws_route53_record_AdIlu_zone_id
 }
 
-resource "aws_route53_record" "BjYhH" {
-  name    = var.aws_route53_record_BjYhH_name
-  records = var.aws_route53_record_BjYhH_records
-  ttl     = var.aws_route53_record_BjYhH_ttl
-  type    = var.aws_route53_record_BjYhH_type
-  zone_id = var.aws_route53_record_BjYhH_zone_id
+resource "aws_route53_record" "AgAZB" {
+  name    = var.aws_route53_record_AgAZB_name
+  records = var.aws_route53_record_AgAZB_records
+  ttl     = var.aws_route53_record_AgAZB_ttl
+  type    = var.aws_route53_record_AgAZB_type
+  zone_id = var.aws_route53_record_AgAZB_zone_id
 }
 
-resource "aws_route53_record" "BuFBN" {
-  name    = var.aws_route53_record_BuFBN_name
-  records = var.aws_route53_record_BuFBN_records
-  ttl     = var.aws_route53_record_BuFBN_ttl
-  type    = var.aws_route53_record_BuFBN_type
-  zone_id = var.aws_route53_record_BuFBN_zone_id
+resource "aws_route53_record" "AhSTE" {
+  name    = var.aws_route53_record_AhSTE_name
+  records = var.aws_route53_record_AhSTE_records
+  ttl     = var.aws_route53_record_AhSTE_ttl
+  type    = var.aws_route53_record_AhSTE_type
+  zone_id = var.aws_route53_record_AhSTE_zone_id
 }
 
-resource "aws_route53_record" "CABNK" {
-  name    = var.aws_route53_record_CABNK_name
-  records = var.aws_route53_record_CABNK_records
-  ttl     = var.aws_route53_record_CABNK_ttl
-  type    = var.aws_route53_record_CABNK_type
-  zone_id = var.aws_route53_record_CABNK_zone_id
+resource "aws_route53_record" "BSawO" {
+  name    = var.aws_route53_record_BSawO_name
+  records = var.aws_route53_record_BSawO_records
+  ttl     = var.aws_route53_record_BSawO_ttl
+  type    = var.aws_route53_record_BSawO_type
+  zone_id = var.aws_route53_record_BSawO_zone_id
 }
 
-resource "aws_route53_record" "CKsMY" {
-  name    = var.aws_route53_record_CKsMY_name
-  records = var.aws_route53_record_CKsMY_records
-  ttl     = var.aws_route53_record_CKsMY_ttl
-  type    = var.aws_route53_record_CKsMY_type
-  zone_id = var.aws_route53_record_CKsMY_zone_id
+resource "aws_route53_record" "BbnNl" {
+  name    = var.aws_route53_record_BbnNl_name
+  records = var.aws_route53_record_BbnNl_records
+  ttl     = var.aws_route53_record_BbnNl_ttl
+  type    = var.aws_route53_record_BbnNl_type
+  zone_id = var.aws_route53_record_BbnNl_zone_id
 }
 
-resource "aws_route53_record" "CXNGV" {
-  name    = var.aws_route53_record_CXNGV_name
-  records = var.aws_route53_record_CXNGV_records
-  ttl     = var.aws_route53_record_CXNGV_ttl
-  type    = var.aws_route53_record_CXNGV_type
-  zone_id = var.aws_route53_record_CXNGV_zone_id
+resource "aws_route53_record" "BjCwi" {
+  name    = var.aws_route53_record_BjCwi_name
+  records = var.aws_route53_record_BjCwi_records
+  ttl     = var.aws_route53_record_BjCwi_ttl
+  type    = var.aws_route53_record_BjCwi_type
+  zone_id = var.aws_route53_record_BjCwi_zone_id
 }
 
-resource "aws_route53_record" "DRKPh" {
-  name    = var.aws_route53_record_DRKPh_name
-  records = var.aws_route53_record_DRKPh_records
-  ttl     = var.aws_route53_record_DRKPh_ttl
-  type    = var.aws_route53_record_DRKPh_type
-  zone_id = var.aws_route53_record_DRKPh_zone_id
+resource "aws_route53_record" "CDcHK" {
+  name    = var.aws_route53_record_CDcHK_name
+  records = var.aws_route53_record_CDcHK_records
+  ttl     = var.aws_route53_record_CDcHK_ttl
+  type    = var.aws_route53_record_CDcHK_type
+  zone_id = var.aws_route53_record_CDcHK_zone_id
 }
 
-resource "aws_route53_record" "DXhMO" {
-  name    = var.aws_route53_record_DXhMO_name
-  records = var.aws_route53_record_DXhMO_records
-  ttl     = var.aws_route53_record_DXhMO_ttl
-  type    = var.aws_route53_record_DXhMO_type
-  zone_id = var.aws_route53_record_DXhMO_zone_id
+resource "aws_route53_record" "CFgbC" {
+  name    = var.aws_route53_record_CFgbC_name
+  records = var.aws_route53_record_CFgbC_records
+  ttl     = var.aws_route53_record_CFgbC_ttl
+  type    = var.aws_route53_record_CFgbC_type
+  zone_id = var.aws_route53_record_CFgbC_zone_id
 }
 
-resource "aws_route53_record" "DrAgE" {
-  name    = var.aws_route53_record_DrAgE_name
-  records = var.aws_route53_record_DrAgE_records
-  ttl     = var.aws_route53_record_DrAgE_ttl
-  type    = var.aws_route53_record_DrAgE_type
-  zone_id = var.aws_route53_record_DrAgE_zone_id
+resource "aws_route53_record" "CGGJe" {
+  name    = var.aws_route53_record_CGGJe_name
+  records = var.aws_route53_record_CGGJe_records
+  ttl     = var.aws_route53_record_CGGJe_ttl
+  type    = var.aws_route53_record_CGGJe_type
+  zone_id = var.aws_route53_record_CGGJe_zone_id
 }
 
-resource "aws_route53_record" "DztpC" {
-  name    = var.aws_route53_record_DztpC_name
-  records = var.aws_route53_record_DztpC_records
-  ttl     = var.aws_route53_record_DztpC_ttl
-  type    = var.aws_route53_record_DztpC_type
-  zone_id = var.aws_route53_record_DztpC_zone_id
+resource "aws_route53_record" "CILro" {
+  name    = var.aws_route53_record_CILro_name
+  records = var.aws_route53_record_CILro_records
+  ttl     = var.aws_route53_record_CILro_ttl
+  type    = var.aws_route53_record_CILro_type
+  zone_id = var.aws_route53_record_CILro_zone_id
 }
 
-resource "aws_route53_record" "EFBBN" {
-  name    = var.aws_route53_record_EFBBN_name
-  records = var.aws_route53_record_EFBBN_records
-  ttl     = var.aws_route53_record_EFBBN_ttl
-  type    = var.aws_route53_record_EFBBN_type
-  zone_id = var.aws_route53_record_EFBBN_zone_id
+resource "aws_route53_record" "CIzvP" {
+  name    = var.aws_route53_record_CIzvP_name
+  records = var.aws_route53_record_CIzvP_records
+  ttl     = var.aws_route53_record_CIzvP_ttl
+  type    = var.aws_route53_record_CIzvP_type
+  zone_id = var.aws_route53_record_CIzvP_zone_id
 }
 
-resource "aws_route53_record" "ELppr" {
-  name    = var.aws_route53_record_ELppr_name
-  records = var.aws_route53_record_ELppr_records
-  ttl     = var.aws_route53_record_ELppr_ttl
-  type    = var.aws_route53_record_ELppr_type
-  zone_id = var.aws_route53_record_ELppr_zone_id
+resource "aws_route53_record" "CfDXy" {
+  name    = var.aws_route53_record_CfDXy_name
+  records = var.aws_route53_record_CfDXy_records
+  ttl     = var.aws_route53_record_CfDXy_ttl
+  type    = var.aws_route53_record_CfDXy_type
+  zone_id = var.aws_route53_record_CfDXy_zone_id
 }
 
-resource "aws_route53_record" "EMTbC" {
-  name    = var.aws_route53_record_EMTbC_name
-  records = var.aws_route53_record_EMTbC_records
-  ttl     = var.aws_route53_record_EMTbC_ttl
-  type    = var.aws_route53_record_EMTbC_type
-  zone_id = var.aws_route53_record_EMTbC_zone_id
+resource "aws_route53_record" "CkfvI" {
+  name    = var.aws_route53_record_CkfvI_name
+  records = var.aws_route53_record_CkfvI_records
+  ttl     = var.aws_route53_record_CkfvI_ttl
+  type    = var.aws_route53_record_CkfvI_type
+  zone_id = var.aws_route53_record_CkfvI_zone_id
 }
 
-resource "aws_route53_record" "ENMqg" {
-  name    = var.aws_route53_record_ENMqg_name
-  records = var.aws_route53_record_ENMqg_records
-  ttl     = var.aws_route53_record_ENMqg_ttl
-  type    = var.aws_route53_record_ENMqg_type
-  zone_id = var.aws_route53_record_ENMqg_zone_id
+resource "aws_route53_record" "CuwCp" {
+  name    = var.aws_route53_record_CuwCp_name
+  records = var.aws_route53_record_CuwCp_records
+  ttl     = var.aws_route53_record_CuwCp_ttl
+  type    = var.aws_route53_record_CuwCp_type
+  zone_id = var.aws_route53_record_CuwCp_zone_id
 }
 
-resource "aws_route53_record" "Emrwm" {
-  name    = var.aws_route53_record_Emrwm_name
-  records = var.aws_route53_record_Emrwm_records
-  ttl     = var.aws_route53_record_Emrwm_ttl
-  type    = var.aws_route53_record_Emrwm_type
-  zone_id = var.aws_route53_record_Emrwm_zone_id
+resource "aws_route53_record" "DPBXQ" {
+  name    = var.aws_route53_record_DPBXQ_name
+  records = var.aws_route53_record_DPBXQ_records
+  ttl     = var.aws_route53_record_DPBXQ_ttl
+  type    = var.aws_route53_record_DPBXQ_type
+  zone_id = var.aws_route53_record_DPBXQ_zone_id
 }
 
-resource "aws_route53_record" "EqTpa" {
-  name    = var.aws_route53_record_EqTpa_name
-  records = var.aws_route53_record_EqTpa_records
-  ttl     = var.aws_route53_record_EqTpa_ttl
-  type    = var.aws_route53_record_EqTpa_type
-  zone_id = var.aws_route53_record_EqTpa_zone_id
+resource "aws_route53_record" "DTdjh" {
+  name    = var.aws_route53_record_DTdjh_name
+  records = var.aws_route53_record_DTdjh_records
+  ttl     = var.aws_route53_record_DTdjh_ttl
+  type    = var.aws_route53_record_DTdjh_type
+  zone_id = var.aws_route53_record_DTdjh_zone_id
 }
 
-resource "aws_route53_record" "FFaLb" {
-  name    = var.aws_route53_record_FFaLb_name
-  records = var.aws_route53_record_FFaLb_records
-  ttl     = var.aws_route53_record_FFaLb_ttl
-  type    = var.aws_route53_record_FFaLb_type
-  zone_id = var.aws_route53_record_FFaLb_zone_id
+resource "aws_route53_record" "DalOa" {
+  name    = var.aws_route53_record_DalOa_name
+  records = var.aws_route53_record_DalOa_records
+  ttl     = var.aws_route53_record_DalOa_ttl
+  type    = var.aws_route53_record_DalOa_type
+  zone_id = var.aws_route53_record_DalOa_zone_id
 }
 
-resource "aws_route53_record" "FJogK" {
-  name    = var.aws_route53_record_FJogK_name
-  records = var.aws_route53_record_FJogK_records
-  ttl     = var.aws_route53_record_FJogK_ttl
-  type    = var.aws_route53_record_FJogK_type
-  zone_id = var.aws_route53_record_FJogK_zone_id
+resource "aws_route53_record" "DcjjT" {
+  name    = var.aws_route53_record_DcjjT_name
+  records = var.aws_route53_record_DcjjT_records
+  ttl     = var.aws_route53_record_DcjjT_ttl
+  type    = var.aws_route53_record_DcjjT_type
+  zone_id = var.aws_route53_record_DcjjT_zone_id
 }
 
-resource "aws_route53_record" "FOKpT" {
-  name    = var.aws_route53_record_FOKpT_name
-  records = var.aws_route53_record_FOKpT_records
-  ttl     = var.aws_route53_record_FOKpT_ttl
-  type    = var.aws_route53_record_FOKpT_type
-  zone_id = var.aws_route53_record_FOKpT_zone_id
+resource "aws_route53_record" "Duoae" {
+  name    = var.aws_route53_record_Duoae_name
+  records = var.aws_route53_record_Duoae_records
+  ttl     = var.aws_route53_record_Duoae_ttl
+  type    = var.aws_route53_record_Duoae_type
+  zone_id = var.aws_route53_record_Duoae_zone_id
 }
 
-resource "aws_route53_record" "FRvDg" {
-  name    = var.aws_route53_record_FRvDg_name
-  records = var.aws_route53_record_FRvDg_records
-  ttl     = var.aws_route53_record_FRvDg_ttl
-  type    = var.aws_route53_record_FRvDg_type
-  zone_id = var.aws_route53_record_FRvDg_zone_id
+resource "aws_route53_record" "DzPRk" {
+  name    = var.aws_route53_record_DzPRk_name
+  records = var.aws_route53_record_DzPRk_records
+  ttl     = var.aws_route53_record_DzPRk_ttl
+  type    = var.aws_route53_record_DzPRk_type
+  zone_id = var.aws_route53_record_DzPRk_zone_id
 }
 
-resource "aws_route53_record" "FSgkG" {
-  name    = var.aws_route53_record_FSgkG_name
-  records = var.aws_route53_record_FSgkG_records
-  ttl     = var.aws_route53_record_FSgkG_ttl
-  type    = var.aws_route53_record_FSgkG_type
-  zone_id = var.aws_route53_record_FSgkG_zone_id
+resource "aws_route53_record" "EGSyQ" {
+  name    = var.aws_route53_record_EGSyQ_name
+  records = var.aws_route53_record_EGSyQ_records
+  ttl     = var.aws_route53_record_EGSyQ_ttl
+  type    = var.aws_route53_record_EGSyQ_type
+  zone_id = var.aws_route53_record_EGSyQ_zone_id
 }
 
-resource "aws_route53_record" "FYYKh" {
-  name    = var.aws_route53_record_FYYKh_name
-  records = var.aws_route53_record_FYYKh_records
-  ttl     = var.aws_route53_record_FYYKh_ttl
-  type    = var.aws_route53_record_FYYKh_type
-  zone_id = var.aws_route53_record_FYYKh_zone_id
+resource "aws_route53_record" "ELRGG" {
+  name    = var.aws_route53_record_ELRGG_name
+  records = var.aws_route53_record_ELRGG_records
+  ttl     = var.aws_route53_record_ELRGG_ttl
+  type    = var.aws_route53_record_ELRGG_type
+  zone_id = var.aws_route53_record_ELRGG_zone_id
 }
 
-resource "aws_route53_record" "FbRPC" {
-  name    = var.aws_route53_record_FbRPC_name
-  records = var.aws_route53_record_FbRPC_records
-  ttl     = var.aws_route53_record_FbRPC_ttl
-  type    = var.aws_route53_record_FbRPC_type
-  zone_id = var.aws_route53_record_FbRPC_zone_id
+resource "aws_route53_record" "EPUup" {
+  name    = var.aws_route53_record_EPUup_name
+  records = var.aws_route53_record_EPUup_records
+  ttl     = var.aws_route53_record_EPUup_ttl
+  type    = var.aws_route53_record_EPUup_type
+  zone_id = var.aws_route53_record_EPUup_zone_id
 }
 
-resource "aws_route53_record" "FcWeA" {
-  name    = var.aws_route53_record_FcWeA_name
-  records = var.aws_route53_record_FcWeA_records
-  ttl     = var.aws_route53_record_FcWeA_ttl
-  type    = var.aws_route53_record_FcWeA_type
-  zone_id = var.aws_route53_record_FcWeA_zone_id
+resource "aws_route53_record" "EYjli" {
+  name    = var.aws_route53_record_EYjli_name
+  records = var.aws_route53_record_EYjli_records
+  ttl     = var.aws_route53_record_EYjli_ttl
+  type    = var.aws_route53_record_EYjli_type
+  zone_id = var.aws_route53_record_EYjli_zone_id
 }
 
-resource "aws_route53_record" "FpWVN" {
-  name    = var.aws_route53_record_FpWVN_name
-  records = var.aws_route53_record_FpWVN_records
-  ttl     = var.aws_route53_record_FpWVN_ttl
-  type    = var.aws_route53_record_FpWVN_type
-  zone_id = var.aws_route53_record_FpWVN_zone_id
+resource "aws_route53_record" "Epqbs" {
+  name    = var.aws_route53_record_Epqbs_name
+  records = var.aws_route53_record_Epqbs_records
+  ttl     = var.aws_route53_record_Epqbs_ttl
+  type    = var.aws_route53_record_Epqbs_type
+  zone_id = var.aws_route53_record_Epqbs_zone_id
 }
 
-resource "aws_route53_record" "FplVJ" {
-  name    = var.aws_route53_record_FplVJ_name
-  records = var.aws_route53_record_FplVJ_records
-  ttl     = var.aws_route53_record_FplVJ_ttl
-  type    = var.aws_route53_record_FplVJ_type
-  zone_id = var.aws_route53_record_FplVJ_zone_id
+resource "aws_route53_record" "FReOL" {
+  name    = var.aws_route53_record_FReOL_name
+  records = var.aws_route53_record_FReOL_records
+  ttl     = var.aws_route53_record_FReOL_ttl
+  type    = var.aws_route53_record_FReOL_type
+  zone_id = var.aws_route53_record_FReOL_zone_id
 }
 
-resource "aws_route53_record" "FyBPk" {
-  name    = var.aws_route53_record_FyBPk_name
-  records = var.aws_route53_record_FyBPk_records
-  ttl     = var.aws_route53_record_FyBPk_ttl
-  type    = var.aws_route53_record_FyBPk_type
-  zone_id = var.aws_route53_record_FyBPk_zone_id
+resource "aws_route53_record" "FhwDX" {
+  name    = var.aws_route53_record_FhwDX_name
+  records = var.aws_route53_record_FhwDX_records
+  ttl     = var.aws_route53_record_FhwDX_ttl
+  type    = var.aws_route53_record_FhwDX_type
+  zone_id = var.aws_route53_record_FhwDX_zone_id
 }
 
-resource "aws_route53_record" "GAHPu" {
-  name    = var.aws_route53_record_GAHPu_name
-  records = var.aws_route53_record_GAHPu_records
-  ttl     = var.aws_route53_record_GAHPu_ttl
-  type    = var.aws_route53_record_GAHPu_type
-  zone_id = var.aws_route53_record_GAHPu_zone_id
+resource "aws_route53_record" "GBogu" {
+  name    = var.aws_route53_record_GBogu_name
+  records = var.aws_route53_record_GBogu_records
+  ttl     = var.aws_route53_record_GBogu_ttl
+  type    = var.aws_route53_record_GBogu_type
+  zone_id = var.aws_route53_record_GBogu_zone_id
 }
 
-resource "aws_route53_record" "GAkbl" {
-  name    = var.aws_route53_record_GAkbl_name
-  records = var.aws_route53_record_GAkbl_records
-  ttl     = var.aws_route53_record_GAkbl_ttl
-  type    = var.aws_route53_record_GAkbl_type
-  zone_id = var.aws_route53_record_GAkbl_zone_id
+resource "aws_route53_record" "GDsjq" {
+  name    = var.aws_route53_record_GDsjq_name
+  records = var.aws_route53_record_GDsjq_records
+  ttl     = var.aws_route53_record_GDsjq_ttl
+  type    = var.aws_route53_record_GDsjq_type
+  zone_id = var.aws_route53_record_GDsjq_zone_id
 }
 
-resource "aws_route53_record" "GDXug" {
-  name    = var.aws_route53_record_GDXug_name
-  records = var.aws_route53_record_GDXug_records
-  ttl     = var.aws_route53_record_GDXug_ttl
-  type    = var.aws_route53_record_GDXug_type
-  zone_id = var.aws_route53_record_GDXug_zone_id
+resource "aws_route53_record" "GLBYA" {
+  name    = var.aws_route53_record_GLBYA_name
+  records = var.aws_route53_record_GLBYA_records
+  ttl     = var.aws_route53_record_GLBYA_ttl
+  type    = var.aws_route53_record_GLBYA_type
+  zone_id = var.aws_route53_record_GLBYA_zone_id
 }
 
-resource "aws_route53_record" "GPxmy" {
-  name    = var.aws_route53_record_GPxmy_name
-  records = var.aws_route53_record_GPxmy_records
-  ttl     = var.aws_route53_record_GPxmy_ttl
-  type    = var.aws_route53_record_GPxmy_type
-  zone_id = var.aws_route53_record_GPxmy_zone_id
+resource "aws_route53_record" "GPTKz" {
+  name    = var.aws_route53_record_GPTKz_name
+  records = var.aws_route53_record_GPTKz_records
+  ttl     = var.aws_route53_record_GPTKz_ttl
+  type    = var.aws_route53_record_GPTKz_type
+  zone_id = var.aws_route53_record_GPTKz_zone_id
 }
 
-resource "aws_route53_record" "GTvID" {
-  name    = var.aws_route53_record_GTvID_name
-  records = var.aws_route53_record_GTvID_records
-  ttl     = var.aws_route53_record_GTvID_ttl
-  type    = var.aws_route53_record_GTvID_type
-  zone_id = var.aws_route53_record_GTvID_zone_id
-}
-
-resource "aws_route53_record" "GeZRK" {
-  name    = var.aws_route53_record_GeZRK_name
-  records = var.aws_route53_record_GeZRK_records
-  ttl     = var.aws_route53_record_GeZRK_ttl
-  type    = var.aws_route53_record_GeZRK_type
-  zone_id = var.aws_route53_record_GeZRK_zone_id
-}
-
-resource "aws_route53_record" "GxBfA" {
+resource "aws_route53_record" "GVfSt" {
   alias {
-    evaluate_target_health = var.aws_route53_record_GxBfA_alias_evaluate_target_health
-    name                   = var.aws_route53_record_GxBfA_alias_name
-    zone_id                = var.aws_route53_record_GxBfA_alias_zone_id
+    evaluate_target_health = var.aws_route53_record_GVfSt_alias_evaluate_target_health
+    name                   = var.aws_route53_record_GVfSt_alias_name
+    zone_id                = var.aws_route53_record_GVfSt_alias_zone_id
   }
 
-  name    = var.aws_route53_record_GxBfA_name
-  type    = var.aws_route53_record_GxBfA_type
-  zone_id = var.aws_route53_record_GxBfA_zone_id
+  name    = var.aws_route53_record_GVfSt_name
+  type    = var.aws_route53_record_GVfSt_type
+  zone_id = var.aws_route53_record_GVfSt_zone_id
 }
 
-resource "aws_route53_record" "GylXr" {
-  name    = var.aws_route53_record_GylXr_name
-  records = var.aws_route53_record_GylXr_records
-  ttl     = var.aws_route53_record_GylXr_ttl
-  type    = var.aws_route53_record_GylXr_type
-  zone_id = var.aws_route53_record_GylXr_zone_id
+resource "aws_route53_record" "GoGQL" {
+  name    = var.aws_route53_record_GoGQL_name
+  records = var.aws_route53_record_GoGQL_records
+  ttl     = var.aws_route53_record_GoGQL_ttl
+  type    = var.aws_route53_record_GoGQL_type
+  zone_id = var.aws_route53_record_GoGQL_zone_id
 }
 
-resource "aws_route53_record" "HChDv" {
-  name    = var.aws_route53_record_HChDv_name
-  records = var.aws_route53_record_HChDv_records
-  ttl     = var.aws_route53_record_HChDv_ttl
-  type    = var.aws_route53_record_HChDv_type
-  zone_id = var.aws_route53_record_HChDv_zone_id
+resource "aws_route53_record" "GpVEm" {
+  name    = var.aws_route53_record_GpVEm_name
+  records = var.aws_route53_record_GpVEm_records
+  ttl     = var.aws_route53_record_GpVEm_ttl
+  type    = var.aws_route53_record_GpVEm_type
+  zone_id = var.aws_route53_record_GpVEm_zone_id
 }
 
-resource "aws_route53_record" "HHhBe" {
-  name    = var.aws_route53_record_HHhBe_name
-  records = var.aws_route53_record_HHhBe_records
-  ttl     = var.aws_route53_record_HHhBe_ttl
-  type    = var.aws_route53_record_HHhBe_type
-  zone_id = var.aws_route53_record_HHhBe_zone_id
+resource "aws_route53_record" "GtVAH" {
+  name    = var.aws_route53_record_GtVAH_name
+  records = var.aws_route53_record_GtVAH_records
+  ttl     = var.aws_route53_record_GtVAH_ttl
+  type    = var.aws_route53_record_GtVAH_type
+  zone_id = var.aws_route53_record_GtVAH_zone_id
 }
 
-resource "aws_route53_record" "HIQiY" {
-  name    = var.aws_route53_record_HIQiY_name
-  records = var.aws_route53_record_HIQiY_records
-  ttl     = var.aws_route53_record_HIQiY_ttl
-  type    = var.aws_route53_record_HIQiY_type
-  zone_id = var.aws_route53_record_HIQiY_zone_id
+resource "aws_route53_record" "HDQOZ" {
+  name    = var.aws_route53_record_HDQOZ_name
+  records = var.aws_route53_record_HDQOZ_records
+  ttl     = var.aws_route53_record_HDQOZ_ttl
+  type    = var.aws_route53_record_HDQOZ_type
+  zone_id = var.aws_route53_record_HDQOZ_zone_id
 }
 
-resource "aws_route53_record" "HNXNd" {
-  name    = var.aws_route53_record_HNXNd_name
-  records = var.aws_route53_record_HNXNd_records
-  ttl     = var.aws_route53_record_HNXNd_ttl
-  type    = var.aws_route53_record_HNXNd_type
-  zone_id = var.aws_route53_record_HNXNd_zone_id
+resource "aws_route53_record" "HDxgZ" {
+  name    = var.aws_route53_record_HDxgZ_name
+  records = var.aws_route53_record_HDxgZ_records
+  ttl     = var.aws_route53_record_HDxgZ_ttl
+  type    = var.aws_route53_record_HDxgZ_type
+  zone_id = var.aws_route53_record_HDxgZ_zone_id
 }
 
-resource "aws_route53_record" "HUnFf" {
-  name    = var.aws_route53_record_HUnFf_name
-  records = var.aws_route53_record_HUnFf_records
-  ttl     = var.aws_route53_record_HUnFf_ttl
-  type    = var.aws_route53_record_HUnFf_type
-  zone_id = var.aws_route53_record_HUnFf_zone_id
-}
-
-resource "aws_route53_record" "HqyZn" {
-  name    = var.aws_route53_record_HqyZn_name
-  records = var.aws_route53_record_HqyZn_records
-  ttl     = var.aws_route53_record_HqyZn_ttl
-  type    = var.aws_route53_record_HqyZn_type
-  zone_id = var.aws_route53_record_HqyZn_zone_id
-}
-
-resource "aws_route53_record" "IFhpo" {
-  name    = var.aws_route53_record_IFhpo_name
-  records = var.aws_route53_record_IFhpo_records
-  ttl     = var.aws_route53_record_IFhpo_ttl
-  type    = var.aws_route53_record_IFhpo_type
-  zone_id = var.aws_route53_record_IFhpo_zone_id
-}
-
-resource "aws_route53_record" "IUOtP" {
-  name    = var.aws_route53_record_IUOtP_name
-  records = var.aws_route53_record_IUOtP_records
-  ttl     = var.aws_route53_record_IUOtP_ttl
-  type    = var.aws_route53_record_IUOtP_type
-  zone_id = var.aws_route53_record_IUOtP_zone_id
-}
-
-resource "aws_route53_record" "IYmqT" {
-  name    = var.aws_route53_record_IYmqT_name
-  records = var.aws_route53_record_IYmqT_records
-  ttl     = var.aws_route53_record_IYmqT_ttl
-  type    = var.aws_route53_record_IYmqT_type
-  zone_id = var.aws_route53_record_IYmqT_zone_id
-}
-
-resource "aws_route53_record" "Ijsyb" {
-  name    = var.aws_route53_record_Ijsyb_name
-  records = var.aws_route53_record_Ijsyb_records
-  ttl     = var.aws_route53_record_Ijsyb_ttl
-  type    = var.aws_route53_record_Ijsyb_type
-  zone_id = var.aws_route53_record_Ijsyb_zone_id
-}
-
-resource "aws_route53_record" "IsIge" {
-  name    = var.aws_route53_record_IsIge_name
-  records = var.aws_route53_record_IsIge_records
-  ttl     = var.aws_route53_record_IsIge_ttl
-  type    = var.aws_route53_record_IsIge_type
-  zone_id = var.aws_route53_record_IsIge_zone_id
-}
-
-resource "aws_route53_record" "Itqka" {
-  name    = var.aws_route53_record_Itqka_name
-  records = var.aws_route53_record_Itqka_records
-  ttl     = var.aws_route53_record_Itqka_ttl
-  type    = var.aws_route53_record_Itqka_type
-  zone_id = var.aws_route53_record_Itqka_zone_id
-}
-
-resource "aws_route53_record" "IunBj" {
-  name    = var.aws_route53_record_IunBj_name
-  records = var.aws_route53_record_IunBj_records
-  ttl     = var.aws_route53_record_IunBj_ttl
-  type    = var.aws_route53_record_IunBj_type
-  zone_id = var.aws_route53_record_IunBj_zone_id
-}
-
-resource "aws_route53_record" "JMhHK" {
-  name    = var.aws_route53_record_JMhHK_name
-  records = var.aws_route53_record_JMhHK_records
-  ttl     = var.aws_route53_record_JMhHK_ttl
-  type    = var.aws_route53_record_JMhHK_type
-  zone_id = var.aws_route53_record_JMhHK_zone_id
-}
-
-resource "aws_route53_record" "JhMHD" {
-  name    = var.aws_route53_record_JhMHD_name
-  records = var.aws_route53_record_JhMHD_records
-  ttl     = var.aws_route53_record_JhMHD_ttl
-  type    = var.aws_route53_record_JhMHD_type
-  zone_id = var.aws_route53_record_JhMHD_zone_id
-}
-
-resource "aws_route53_record" "KCbor" {
-  name    = var.aws_route53_record_KCbor_name
-  records = var.aws_route53_record_KCbor_records
-  ttl     = var.aws_route53_record_KCbor_ttl
-  type    = var.aws_route53_record_KCbor_type
-  zone_id = var.aws_route53_record_KCbor_zone_id
-}
-
-resource "aws_route53_record" "LIPFI" {
-  name    = var.aws_route53_record_LIPFI_name
-  records = var.aws_route53_record_LIPFI_records
-  ttl     = var.aws_route53_record_LIPFI_ttl
-  type    = var.aws_route53_record_LIPFI_type
-  zone_id = var.aws_route53_record_LIPFI_zone_id
-}
-
-resource "aws_route53_record" "LYQxW" {
-  name    = var.aws_route53_record_LYQxW_name
-  records = var.aws_route53_record_LYQxW_records
-  ttl     = var.aws_route53_record_LYQxW_ttl
-  type    = var.aws_route53_record_LYQxW_type
-  zone_id = var.aws_route53_record_LYQxW_zone_id
-}
-
-resource "aws_route53_record" "Lfmhi" {
-  name    = var.aws_route53_record_Lfmhi_name
-  records = var.aws_route53_record_Lfmhi_records
-  ttl     = var.aws_route53_record_Lfmhi_ttl
-  type    = var.aws_route53_record_Lfmhi_type
-  zone_id = var.aws_route53_record_Lfmhi_zone_id
-}
-
-resource "aws_route53_record" "MHUIF" {
-  name    = var.aws_route53_record_MHUIF_name
-  records = var.aws_route53_record_MHUIF_records
-  ttl     = var.aws_route53_record_MHUIF_ttl
-  type    = var.aws_route53_record_MHUIF_type
-  zone_id = var.aws_route53_record_MHUIF_zone_id
-}
-
-resource "aws_route53_record" "MUjjI" {
-  name    = var.aws_route53_record_MUjjI_name
-  records = var.aws_route53_record_MUjjI_records
-  ttl     = var.aws_route53_record_MUjjI_ttl
-  type    = var.aws_route53_record_MUjjI_type
-  zone_id = var.aws_route53_record_MUjjI_zone_id
-}
-
-resource "aws_route53_record" "MYXMa" {
-  name    = var.aws_route53_record_MYXMa_name
-  records = var.aws_route53_record_MYXMa_records
-  ttl     = var.aws_route53_record_MYXMa_ttl
-  type    = var.aws_route53_record_MYXMa_type
-  zone_id = var.aws_route53_record_MYXMa_zone_id
-}
-
-resource "aws_route53_record" "MuTdR" {
-  name    = var.aws_route53_record_MuTdR_name
-  records = var.aws_route53_record_MuTdR_records
-  ttl     = var.aws_route53_record_MuTdR_ttl
-  type    = var.aws_route53_record_MuTdR_type
-  zone_id = var.aws_route53_record_MuTdR_zone_id
-}
-
-resource "aws_route53_record" "NSJXY" {
-  name    = var.aws_route53_record_NSJXY_name
-  records = var.aws_route53_record_NSJXY_records
-  ttl     = var.aws_route53_record_NSJXY_ttl
-  type    = var.aws_route53_record_NSJXY_type
-  zone_id = var.aws_route53_record_NSJXY_zone_id
-}
-
-resource "aws_route53_record" "NXWfc" {
-  name    = var.aws_route53_record_NXWfc_name
-  records = var.aws_route53_record_NXWfc_records
-  ttl     = var.aws_route53_record_NXWfc_ttl
-  type    = var.aws_route53_record_NXWfc_type
-  zone_id = var.aws_route53_record_NXWfc_zone_id
-}
-
-resource "aws_route53_record" "NYQll" {
-  name    = var.aws_route53_record_NYQll_name
-  records = var.aws_route53_record_NYQll_records
-  ttl     = var.aws_route53_record_NYQll_ttl
-  type    = var.aws_route53_record_NYQll_type
-  zone_id = var.aws_route53_record_NYQll_zone_id
-}
-
-resource "aws_route53_record" "NYnLD" {
-  name    = var.aws_route53_record_NYnLD_name
-  records = var.aws_route53_record_NYnLD_records
-  ttl     = var.aws_route53_record_NYnLD_ttl
-  type    = var.aws_route53_record_NYnLD_type
-  zone_id = var.aws_route53_record_NYnLD_zone_id
-}
-
-resource "aws_route53_record" "Nwkoq" {
-  name    = var.aws_route53_record_Nwkoq_name
-  records = var.aws_route53_record_Nwkoq_records
-  ttl     = var.aws_route53_record_Nwkoq_ttl
-  type    = var.aws_route53_record_Nwkoq_type
-  zone_id = var.aws_route53_record_Nwkoq_zone_id
-}
-
-resource "aws_route53_record" "NxAZB" {
-  name    = var.aws_route53_record_NxAZB_name
-  records = var.aws_route53_record_NxAZB_records
-  ttl     = var.aws_route53_record_NxAZB_ttl
-  type    = var.aws_route53_record_NxAZB_type
-  zone_id = var.aws_route53_record_NxAZB_zone_id
-}
-
-resource "aws_route53_record" "OYLsq" {
-  name    = var.aws_route53_record_OYLsq_name
-  records = var.aws_route53_record_OYLsq_records
-  ttl     = var.aws_route53_record_OYLsq_ttl
-  type    = var.aws_route53_record_OYLsq_type
-  zone_id = var.aws_route53_record_OYLsq_zone_id
-}
-
-resource "aws_route53_record" "Ocizo" {
-  name    = var.aws_route53_record_Ocizo_name
-  records = var.aws_route53_record_Ocizo_records
-  ttl     = var.aws_route53_record_Ocizo_ttl
-  type    = var.aws_route53_record_Ocizo_type
-  zone_id = var.aws_route53_record_Ocizo_zone_id
-}
-
-resource "aws_route53_record" "OdNdf" {
-  name    = var.aws_route53_record_OdNdf_name
-  records = var.aws_route53_record_OdNdf_records
-  ttl     = var.aws_route53_record_OdNdf_ttl
-  type    = var.aws_route53_record_OdNdf_type
-  zone_id = var.aws_route53_record_OdNdf_zone_id
-}
-
-resource "aws_route53_record" "OjLih" {
-  name    = var.aws_route53_record_OjLih_name
-  records = var.aws_route53_record_OjLih_records
-  ttl     = var.aws_route53_record_OjLih_ttl
-  type    = var.aws_route53_record_OjLih_type
-  zone_id = var.aws_route53_record_OjLih_zone_id
-}
-
-resource "aws_route53_record" "PAJcd" {
-  name    = var.aws_route53_record_PAJcd_name
-  records = var.aws_route53_record_PAJcd_records
-  ttl     = var.aws_route53_record_PAJcd_ttl
-  type    = var.aws_route53_record_PAJcd_type
-  zone_id = var.aws_route53_record_PAJcd_zone_id
-}
-
-resource "aws_route53_record" "PKUIb" {
-  name    = var.aws_route53_record_PKUIb_name
-  records = var.aws_route53_record_PKUIb_records
-  ttl     = var.aws_route53_record_PKUIb_ttl
-  type    = var.aws_route53_record_PKUIb_type
-  zone_id = var.aws_route53_record_PKUIb_zone_id
-}
-
-resource "aws_route53_record" "PPrQa" {
-  name    = var.aws_route53_record_PPrQa_name
-  records = var.aws_route53_record_PPrQa_records
-  ttl     = var.aws_route53_record_PPrQa_ttl
-  type    = var.aws_route53_record_PPrQa_type
-  zone_id = var.aws_route53_record_PPrQa_zone_id
-}
-
-resource "aws_route53_record" "PeGGx" {
-  name    = var.aws_route53_record_PeGGx_name
-  records = var.aws_route53_record_PeGGx_records
-  ttl     = var.aws_route53_record_PeGGx_ttl
-  type    = var.aws_route53_record_PeGGx_type
-  zone_id = var.aws_route53_record_PeGGx_zone_id
-}
-
-resource "aws_route53_record" "PkAYf" {
-  name    = var.aws_route53_record_PkAYf_name
-  records = var.aws_route53_record_PkAYf_records
-  ttl     = var.aws_route53_record_PkAYf_ttl
-  type    = var.aws_route53_record_PkAYf_type
-  zone_id = var.aws_route53_record_PkAYf_zone_id
-}
-
-resource "aws_route53_record" "QKWdj" {
-  name    = var.aws_route53_record_QKWdj_name
-  records = var.aws_route53_record_QKWdj_records
-  ttl     = var.aws_route53_record_QKWdj_ttl
-  type    = var.aws_route53_record_QKWdj_type
-  zone_id = var.aws_route53_record_QKWdj_zone_id
-}
-
-resource "aws_route53_record" "Qbzej" {
-  name    = var.aws_route53_record_Qbzej_name
-  records = var.aws_route53_record_Qbzej_records
-  ttl     = var.aws_route53_record_Qbzej_ttl
-  type    = var.aws_route53_record_Qbzej_type
-  zone_id = var.aws_route53_record_Qbzej_zone_id
-}
-
-resource "aws_route53_record" "QhIOZ" {
-  name    = var.aws_route53_record_QhIOZ_name
-  records = var.aws_route53_record_QhIOZ_records
-  ttl     = var.aws_route53_record_QhIOZ_ttl
-  type    = var.aws_route53_record_QhIOZ_type
-  zone_id = var.aws_route53_record_QhIOZ_zone_id
-}
-
-resource "aws_route53_record" "QkhCD" {
-  name    = var.aws_route53_record_QkhCD_name
-  records = var.aws_route53_record_QkhCD_records
-  ttl     = var.aws_route53_record_QkhCD_ttl
-  type    = var.aws_route53_record_QkhCD_type
-  zone_id = var.aws_route53_record_QkhCD_zone_id
-}
-
-resource "aws_route53_record" "QzLGD" {
-  name    = var.aws_route53_record_QzLGD_name
-  records = var.aws_route53_record_QzLGD_records
-  ttl     = var.aws_route53_record_QzLGD_ttl
-  type    = var.aws_route53_record_QzLGD_type
-  zone_id = var.aws_route53_record_QzLGD_zone_id
-}
-
-resource "aws_route53_record" "RBsGf" {
-  name    = var.aws_route53_record_RBsGf_name
-  records = var.aws_route53_record_RBsGf_records
-  ttl     = var.aws_route53_record_RBsGf_ttl
-  type    = var.aws_route53_record_RBsGf_type
-  zone_id = var.aws_route53_record_RBsGf_zone_id
-}
-
-resource "aws_route53_record" "RQpkI" {
-  name    = var.aws_route53_record_RQpkI_name
-  records = var.aws_route53_record_RQpkI_records
-  ttl     = var.aws_route53_record_RQpkI_ttl
-  type    = var.aws_route53_record_RQpkI_type
-  zone_id = var.aws_route53_record_RQpkI_zone_id
-}
-
-resource "aws_route53_record" "RbbbT" {
-  name    = var.aws_route53_record_RbbbT_name
-  records = var.aws_route53_record_RbbbT_records
-  ttl     = var.aws_route53_record_RbbbT_ttl
-  type    = var.aws_route53_record_RbbbT_type
-  zone_id = var.aws_route53_record_RbbbT_zone_id
-}
-
-resource "aws_route53_record" "RdTFr" {
-  name    = var.aws_route53_record_RdTFr_name
-  records = var.aws_route53_record_RdTFr_records
-  ttl     = var.aws_route53_record_RdTFr_ttl
-  type    = var.aws_route53_record_RdTFr_type
-  zone_id = var.aws_route53_record_RdTFr_zone_id
-}
-
-resource "aws_route53_record" "SALiy" {
-  name    = var.aws_route53_record_SALiy_name
-  records = var.aws_route53_record_SALiy_records
-  ttl     = var.aws_route53_record_SALiy_ttl
-  type    = var.aws_route53_record_SALiy_type
-  zone_id = var.aws_route53_record_SALiy_zone_id
-}
-
-resource "aws_route53_record" "SKvSI" {
-  name    = var.aws_route53_record_SKvSI_name
-  records = var.aws_route53_record_SKvSI_records
-  ttl     = var.aws_route53_record_SKvSI_ttl
-  type    = var.aws_route53_record_SKvSI_type
-  zone_id = var.aws_route53_record_SKvSI_zone_id
-}
-
-resource "aws_route53_record" "Sjnal" {
-  name    = var.aws_route53_record_Sjnal_name
-  records = var.aws_route53_record_Sjnal_records
-  ttl     = var.aws_route53_record_Sjnal_ttl
-  type    = var.aws_route53_record_Sjnal_type
-  zone_id = var.aws_route53_record_Sjnal_zone_id
-}
-
-resource "aws_route53_record" "Snupf" {
-  name    = var.aws_route53_record_Snupf_name
-  records = var.aws_route53_record_Snupf_records
-  ttl     = var.aws_route53_record_Snupf_ttl
-  type    = var.aws_route53_record_Snupf_type
-  zone_id = var.aws_route53_record_Snupf_zone_id
-}
-
-resource "aws_route53_record" "TQZij" {
-  name    = var.aws_route53_record_TQZij_name
-  records = var.aws_route53_record_TQZij_records
-  ttl     = var.aws_route53_record_TQZij_ttl
-  type    = var.aws_route53_record_TQZij_type
-  zone_id = var.aws_route53_record_TQZij_zone_id
-}
-
-resource "aws_route53_record" "TUHhY" {
-  name    = var.aws_route53_record_TUHhY_name
-  records = var.aws_route53_record_TUHhY_records
-  ttl     = var.aws_route53_record_TUHhY_ttl
-  type    = var.aws_route53_record_TUHhY_type
-  zone_id = var.aws_route53_record_TUHhY_zone_id
-}
-
-resource "aws_route53_record" "TnGbR" {
-  name    = var.aws_route53_record_TnGbR_name
-  records = var.aws_route53_record_TnGbR_records
-  ttl     = var.aws_route53_record_TnGbR_ttl
-  type    = var.aws_route53_record_TnGbR_type
-  zone_id = var.aws_route53_record_TnGbR_zone_id
-}
-
-resource "aws_route53_record" "TyWYC" {
-  name    = var.aws_route53_record_TyWYC_name
-  records = var.aws_route53_record_TyWYC_records
-  ttl     = var.aws_route53_record_TyWYC_ttl
-  type    = var.aws_route53_record_TyWYC_type
-  zone_id = var.aws_route53_record_TyWYC_zone_id
-}
-
-resource "aws_route53_record" "TztTK" {
-  name    = var.aws_route53_record_TztTK_name
-  records = var.aws_route53_record_TztTK_records
-  ttl     = var.aws_route53_record_TztTK_ttl
-  type    = var.aws_route53_record_TztTK_type
-  zone_id = var.aws_route53_record_TztTK_zone_id
-}
-
-resource "aws_route53_record" "UEzbZ" {
-  name    = var.aws_route53_record_UEzbZ_name
-  records = var.aws_route53_record_UEzbZ_records
-  ttl     = var.aws_route53_record_UEzbZ_ttl
-  type    = var.aws_route53_record_UEzbZ_type
-  zone_id = var.aws_route53_record_UEzbZ_zone_id
-}
-
-resource "aws_route53_record" "UGLTS" {
-  name    = var.aws_route53_record_UGLTS_name
-  records = var.aws_route53_record_UGLTS_records
-  ttl     = var.aws_route53_record_UGLTS_ttl
-  type    = var.aws_route53_record_UGLTS_type
-  zone_id = var.aws_route53_record_UGLTS_zone_id
-}
-
-resource "aws_route53_record" "UTlCd" {
-  name    = var.aws_route53_record_UTlCd_name
-  records = var.aws_route53_record_UTlCd_records
-  ttl     = var.aws_route53_record_UTlCd_ttl
-  type    = var.aws_route53_record_UTlCd_type
-  zone_id = var.aws_route53_record_UTlCd_zone_id
-}
-
-resource "aws_route53_record" "UYzjs" {
-  name    = var.aws_route53_record_UYzjs_name
-  records = var.aws_route53_record_UYzjs_records
-  ttl     = var.aws_route53_record_UYzjs_ttl
-  type    = var.aws_route53_record_UYzjs_type
-  zone_id = var.aws_route53_record_UYzjs_zone_id
-}
-
-resource "aws_route53_record" "UlCRH" {
-  name    = var.aws_route53_record_UlCRH_name
-  records = var.aws_route53_record_UlCRH_records
-  ttl     = var.aws_route53_record_UlCRH_ttl
-  type    = var.aws_route53_record_UlCRH_type
-  zone_id = var.aws_route53_record_UlCRH_zone_id
-}
-
-resource "aws_route53_record" "UzDBS" {
-  name    = var.aws_route53_record_UzDBS_name
-  records = var.aws_route53_record_UzDBS_records
-  ttl     = var.aws_route53_record_UzDBS_ttl
-  type    = var.aws_route53_record_UzDBS_type
-  zone_id = var.aws_route53_record_UzDBS_zone_id
-}
-
-resource "aws_route53_record" "VANbb" {
-  name    = var.aws_route53_record_VANbb_name
-  records = var.aws_route53_record_VANbb_records
-  ttl     = var.aws_route53_record_VANbb_ttl
-  type    = var.aws_route53_record_VANbb_type
-  zone_id = var.aws_route53_record_VANbb_zone_id
-}
-
-resource "aws_route53_record" "VBtJm" {
-  name    = var.aws_route53_record_VBtJm_name
-  records = var.aws_route53_record_VBtJm_records
-  ttl     = var.aws_route53_record_VBtJm_ttl
-  type    = var.aws_route53_record_VBtJm_type
-  zone_id = var.aws_route53_record_VBtJm_zone_id
-}
-
-resource "aws_route53_record" "VCmAN" {
-  name    = var.aws_route53_record_VCmAN_name
-  records = var.aws_route53_record_VCmAN_records
-  ttl     = var.aws_route53_record_VCmAN_ttl
-  type    = var.aws_route53_record_VCmAN_type
-  zone_id = var.aws_route53_record_VCmAN_zone_id
-}
-
-resource "aws_route53_record" "VFoee" {
-  name    = var.aws_route53_record_VFoee_name
-  records = var.aws_route53_record_VFoee_records
-  ttl     = var.aws_route53_record_VFoee_ttl
-  type    = var.aws_route53_record_VFoee_type
-  zone_id = var.aws_route53_record_VFoee_zone_id
-}
-
-resource "aws_route53_record" "VIfaa" {
-  name    = var.aws_route53_record_VIfaa_name
-  records = var.aws_route53_record_VIfaa_records
-  ttl     = var.aws_route53_record_VIfaa_ttl
-  type    = var.aws_route53_record_VIfaa_type
-  zone_id = var.aws_route53_record_VIfaa_zone_id
-}
-
-resource "aws_route53_record" "VLScw" {
-  name    = var.aws_route53_record_VLScw_name
-  records = var.aws_route53_record_VLScw_records
-  ttl     = var.aws_route53_record_VLScw_ttl
-  type    = var.aws_route53_record_VLScw_type
-  zone_id = var.aws_route53_record_VLScw_zone_id
-}
-
-resource "aws_route53_record" "VVJSl" {
-  name    = var.aws_route53_record_VVJSl_name
-  records = var.aws_route53_record_VVJSl_records
-  ttl     = var.aws_route53_record_VVJSl_ttl
-  type    = var.aws_route53_record_VVJSl_type
-  zone_id = var.aws_route53_record_VVJSl_zone_id
-}
-
-resource "aws_route53_record" "VhIVh" {
-  name    = var.aws_route53_record_VhIVh_name
-  records = var.aws_route53_record_VhIVh_records
-  ttl     = var.aws_route53_record_VhIVh_ttl
-  type    = var.aws_route53_record_VhIVh_type
-  zone_id = var.aws_route53_record_VhIVh_zone_id
-}
-
-resource "aws_route53_record" "VkjmW" {
-  name    = var.aws_route53_record_VkjmW_name
-  records = var.aws_route53_record_VkjmW_records
-  ttl     = var.aws_route53_record_VkjmW_ttl
-  type    = var.aws_route53_record_VkjmW_type
-  zone_id = var.aws_route53_record_VkjmW_zone_id
-}
-
-resource "aws_route53_record" "WKZPk" {
-  name    = var.aws_route53_record_WKZPk_name
-  records = var.aws_route53_record_WKZPk_records
-  ttl     = var.aws_route53_record_WKZPk_ttl
-  type    = var.aws_route53_record_WKZPk_type
-  zone_id = var.aws_route53_record_WKZPk_zone_id
-}
-
-resource "aws_route53_record" "WLGZZ" {
-  name    = var.aws_route53_record_WLGZZ_name
-  records = var.aws_route53_record_WLGZZ_records
-  ttl     = var.aws_route53_record_WLGZZ_ttl
-  type    = var.aws_route53_record_WLGZZ_type
-  zone_id = var.aws_route53_record_WLGZZ_zone_id
-}
-
-resource "aws_route53_record" "WOyUI" {
-  name    = var.aws_route53_record_WOyUI_name
-  records = var.aws_route53_record_WOyUI_records
-  ttl     = var.aws_route53_record_WOyUI_ttl
-  type    = var.aws_route53_record_WOyUI_type
-  zone_id = var.aws_route53_record_WOyUI_zone_id
-}
-
-resource "aws_route53_record" "WYPsC" {
-  name    = var.aws_route53_record_WYPsC_name
-  records = var.aws_route53_record_WYPsC_records
-  ttl     = var.aws_route53_record_WYPsC_ttl
-  type    = var.aws_route53_record_WYPsC_type
-  zone_id = var.aws_route53_record_WYPsC_zone_id
-}
-
-resource "aws_route53_record" "WZWJL" {
-  name    = var.aws_route53_record_WZWJL_name
-  records = var.aws_route53_record_WZWJL_records
-  ttl     = var.aws_route53_record_WZWJL_ttl
-  type    = var.aws_route53_record_WZWJL_type
-  zone_id = var.aws_route53_record_WZWJL_zone_id
-}
-
-resource "aws_route53_record" "WhLwi" {
-  name    = var.aws_route53_record_WhLwi_name
-  records = var.aws_route53_record_WhLwi_records
-  ttl     = var.aws_route53_record_WhLwi_ttl
-  type    = var.aws_route53_record_WhLwi_type
-  zone_id = var.aws_route53_record_WhLwi_zone_id
-}
-
-resource "aws_route53_record" "XEWKh" {
-  name    = var.aws_route53_record_XEWKh_name
-  records = var.aws_route53_record_XEWKh_records
-  ttl     = var.aws_route53_record_XEWKh_ttl
-  type    = var.aws_route53_record_XEWKh_type
-  zone_id = var.aws_route53_record_XEWKh_zone_id
-}
-
-resource "aws_route53_record" "XEcYq" {
-  name    = var.aws_route53_record_XEcYq_name
-  records = var.aws_route53_record_XEcYq_records
-  ttl     = var.aws_route53_record_XEcYq_ttl
-  type    = var.aws_route53_record_XEcYq_type
-  zone_id = var.aws_route53_record_XEcYq_zone_id
-}
-
-resource "aws_route53_record" "XeMxR" {
-  name    = var.aws_route53_record_XeMxR_name
-  records = var.aws_route53_record_XeMxR_records
-  ttl     = var.aws_route53_record_XeMxR_ttl
-  type    = var.aws_route53_record_XeMxR_type
-  zone_id = var.aws_route53_record_XeMxR_zone_id
-}
-
-resource "aws_route53_record" "XeoZY" {
-  name    = var.aws_route53_record_XeoZY_name
-  records = var.aws_route53_record_XeoZY_records
-  ttl     = var.aws_route53_record_XeoZY_ttl
-  type    = var.aws_route53_record_XeoZY_type
-  zone_id = var.aws_route53_record_XeoZY_zone_id
-}
-
-resource "aws_route53_record" "YDHQB" {
-  name    = var.aws_route53_record_YDHQB_name
-  records = var.aws_route53_record_YDHQB_records
-  ttl     = var.aws_route53_record_YDHQB_ttl
-  type    = var.aws_route53_record_YDHQB_type
-  zone_id = var.aws_route53_record_YDHQB_zone_id
-}
-
-resource "aws_route53_record" "YFawj" {
-  name    = var.aws_route53_record_YFawj_name
-  records = var.aws_route53_record_YFawj_records
-  ttl     = var.aws_route53_record_YFawj_ttl
-  type    = var.aws_route53_record_YFawj_type
-  zone_id = var.aws_route53_record_YFawj_zone_id
-}
-
-resource "aws_route53_record" "YRvia" {
-  name    = var.aws_route53_record_YRvia_name
-  records = var.aws_route53_record_YRvia_records
-  ttl     = var.aws_route53_record_YRvia_ttl
-  type    = var.aws_route53_record_YRvia_type
-  zone_id = var.aws_route53_record_YRvia_zone_id
-}
-
-resource "aws_route53_record" "YSyKV" {
-  name    = var.aws_route53_record_YSyKV_name
-  records = var.aws_route53_record_YSyKV_records
-  ttl     = var.aws_route53_record_YSyKV_ttl
-  type    = var.aws_route53_record_YSyKV_type
-  zone_id = var.aws_route53_record_YSyKV_zone_id
-}
-
-resource "aws_route53_record" "YjTTM" {
-  name    = var.aws_route53_record_YjTTM_name
-  records = var.aws_route53_record_YjTTM_records
-  ttl     = var.aws_route53_record_YjTTM_ttl
-  type    = var.aws_route53_record_YjTTM_type
-  zone_id = var.aws_route53_record_YjTTM_zone_id
-}
-
-resource "aws_route53_record" "YpBMB" {
-  name    = var.aws_route53_record_YpBMB_name
-  records = var.aws_route53_record_YpBMB_records
-  ttl     = var.aws_route53_record_YpBMB_ttl
-  type    = var.aws_route53_record_YpBMB_type
-  zone_id = var.aws_route53_record_YpBMB_zone_id
-}
-
-resource "aws_route53_record" "YpFJP" {
-  name    = var.aws_route53_record_YpFJP_name
-  records = var.aws_route53_record_YpFJP_records
-  ttl     = var.aws_route53_record_YpFJP_ttl
-  type    = var.aws_route53_record_YpFJP_type
-  zone_id = var.aws_route53_record_YpFJP_zone_id
-}
-
-resource "aws_route53_record" "YwICL" {
-  name    = var.aws_route53_record_YwICL_name
-  records = var.aws_route53_record_YwICL_records
-  ttl     = var.aws_route53_record_YwICL_ttl
-  type    = var.aws_route53_record_YwICL_type
-  zone_id = var.aws_route53_record_YwICL_zone_id
-}
-
-resource "aws_route53_record" "YyCLK" {
+resource "aws_route53_record" "HOwBE" {
   alias {
-    evaluate_target_health = var.aws_route53_record_YyCLK_alias_evaluate_target_health
-    name                   = var.aws_route53_record_YyCLK_alias_name
-    zone_id                = var.aws_route53_record_YyCLK_alias_zone_id
+    evaluate_target_health = var.aws_route53_record_HOwBE_alias_evaluate_target_health
+    name                   = var.aws_route53_record_HOwBE_alias_name
+    zone_id                = var.aws_route53_record_HOwBE_alias_zone_id
   }
 
-  name    = var.aws_route53_record_YyCLK_name
-  type    = var.aws_route53_record_YyCLK_type
-  zone_id = var.aws_route53_record_YyCLK_zone_id
+  name    = var.aws_route53_record_HOwBE_name
+  type    = var.aws_route53_record_HOwBE_type
+  zone_id = var.aws_route53_record_HOwBE_zone_id
 }
 
-resource "aws_route53_record" "ZIsaM" {
-  name    = var.aws_route53_record_ZIsaM_name
-  records = var.aws_route53_record_ZIsaM_records
-  ttl     = var.aws_route53_record_ZIsaM_ttl
-  type    = var.aws_route53_record_ZIsaM_type
-  zone_id = var.aws_route53_record_ZIsaM_zone_id
+resource "aws_route53_record" "HcRRP" {
+  name    = var.aws_route53_record_HcRRP_name
+  records = var.aws_route53_record_HcRRP_records
+  ttl     = var.aws_route53_record_HcRRP_ttl
+  type    = var.aws_route53_record_HcRRP_type
+  zone_id = var.aws_route53_record_HcRRP_zone_id
 }
 
-resource "aws_route53_record" "ZPHBO" {
-  name    = var.aws_route53_record_ZPHBO_name
-  records = var.aws_route53_record_ZPHBO_records
-  ttl     = var.aws_route53_record_ZPHBO_ttl
-  type    = var.aws_route53_record_ZPHBO_type
-  zone_id = var.aws_route53_record_ZPHBO_zone_id
+resource "aws_route53_record" "HiSyr" {
+  name    = var.aws_route53_record_HiSyr_name
+  records = var.aws_route53_record_HiSyr_records
+  ttl     = var.aws_route53_record_HiSyr_ttl
+  type    = var.aws_route53_record_HiSyr_type
+  zone_id = var.aws_route53_record_HiSyr_zone_id
 }
 
-resource "aws_route53_record" "ZqOtt" {
-  name    = var.aws_route53_record_ZqOtt_name
-  records = var.aws_route53_record_ZqOtt_records
-  ttl     = var.aws_route53_record_ZqOtt_ttl
-  type    = var.aws_route53_record_ZqOtt_type
-  zone_id = var.aws_route53_record_ZqOtt_zone_id
+resource "aws_route53_record" "Hxlgd" {
+  name    = var.aws_route53_record_Hxlgd_name
+  records = var.aws_route53_record_Hxlgd_records
+  ttl     = var.aws_route53_record_Hxlgd_ttl
+  type    = var.aws_route53_record_Hxlgd_type
+  zone_id = var.aws_route53_record_Hxlgd_zone_id
 }
 
-resource "aws_route53_record" "ZsJPj" {
-  name    = var.aws_route53_record_ZsJPj_name
-  records = var.aws_route53_record_ZsJPj_records
-  ttl     = var.aws_route53_record_ZsJPj_ttl
-  type    = var.aws_route53_record_ZsJPj_type
-  zone_id = var.aws_route53_record_ZsJPj_zone_id
+resource "aws_route53_record" "IFSBQ" {
+  name    = var.aws_route53_record_IFSBQ_name
+  records = var.aws_route53_record_IFSBQ_records
+  ttl     = var.aws_route53_record_IFSBQ_ttl
+  type    = var.aws_route53_record_IFSBQ_type
+  zone_id = var.aws_route53_record_IFSBQ_zone_id
 }
 
-resource "aws_route53_record" "ZsTMG" {
+resource "aws_route53_record" "IGGkf" {
+  name    = var.aws_route53_record_IGGkf_name
+  records = var.aws_route53_record_IGGkf_records
+  ttl     = var.aws_route53_record_IGGkf_ttl
+  type    = var.aws_route53_record_IGGkf_type
+  zone_id = var.aws_route53_record_IGGkf_zone_id
+}
+
+resource "aws_route53_record" "IGZAV" {
+  name    = var.aws_route53_record_IGZAV_name
+  records = var.aws_route53_record_IGZAV_records
+  ttl     = var.aws_route53_record_IGZAV_ttl
+  type    = var.aws_route53_record_IGZAV_type
+  zone_id = var.aws_route53_record_IGZAV_zone_id
+}
+
+resource "aws_route53_record" "IWyqs" {
+  name    = var.aws_route53_record_IWyqs_name
+  records = var.aws_route53_record_IWyqs_records
+  ttl     = var.aws_route53_record_IWyqs_ttl
+  type    = var.aws_route53_record_IWyqs_type
+  zone_id = var.aws_route53_record_IWyqs_zone_id
+}
+
+resource "aws_route53_record" "IsHMj" {
+  name    = var.aws_route53_record_IsHMj_name
+  records = var.aws_route53_record_IsHMj_records
+  ttl     = var.aws_route53_record_IsHMj_ttl
+  type    = var.aws_route53_record_IsHMj_type
+  zone_id = var.aws_route53_record_IsHMj_zone_id
+}
+
+resource "aws_route53_record" "JDmPB" {
+  name    = var.aws_route53_record_JDmPB_name
+  records = var.aws_route53_record_JDmPB_records
+  ttl     = var.aws_route53_record_JDmPB_ttl
+  type    = var.aws_route53_record_JDmPB_type
+  zone_id = var.aws_route53_record_JDmPB_zone_id
+}
+
+resource "aws_route53_record" "JEICl" {
+  name    = var.aws_route53_record_JEICl_name
+  records = var.aws_route53_record_JEICl_records
+  ttl     = var.aws_route53_record_JEICl_ttl
+  type    = var.aws_route53_record_JEICl_type
+  zone_id = var.aws_route53_record_JEICl_zone_id
+}
+
+resource "aws_route53_record" "JUDDs" {
+  name    = var.aws_route53_record_JUDDs_name
+  records = var.aws_route53_record_JUDDs_records
+  ttl     = var.aws_route53_record_JUDDs_ttl
+  type    = var.aws_route53_record_JUDDs_type
+  zone_id = var.aws_route53_record_JUDDs_zone_id
+}
+
+resource "aws_route53_record" "JsNCC" {
+  name    = var.aws_route53_record_JsNCC_name
+  records = var.aws_route53_record_JsNCC_records
+  ttl     = var.aws_route53_record_JsNCC_ttl
+  type    = var.aws_route53_record_JsNCC_type
+  zone_id = var.aws_route53_record_JsNCC_zone_id
+}
+
+resource "aws_route53_record" "JtWRg" {
+  name    = var.aws_route53_record_JtWRg_name
+  records = var.aws_route53_record_JtWRg_records
+  ttl     = var.aws_route53_record_JtWRg_ttl
+  type    = var.aws_route53_record_JtWRg_type
+  zone_id = var.aws_route53_record_JtWRg_zone_id
+}
+
+resource "aws_route53_record" "KJGRR" {
+  name    = var.aws_route53_record_KJGRR_name
+  records = var.aws_route53_record_KJGRR_records
+  ttl     = var.aws_route53_record_KJGRR_ttl
+  type    = var.aws_route53_record_KJGRR_type
+  zone_id = var.aws_route53_record_KJGRR_zone_id
+}
+
+resource "aws_route53_record" "KQSAn" {
+  name    = var.aws_route53_record_KQSAn_name
+  records = var.aws_route53_record_KQSAn_records
+  ttl     = var.aws_route53_record_KQSAn_ttl
+  type    = var.aws_route53_record_KQSAn_type
+  zone_id = var.aws_route53_record_KQSAn_zone_id
+}
+
+resource "aws_route53_record" "KRVDr" {
+  name    = var.aws_route53_record_KRVDr_name
+  records = var.aws_route53_record_KRVDr_records
+  ttl     = var.aws_route53_record_KRVDr_ttl
+  type    = var.aws_route53_record_KRVDr_type
+  zone_id = var.aws_route53_record_KRVDr_zone_id
+}
+
+resource "aws_route53_record" "KgFfY" {
+  name    = var.aws_route53_record_KgFfY_name
+  records = var.aws_route53_record_KgFfY_records
+  ttl     = var.aws_route53_record_KgFfY_ttl
+  type    = var.aws_route53_record_KgFfY_type
+  zone_id = var.aws_route53_record_KgFfY_zone_id
+}
+
+resource "aws_route53_record" "LBXOt" {
+  name    = var.aws_route53_record_LBXOt_name
+  records = var.aws_route53_record_LBXOt_records
+  ttl     = var.aws_route53_record_LBXOt_ttl
+  type    = var.aws_route53_record_LBXOt_type
+  zone_id = var.aws_route53_record_LBXOt_zone_id
+}
+
+resource "aws_route53_record" "LChjX" {
+  name    = var.aws_route53_record_LChjX_name
+  records = var.aws_route53_record_LChjX_records
+  ttl     = var.aws_route53_record_LChjX_ttl
+  type    = var.aws_route53_record_LChjX_type
+  zone_id = var.aws_route53_record_LChjX_zone_id
+}
+
+resource "aws_route53_record" "MImII" {
+  name    = var.aws_route53_record_MImII_name
+  records = var.aws_route53_record_MImII_records
+  ttl     = var.aws_route53_record_MImII_ttl
+  type    = var.aws_route53_record_MImII_type
+  zone_id = var.aws_route53_record_MImII_zone_id
+}
+
+resource "aws_route53_record" "MKZGH" {
+  name    = var.aws_route53_record_MKZGH_name
+  records = var.aws_route53_record_MKZGH_records
+  ttl     = var.aws_route53_record_MKZGH_ttl
+  type    = var.aws_route53_record_MKZGH_type
+  zone_id = var.aws_route53_record_MKZGH_zone_id
+}
+
+resource "aws_route53_record" "MRqSM" {
+  name    = var.aws_route53_record_MRqSM_name
+  records = var.aws_route53_record_MRqSM_records
+  ttl     = var.aws_route53_record_MRqSM_ttl
+  type    = var.aws_route53_record_MRqSM_type
+  zone_id = var.aws_route53_record_MRqSM_zone_id
+}
+
+resource "aws_route53_record" "Mqwvz" {
+  name    = var.aws_route53_record_Mqwvz_name
+  records = var.aws_route53_record_Mqwvz_records
+  ttl     = var.aws_route53_record_Mqwvz_ttl
+  type    = var.aws_route53_record_Mqwvz_type
+  zone_id = var.aws_route53_record_Mqwvz_zone_id
+}
+
+resource "aws_route53_record" "MwoCV" {
+  name    = var.aws_route53_record_MwoCV_name
+  records = var.aws_route53_record_MwoCV_records
+  ttl     = var.aws_route53_record_MwoCV_ttl
+  type    = var.aws_route53_record_MwoCV_type
+  zone_id = var.aws_route53_record_MwoCV_zone_id
+}
+
+resource "aws_route53_record" "MzlyF" {
+  name    = var.aws_route53_record_MzlyF_name
+  records = var.aws_route53_record_MzlyF_records
+  ttl     = var.aws_route53_record_MzlyF_ttl
+  type    = var.aws_route53_record_MzlyF_type
+  zone_id = var.aws_route53_record_MzlyF_zone_id
+}
+
+resource "aws_route53_record" "NFWpv" {
   alias {
-    evaluate_target_health = var.aws_route53_record_ZsTMG_alias_evaluate_target_health
-    name                   = var.aws_route53_record_ZsTMG_alias_name
-    zone_id                = var.aws_route53_record_ZsTMG_alias_zone_id
+    evaluate_target_health = var.aws_route53_record_NFWpv_alias_evaluate_target_health
+    name                   = var.aws_route53_record_NFWpv_alias_name
+    zone_id                = var.aws_route53_record_NFWpv_alias_zone_id
   }
 
-  name    = var.aws_route53_record_ZsTMG_name
-  type    = var.aws_route53_record_ZsTMG_type
-  zone_id = var.aws_route53_record_ZsTMG_zone_id
+  name    = var.aws_route53_record_NFWpv_name
+  type    = var.aws_route53_record_NFWpv_type
+  zone_id = var.aws_route53_record_NFWpv_zone_id
 }
 
-resource "aws_route53_record" "ZudsW" {
-  name    = var.aws_route53_record_ZudsW_name
-  records = var.aws_route53_record_ZudsW_records
-  ttl     = var.aws_route53_record_ZudsW_ttl
-  type    = var.aws_route53_record_ZudsW_type
-  zone_id = var.aws_route53_record_ZudsW_zone_id
+resource "aws_route53_record" "NMeLT" {
+  name    = var.aws_route53_record_NMeLT_name
+  records = var.aws_route53_record_NMeLT_records
+  ttl     = var.aws_route53_record_NMeLT_ttl
+  type    = var.aws_route53_record_NMeLT_type
+  zone_id = var.aws_route53_record_NMeLT_zone_id
 }
 
-resource "aws_route53_record" "aCzyr" {
-  name    = var.aws_route53_record_aCzyr_name
-  records = var.aws_route53_record_aCzyr_records
-  ttl     = var.aws_route53_record_aCzyr_ttl
-  type    = var.aws_route53_record_aCzyr_type
-  zone_id = var.aws_route53_record_aCzyr_zone_id
+resource "aws_route53_record" "NTpHt" {
+  name    = var.aws_route53_record_NTpHt_name
+  records = var.aws_route53_record_NTpHt_records
+  ttl     = var.aws_route53_record_NTpHt_ttl
+  type    = var.aws_route53_record_NTpHt_type
+  zone_id = var.aws_route53_record_NTpHt_zone_id
 }
 
-resource "aws_route53_record" "aKygq" {
-  name    = var.aws_route53_record_aKygq_name
-  records = var.aws_route53_record_aKygq_records
-  ttl     = var.aws_route53_record_aKygq_ttl
-  type    = var.aws_route53_record_aKygq_type
-  zone_id = var.aws_route53_record_aKygq_zone_id
+resource "aws_route53_record" "NsTiO" {
+  name    = var.aws_route53_record_NsTiO_name
+  records = var.aws_route53_record_NsTiO_records
+  ttl     = var.aws_route53_record_NsTiO_ttl
+  type    = var.aws_route53_record_NsTiO_type
+  zone_id = var.aws_route53_record_NsTiO_zone_id
 }
 
-resource "aws_route53_record" "aRkbo" {
-  name    = var.aws_route53_record_aRkbo_name
-  records = var.aws_route53_record_aRkbo_records
-  ttl     = var.aws_route53_record_aRkbo_ttl
-  type    = var.aws_route53_record_aRkbo_type
-  zone_id = var.aws_route53_record_aRkbo_zone_id
+resource "aws_route53_record" "OEqSv" {
+  name    = var.aws_route53_record_OEqSv_name
+  records = var.aws_route53_record_OEqSv_records
+  ttl     = var.aws_route53_record_OEqSv_ttl
+  type    = var.aws_route53_record_OEqSv_type
+  zone_id = var.aws_route53_record_OEqSv_zone_id
 }
 
-resource "aws_route53_record" "aVPpp" {
-  name    = var.aws_route53_record_aVPpp_name
-  records = var.aws_route53_record_aVPpp_records
-  ttl     = var.aws_route53_record_aVPpp_ttl
-  type    = var.aws_route53_record_aVPpp_type
-  zone_id = var.aws_route53_record_aVPpp_zone_id
+resource "aws_route53_record" "OGSVk" {
+  name    = var.aws_route53_record_OGSVk_name
+  records = var.aws_route53_record_OGSVk_records
+  ttl     = var.aws_route53_record_OGSVk_ttl
+  type    = var.aws_route53_record_OGSVk_type
+  zone_id = var.aws_route53_record_OGSVk_zone_id
 }
 
-resource "aws_route53_record" "aWadg" {
-  name    = var.aws_route53_record_aWadg_name
-  records = var.aws_route53_record_aWadg_records
-  ttl     = var.aws_route53_record_aWadg_ttl
-  type    = var.aws_route53_record_aWadg_type
-  zone_id = var.aws_route53_record_aWadg_zone_id
+resource "aws_route53_record" "OJdwU" {
+  name    = var.aws_route53_record_OJdwU_name
+  records = var.aws_route53_record_OJdwU_records
+  ttl     = var.aws_route53_record_OJdwU_ttl
+  type    = var.aws_route53_record_OJdwU_type
+  zone_id = var.aws_route53_record_OJdwU_zone_id
 }
 
-resource "aws_route53_record" "aaLwK" {
-  name    = var.aws_route53_record_aaLwK_name
-  records = var.aws_route53_record_aaLwK_records
-  ttl     = var.aws_route53_record_aaLwK_ttl
-  type    = var.aws_route53_record_aaLwK_type
-  zone_id = var.aws_route53_record_aaLwK_zone_id
+resource "aws_route53_record" "OOCYR" {
+  name    = var.aws_route53_record_OOCYR_name
+  records = var.aws_route53_record_OOCYR_records
+  ttl     = var.aws_route53_record_OOCYR_ttl
+  type    = var.aws_route53_record_OOCYR_type
+  zone_id = var.aws_route53_record_OOCYR_zone_id
 }
 
-resource "aws_route53_record" "adecY" {
-  name    = var.aws_route53_record_adecY_name
-  records = var.aws_route53_record_adecY_records
-  ttl     = var.aws_route53_record_adecY_ttl
-  type    = var.aws_route53_record_adecY_type
-  zone_id = var.aws_route53_record_adecY_zone_id
+resource "aws_route53_record" "OUeZU" {
+  name    = var.aws_route53_record_OUeZU_name
+  records = var.aws_route53_record_OUeZU_records
+  ttl     = var.aws_route53_record_OUeZU_ttl
+  type    = var.aws_route53_record_OUeZU_type
+  zone_id = var.aws_route53_record_OUeZU_zone_id
 }
 
-resource "aws_route53_record" "afDcU" {
-  name    = var.aws_route53_record_afDcU_name
-  records = var.aws_route53_record_afDcU_records
-  ttl     = var.aws_route53_record_afDcU_ttl
-  type    = var.aws_route53_record_afDcU_type
-  zone_id = var.aws_route53_record_afDcU_zone_id
+resource "aws_route53_record" "OYAni" {
+  name    = var.aws_route53_record_OYAni_name
+  records = var.aws_route53_record_OYAni_records
+  ttl     = var.aws_route53_record_OYAni_ttl
+  type    = var.aws_route53_record_OYAni_type
+  zone_id = var.aws_route53_record_OYAni_zone_id
 }
 
-resource "aws_route53_record" "afOOs" {
-  name    = var.aws_route53_record_afOOs_name
-  records = var.aws_route53_record_afOOs_records
-  ttl     = var.aws_route53_record_afOOs_ttl
-  type    = var.aws_route53_record_afOOs_type
-  zone_id = var.aws_route53_record_afOOs_zone_id
+resource "aws_route53_record" "OjNrC" {
+  name    = var.aws_route53_record_OjNrC_name
+  records = var.aws_route53_record_OjNrC_records
+  ttl     = var.aws_route53_record_OjNrC_ttl
+  type    = var.aws_route53_record_OjNrC_type
+  zone_id = var.aws_route53_record_OjNrC_zone_id
 }
 
-resource "aws_route53_record" "afzoJ" {
-  name    = var.aws_route53_record_afzoJ_name
-  records = var.aws_route53_record_afzoJ_records
-  ttl     = var.aws_route53_record_afzoJ_ttl
-  type    = var.aws_route53_record_afzoJ_type
-  zone_id = var.aws_route53_record_afzoJ_zone_id
+resource "aws_route53_record" "OnWwB" {
+  name    = var.aws_route53_record_OnWwB_name
+  records = var.aws_route53_record_OnWwB_records
+  ttl     = var.aws_route53_record_OnWwB_ttl
+  type    = var.aws_route53_record_OnWwB_type
+  zone_id = var.aws_route53_record_OnWwB_zone_id
 }
 
-resource "aws_route53_record" "ahoXa" {
-  name    = var.aws_route53_record_ahoXa_name
-  records = var.aws_route53_record_ahoXa_records
-  ttl     = var.aws_route53_record_ahoXa_ttl
-  type    = var.aws_route53_record_ahoXa_type
-  zone_id = var.aws_route53_record_ahoXa_zone_id
+resource "aws_route53_record" "OqwbP" {
+  name    = var.aws_route53_record_OqwbP_name
+  records = var.aws_route53_record_OqwbP_records
+  ttl     = var.aws_route53_record_OqwbP_ttl
+  type    = var.aws_route53_record_OqwbP_type
+  zone_id = var.aws_route53_record_OqwbP_zone_id
 }
 
-resource "aws_route53_record" "aiBSW" {
-  name    = var.aws_route53_record_aiBSW_name
-  records = var.aws_route53_record_aiBSW_records
-  ttl     = var.aws_route53_record_aiBSW_ttl
-  type    = var.aws_route53_record_aiBSW_type
-  zone_id = var.aws_route53_record_aiBSW_zone_id
+resource "aws_route53_record" "OyOPD" {
+  name    = var.aws_route53_record_OyOPD_name
+  records = var.aws_route53_record_OyOPD_records
+  ttl     = var.aws_route53_record_OyOPD_ttl
+  type    = var.aws_route53_record_OyOPD_type
+  zone_id = var.aws_route53_record_OyOPD_zone_id
 }
 
-resource "aws_route53_record" "bVQaW" {
-  name    = var.aws_route53_record_bVQaW_name
-  records = var.aws_route53_record_bVQaW_records
-  ttl     = var.aws_route53_record_bVQaW_ttl
-  type    = var.aws_route53_record_bVQaW_type
-  zone_id = var.aws_route53_record_bVQaW_zone_id
+resource "aws_route53_record" "PClvp" {
+  name    = var.aws_route53_record_PClvp_name
+  records = var.aws_route53_record_PClvp_records
+  ttl     = var.aws_route53_record_PClvp_ttl
+  type    = var.aws_route53_record_PClvp_type
+  zone_id = var.aws_route53_record_PClvp_zone_id
 }
 
-resource "aws_route53_record" "bZbeA" {
-  name    = var.aws_route53_record_bZbeA_name
-  records = var.aws_route53_record_bZbeA_records
-  ttl     = var.aws_route53_record_bZbeA_ttl
-  type    = var.aws_route53_record_bZbeA_type
-  zone_id = var.aws_route53_record_bZbeA_zone_id
+resource "aws_route53_record" "PGGOZ" {
+  name    = var.aws_route53_record_PGGOZ_name
+  records = var.aws_route53_record_PGGOZ_records
+  ttl     = var.aws_route53_record_PGGOZ_ttl
+  type    = var.aws_route53_record_PGGOZ_type
+  zone_id = var.aws_route53_record_PGGOZ_zone_id
 }
 
-resource "aws_route53_record" "bdREO" {
-  name    = var.aws_route53_record_bdREO_name
-  records = var.aws_route53_record_bdREO_records
-  ttl     = var.aws_route53_record_bdREO_ttl
-  type    = var.aws_route53_record_bdREO_type
-  zone_id = var.aws_route53_record_bdREO_zone_id
+resource "aws_route53_record" "PITAu" {
+  name    = var.aws_route53_record_PITAu_name
+  records = var.aws_route53_record_PITAu_records
+  ttl     = var.aws_route53_record_PITAu_ttl
+  type    = var.aws_route53_record_PITAu_type
+  zone_id = var.aws_route53_record_PITAu_zone_id
 }
 
-resource "aws_route53_record" "bkiPd" {
-  name    = var.aws_route53_record_bkiPd_name
-  records = var.aws_route53_record_bkiPd_records
-  ttl     = var.aws_route53_record_bkiPd_ttl
-  type    = var.aws_route53_record_bkiPd_type
-  zone_id = var.aws_route53_record_bkiPd_zone_id
+resource "aws_route53_record" "PPLBh" {
+  name    = var.aws_route53_record_PPLBh_name
+  records = var.aws_route53_record_PPLBh_records
+  ttl     = var.aws_route53_record_PPLBh_ttl
+  type    = var.aws_route53_record_PPLBh_type
+  zone_id = var.aws_route53_record_PPLBh_zone_id
 }
 
-resource "aws_route53_record" "bkzCQ" {
-  name    = var.aws_route53_record_bkzCQ_name
-  records = var.aws_route53_record_bkzCQ_records
-  ttl     = var.aws_route53_record_bkzCQ_ttl
-  type    = var.aws_route53_record_bkzCQ_type
-  zone_id = var.aws_route53_record_bkzCQ_zone_id
+resource "aws_route53_record" "Pdtki" {
+  name    = var.aws_route53_record_Pdtki_name
+  records = var.aws_route53_record_Pdtki_records
+  ttl     = var.aws_route53_record_Pdtki_ttl
+  type    = var.aws_route53_record_Pdtki_type
+  zone_id = var.aws_route53_record_Pdtki_zone_id
 }
 
-resource "aws_route53_record" "bxwgf" {
-  name    = var.aws_route53_record_bxwgf_name
-  records = var.aws_route53_record_bxwgf_records
-  ttl     = var.aws_route53_record_bxwgf_ttl
-  type    = var.aws_route53_record_bxwgf_type
-  zone_id = var.aws_route53_record_bxwgf_zone_id
+resource "aws_route53_record" "PiqSS" {
+  name    = var.aws_route53_record_PiqSS_name
+  records = var.aws_route53_record_PiqSS_records
+  ttl     = var.aws_route53_record_PiqSS_ttl
+  type    = var.aws_route53_record_PiqSS_type
+  zone_id = var.aws_route53_record_PiqSS_zone_id
 }
 
-resource "aws_route53_record" "cLRzC" {
-  name    = var.aws_route53_record_cLRzC_name
-  records = var.aws_route53_record_cLRzC_records
-  ttl     = var.aws_route53_record_cLRzC_ttl
-  type    = var.aws_route53_record_cLRzC_type
-  zone_id = var.aws_route53_record_cLRzC_zone_id
+resource "aws_route53_record" "PurQK" {
+  name    = var.aws_route53_record_PurQK_name
+  records = var.aws_route53_record_PurQK_records
+  ttl     = var.aws_route53_record_PurQK_ttl
+  type    = var.aws_route53_record_PurQK_type
+  zone_id = var.aws_route53_record_PurQK_zone_id
 }
 
-resource "aws_route53_record" "cWTtQ" {
-  name    = var.aws_route53_record_cWTtQ_name
-  records = var.aws_route53_record_cWTtQ_records
-  ttl     = var.aws_route53_record_cWTtQ_ttl
-  type    = var.aws_route53_record_cWTtQ_type
-  zone_id = var.aws_route53_record_cWTtQ_zone_id
+resource "aws_route53_record" "PwVYs" {
+  name    = var.aws_route53_record_PwVYs_name
+  records = var.aws_route53_record_PwVYs_records
+  ttl     = var.aws_route53_record_PwVYs_ttl
+  type    = var.aws_route53_record_PwVYs_type
+  zone_id = var.aws_route53_record_PwVYs_zone_id
 }
 
-resource "aws_route53_record" "cgnhL" {
-  name    = var.aws_route53_record_cgnhL_name
-  records = var.aws_route53_record_cgnhL_records
-  ttl     = var.aws_route53_record_cgnhL_ttl
-  type    = var.aws_route53_record_cgnhL_type
-  zone_id = var.aws_route53_record_cgnhL_zone_id
+resource "aws_route53_record" "QFamC" {
+  name    = var.aws_route53_record_QFamC_name
+  records = var.aws_route53_record_QFamC_records
+  ttl     = var.aws_route53_record_QFamC_ttl
+  type    = var.aws_route53_record_QFamC_type
+  zone_id = var.aws_route53_record_QFamC_zone_id
 }
 
-resource "aws_route53_record" "cgziF" {
-  name    = var.aws_route53_record_cgziF_name
-  records = var.aws_route53_record_cgziF_records
-  ttl     = var.aws_route53_record_cgziF_ttl
-  type    = var.aws_route53_record_cgziF_type
-  zone_id = var.aws_route53_record_cgziF_zone_id
+resource "aws_route53_record" "QoQyG" {
+  name    = var.aws_route53_record_QoQyG_name
+  records = var.aws_route53_record_QoQyG_records
+  ttl     = var.aws_route53_record_QoQyG_ttl
+  type    = var.aws_route53_record_QoQyG_type
+  zone_id = var.aws_route53_record_QoQyG_zone_id
 }
 
-resource "aws_route53_record" "cpRjT" {
-  name    = var.aws_route53_record_cpRjT_name
-  records = var.aws_route53_record_cpRjT_records
-  ttl     = var.aws_route53_record_cpRjT_ttl
-  type    = var.aws_route53_record_cpRjT_type
-  zone_id = var.aws_route53_record_cpRjT_zone_id
+resource "aws_route53_record" "RZNLe" {
+  name    = var.aws_route53_record_RZNLe_name
+  records = var.aws_route53_record_RZNLe_records
+  ttl     = var.aws_route53_record_RZNLe_ttl
+  type    = var.aws_route53_record_RZNLe_type
+  zone_id = var.aws_route53_record_RZNLe_zone_id
 }
 
-resource "aws_route53_record" "cyIGb" {
-  name    = var.aws_route53_record_cyIGb_name
-  records = var.aws_route53_record_cyIGb_records
-  ttl     = var.aws_route53_record_cyIGb_ttl
-  type    = var.aws_route53_record_cyIGb_type
-  zone_id = var.aws_route53_record_cyIGb_zone_id
+resource "aws_route53_record" "RduHG" {
+  name    = var.aws_route53_record_RduHG_name
+  records = var.aws_route53_record_RduHG_records
+  ttl     = var.aws_route53_record_RduHG_ttl
+  type    = var.aws_route53_record_RduHG_type
+  zone_id = var.aws_route53_record_RduHG_zone_id
 }
 
-resource "aws_route53_record" "dXppv" {
-  name    = var.aws_route53_record_dXppv_name
-  records = var.aws_route53_record_dXppv_records
-  ttl     = var.aws_route53_record_dXppv_ttl
-  type    = var.aws_route53_record_dXppv_type
-  zone_id = var.aws_route53_record_dXppv_zone_id
+resource "aws_route53_record" "RijuC" {
+  name    = var.aws_route53_record_RijuC_name
+  records = var.aws_route53_record_RijuC_records
+  ttl     = var.aws_route53_record_RijuC_ttl
+  type    = var.aws_route53_record_RijuC_type
+  zone_id = var.aws_route53_record_RijuC_zone_id
 }
 
-resource "aws_route53_record" "dYmoV" {
-  name    = var.aws_route53_record_dYmoV_name
-  records = var.aws_route53_record_dYmoV_records
-  ttl     = var.aws_route53_record_dYmoV_ttl
-  type    = var.aws_route53_record_dYmoV_type
-  zone_id = var.aws_route53_record_dYmoV_zone_id
+resource "aws_route53_record" "RmsaT" {
+  name    = var.aws_route53_record_RmsaT_name
+  records = var.aws_route53_record_RmsaT_records
+  ttl     = var.aws_route53_record_RmsaT_ttl
+  type    = var.aws_route53_record_RmsaT_type
+  zone_id = var.aws_route53_record_RmsaT_zone_id
 }
 
-resource "aws_route53_record" "dnHTf" {
-  name    = var.aws_route53_record_dnHTf_name
-  records = var.aws_route53_record_dnHTf_records
-  ttl     = var.aws_route53_record_dnHTf_ttl
-  type    = var.aws_route53_record_dnHTf_type
-  zone_id = var.aws_route53_record_dnHTf_zone_id
+resource "aws_route53_record" "RoRPQ" {
+  name    = var.aws_route53_record_RoRPQ_name
+  records = var.aws_route53_record_RoRPQ_records
+  ttl     = var.aws_route53_record_RoRPQ_ttl
+  type    = var.aws_route53_record_RoRPQ_type
+  zone_id = var.aws_route53_record_RoRPQ_zone_id
 }
 
-resource "aws_route53_record" "doPaB" {
-  name    = var.aws_route53_record_doPaB_name
-  records = var.aws_route53_record_doPaB_records
-  ttl     = var.aws_route53_record_doPaB_ttl
-  type    = var.aws_route53_record_doPaB_type
-  zone_id = var.aws_route53_record_doPaB_zone_id
+resource "aws_route53_record" "Rwhuu" {
+  name    = var.aws_route53_record_Rwhuu_name
+  records = var.aws_route53_record_Rwhuu_records
+  ttl     = var.aws_route53_record_Rwhuu_ttl
+  type    = var.aws_route53_record_Rwhuu_type
+  zone_id = var.aws_route53_record_Rwhuu_zone_id
 }
 
-resource "aws_route53_record" "eISkL" {
-  name    = var.aws_route53_record_eISkL_name
-  records = var.aws_route53_record_eISkL_records
-  ttl     = var.aws_route53_record_eISkL_ttl
-  type    = var.aws_route53_record_eISkL_type
-  zone_id = var.aws_route53_record_eISkL_zone_id
+resource "aws_route53_record" "SLFbH" {
+  name    = var.aws_route53_record_SLFbH_name
+  records = var.aws_route53_record_SLFbH_records
+  ttl     = var.aws_route53_record_SLFbH_ttl
+  type    = var.aws_route53_record_SLFbH_type
+  zone_id = var.aws_route53_record_SLFbH_zone_id
 }
 
-resource "aws_route53_record" "eVHEI" {
-  name    = var.aws_route53_record_eVHEI_name
-  records = var.aws_route53_record_eVHEI_records
-  ttl     = var.aws_route53_record_eVHEI_ttl
-  type    = var.aws_route53_record_eVHEI_type
-  zone_id = var.aws_route53_record_eVHEI_zone_id
+resource "aws_route53_record" "SRAbJ" {
+  name    = var.aws_route53_record_SRAbJ_name
+  records = var.aws_route53_record_SRAbJ_records
+  ttl     = var.aws_route53_record_SRAbJ_ttl
+  type    = var.aws_route53_record_SRAbJ_type
+  zone_id = var.aws_route53_record_SRAbJ_zone_id
 }
 
-resource "aws_route53_record" "ettXw" {
-  name    = var.aws_route53_record_ettXw_name
-  records = var.aws_route53_record_ettXw_records
-  ttl     = var.aws_route53_record_ettXw_ttl
-  type    = var.aws_route53_record_ettXw_type
-  zone_id = var.aws_route53_record_ettXw_zone_id
+resource "aws_route53_record" "Sjapr" {
+  name    = var.aws_route53_record_Sjapr_name
+  records = var.aws_route53_record_Sjapr_records
+  ttl     = var.aws_route53_record_Sjapr_ttl
+  type    = var.aws_route53_record_Sjapr_type
+  zone_id = var.aws_route53_record_Sjapr_zone_id
 }
 
-resource "aws_route53_record" "fWiaj" {
-  name    = var.aws_route53_record_fWiaj_name
-  records = var.aws_route53_record_fWiaj_records
-  ttl     = var.aws_route53_record_fWiaj_ttl
-  type    = var.aws_route53_record_fWiaj_type
-  zone_id = var.aws_route53_record_fWiaj_zone_id
+resource "aws_route53_record" "SzYZt" {
+  name    = var.aws_route53_record_SzYZt_name
+  records = var.aws_route53_record_SzYZt_records
+  ttl     = var.aws_route53_record_SzYZt_ttl
+  type    = var.aws_route53_record_SzYZt_type
+  zone_id = var.aws_route53_record_SzYZt_zone_id
 }
 
-resource "aws_route53_record" "fdqcL" {
-  name    = var.aws_route53_record_fdqcL_name
-  records = var.aws_route53_record_fdqcL_records
-  ttl     = var.aws_route53_record_fdqcL_ttl
-  type    = var.aws_route53_record_fdqcL_type
-  zone_id = var.aws_route53_record_fdqcL_zone_id
+resource "aws_route53_record" "TAivq" {
+  name    = var.aws_route53_record_TAivq_name
+  records = var.aws_route53_record_TAivq_records
+  ttl     = var.aws_route53_record_TAivq_ttl
+  type    = var.aws_route53_record_TAivq_type
+  zone_id = var.aws_route53_record_TAivq_zone_id
 }
 
-resource "aws_route53_record" "fkKlw" {
-  name    = var.aws_route53_record_fkKlw_name
-  records = var.aws_route53_record_fkKlw_records
-  ttl     = var.aws_route53_record_fkKlw_ttl
-  type    = var.aws_route53_record_fkKlw_type
-  zone_id = var.aws_route53_record_fkKlw_zone_id
+resource "aws_route53_record" "TCqeF" {
+  name    = var.aws_route53_record_TCqeF_name
+  records = var.aws_route53_record_TCqeF_records
+  ttl     = var.aws_route53_record_TCqeF_ttl
+  type    = var.aws_route53_record_TCqeF_type
+  zone_id = var.aws_route53_record_TCqeF_zone_id
 }
 
-resource "aws_route53_record" "fqnNg" {
-  name    = var.aws_route53_record_fqnNg_name
-  records = var.aws_route53_record_fqnNg_records
-  ttl     = var.aws_route53_record_fqnNg_ttl
-  type    = var.aws_route53_record_fqnNg_type
-  zone_id = var.aws_route53_record_fqnNg_zone_id
+resource "aws_route53_record" "TLfbg" {
+  name    = var.aws_route53_record_TLfbg_name
+  records = var.aws_route53_record_TLfbg_records
+  ttl     = var.aws_route53_record_TLfbg_ttl
+  type    = var.aws_route53_record_TLfbg_type
+  zone_id = var.aws_route53_record_TLfbg_zone_id
 }
 
-resource "aws_route53_record" "fspub" {
-  name    = var.aws_route53_record_fspub_name
-  records = var.aws_route53_record_fspub_records
-  ttl     = var.aws_route53_record_fspub_ttl
-  type    = var.aws_route53_record_fspub_type
-  zone_id = var.aws_route53_record_fspub_zone_id
+resource "aws_route53_record" "TTNdA" {
+  name    = var.aws_route53_record_TTNdA_name
+  records = var.aws_route53_record_TTNdA_records
+  ttl     = var.aws_route53_record_TTNdA_ttl
+  type    = var.aws_route53_record_TTNdA_type
+  zone_id = var.aws_route53_record_TTNdA_zone_id
 }
 
-resource "aws_route53_record" "gGlzz" {
-  name    = var.aws_route53_record_gGlzz_name
-  records = var.aws_route53_record_gGlzz_records
-  ttl     = var.aws_route53_record_gGlzz_ttl
-  type    = var.aws_route53_record_gGlzz_type
-  zone_id = var.aws_route53_record_gGlzz_zone_id
+resource "aws_route53_record" "TVydV" {
+  name    = var.aws_route53_record_TVydV_name
+  records = var.aws_route53_record_TVydV_records
+  ttl     = var.aws_route53_record_TVydV_ttl
+  type    = var.aws_route53_record_TVydV_type
+  zone_id = var.aws_route53_record_TVydV_zone_id
 }
 
-resource "aws_route53_record" "glvjk" {
-  name    = var.aws_route53_record_glvjk_name
-  records = var.aws_route53_record_glvjk_records
-  ttl     = var.aws_route53_record_glvjk_ttl
-  type    = var.aws_route53_record_glvjk_type
-  zone_id = var.aws_route53_record_glvjk_zone_id
+resource "aws_route53_record" "TXDvg" {
+  name    = var.aws_route53_record_TXDvg_name
+  records = var.aws_route53_record_TXDvg_records
+  ttl     = var.aws_route53_record_TXDvg_ttl
+  type    = var.aws_route53_record_TXDvg_type
+  zone_id = var.aws_route53_record_TXDvg_zone_id
 }
 
-resource "aws_route53_record" "gpbyA" {
-  name    = var.aws_route53_record_gpbyA_name
-  records = var.aws_route53_record_gpbyA_records
-  ttl     = var.aws_route53_record_gpbyA_ttl
-  type    = var.aws_route53_record_gpbyA_type
-  zone_id = var.aws_route53_record_gpbyA_zone_id
+resource "aws_route53_record" "TlOTR" {
+  name    = var.aws_route53_record_TlOTR_name
+  records = var.aws_route53_record_TlOTR_records
+  ttl     = var.aws_route53_record_TlOTR_ttl
+  type    = var.aws_route53_record_TlOTR_type
+  zone_id = var.aws_route53_record_TlOTR_zone_id
 }
 
-resource "aws_route53_record" "gwESM" {
-  name    = var.aws_route53_record_gwESM_name
-  records = var.aws_route53_record_gwESM_records
-  ttl     = var.aws_route53_record_gwESM_ttl
-  type    = var.aws_route53_record_gwESM_type
-  zone_id = var.aws_route53_record_gwESM_zone_id
+resource "aws_route53_record" "UCyFC" {
+  name    = var.aws_route53_record_UCyFC_name
+  records = var.aws_route53_record_UCyFC_records
+  ttl     = var.aws_route53_record_UCyFC_ttl
+  type    = var.aws_route53_record_UCyFC_type
+  zone_id = var.aws_route53_record_UCyFC_zone_id
 }
 
-resource "aws_route53_record" "hcpvB" {
-  name    = var.aws_route53_record_hcpvB_name
-  records = var.aws_route53_record_hcpvB_records
-  ttl     = var.aws_route53_record_hcpvB_ttl
-  type    = var.aws_route53_record_hcpvB_type
-  zone_id = var.aws_route53_record_hcpvB_zone_id
+resource "aws_route53_record" "UDEnV" {
+  name    = var.aws_route53_record_UDEnV_name
+  records = var.aws_route53_record_UDEnV_records
+  ttl     = var.aws_route53_record_UDEnV_ttl
+  type    = var.aws_route53_record_UDEnV_type
+  zone_id = var.aws_route53_record_UDEnV_zone_id
 }
 
-resource "aws_route53_record" "hhRmo" {
-  name    = var.aws_route53_record_hhRmo_name
-  records = var.aws_route53_record_hhRmo_records
-  ttl     = var.aws_route53_record_hhRmo_ttl
-  type    = var.aws_route53_record_hhRmo_type
-  zone_id = var.aws_route53_record_hhRmo_zone_id
+resource "aws_route53_record" "UXVFh" {
+  name    = var.aws_route53_record_UXVFh_name
+  records = var.aws_route53_record_UXVFh_records
+  ttl     = var.aws_route53_record_UXVFh_ttl
+  type    = var.aws_route53_record_UXVFh_type
+  zone_id = var.aws_route53_record_UXVFh_zone_id
 }
 
-resource "aws_route53_record" "hpJfU" {
-  name    = var.aws_route53_record_hpJfU_name
-  records = var.aws_route53_record_hpJfU_records
-  ttl     = var.aws_route53_record_hpJfU_ttl
-  type    = var.aws_route53_record_hpJfU_type
-  zone_id = var.aws_route53_record_hpJfU_zone_id
+resource "aws_route53_record" "UXpHY" {
+  name    = var.aws_route53_record_UXpHY_name
+  records = var.aws_route53_record_UXpHY_records
+  ttl     = var.aws_route53_record_UXpHY_ttl
+  type    = var.aws_route53_record_UXpHY_type
+  zone_id = var.aws_route53_record_UXpHY_zone_id
 }
 
-resource "aws_route53_record" "iCLJS" {
-  name    = var.aws_route53_record_iCLJS_name
-  records = var.aws_route53_record_iCLJS_records
-  ttl     = var.aws_route53_record_iCLJS_ttl
-  type    = var.aws_route53_record_iCLJS_type
-  zone_id = var.aws_route53_record_iCLJS_zone_id
+resource "aws_route53_record" "UaSFR" {
+  name    = var.aws_route53_record_UaSFR_name
+  records = var.aws_route53_record_UaSFR_records
+  ttl     = var.aws_route53_record_UaSFR_ttl
+  type    = var.aws_route53_record_UaSFR_type
+  zone_id = var.aws_route53_record_UaSFR_zone_id
 }
 
-resource "aws_route53_record" "iSXDN" {
-  name    = var.aws_route53_record_iSXDN_name
-  records = var.aws_route53_record_iSXDN_records
-  ttl     = var.aws_route53_record_iSXDN_ttl
-  type    = var.aws_route53_record_iSXDN_type
-  zone_id = var.aws_route53_record_iSXDN_zone_id
+resource "aws_route53_record" "Uamge" {
+  name    = var.aws_route53_record_Uamge_name
+  records = var.aws_route53_record_Uamge_records
+  ttl     = var.aws_route53_record_Uamge_ttl
+  type    = var.aws_route53_record_Uamge_type
+  zone_id = var.aws_route53_record_Uamge_zone_id
 }
 
-resource "aws_route53_record" "iWrdH" {
-  name    = var.aws_route53_record_iWrdH_name
-  records = var.aws_route53_record_iWrdH_records
-  ttl     = var.aws_route53_record_iWrdH_ttl
-  type    = var.aws_route53_record_iWrdH_type
-  zone_id = var.aws_route53_record_iWrdH_zone_id
+resource "aws_route53_record" "UoNUt" {
+  name    = var.aws_route53_record_UoNUt_name
+  records = var.aws_route53_record_UoNUt_records
+  ttl     = var.aws_route53_record_UoNUt_ttl
+  type    = var.aws_route53_record_UoNUt_type
+  zone_id = var.aws_route53_record_UoNUt_zone_id
 }
 
-resource "aws_route53_record" "jXnBg" {
-  name    = var.aws_route53_record_jXnBg_name
-  records = var.aws_route53_record_jXnBg_records
-  ttl     = var.aws_route53_record_jXnBg_ttl
-  type    = var.aws_route53_record_jXnBg_type
-  zone_id = var.aws_route53_record_jXnBg_zone_id
+resource "aws_route53_record" "VOmKW" {
+  name    = var.aws_route53_record_VOmKW_name
+  records = var.aws_route53_record_VOmKW_records
+  ttl     = var.aws_route53_record_VOmKW_ttl
+  type    = var.aws_route53_record_VOmKW_type
+  zone_id = var.aws_route53_record_VOmKW_zone_id
 }
 
-resource "aws_route53_record" "jnPzI" {
-  name    = var.aws_route53_record_jnPzI_name
-  records = var.aws_route53_record_jnPzI_records
-  ttl     = var.aws_route53_record_jnPzI_ttl
-  type    = var.aws_route53_record_jnPzI_type
-  zone_id = var.aws_route53_record_jnPzI_zone_id
+resource "aws_route53_record" "VTcHp" {
+  name    = var.aws_route53_record_VTcHp_name
+  records = var.aws_route53_record_VTcHp_records
+  ttl     = var.aws_route53_record_VTcHp_ttl
+  type    = var.aws_route53_record_VTcHp_type
+  zone_id = var.aws_route53_record_VTcHp_zone_id
 }
 
-resource "aws_route53_record" "kgCVJ" {
-  name    = var.aws_route53_record_kgCVJ_name
-  records = var.aws_route53_record_kgCVJ_records
-  ttl     = var.aws_route53_record_kgCVJ_ttl
-  type    = var.aws_route53_record_kgCVJ_type
-  zone_id = var.aws_route53_record_kgCVJ_zone_id
+resource "aws_route53_record" "VVVau" {
+  name    = var.aws_route53_record_VVVau_name
+  records = var.aws_route53_record_VVVau_records
+  ttl     = var.aws_route53_record_VVVau_ttl
+  type    = var.aws_route53_record_VVVau_type
+  zone_id = var.aws_route53_record_VVVau_zone_id
 }
 
-resource "aws_route53_record" "kkUbK" {
-  name    = var.aws_route53_record_kkUbK_name
-  records = var.aws_route53_record_kkUbK_records
-  ttl     = var.aws_route53_record_kkUbK_ttl
-  type    = var.aws_route53_record_kkUbK_type
-  zone_id = var.aws_route53_record_kkUbK_zone_id
-}
-
-resource "aws_route53_record" "klswu" {
-  name    = var.aws_route53_record_klswu_name
-  records = var.aws_route53_record_klswu_records
-  ttl     = var.aws_route53_record_klswu_ttl
-  type    = var.aws_route53_record_klswu_type
-  zone_id = var.aws_route53_record_klswu_zone_id
-}
-
-resource "aws_route53_record" "kmyCm" {
-  name    = var.aws_route53_record_kmyCm_name
-  records = var.aws_route53_record_kmyCm_records
-  ttl     = var.aws_route53_record_kmyCm_ttl
-  type    = var.aws_route53_record_kmyCm_type
-  zone_id = var.aws_route53_record_kmyCm_zone_id
-}
-
-resource "aws_route53_record" "kzAMz" {
-  name    = var.aws_route53_record_kzAMz_name
-  records = var.aws_route53_record_kzAMz_records
-  ttl     = var.aws_route53_record_kzAMz_ttl
-  type    = var.aws_route53_record_kzAMz_type
-  zone_id = var.aws_route53_record_kzAMz_zone_id
-}
-
-resource "aws_route53_record" "lFtUG" {
-  name    = var.aws_route53_record_lFtUG_name
-  records = var.aws_route53_record_lFtUG_records
-  ttl     = var.aws_route53_record_lFtUG_ttl
-  type    = var.aws_route53_record_lFtUG_type
-  zone_id = var.aws_route53_record_lFtUG_zone_id
-}
-
-resource "aws_route53_record" "lIKrP" {
-  name    = var.aws_route53_record_lIKrP_name
-  records = var.aws_route53_record_lIKrP_records
-  ttl     = var.aws_route53_record_lIKrP_ttl
-  type    = var.aws_route53_record_lIKrP_type
-  zone_id = var.aws_route53_record_lIKrP_zone_id
-}
-
-resource "aws_route53_record" "lJXrc" {
-  name    = var.aws_route53_record_lJXrc_name
-  records = var.aws_route53_record_lJXrc_records
-  ttl     = var.aws_route53_record_lJXrc_ttl
-  type    = var.aws_route53_record_lJXrc_type
-  zone_id = var.aws_route53_record_lJXrc_zone_id
-}
-
-resource "aws_route53_record" "mpRva" {
-  name    = var.aws_route53_record_mpRva_name
-  records = var.aws_route53_record_mpRva_records
-  ttl     = var.aws_route53_record_mpRva_ttl
-  type    = var.aws_route53_record_mpRva_type
-  zone_id = var.aws_route53_record_mpRva_zone_id
-}
-
-resource "aws_route53_record" "mvFOX" {
-  name    = var.aws_route53_record_mvFOX_name
-  records = var.aws_route53_record_mvFOX_records
-  ttl     = var.aws_route53_record_mvFOX_ttl
-  type    = var.aws_route53_record_mvFOX_type
-  zone_id = var.aws_route53_record_mvFOX_zone_id
-}
-
-resource "aws_route53_record" "nBZUN" {
-  name    = var.aws_route53_record_nBZUN_name
-  records = var.aws_route53_record_nBZUN_records
-  ttl     = var.aws_route53_record_nBZUN_ttl
-  type    = var.aws_route53_record_nBZUN_type
-  zone_id = var.aws_route53_record_nBZUN_zone_id
-}
-
-resource "aws_route53_record" "nCYND" {
-  name    = var.aws_route53_record_nCYND_name
-  records = var.aws_route53_record_nCYND_records
-  ttl     = var.aws_route53_record_nCYND_ttl
-  type    = var.aws_route53_record_nCYND_type
-  zone_id = var.aws_route53_record_nCYND_zone_id
-}
-
-resource "aws_route53_record" "nSLpI" {
-  name    = var.aws_route53_record_nSLpI_name
-  records = var.aws_route53_record_nSLpI_records
-  ttl     = var.aws_route53_record_nSLpI_ttl
-  type    = var.aws_route53_record_nSLpI_type
-  zone_id = var.aws_route53_record_nSLpI_zone_id
-}
-
-resource "aws_route53_record" "nTedf" {
-  name    = var.aws_route53_record_nTedf_name
-  records = var.aws_route53_record_nTedf_records
-  ttl     = var.aws_route53_record_nTedf_ttl
-  type    = var.aws_route53_record_nTedf_type
-  zone_id = var.aws_route53_record_nTedf_zone_id
-}
-
-resource "aws_route53_record" "ngvpZ" {
-  name    = var.aws_route53_record_ngvpZ_name
-  records = var.aws_route53_record_ngvpZ_records
-  ttl     = var.aws_route53_record_ngvpZ_ttl
-  type    = var.aws_route53_record_ngvpZ_type
-  zone_id = var.aws_route53_record_ngvpZ_zone_id
-}
-
-resource "aws_route53_record" "nrsrJ" {
-  name    = var.aws_route53_record_nrsrJ_name
-  records = var.aws_route53_record_nrsrJ_records
-  ttl     = var.aws_route53_record_nrsrJ_ttl
-  type    = var.aws_route53_record_nrsrJ_type
-  zone_id = var.aws_route53_record_nrsrJ_zone_id
-}
-
-resource "aws_route53_record" "oJMBm" {
-  name    = var.aws_route53_record_oJMBm_name
-  records = var.aws_route53_record_oJMBm_records
-  ttl     = var.aws_route53_record_oJMBm_ttl
-  type    = var.aws_route53_record_oJMBm_type
-  zone_id = var.aws_route53_record_oJMBm_zone_id
-}
-
-resource "aws_route53_record" "oTyRP" {
-  name    = var.aws_route53_record_oTyRP_name
-  records = var.aws_route53_record_oTyRP_records
-  ttl     = var.aws_route53_record_oTyRP_ttl
-  type    = var.aws_route53_record_oTyRP_type
-  zone_id = var.aws_route53_record_oTyRP_zone_id
-}
-
-resource "aws_route53_record" "oVaWB" {
+resource "aws_route53_record" "VXHAO" {
   alias {
-    evaluate_target_health = var.aws_route53_record_oVaWB_alias_evaluate_target_health
-    name                   = var.aws_route53_record_oVaWB_alias_name
-    zone_id                = var.aws_route53_record_oVaWB_alias_zone_id
+    evaluate_target_health = var.aws_route53_record_VXHAO_alias_evaluate_target_health
+    name                   = var.aws_route53_record_VXHAO_alias_name
+    zone_id                = var.aws_route53_record_VXHAO_alias_zone_id
   }
 
-  name    = var.aws_route53_record_oVaWB_name
-  type    = var.aws_route53_record_oVaWB_type
-  zone_id = var.aws_route53_record_oVaWB_zone_id
+  name    = var.aws_route53_record_VXHAO_name
+  type    = var.aws_route53_record_VXHAO_type
+  zone_id = var.aws_route53_record_VXHAO_zone_id
 }
 
-resource "aws_route53_record" "ofUqq" {
-  name    = var.aws_route53_record_ofUqq_name
-  records = var.aws_route53_record_ofUqq_records
-  ttl     = var.aws_route53_record_ofUqq_ttl
-  type    = var.aws_route53_record_ofUqq_type
-  zone_id = var.aws_route53_record_ofUqq_zone_id
+resource "aws_route53_record" "VfFvt" {
+  name    = var.aws_route53_record_VfFvt_name
+  records = var.aws_route53_record_VfFvt_records
+  ttl     = var.aws_route53_record_VfFvt_ttl
+  type    = var.aws_route53_record_VfFvt_type
+  zone_id = var.aws_route53_record_VfFvt_zone_id
 }
 
-resource "aws_route53_record" "oiLEH" {
-  name    = var.aws_route53_record_oiLEH_name
-  records = var.aws_route53_record_oiLEH_records
-  ttl     = var.aws_route53_record_oiLEH_ttl
-  type    = var.aws_route53_record_oiLEH_type
-  zone_id = var.aws_route53_record_oiLEH_zone_id
+resource "aws_route53_record" "ViMLl" {
+  name    = var.aws_route53_record_ViMLl_name
+  records = var.aws_route53_record_ViMLl_records
+  ttl     = var.aws_route53_record_ViMLl_ttl
+  type    = var.aws_route53_record_ViMLl_type
+  zone_id = var.aws_route53_record_ViMLl_zone_id
 }
 
-resource "aws_route53_record" "pBGxO" {
-  name    = var.aws_route53_record_pBGxO_name
-  records = var.aws_route53_record_pBGxO_records
-  ttl     = var.aws_route53_record_pBGxO_ttl
-  type    = var.aws_route53_record_pBGxO_type
-  zone_id = var.aws_route53_record_pBGxO_zone_id
-}
-
-resource "aws_route53_record" "pIzjz" {
-  name    = var.aws_route53_record_pIzjz_name
-  records = var.aws_route53_record_pIzjz_records
-  ttl     = var.aws_route53_record_pIzjz_ttl
-  type    = var.aws_route53_record_pIzjz_type
-  zone_id = var.aws_route53_record_pIzjz_zone_id
-}
-
-resource "aws_route53_record" "plTEu" {
-  name    = var.aws_route53_record_plTEu_name
-  records = var.aws_route53_record_plTEu_records
-  ttl     = var.aws_route53_record_plTEu_ttl
-  type    = var.aws_route53_record_plTEu_type
-  zone_id = var.aws_route53_record_plTEu_zone_id
-}
-
-resource "aws_route53_record" "plYJl" {
-  name    = var.aws_route53_record_plYJl_name
-  records = var.aws_route53_record_plYJl_records
-  ttl     = var.aws_route53_record_plYJl_ttl
-  type    = var.aws_route53_record_plYJl_type
-  zone_id = var.aws_route53_record_plYJl_zone_id
-}
-
-resource "aws_route53_record" "pzxSY" {
-  name    = var.aws_route53_record_pzxSY_name
-  records = var.aws_route53_record_pzxSY_records
-  ttl     = var.aws_route53_record_pzxSY_ttl
-  type    = var.aws_route53_record_pzxSY_type
-  zone_id = var.aws_route53_record_pzxSY_zone_id
-}
-
-resource "aws_route53_record" "qEGrr" {
-  name    = var.aws_route53_record_qEGrr_name
-  records = var.aws_route53_record_qEGrr_records
-  ttl     = var.aws_route53_record_qEGrr_ttl
-  type    = var.aws_route53_record_qEGrr_type
-  zone_id = var.aws_route53_record_qEGrr_zone_id
-}
-
-resource "aws_route53_record" "qHZTC" {
-  name    = var.aws_route53_record_qHZTC_name
-  records = var.aws_route53_record_qHZTC_records
-  ttl     = var.aws_route53_record_qHZTC_ttl
-  type    = var.aws_route53_record_qHZTC_type
-  zone_id = var.aws_route53_record_qHZTC_zone_id
-}
-
-resource "aws_route53_record" "qJmaj" {
-  name    = var.aws_route53_record_qJmaj_name
-  records = var.aws_route53_record_qJmaj_records
-  ttl     = var.aws_route53_record_qJmaj_ttl
-  type    = var.aws_route53_record_qJmaj_type
-  zone_id = var.aws_route53_record_qJmaj_zone_id
-}
-
-resource "aws_route53_record" "qUbTK" {
-  name    = var.aws_route53_record_qUbTK_name
-  records = var.aws_route53_record_qUbTK_records
-  ttl     = var.aws_route53_record_qUbTK_ttl
-  type    = var.aws_route53_record_qUbTK_type
-  zone_id = var.aws_route53_record_qUbTK_zone_id
-}
-
-resource "aws_route53_record" "qamvz" {
-  name    = var.aws_route53_record_qamvz_name
-  records = var.aws_route53_record_qamvz_records
-  ttl     = var.aws_route53_record_qamvz_ttl
-  type    = var.aws_route53_record_qamvz_type
-  zone_id = var.aws_route53_record_qamvz_zone_id
-}
-
-resource "aws_route53_record" "qbAtl" {
-  name    = var.aws_route53_record_qbAtl_name
-  records = var.aws_route53_record_qbAtl_records
-  ttl     = var.aws_route53_record_qbAtl_ttl
-  type    = var.aws_route53_record_qbAtl_type
-  zone_id = var.aws_route53_record_qbAtl_zone_id
-}
-
-resource "aws_route53_record" "qcSQY" {
-  name    = var.aws_route53_record_qcSQY_name
-  records = var.aws_route53_record_qcSQY_records
-  ttl     = var.aws_route53_record_qcSQY_ttl
-  type    = var.aws_route53_record_qcSQY_type
-  zone_id = var.aws_route53_record_qcSQY_zone_id
-}
-
-resource "aws_route53_record" "qdFXn" {
-  name    = var.aws_route53_record_qdFXn_name
-  records = var.aws_route53_record_qdFXn_records
-  ttl     = var.aws_route53_record_qdFXn_ttl
-  type    = var.aws_route53_record_qdFXn_type
-  zone_id = var.aws_route53_record_qdFXn_zone_id
-}
-
-resource "aws_route53_record" "qpCOI" {
-  name    = var.aws_route53_record_qpCOI_name
-  records = var.aws_route53_record_qpCOI_records
-  ttl     = var.aws_route53_record_qpCOI_ttl
-  type    = var.aws_route53_record_qpCOI_type
-  zone_id = var.aws_route53_record_qpCOI_zone_id
-}
-
-resource "aws_route53_record" "rIPSB" {
-  name    = var.aws_route53_record_rIPSB_name
-  records = var.aws_route53_record_rIPSB_records
-  ttl     = var.aws_route53_record_rIPSB_ttl
-  type    = var.aws_route53_record_rIPSB_type
-  zone_id = var.aws_route53_record_rIPSB_zone_id
-}
-
-resource "aws_route53_record" "rTqjM" {
-  name    = var.aws_route53_record_rTqjM_name
-  records = var.aws_route53_record_rTqjM_records
-  ttl     = var.aws_route53_record_rTqjM_ttl
-  type    = var.aws_route53_record_rTqjM_type
-  zone_id = var.aws_route53_record_rTqjM_zone_id
-}
-
-resource "aws_route53_record" "rcJTx" {
-  name    = var.aws_route53_record_rcJTx_name
-  records = var.aws_route53_record_rcJTx_records
-  ttl     = var.aws_route53_record_rcJTx_ttl
-  type    = var.aws_route53_record_rcJTx_type
-  zone_id = var.aws_route53_record_rcJTx_zone_id
-}
-
-resource "aws_route53_record" "reAII" {
+resource "aws_route53_record" "VlTlP" {
   alias {
-    evaluate_target_health = var.aws_route53_record_reAII_alias_evaluate_target_health
-    name                   = var.aws_route53_record_reAII_alias_name
-    zone_id                = var.aws_route53_record_reAII_alias_zone_id
+    evaluate_target_health = var.aws_route53_record_VlTlP_alias_evaluate_target_health
+    name                   = var.aws_route53_record_VlTlP_alias_name
+    zone_id                = var.aws_route53_record_VlTlP_alias_zone_id
   }
 
-  name    = var.aws_route53_record_reAII_name
-  type    = var.aws_route53_record_reAII_type
-  zone_id = var.aws_route53_record_reAII_zone_id
+  name    = var.aws_route53_record_VlTlP_name
+  type    = var.aws_route53_record_VlTlP_type
+  zone_id = var.aws_route53_record_VlTlP_zone_id
 }
 
-resource "aws_route53_record" "ruzrB" {
-  name    = var.aws_route53_record_ruzrB_name
-  records = var.aws_route53_record_ruzrB_records
-  ttl     = var.aws_route53_record_ruzrB_ttl
-  type    = var.aws_route53_record_ruzrB_type
-  zone_id = var.aws_route53_record_ruzrB_zone_id
+resource "aws_route53_record" "WDAvT" {
+  name    = var.aws_route53_record_WDAvT_name
+  records = var.aws_route53_record_WDAvT_records
+  ttl     = var.aws_route53_record_WDAvT_ttl
+  type    = var.aws_route53_record_WDAvT_type
+  zone_id = var.aws_route53_record_WDAvT_zone_id
 }
 
-resource "aws_route53_record" "sCHWm" {
-  name    = var.aws_route53_record_sCHWm_name
-  records = var.aws_route53_record_sCHWm_records
-  ttl     = var.aws_route53_record_sCHWm_ttl
-  type    = var.aws_route53_record_sCHWm_type
-  zone_id = var.aws_route53_record_sCHWm_zone_id
+resource "aws_route53_record" "WGznz" {
+  name    = var.aws_route53_record_WGznz_name
+  records = var.aws_route53_record_WGznz_records
+  ttl     = var.aws_route53_record_WGznz_ttl
+  type    = var.aws_route53_record_WGznz_type
+  zone_id = var.aws_route53_record_WGznz_zone_id
 }
 
-resource "aws_route53_record" "sHfBB" {
-  name    = var.aws_route53_record_sHfBB_name
-  records = var.aws_route53_record_sHfBB_records
-  ttl     = var.aws_route53_record_sHfBB_ttl
-  type    = var.aws_route53_record_sHfBB_type
-  zone_id = var.aws_route53_record_sHfBB_zone_id
+resource "aws_route53_record" "WHJMy" {
+  name    = var.aws_route53_record_WHJMy_name
+  records = var.aws_route53_record_WHJMy_records
+  ttl     = var.aws_route53_record_WHJMy_ttl
+  type    = var.aws_route53_record_WHJMy_type
+  zone_id = var.aws_route53_record_WHJMy_zone_id
 }
 
-resource "aws_route53_record" "sPYzd" {
-  name    = var.aws_route53_record_sPYzd_name
-  records = var.aws_route53_record_sPYzd_records
-  ttl     = var.aws_route53_record_sPYzd_ttl
-  type    = var.aws_route53_record_sPYzd_type
-  zone_id = var.aws_route53_record_sPYzd_zone_id
+resource "aws_route53_record" "WdBju" {
+  name    = var.aws_route53_record_WdBju_name
+  records = var.aws_route53_record_WdBju_records
+  ttl     = var.aws_route53_record_WdBju_ttl
+  type    = var.aws_route53_record_WdBju_type
+  zone_id = var.aws_route53_record_WdBju_zone_id
 }
 
-resource "aws_route53_record" "sRmPj" {
-  name    = var.aws_route53_record_sRmPj_name
-  records = var.aws_route53_record_sRmPj_records
-  ttl     = var.aws_route53_record_sRmPj_ttl
-  type    = var.aws_route53_record_sRmPj_type
-  zone_id = var.aws_route53_record_sRmPj_zone_id
+resource "aws_route53_record" "WflaS" {
+  name    = var.aws_route53_record_WflaS_name
+  records = var.aws_route53_record_WflaS_records
+  ttl     = var.aws_route53_record_WflaS_ttl
+  type    = var.aws_route53_record_WflaS_type
+  zone_id = var.aws_route53_record_WflaS_zone_id
 }
 
-resource "aws_route53_record" "sRmca" {
-  name    = var.aws_route53_record_sRmca_name
-  records = var.aws_route53_record_sRmca_records
-  ttl     = var.aws_route53_record_sRmca_ttl
-  type    = var.aws_route53_record_sRmca_type
-  zone_id = var.aws_route53_record_sRmca_zone_id
+resource "aws_route53_record" "WoSin" {
+  name    = var.aws_route53_record_WoSin_name
+  records = var.aws_route53_record_WoSin_records
+  ttl     = var.aws_route53_record_WoSin_ttl
+  type    = var.aws_route53_record_WoSin_type
+  zone_id = var.aws_route53_record_WoSin_zone_id
 }
 
-resource "aws_route53_record" "sZPXp" {
-  name    = var.aws_route53_record_sZPXp_name
-  records = var.aws_route53_record_sZPXp_records
-  ttl     = var.aws_route53_record_sZPXp_ttl
-  type    = var.aws_route53_record_sZPXp_type
-  zone_id = var.aws_route53_record_sZPXp_zone_id
+resource "aws_route53_record" "XOKCk" {
+  name    = var.aws_route53_record_XOKCk_name
+  records = var.aws_route53_record_XOKCk_records
+  ttl     = var.aws_route53_record_XOKCk_ttl
+  type    = var.aws_route53_record_XOKCk_type
+  zone_id = var.aws_route53_record_XOKCk_zone_id
 }
 
-resource "aws_route53_record" "soaYL" {
-  name    = var.aws_route53_record_soaYL_name
-  records = var.aws_route53_record_soaYL_records
-  ttl     = var.aws_route53_record_soaYL_ttl
-  type    = var.aws_route53_record_soaYL_type
-  zone_id = var.aws_route53_record_soaYL_zone_id
+resource "aws_route53_record" "XUTeR" {
+  name    = var.aws_route53_record_XUTeR_name
+  records = var.aws_route53_record_XUTeR_records
+  ttl     = var.aws_route53_record_XUTeR_ttl
+  type    = var.aws_route53_record_XUTeR_type
+  zone_id = var.aws_route53_record_XUTeR_zone_id
 }
 
-resource "aws_route53_record" "tFDUf" {
-  name    = var.aws_route53_record_tFDUf_name
-  records = var.aws_route53_record_tFDUf_records
-  ttl     = var.aws_route53_record_tFDUf_ttl
-  type    = var.aws_route53_record_tFDUf_type
-  zone_id = var.aws_route53_record_tFDUf_zone_id
+resource "aws_route53_record" "XUyCK" {
+  name    = var.aws_route53_record_XUyCK_name
+  records = var.aws_route53_record_XUyCK_records
+  ttl     = var.aws_route53_record_XUyCK_ttl
+  type    = var.aws_route53_record_XUyCK_type
+  zone_id = var.aws_route53_record_XUyCK_zone_id
 }
 
-resource "aws_route53_record" "tTIUX" {
-  name    = var.aws_route53_record_tTIUX_name
-  records = var.aws_route53_record_tTIUX_records
-  ttl     = var.aws_route53_record_tTIUX_ttl
-  type    = var.aws_route53_record_tTIUX_type
-  zone_id = var.aws_route53_record_tTIUX_zone_id
+resource "aws_route53_record" "XhiND" {
+  name    = var.aws_route53_record_XhiND_name
+  records = var.aws_route53_record_XhiND_records
+  ttl     = var.aws_route53_record_XhiND_ttl
+  type    = var.aws_route53_record_XhiND_type
+  zone_id = var.aws_route53_record_XhiND_zone_id
 }
 
-resource "aws_route53_record" "tVjpr" {
-  name    = var.aws_route53_record_tVjpr_name
-  records = var.aws_route53_record_tVjpr_records
-  ttl     = var.aws_route53_record_tVjpr_ttl
-  type    = var.aws_route53_record_tVjpr_type
-  zone_id = var.aws_route53_record_tVjpr_zone_id
+resource "aws_route53_record" "XmBYO" {
+  name    = var.aws_route53_record_XmBYO_name
+  records = var.aws_route53_record_XmBYO_records
+  ttl     = var.aws_route53_record_XmBYO_ttl
+  type    = var.aws_route53_record_XmBYO_type
+  zone_id = var.aws_route53_record_XmBYO_zone_id
 }
 
-resource "aws_route53_record" "tVtIe" {
-  name    = var.aws_route53_record_tVtIe_name
-  records = var.aws_route53_record_tVtIe_records
-  ttl     = var.aws_route53_record_tVtIe_ttl
-  type    = var.aws_route53_record_tVtIe_type
-  zone_id = var.aws_route53_record_tVtIe_zone_id
+resource "aws_route53_record" "XrYZX" {
+  name    = var.aws_route53_record_XrYZX_name
+  records = var.aws_route53_record_XrYZX_records
+  ttl     = var.aws_route53_record_XrYZX_ttl
+  type    = var.aws_route53_record_XrYZX_type
+  zone_id = var.aws_route53_record_XrYZX_zone_id
 }
 
-resource "aws_route53_record" "tXDlg" {
-  name    = var.aws_route53_record_tXDlg_name
-  records = var.aws_route53_record_tXDlg_records
-  ttl     = var.aws_route53_record_tXDlg_ttl
-  type    = var.aws_route53_record_tXDlg_type
-  zone_id = var.aws_route53_record_tXDlg_zone_id
+resource "aws_route53_record" "YBeoO" {
+  name    = var.aws_route53_record_YBeoO_name
+  records = var.aws_route53_record_YBeoO_records
+  ttl     = var.aws_route53_record_YBeoO_ttl
+  type    = var.aws_route53_record_YBeoO_type
+  zone_id = var.aws_route53_record_YBeoO_zone_id
 }
 
-resource "aws_route53_record" "tZCaZ" {
-  name    = var.aws_route53_record_tZCaZ_name
-  records = var.aws_route53_record_tZCaZ_records
-  ttl     = var.aws_route53_record_tZCaZ_ttl
-  type    = var.aws_route53_record_tZCaZ_type
-  zone_id = var.aws_route53_record_tZCaZ_zone_id
+resource "aws_route53_record" "YPpgk" {
+  name    = var.aws_route53_record_YPpgk_name
+  records = var.aws_route53_record_YPpgk_records
+  ttl     = var.aws_route53_record_YPpgk_ttl
+  type    = var.aws_route53_record_YPpgk_type
+  zone_id = var.aws_route53_record_YPpgk_zone_id
 }
 
-resource "aws_route53_record" "tergi" {
-  name    = var.aws_route53_record_tergi_name
-  records = var.aws_route53_record_tergi_records
-  ttl     = var.aws_route53_record_tergi_ttl
-  type    = var.aws_route53_record_tergi_type
-  zone_id = var.aws_route53_record_tergi_zone_id
+resource "aws_route53_record" "YVqLO" {
+  name    = var.aws_route53_record_YVqLO_name
+  records = var.aws_route53_record_YVqLO_records
+  ttl     = var.aws_route53_record_YVqLO_ttl
+  type    = var.aws_route53_record_YVqLO_type
+  zone_id = var.aws_route53_record_YVqLO_zone_id
 }
 
-resource "aws_route53_record" "tiVNx" {
-  name    = var.aws_route53_record_tiVNx_name
-  records = var.aws_route53_record_tiVNx_records
-  ttl     = var.aws_route53_record_tiVNx_ttl
-  type    = var.aws_route53_record_tiVNx_type
-  zone_id = var.aws_route53_record_tiVNx_zone_id
+resource "aws_route53_record" "YodaA" {
+  name    = var.aws_route53_record_YodaA_name
+  records = var.aws_route53_record_YodaA_records
+  ttl     = var.aws_route53_record_YodaA_ttl
+  type    = var.aws_route53_record_YodaA_type
+  zone_id = var.aws_route53_record_YodaA_zone_id
 }
 
-resource "aws_route53_record" "tnGOL" {
-  name    = var.aws_route53_record_tnGOL_name
-  records = var.aws_route53_record_tnGOL_records
-  ttl     = var.aws_route53_record_tnGOL_ttl
-  type    = var.aws_route53_record_tnGOL_type
-  zone_id = var.aws_route53_record_tnGOL_zone_id
+resource "aws_route53_record" "YzTFf" {
+  name    = var.aws_route53_record_YzTFf_name
+  records = var.aws_route53_record_YzTFf_records
+  ttl     = var.aws_route53_record_YzTFf_ttl
+  type    = var.aws_route53_record_YzTFf_type
+  zone_id = var.aws_route53_record_YzTFf_zone_id
 }
 
-resource "aws_route53_record" "tpdAp" {
-  name    = var.aws_route53_record_tpdAp_name
-  records = var.aws_route53_record_tpdAp_records
-  ttl     = var.aws_route53_record_tpdAp_ttl
-  type    = var.aws_route53_record_tpdAp_type
-  zone_id = var.aws_route53_record_tpdAp_zone_id
+resource "aws_route53_record" "ZVVMw" {
+  name    = var.aws_route53_record_ZVVMw_name
+  records = var.aws_route53_record_ZVVMw_records
+  ttl     = var.aws_route53_record_ZVVMw_ttl
+  type    = var.aws_route53_record_ZVVMw_type
+  zone_id = var.aws_route53_record_ZVVMw_zone_id
 }
 
-resource "aws_route53_record" "twhnD" {
-  name    = var.aws_route53_record_twhnD_name
-  records = var.aws_route53_record_twhnD_records
-  ttl     = var.aws_route53_record_twhnD_ttl
-  type    = var.aws_route53_record_twhnD_type
-  zone_id = var.aws_route53_record_twhnD_zone_id
+resource "aws_route53_record" "ZVjYD" {
+  name    = var.aws_route53_record_ZVjYD_name
+  records = var.aws_route53_record_ZVjYD_records
+  ttl     = var.aws_route53_record_ZVjYD_ttl
+  type    = var.aws_route53_record_ZVjYD_type
+  zone_id = var.aws_route53_record_ZVjYD_zone_id
 }
 
-resource "aws_route53_record" "uAmap" {
-  name    = var.aws_route53_record_uAmap_name
-  records = var.aws_route53_record_uAmap_records
-  ttl     = var.aws_route53_record_uAmap_ttl
-  type    = var.aws_route53_record_uAmap_type
-  zone_id = var.aws_route53_record_uAmap_zone_id
+resource "aws_route53_record" "ZXbml" {
+  name    = var.aws_route53_record_ZXbml_name
+  records = var.aws_route53_record_ZXbml_records
+  ttl     = var.aws_route53_record_ZXbml_ttl
+  type    = var.aws_route53_record_ZXbml_type
+  zone_id = var.aws_route53_record_ZXbml_zone_id
 }
 
-resource "aws_route53_record" "uDQsf" {
-  name    = var.aws_route53_record_uDQsf_name
-  records = var.aws_route53_record_uDQsf_records
-  ttl     = var.aws_route53_record_uDQsf_ttl
-  type    = var.aws_route53_record_uDQsf_type
-  zone_id = var.aws_route53_record_uDQsf_zone_id
+resource "aws_route53_record" "ZZhAF" {
+  name    = var.aws_route53_record_ZZhAF_name
+  records = var.aws_route53_record_ZZhAF_records
+  ttl     = var.aws_route53_record_ZZhAF_ttl
+  type    = var.aws_route53_record_ZZhAF_type
+  zone_id = var.aws_route53_record_ZZhAF_zone_id
 }
 
-resource "aws_route53_record" "uVfLm" {
-  name    = var.aws_route53_record_uVfLm_name
-  records = var.aws_route53_record_uVfLm_records
-  ttl     = var.aws_route53_record_uVfLm_ttl
-  type    = var.aws_route53_record_uVfLm_type
-  zone_id = var.aws_route53_record_uVfLm_zone_id
+resource "aws_route53_record" "ZtddR" {
+  name    = var.aws_route53_record_ZtddR_name
+  records = var.aws_route53_record_ZtddR_records
+  ttl     = var.aws_route53_record_ZtddR_ttl
+  type    = var.aws_route53_record_ZtddR_type
+  zone_id = var.aws_route53_record_ZtddR_zone_id
 }
 
-resource "aws_route53_record" "uZsDh" {
-  name    = var.aws_route53_record_uZsDh_name
-  records = var.aws_route53_record_uZsDh_records
-  ttl     = var.aws_route53_record_uZsDh_ttl
-  type    = var.aws_route53_record_uZsDh_type
-  zone_id = var.aws_route53_record_uZsDh_zone_id
+resource "aws_route53_record" "Zzfmw" {
+  name    = var.aws_route53_record_Zzfmw_name
+  records = var.aws_route53_record_Zzfmw_records
+  ttl     = var.aws_route53_record_Zzfmw_ttl
+  type    = var.aws_route53_record_Zzfmw_type
+  zone_id = var.aws_route53_record_Zzfmw_zone_id
 }
 
-resource "aws_route53_record" "udPxv" {
-  name    = var.aws_route53_record_udPxv_name
-  records = var.aws_route53_record_udPxv_records
-  ttl     = var.aws_route53_record_udPxv_ttl
-  type    = var.aws_route53_record_udPxv_type
-  zone_id = var.aws_route53_record_udPxv_zone_id
+resource "aws_route53_record" "aSzsG" {
+  name    = var.aws_route53_record_aSzsG_name
+  records = var.aws_route53_record_aSzsG_records
+  ttl     = var.aws_route53_record_aSzsG_ttl
+  type    = var.aws_route53_record_aSzsG_type
+  zone_id = var.aws_route53_record_aSzsG_zone_id
 }
 
-resource "aws_route53_record" "uicsd" {
-  name    = var.aws_route53_record_uicsd_name
-  records = var.aws_route53_record_uicsd_records
-  ttl     = var.aws_route53_record_uicsd_ttl
-  type    = var.aws_route53_record_uicsd_type
-  zone_id = var.aws_route53_record_uicsd_zone_id
+resource "aws_route53_record" "anoAt" {
+  name    = var.aws_route53_record_anoAt_name
+  records = var.aws_route53_record_anoAt_records
+  ttl     = var.aws_route53_record_anoAt_ttl
+  type    = var.aws_route53_record_anoAt_type
+  zone_id = var.aws_route53_record_anoAt_zone_id
 }
 
-resource "aws_route53_record" "ujsrC" {
-  name    = var.aws_route53_record_ujsrC_name
-  records = var.aws_route53_record_ujsrC_records
-  ttl     = var.aws_route53_record_ujsrC_ttl
-  type    = var.aws_route53_record_ujsrC_type
-  zone_id = var.aws_route53_record_ujsrC_zone_id
+resource "aws_route53_record" "atBQQ" {
+  name    = var.aws_route53_record_atBQQ_name
+  records = var.aws_route53_record_atBQQ_records
+  ttl     = var.aws_route53_record_atBQQ_ttl
+  type    = var.aws_route53_record_atBQQ_type
+  zone_id = var.aws_route53_record_atBQQ_zone_id
 }
 
-resource "aws_route53_record" "uqQdI" {
-  name    = var.aws_route53_record_uqQdI_name
-  records = var.aws_route53_record_uqQdI_records
-  ttl     = var.aws_route53_record_uqQdI_ttl
-  type    = var.aws_route53_record_uqQdI_type
-  zone_id = var.aws_route53_record_uqQdI_zone_id
+resource "aws_route53_record" "bNAtL" {
+  name    = var.aws_route53_record_bNAtL_name
+  records = var.aws_route53_record_bNAtL_records
+  ttl     = var.aws_route53_record_bNAtL_ttl
+  type    = var.aws_route53_record_bNAtL_type
+  zone_id = var.aws_route53_record_bNAtL_zone_id
 }
 
-resource "aws_route53_record" "vByWa" {
-  name    = var.aws_route53_record_vByWa_name
-  records = var.aws_route53_record_vByWa_records
-  ttl     = var.aws_route53_record_vByWa_ttl
-  type    = var.aws_route53_record_vByWa_type
-  zone_id = var.aws_route53_record_vByWa_zone_id
+resource "aws_route53_record" "bRntP" {
+  name    = var.aws_route53_record_bRntP_name
+  records = var.aws_route53_record_bRntP_records
+  ttl     = var.aws_route53_record_bRntP_ttl
+  type    = var.aws_route53_record_bRntP_type
+  zone_id = var.aws_route53_record_bRntP_zone_id
 }
 
-resource "aws_route53_record" "vHVQq" {
-  name    = var.aws_route53_record_vHVQq_name
-  records = var.aws_route53_record_vHVQq_records
-  ttl     = var.aws_route53_record_vHVQq_ttl
-  type    = var.aws_route53_record_vHVQq_type
-  zone_id = var.aws_route53_record_vHVQq_zone_id
+resource "aws_route53_record" "bTPVV" {
+  name    = var.aws_route53_record_bTPVV_name
+  records = var.aws_route53_record_bTPVV_records
+  ttl     = var.aws_route53_record_bTPVV_ttl
+  type    = var.aws_route53_record_bTPVV_type
+  zone_id = var.aws_route53_record_bTPVV_zone_id
 }
 
-resource "aws_route53_record" "vHZRi" {
-  name    = var.aws_route53_record_vHZRi_name
-  records = var.aws_route53_record_vHZRi_records
-  ttl     = var.aws_route53_record_vHZRi_ttl
-  type    = var.aws_route53_record_vHZRi_type
-  zone_id = var.aws_route53_record_vHZRi_zone_id
+resource "aws_route53_record" "baSyT" {
+  name    = var.aws_route53_record_baSyT_name
+  records = var.aws_route53_record_baSyT_records
+  ttl     = var.aws_route53_record_baSyT_ttl
+  type    = var.aws_route53_record_baSyT_type
+  zone_id = var.aws_route53_record_baSyT_zone_id
 }
 
-resource "aws_route53_record" "vIona" {
-  name    = var.aws_route53_record_vIona_name
-  records = var.aws_route53_record_vIona_records
-  ttl     = var.aws_route53_record_vIona_ttl
-  type    = var.aws_route53_record_vIona_type
-  zone_id = var.aws_route53_record_vIona_zone_id
+resource "aws_route53_record" "bkNaK" {
+  name    = var.aws_route53_record_bkNaK_name
+  records = var.aws_route53_record_bkNaK_records
+  ttl     = var.aws_route53_record_bkNaK_ttl
+  type    = var.aws_route53_record_bkNaK_type
+  zone_id = var.aws_route53_record_bkNaK_zone_id
 }
 
-resource "aws_route53_record" "vYvNB" {
-  name    = var.aws_route53_record_vYvNB_name
-  records = var.aws_route53_record_vYvNB_records
-  ttl     = var.aws_route53_record_vYvNB_ttl
-  type    = var.aws_route53_record_vYvNB_type
-  zone_id = var.aws_route53_record_vYvNB_zone_id
+resource "aws_route53_record" "bqpKu" {
+  name    = var.aws_route53_record_bqpKu_name
+  records = var.aws_route53_record_bqpKu_records
+  ttl     = var.aws_route53_record_bqpKu_ttl
+  type    = var.aws_route53_record_bqpKu_type
+  zone_id = var.aws_route53_record_bqpKu_zone_id
 }
 
-resource "aws_route53_record" "vbKjd" {
-  name    = var.aws_route53_record_vbKjd_name
-  records = var.aws_route53_record_vbKjd_records
-  ttl     = var.aws_route53_record_vbKjd_ttl
-  type    = var.aws_route53_record_vbKjd_type
-  zone_id = var.aws_route53_record_vbKjd_zone_id
+resource "aws_route53_record" "btelq" {
+  name    = var.aws_route53_record_btelq_name
+  records = var.aws_route53_record_btelq_records
+  ttl     = var.aws_route53_record_btelq_ttl
+  type    = var.aws_route53_record_btelq_type
+  zone_id = var.aws_route53_record_btelq_zone_id
 }
 
-resource "aws_route53_record" "veWzW" {
-  name    = var.aws_route53_record_veWzW_name
-  records = var.aws_route53_record_veWzW_records
-  ttl     = var.aws_route53_record_veWzW_ttl
-  type    = var.aws_route53_record_veWzW_type
-  zone_id = var.aws_route53_record_veWzW_zone_id
+resource "aws_route53_record" "cNRCL" {
+  name    = var.aws_route53_record_cNRCL_name
+  records = var.aws_route53_record_cNRCL_records
+  ttl     = var.aws_route53_record_cNRCL_ttl
+  type    = var.aws_route53_record_cNRCL_type
+  zone_id = var.aws_route53_record_cNRCL_zone_id
 }
 
-resource "aws_route53_record" "vzAtZ" {
-  name    = var.aws_route53_record_vzAtZ_name
-  records = var.aws_route53_record_vzAtZ_records
-  ttl     = var.aws_route53_record_vzAtZ_ttl
-  type    = var.aws_route53_record_vzAtZ_type
-  zone_id = var.aws_route53_record_vzAtZ_zone_id
+resource "aws_route53_record" "cWKNk" {
+  name    = var.aws_route53_record_cWKNk_name
+  records = var.aws_route53_record_cWKNk_records
+  ttl     = var.aws_route53_record_cWKNk_ttl
+  type    = var.aws_route53_record_cWKNk_type
+  zone_id = var.aws_route53_record_cWKNk_zone_id
 }
 
-resource "aws_route53_record" "vzaon" {
-  name    = var.aws_route53_record_vzaon_name
-  records = var.aws_route53_record_vzaon_records
-  ttl     = var.aws_route53_record_vzaon_ttl
-  type    = var.aws_route53_record_vzaon_type
-  zone_id = var.aws_route53_record_vzaon_zone_id
+resource "aws_route53_record" "cdCsR" {
+  name    = var.aws_route53_record_cdCsR_name
+  records = var.aws_route53_record_cdCsR_records
+  ttl     = var.aws_route53_record_cdCsR_ttl
+  type    = var.aws_route53_record_cdCsR_type
+  zone_id = var.aws_route53_record_cdCsR_zone_id
 }
 
-resource "aws_route53_record" "wElyl" {
-  name    = var.aws_route53_record_wElyl_name
-  records = var.aws_route53_record_wElyl_records
-  ttl     = var.aws_route53_record_wElyl_ttl
-  type    = var.aws_route53_record_wElyl_type
-  zone_id = var.aws_route53_record_wElyl_zone_id
+resource "aws_route53_record" "cgUIh" {
+  name    = var.aws_route53_record_cgUIh_name
+  records = var.aws_route53_record_cgUIh_records
+  ttl     = var.aws_route53_record_cgUIh_ttl
+  type    = var.aws_route53_record_cgUIh_type
+  zone_id = var.aws_route53_record_cgUIh_zone_id
 }
 
-resource "aws_route53_record" "wJWWk" {
-  name    = var.aws_route53_record_wJWWk_name
-  records = var.aws_route53_record_wJWWk_records
-  ttl     = var.aws_route53_record_wJWWk_ttl
-  type    = var.aws_route53_record_wJWWk_type
-  zone_id = var.aws_route53_record_wJWWk_zone_id
+resource "aws_route53_record" "clEkY" {
+  name    = var.aws_route53_record_clEkY_name
+  records = var.aws_route53_record_clEkY_records
+  ttl     = var.aws_route53_record_clEkY_ttl
+  type    = var.aws_route53_record_clEkY_type
+  zone_id = var.aws_route53_record_clEkY_zone_id
 }
 
-resource "aws_route53_record" "wLJLv" {
-  name    = var.aws_route53_record_wLJLv_name
-  records = var.aws_route53_record_wLJLv_records
-  ttl     = var.aws_route53_record_wLJLv_ttl
-  type    = var.aws_route53_record_wLJLv_type
-  zone_id = var.aws_route53_record_wLJLv_zone_id
+resource "aws_route53_record" "dBPLQ" {
+  name    = var.aws_route53_record_dBPLQ_name
+  records = var.aws_route53_record_dBPLQ_records
+  ttl     = var.aws_route53_record_dBPLQ_ttl
+  type    = var.aws_route53_record_dBPLQ_type
+  zone_id = var.aws_route53_record_dBPLQ_zone_id
 }
 
-resource "aws_route53_record" "wqbqd" {
-  name    = var.aws_route53_record_wqbqd_name
-  records = var.aws_route53_record_wqbqd_records
-  ttl     = var.aws_route53_record_wqbqd_ttl
-  type    = var.aws_route53_record_wqbqd_type
-  zone_id = var.aws_route53_record_wqbqd_zone_id
+resource "aws_route53_record" "dEuDZ" {
+  name    = var.aws_route53_record_dEuDZ_name
+  records = var.aws_route53_record_dEuDZ_records
+  ttl     = var.aws_route53_record_dEuDZ_ttl
+  type    = var.aws_route53_record_dEuDZ_type
+  zone_id = var.aws_route53_record_dEuDZ_zone_id
 }
 
-resource "aws_route53_record" "xMazE" {
-  name    = var.aws_route53_record_xMazE_name
-  records = var.aws_route53_record_xMazE_records
-  ttl     = var.aws_route53_record_xMazE_ttl
-  type    = var.aws_route53_record_xMazE_type
-  zone_id = var.aws_route53_record_xMazE_zone_id
+resource "aws_route53_record" "dXHoc" {
+  name    = var.aws_route53_record_dXHoc_name
+  records = var.aws_route53_record_dXHoc_records
+  ttl     = var.aws_route53_record_dXHoc_ttl
+  type    = var.aws_route53_record_dXHoc_type
+  zone_id = var.aws_route53_record_dXHoc_zone_id
 }
 
-resource "aws_route53_record" "xTzEh" {
-  name    = var.aws_route53_record_xTzEh_name
-  records = var.aws_route53_record_xTzEh_records
-  ttl     = var.aws_route53_record_xTzEh_ttl
-  type    = var.aws_route53_record_xTzEh_type
-  zone_id = var.aws_route53_record_xTzEh_zone_id
+resource "aws_route53_record" "dfBLX" {
+  name    = var.aws_route53_record_dfBLX_name
+  records = var.aws_route53_record_dfBLX_records
+  ttl     = var.aws_route53_record_dfBLX_ttl
+  type    = var.aws_route53_record_dfBLX_type
+  zone_id = var.aws_route53_record_dfBLX_zone_id
 }
 
-resource "aws_route53_record" "xdKLc" {
-  name    = var.aws_route53_record_xdKLc_name
-  records = var.aws_route53_record_xdKLc_records
-  ttl     = var.aws_route53_record_xdKLc_ttl
-  type    = var.aws_route53_record_xdKLc_type
-  zone_id = var.aws_route53_record_xdKLc_zone_id
+resource "aws_route53_record" "dfuyZ" {
+  name    = var.aws_route53_record_dfuyZ_name
+  records = var.aws_route53_record_dfuyZ_records
+  ttl     = var.aws_route53_record_dfuyZ_ttl
+  type    = var.aws_route53_record_dfuyZ_type
+  zone_id = var.aws_route53_record_dfuyZ_zone_id
 }
 
-resource "aws_route53_record" "xgabF" {
-  name    = var.aws_route53_record_xgabF_name
-  records = var.aws_route53_record_xgabF_records
-  ttl     = var.aws_route53_record_xgabF_ttl
-  type    = var.aws_route53_record_xgabF_type
-  zone_id = var.aws_route53_record_xgabF_zone_id
+resource "aws_route53_record" "djcwh" {
+  name    = var.aws_route53_record_djcwh_name
+  records = var.aws_route53_record_djcwh_records
+  ttl     = var.aws_route53_record_djcwh_ttl
+  type    = var.aws_route53_record_djcwh_type
+  zone_id = var.aws_route53_record_djcwh_zone_id
 }
 
-resource "aws_route53_record" "xociR" {
-  name    = var.aws_route53_record_xociR_name
-  records = var.aws_route53_record_xociR_records
-  ttl     = var.aws_route53_record_xociR_ttl
-  type    = var.aws_route53_record_xociR_type
-  zone_id = var.aws_route53_record_xociR_zone_id
+resource "aws_route53_record" "drdMO" {
+  name    = var.aws_route53_record_drdMO_name
+  records = var.aws_route53_record_drdMO_records
+  ttl     = var.aws_route53_record_drdMO_ttl
+  type    = var.aws_route53_record_drdMO_type
+  zone_id = var.aws_route53_record_drdMO_zone_id
 }
 
-resource "aws_route53_record" "xzxwF" {
-  name    = var.aws_route53_record_xzxwF_name
-  records = var.aws_route53_record_xzxwF_records
-  ttl     = var.aws_route53_record_xzxwF_ttl
-  type    = var.aws_route53_record_xzxwF_type
-  zone_id = var.aws_route53_record_xzxwF_zone_id
+resource "aws_route53_record" "eNSIp" {
+  name    = var.aws_route53_record_eNSIp_name
+  records = var.aws_route53_record_eNSIp_records
+  ttl     = var.aws_route53_record_eNSIp_ttl
+  type    = var.aws_route53_record_eNSIp_type
+  zone_id = var.aws_route53_record_eNSIp_zone_id
 }
 
-resource "aws_route53_record" "yERCd" {
-  name    = var.aws_route53_record_yERCd_name
-  records = var.aws_route53_record_yERCd_records
-  ttl     = var.aws_route53_record_yERCd_ttl
-  type    = var.aws_route53_record_yERCd_type
-  zone_id = var.aws_route53_record_yERCd_zone_id
+resource "aws_route53_record" "eSmBL" {
+  name    = var.aws_route53_record_eSmBL_name
+  records = var.aws_route53_record_eSmBL_records
+  ttl     = var.aws_route53_record_eSmBL_ttl
+  type    = var.aws_route53_record_eSmBL_type
+  zone_id = var.aws_route53_record_eSmBL_zone_id
 }
 
-resource "aws_route53_record" "yFTFB" {
-  name    = var.aws_route53_record_yFTFB_name
-  records = var.aws_route53_record_yFTFB_records
-  ttl     = var.aws_route53_record_yFTFB_ttl
-  type    = var.aws_route53_record_yFTFB_type
-  zone_id = var.aws_route53_record_yFTFB_zone_id
+resource "aws_route53_record" "eUdvm" {
+  name    = var.aws_route53_record_eUdvm_name
+  records = var.aws_route53_record_eUdvm_records
+  ttl     = var.aws_route53_record_eUdvm_ttl
+  type    = var.aws_route53_record_eUdvm_type
+  zone_id = var.aws_route53_record_eUdvm_zone_id
 }
 
-resource "aws_route53_record" "yjmKx" {
-  name    = var.aws_route53_record_yjmKx_name
-  records = var.aws_route53_record_yjmKx_records
-  ttl     = var.aws_route53_record_yjmKx_ttl
-  type    = var.aws_route53_record_yjmKx_type
-  zone_id = var.aws_route53_record_yjmKx_zone_id
+resource "aws_route53_record" "ehuaH" {
+  name    = var.aws_route53_record_ehuaH_name
+  records = var.aws_route53_record_ehuaH_records
+  ttl     = var.aws_route53_record_ehuaH_ttl
+  type    = var.aws_route53_record_ehuaH_type
+  zone_id = var.aws_route53_record_ehuaH_zone_id
 }
 
-resource "aws_route53_record" "yrJnG" {
-  name    = var.aws_route53_record_yrJnG_name
-  records = var.aws_route53_record_yrJnG_records
-  ttl     = var.aws_route53_record_yrJnG_ttl
-  type    = var.aws_route53_record_yrJnG_type
-  zone_id = var.aws_route53_record_yrJnG_zone_id
+resource "aws_route53_record" "eknkM" {
+  name    = var.aws_route53_record_eknkM_name
+  records = var.aws_route53_record_eknkM_records
+  ttl     = var.aws_route53_record_eknkM_ttl
+  type    = var.aws_route53_record_eknkM_type
+  zone_id = var.aws_route53_record_eknkM_zone_id
 }
 
-resource "aws_route53_record" "zFLZx" {
-  name    = var.aws_route53_record_zFLZx_name
-  records = var.aws_route53_record_zFLZx_records
-  ttl     = var.aws_route53_record_zFLZx_ttl
-  type    = var.aws_route53_record_zFLZx_type
-  zone_id = var.aws_route53_record_zFLZx_zone_id
+resource "aws_route53_record" "eoFgU" {
+  name    = var.aws_route53_record_eoFgU_name
+  records = var.aws_route53_record_eoFgU_records
+  ttl     = var.aws_route53_record_eoFgU_ttl
+  type    = var.aws_route53_record_eoFgU_type
+  zone_id = var.aws_route53_record_eoFgU_zone_id
 }
 
-resource "aws_route53_record" "zLHHJ" {
-  name    = var.aws_route53_record_zLHHJ_name
-  records = var.aws_route53_record_zLHHJ_records
-  ttl     = var.aws_route53_record_zLHHJ_ttl
-  type    = var.aws_route53_record_zLHHJ_type
-  zone_id = var.aws_route53_record_zLHHJ_zone_id
+resource "aws_route53_record" "etKSE" {
+  name    = var.aws_route53_record_etKSE_name
+  records = var.aws_route53_record_etKSE_records
+  ttl     = var.aws_route53_record_etKSE_ttl
+  type    = var.aws_route53_record_etKSE_type
+  zone_id = var.aws_route53_record_etKSE_zone_id
 }
 
-resource "aws_route53_record" "zfbIE" {
-  name    = var.aws_route53_record_zfbIE_name
-  records = var.aws_route53_record_zfbIE_records
-  ttl     = var.aws_route53_record_zfbIE_ttl
-  type    = var.aws_route53_record_zfbIE_type
-  zone_id = var.aws_route53_record_zfbIE_zone_id
+resource "aws_route53_record" "evBTC" {
+  name    = var.aws_route53_record_evBTC_name
+  records = var.aws_route53_record_evBTC_records
+  ttl     = var.aws_route53_record_evBTC_ttl
+  type    = var.aws_route53_record_evBTC_type
+  zone_id = var.aws_route53_record_evBTC_zone_id
 }
 
-resource "aws_route53_record" "zjEFh" {
-  name    = var.aws_route53_record_zjEFh_name
-  records = var.aws_route53_record_zjEFh_records
-  ttl     = var.aws_route53_record_zjEFh_ttl
-  type    = var.aws_route53_record_zjEFh_type
-  zone_id = var.aws_route53_record_zjEFh_zone_id
+resource "aws_route53_record" "ewILL" {
+  name    = var.aws_route53_record_ewILL_name
+  records = var.aws_route53_record_ewILL_records
+  ttl     = var.aws_route53_record_ewILL_ttl
+  type    = var.aws_route53_record_ewILL_type
+  zone_id = var.aws_route53_record_ewILL_zone_id
 }
 
-resource "aws_route53_record" "zlyrp" {
-  name    = var.aws_route53_record_zlyrp_name
-  records = var.aws_route53_record_zlyrp_records
-  ttl     = var.aws_route53_record_zlyrp_ttl
-  type    = var.aws_route53_record_zlyrp_type
-  zone_id = var.aws_route53_record_zlyrp_zone_id
+resource "aws_route53_record" "fZEYq" {
+  name    = var.aws_route53_record_fZEYq_name
+  records = var.aws_route53_record_fZEYq_records
+  ttl     = var.aws_route53_record_fZEYq_ttl
+  type    = var.aws_route53_record_fZEYq_type
+  zone_id = var.aws_route53_record_fZEYq_zone_id
 }
 
-resource "aws_route53_record" "znqvd" {
-  name    = var.aws_route53_record_znqvd_name
-  records = var.aws_route53_record_znqvd_records
-  ttl     = var.aws_route53_record_znqvd_ttl
-  type    = var.aws_route53_record_znqvd_type
-  zone_id = var.aws_route53_record_znqvd_zone_id
+resource "aws_route53_record" "fqpxq" {
+  name    = var.aws_route53_record_fqpxq_name
+  records = var.aws_route53_record_fqpxq_records
+  ttl     = var.aws_route53_record_fqpxq_ttl
+  type    = var.aws_route53_record_fqpxq_type
+  zone_id = var.aws_route53_record_fqpxq_zone_id
 }
 
-resource "aws_route53_record" "zwTGm" {
-  name    = var.aws_route53_record_zwTGm_name
-  records = var.aws_route53_record_zwTGm_records
-  ttl     = var.aws_route53_record_zwTGm_ttl
-  type    = var.aws_route53_record_zwTGm_type
-  zone_id = var.aws_route53_record_zwTGm_zone_id
+resource "aws_route53_record" "gFsgi" {
+  name    = var.aws_route53_record_gFsgi_name
+  records = var.aws_route53_record_gFsgi_records
+  ttl     = var.aws_route53_record_gFsgi_ttl
+  type    = var.aws_route53_record_gFsgi_type
+  zone_id = var.aws_route53_record_gFsgi_zone_id
 }
 
-resource "aws_route53_zone" "AkBOU" {
+resource "aws_route53_record" "gPvjh" {
+  name    = var.aws_route53_record_gPvjh_name
+  records = var.aws_route53_record_gPvjh_records
+  ttl     = var.aws_route53_record_gPvjh_ttl
+  type    = var.aws_route53_record_gPvjh_type
+  zone_id = var.aws_route53_record_gPvjh_zone_id
+}
+
+resource "aws_route53_record" "gTKDV" {
+  name    = var.aws_route53_record_gTKDV_name
+  records = var.aws_route53_record_gTKDV_records
+  ttl     = var.aws_route53_record_gTKDV_ttl
+  type    = var.aws_route53_record_gTKDV_type
+  zone_id = var.aws_route53_record_gTKDV_zone_id
+}
+
+resource "aws_route53_record" "gbzhj" {
+  name    = var.aws_route53_record_gbzhj_name
+  records = var.aws_route53_record_gbzhj_records
+  ttl     = var.aws_route53_record_gbzhj_ttl
+  type    = var.aws_route53_record_gbzhj_type
+  zone_id = var.aws_route53_record_gbzhj_zone_id
+}
+
+resource "aws_route53_record" "gfJUy" {
+  name    = var.aws_route53_record_gfJUy_name
+  records = var.aws_route53_record_gfJUy_records
+  ttl     = var.aws_route53_record_gfJUy_ttl
+  type    = var.aws_route53_record_gfJUy_type
+  zone_id = var.aws_route53_record_gfJUy_zone_id
+}
+
+resource "aws_route53_record" "gkCGq" {
+  name    = var.aws_route53_record_gkCGq_name
+  records = var.aws_route53_record_gkCGq_records
+  ttl     = var.aws_route53_record_gkCGq_ttl
+  type    = var.aws_route53_record_gkCGq_type
+  zone_id = var.aws_route53_record_gkCGq_zone_id
+}
+
+resource "aws_route53_record" "gkPuI" {
+  name    = var.aws_route53_record_gkPuI_name
+  records = var.aws_route53_record_gkPuI_records
+  ttl     = var.aws_route53_record_gkPuI_ttl
+  type    = var.aws_route53_record_gkPuI_type
+  zone_id = var.aws_route53_record_gkPuI_zone_id
+}
+
+resource "aws_route53_record" "gmVHt" {
+  name    = var.aws_route53_record_gmVHt_name
+  records = var.aws_route53_record_gmVHt_records
+  ttl     = var.aws_route53_record_gmVHt_ttl
+  type    = var.aws_route53_record_gmVHt_type
+  zone_id = var.aws_route53_record_gmVHt_zone_id
+}
+
+resource "aws_route53_record" "gqeQE" {
+  name    = var.aws_route53_record_gqeQE_name
+  records = var.aws_route53_record_gqeQE_records
+  ttl     = var.aws_route53_record_gqeQE_ttl
+  type    = var.aws_route53_record_gqeQE_type
+  zone_id = var.aws_route53_record_gqeQE_zone_id
+}
+
+resource "aws_route53_record" "gsXBV" {
+  name    = var.aws_route53_record_gsXBV_name
+  records = var.aws_route53_record_gsXBV_records
+  ttl     = var.aws_route53_record_gsXBV_ttl
+  type    = var.aws_route53_record_gsXBV_type
+  zone_id = var.aws_route53_record_gsXBV_zone_id
+}
+
+resource "aws_route53_record" "hPbUU" {
+  name    = var.aws_route53_record_hPbUU_name
+  records = var.aws_route53_record_hPbUU_records
+  ttl     = var.aws_route53_record_hPbUU_ttl
+  type    = var.aws_route53_record_hPbUU_type
+  zone_id = var.aws_route53_record_hPbUU_zone_id
+}
+
+resource "aws_route53_record" "hToWZ" {
+  name    = var.aws_route53_record_hToWZ_name
+  records = var.aws_route53_record_hToWZ_records
+  ttl     = var.aws_route53_record_hToWZ_ttl
+  type    = var.aws_route53_record_hToWZ_type
+  zone_id = var.aws_route53_record_hToWZ_zone_id
+}
+
+resource "aws_route53_record" "hvTZm" {
+  name    = var.aws_route53_record_hvTZm_name
+  records = var.aws_route53_record_hvTZm_records
+  ttl     = var.aws_route53_record_hvTZm_ttl
+  type    = var.aws_route53_record_hvTZm_type
+  zone_id = var.aws_route53_record_hvTZm_zone_id
+}
+
+resource "aws_route53_record" "iHbHf" {
+  name    = var.aws_route53_record_iHbHf_name
+  records = var.aws_route53_record_iHbHf_records
+  ttl     = var.aws_route53_record_iHbHf_ttl
+  type    = var.aws_route53_record_iHbHf_type
+  zone_id = var.aws_route53_record_iHbHf_zone_id
+}
+
+resource "aws_route53_record" "iJGEn" {
+  name    = var.aws_route53_record_iJGEn_name
+  records = var.aws_route53_record_iJGEn_records
+  ttl     = var.aws_route53_record_iJGEn_ttl
+  type    = var.aws_route53_record_iJGEn_type
+  zone_id = var.aws_route53_record_iJGEn_zone_id
+}
+
+resource "aws_route53_record" "iRcXA" {
+  name    = var.aws_route53_record_iRcXA_name
+  records = var.aws_route53_record_iRcXA_records
+  ttl     = var.aws_route53_record_iRcXA_ttl
+  type    = var.aws_route53_record_iRcXA_type
+  zone_id = var.aws_route53_record_iRcXA_zone_id
+}
+
+resource "aws_route53_record" "iVxZR" {
+  name    = var.aws_route53_record_iVxZR_name
+  records = var.aws_route53_record_iVxZR_records
+  ttl     = var.aws_route53_record_iVxZR_ttl
+  type    = var.aws_route53_record_iVxZR_type
+  zone_id = var.aws_route53_record_iVxZR_zone_id
+}
+
+resource "aws_route53_record" "iXQqn" {
+  name    = var.aws_route53_record_iXQqn_name
+  records = var.aws_route53_record_iXQqn_records
+  ttl     = var.aws_route53_record_iXQqn_ttl
+  type    = var.aws_route53_record_iXQqn_type
+  zone_id = var.aws_route53_record_iXQqn_zone_id
+}
+
+resource "aws_route53_record" "ibXsl" {
+  name    = var.aws_route53_record_ibXsl_name
+  records = var.aws_route53_record_ibXsl_records
+  ttl     = var.aws_route53_record_ibXsl_ttl
+  type    = var.aws_route53_record_ibXsl_type
+  zone_id = var.aws_route53_record_ibXsl_zone_id
+}
+
+resource "aws_route53_record" "iyTsf" {
+  name    = var.aws_route53_record_iyTsf_name
+  records = var.aws_route53_record_iyTsf_records
+  ttl     = var.aws_route53_record_iyTsf_ttl
+  type    = var.aws_route53_record_iyTsf_type
+  zone_id = var.aws_route53_record_iyTsf_zone_id
+}
+
+resource "aws_route53_record" "jDHGx" {
+  name    = var.aws_route53_record_jDHGx_name
+  records = var.aws_route53_record_jDHGx_records
+  ttl     = var.aws_route53_record_jDHGx_ttl
+  type    = var.aws_route53_record_jDHGx_type
+  zone_id = var.aws_route53_record_jDHGx_zone_id
+}
+
+resource "aws_route53_record" "jOksO" {
+  name    = var.aws_route53_record_jOksO_name
+  records = var.aws_route53_record_jOksO_records
+  ttl     = var.aws_route53_record_jOksO_ttl
+  type    = var.aws_route53_record_jOksO_type
+  zone_id = var.aws_route53_record_jOksO_zone_id
+}
+
+resource "aws_route53_record" "jpKiU" {
+  name    = var.aws_route53_record_jpKiU_name
+  records = var.aws_route53_record_jpKiU_records
+  ttl     = var.aws_route53_record_jpKiU_ttl
+  type    = var.aws_route53_record_jpKiU_type
+  zone_id = var.aws_route53_record_jpKiU_zone_id
+}
+
+resource "aws_route53_record" "kBMsB" {
+  name    = var.aws_route53_record_kBMsB_name
+  records = var.aws_route53_record_kBMsB_records
+  ttl     = var.aws_route53_record_kBMsB_ttl
+  type    = var.aws_route53_record_kBMsB_type
+  zone_id = var.aws_route53_record_kBMsB_zone_id
+}
+
+resource "aws_route53_record" "kBWOP" {
+  name    = var.aws_route53_record_kBWOP_name
+  records = var.aws_route53_record_kBWOP_records
+  ttl     = var.aws_route53_record_kBWOP_ttl
+  type    = var.aws_route53_record_kBWOP_type
+  zone_id = var.aws_route53_record_kBWOP_zone_id
+}
+
+resource "aws_route53_record" "kOwgf" {
+  name    = var.aws_route53_record_kOwgf_name
+  records = var.aws_route53_record_kOwgf_records
+  ttl     = var.aws_route53_record_kOwgf_ttl
+  type    = var.aws_route53_record_kOwgf_type
+  zone_id = var.aws_route53_record_kOwgf_zone_id
+}
+
+resource "aws_route53_record" "kTCwS" {
+  name    = var.aws_route53_record_kTCwS_name
+  records = var.aws_route53_record_kTCwS_records
+  ttl     = var.aws_route53_record_kTCwS_ttl
+  type    = var.aws_route53_record_kTCwS_type
+  zone_id = var.aws_route53_record_kTCwS_zone_id
+}
+
+resource "aws_route53_record" "kZzmg" {
+  name    = var.aws_route53_record_kZzmg_name
+  records = var.aws_route53_record_kZzmg_records
+  ttl     = var.aws_route53_record_kZzmg_ttl
+  type    = var.aws_route53_record_kZzmg_type
+  zone_id = var.aws_route53_record_kZzmg_zone_id
+}
+
+resource "aws_route53_record" "kfaZG" {
+  name    = var.aws_route53_record_kfaZG_name
+  records = var.aws_route53_record_kfaZG_records
+  ttl     = var.aws_route53_record_kfaZG_ttl
+  type    = var.aws_route53_record_kfaZG_type
+  zone_id = var.aws_route53_record_kfaZG_zone_id
+}
+
+resource "aws_route53_record" "ksmpQ" {
+  name    = var.aws_route53_record_ksmpQ_name
+  records = var.aws_route53_record_ksmpQ_records
+  ttl     = var.aws_route53_record_ksmpQ_ttl
+  type    = var.aws_route53_record_ksmpQ_type
+  zone_id = var.aws_route53_record_ksmpQ_zone_id
+}
+
+resource "aws_route53_record" "kugfl" {
+  name    = var.aws_route53_record_kugfl_name
+  records = var.aws_route53_record_kugfl_records
+  ttl     = var.aws_route53_record_kugfl_ttl
+  type    = var.aws_route53_record_kugfl_type
+  zone_id = var.aws_route53_record_kugfl_zone_id
+}
+
+resource "aws_route53_record" "kxmRs" {
+  name    = var.aws_route53_record_kxmRs_name
+  records = var.aws_route53_record_kxmRs_records
+  ttl     = var.aws_route53_record_kxmRs_ttl
+  type    = var.aws_route53_record_kxmRs_type
+  zone_id = var.aws_route53_record_kxmRs_zone_id
+}
+
+resource "aws_route53_record" "kyjxw" {
+  name    = var.aws_route53_record_kyjxw_name
+  records = var.aws_route53_record_kyjxw_records
+  ttl     = var.aws_route53_record_kyjxw_ttl
+  type    = var.aws_route53_record_kyjxw_type
+  zone_id = var.aws_route53_record_kyjxw_zone_id
+}
+
+resource "aws_route53_record" "lFmUg" {
+  name    = var.aws_route53_record_lFmUg_name
+  records = var.aws_route53_record_lFmUg_records
+  ttl     = var.aws_route53_record_lFmUg_ttl
+  type    = var.aws_route53_record_lFmUg_type
+  zone_id = var.aws_route53_record_lFmUg_zone_id
+}
+
+resource "aws_route53_record" "lGSuM" {
+  name    = var.aws_route53_record_lGSuM_name
+  records = var.aws_route53_record_lGSuM_records
+  ttl     = var.aws_route53_record_lGSuM_ttl
+  type    = var.aws_route53_record_lGSuM_type
+  zone_id = var.aws_route53_record_lGSuM_zone_id
+}
+
+resource "aws_route53_record" "lPlHv" {
+  name    = var.aws_route53_record_lPlHv_name
+  records = var.aws_route53_record_lPlHv_records
+  ttl     = var.aws_route53_record_lPlHv_ttl
+  type    = var.aws_route53_record_lPlHv_type
+  zone_id = var.aws_route53_record_lPlHv_zone_id
+}
+
+resource "aws_route53_record" "lVUnM" {
+  name    = var.aws_route53_record_lVUnM_name
+  records = var.aws_route53_record_lVUnM_records
+  ttl     = var.aws_route53_record_lVUnM_ttl
+  type    = var.aws_route53_record_lVUnM_type
+  zone_id = var.aws_route53_record_lVUnM_zone_id
+}
+
+resource "aws_route53_record" "mAcjg" {
+  name    = var.aws_route53_record_mAcjg_name
+  records = var.aws_route53_record_mAcjg_records
+  ttl     = var.aws_route53_record_mAcjg_ttl
+  type    = var.aws_route53_record_mAcjg_type
+  zone_id = var.aws_route53_record_mAcjg_zone_id
+}
+
+resource "aws_route53_record" "mMQMK" {
+  name    = var.aws_route53_record_mMQMK_name
+  records = var.aws_route53_record_mMQMK_records
+  ttl     = var.aws_route53_record_mMQMK_ttl
+  type    = var.aws_route53_record_mMQMK_type
+  zone_id = var.aws_route53_record_mMQMK_zone_id
+}
+
+resource "aws_route53_record" "mMRbB" {
+  name    = var.aws_route53_record_mMRbB_name
+  records = var.aws_route53_record_mMRbB_records
+  ttl     = var.aws_route53_record_mMRbB_ttl
+  type    = var.aws_route53_record_mMRbB_type
+  zone_id = var.aws_route53_record_mMRbB_zone_id
+}
+
+resource "aws_route53_record" "mRChs" {
+  name    = var.aws_route53_record_mRChs_name
+  records = var.aws_route53_record_mRChs_records
+  ttl     = var.aws_route53_record_mRChs_ttl
+  type    = var.aws_route53_record_mRChs_type
+  zone_id = var.aws_route53_record_mRChs_zone_id
+}
+
+resource "aws_route53_record" "mtLue" {
+  name    = var.aws_route53_record_mtLue_name
+  records = var.aws_route53_record_mtLue_records
+  ttl     = var.aws_route53_record_mtLue_ttl
+  type    = var.aws_route53_record_mtLue_type
+  zone_id = var.aws_route53_record_mtLue_zone_id
+}
+
+resource "aws_route53_record" "nBRaa" {
+  name    = var.aws_route53_record_nBRaa_name
+  records = var.aws_route53_record_nBRaa_records
+  ttl     = var.aws_route53_record_nBRaa_ttl
+  type    = var.aws_route53_record_nBRaa_type
+  zone_id = var.aws_route53_record_nBRaa_zone_id
+}
+
+resource "aws_route53_record" "nQiKf" {
+  name    = var.aws_route53_record_nQiKf_name
+  records = var.aws_route53_record_nQiKf_records
+  ttl     = var.aws_route53_record_nQiKf_ttl
+  type    = var.aws_route53_record_nQiKf_type
+  zone_id = var.aws_route53_record_nQiKf_zone_id
+}
+
+resource "aws_route53_record" "nTWef" {
+  name    = var.aws_route53_record_nTWef_name
+  records = var.aws_route53_record_nTWef_records
+  ttl     = var.aws_route53_record_nTWef_ttl
+  type    = var.aws_route53_record_nTWef_type
+  zone_id = var.aws_route53_record_nTWef_zone_id
+}
+
+resource "aws_route53_record" "njBxQ" {
+  name    = var.aws_route53_record_njBxQ_name
+  records = var.aws_route53_record_njBxQ_records
+  ttl     = var.aws_route53_record_njBxQ_ttl
+  type    = var.aws_route53_record_njBxQ_type
+  zone_id = var.aws_route53_record_njBxQ_zone_id
+}
+
+resource "aws_route53_record" "njfKa" {
+  name    = var.aws_route53_record_njfKa_name
+  records = var.aws_route53_record_njfKa_records
+  ttl     = var.aws_route53_record_njfKa_ttl
+  type    = var.aws_route53_record_njfKa_type
+  zone_id = var.aws_route53_record_njfKa_zone_id
+}
+
+resource "aws_route53_record" "nqKSd" {
+  name    = var.aws_route53_record_nqKSd_name
+  records = var.aws_route53_record_nqKSd_records
+  ttl     = var.aws_route53_record_nqKSd_ttl
+  type    = var.aws_route53_record_nqKSd_type
+  zone_id = var.aws_route53_record_nqKSd_zone_id
+}
+
+resource "aws_route53_record" "nvJeO" {
+  name    = var.aws_route53_record_nvJeO_name
+  records = var.aws_route53_record_nvJeO_records
+  ttl     = var.aws_route53_record_nvJeO_ttl
+  type    = var.aws_route53_record_nvJeO_type
+  zone_id = var.aws_route53_record_nvJeO_zone_id
+}
+
+resource "aws_route53_record" "oMUxJ" {
+  name    = var.aws_route53_record_oMUxJ_name
+  records = var.aws_route53_record_oMUxJ_records
+  ttl     = var.aws_route53_record_oMUxJ_ttl
+  type    = var.aws_route53_record_oMUxJ_type
+  zone_id = var.aws_route53_record_oMUxJ_zone_id
+}
+
+resource "aws_route53_record" "oentK" {
+  name    = var.aws_route53_record_oentK_name
+  records = var.aws_route53_record_oentK_records
+  ttl     = var.aws_route53_record_oentK_ttl
+  type    = var.aws_route53_record_oentK_type
+  zone_id = var.aws_route53_record_oentK_zone_id
+}
+
+resource "aws_route53_record" "oiyko" {
+  name    = var.aws_route53_record_oiyko_name
+  records = var.aws_route53_record_oiyko_records
+  ttl     = var.aws_route53_record_oiyko_ttl
+  type    = var.aws_route53_record_oiyko_type
+  zone_id = var.aws_route53_record_oiyko_zone_id
+}
+
+resource "aws_route53_record" "pDSgc" {
+  name    = var.aws_route53_record_pDSgc_name
+  records = var.aws_route53_record_pDSgc_records
+  ttl     = var.aws_route53_record_pDSgc_ttl
+  type    = var.aws_route53_record_pDSgc_type
+  zone_id = var.aws_route53_record_pDSgc_zone_id
+}
+
+resource "aws_route53_record" "pRrqa" {
+  name    = var.aws_route53_record_pRrqa_name
+  records = var.aws_route53_record_pRrqa_records
+  ttl     = var.aws_route53_record_pRrqa_ttl
+  type    = var.aws_route53_record_pRrqa_type
+  zone_id = var.aws_route53_record_pRrqa_zone_id
+}
+
+resource "aws_route53_record" "phVPl" {
+  name    = var.aws_route53_record_phVPl_name
+  records = var.aws_route53_record_phVPl_records
+  ttl     = var.aws_route53_record_phVPl_ttl
+  type    = var.aws_route53_record_phVPl_type
+  zone_id = var.aws_route53_record_phVPl_zone_id
+}
+
+resource "aws_route53_record" "pmCEr" {
+  name    = var.aws_route53_record_pmCEr_name
+  records = var.aws_route53_record_pmCEr_records
+  ttl     = var.aws_route53_record_pmCEr_ttl
+  type    = var.aws_route53_record_pmCEr_type
+  zone_id = var.aws_route53_record_pmCEr_zone_id
+}
+
+resource "aws_route53_record" "pzYeW" {
+  name    = var.aws_route53_record_pzYeW_name
+  records = var.aws_route53_record_pzYeW_records
+  ttl     = var.aws_route53_record_pzYeW_ttl
+  type    = var.aws_route53_record_pzYeW_type
+  zone_id = var.aws_route53_record_pzYeW_zone_id
+}
+
+resource "aws_route53_record" "qBfcP" {
+  name    = var.aws_route53_record_qBfcP_name
+  records = var.aws_route53_record_qBfcP_records
+  ttl     = var.aws_route53_record_qBfcP_ttl
+  type    = var.aws_route53_record_qBfcP_type
+  zone_id = var.aws_route53_record_qBfcP_zone_id
+}
+
+resource "aws_route53_record" "qIYJp" {
+  name    = var.aws_route53_record_qIYJp_name
+  records = var.aws_route53_record_qIYJp_records
+  ttl     = var.aws_route53_record_qIYJp_ttl
+  type    = var.aws_route53_record_qIYJp_type
+  zone_id = var.aws_route53_record_qIYJp_zone_id
+}
+
+resource "aws_route53_record" "qROue" {
+  name    = var.aws_route53_record_qROue_name
+  records = var.aws_route53_record_qROue_records
+  ttl     = var.aws_route53_record_qROue_ttl
+  type    = var.aws_route53_record_qROue_type
+  zone_id = var.aws_route53_record_qROue_zone_id
+}
+
+resource "aws_route53_record" "rHbex" {
+  name    = var.aws_route53_record_rHbex_name
+  records = var.aws_route53_record_rHbex_records
+  ttl     = var.aws_route53_record_rHbex_ttl
+  type    = var.aws_route53_record_rHbex_type
+  zone_id = var.aws_route53_record_rHbex_zone_id
+}
+
+resource "aws_route53_record" "rLuQB" {
+  name    = var.aws_route53_record_rLuQB_name
+  records = var.aws_route53_record_rLuQB_records
+  ttl     = var.aws_route53_record_rLuQB_ttl
+  type    = var.aws_route53_record_rLuQB_type
+  zone_id = var.aws_route53_record_rLuQB_zone_id
+}
+
+resource "aws_route53_record" "rpHPs" {
+  name    = var.aws_route53_record_rpHPs_name
+  records = var.aws_route53_record_rpHPs_records
+  ttl     = var.aws_route53_record_rpHPs_ttl
+  type    = var.aws_route53_record_rpHPs_type
+  zone_id = var.aws_route53_record_rpHPs_zone_id
+}
+
+resource "aws_route53_record" "rtPuw" {
+  name    = var.aws_route53_record_rtPuw_name
+  records = var.aws_route53_record_rtPuw_records
+  ttl     = var.aws_route53_record_rtPuw_ttl
+  type    = var.aws_route53_record_rtPuw_type
+  zone_id = var.aws_route53_record_rtPuw_zone_id
+}
+
+resource "aws_route53_record" "sDIcP" {
+  name    = var.aws_route53_record_sDIcP_name
+  records = var.aws_route53_record_sDIcP_records
+  ttl     = var.aws_route53_record_sDIcP_ttl
+  type    = var.aws_route53_record_sDIcP_type
+  zone_id = var.aws_route53_record_sDIcP_zone_id
+}
+
+resource "aws_route53_record" "sKxBs" {
+  name    = var.aws_route53_record_sKxBs_name
+  records = var.aws_route53_record_sKxBs_records
+  ttl     = var.aws_route53_record_sKxBs_ttl
+  type    = var.aws_route53_record_sKxBs_type
+  zone_id = var.aws_route53_record_sKxBs_zone_id
+}
+
+resource "aws_route53_record" "sSHrM" {
+  name    = var.aws_route53_record_sSHrM_name
+  records = var.aws_route53_record_sSHrM_records
+  ttl     = var.aws_route53_record_sSHrM_ttl
+  type    = var.aws_route53_record_sSHrM_type
+  zone_id = var.aws_route53_record_sSHrM_zone_id
+}
+
+resource "aws_route53_record" "tCGXR" {
+  name    = var.aws_route53_record_tCGXR_name
+  records = var.aws_route53_record_tCGXR_records
+  ttl     = var.aws_route53_record_tCGXR_ttl
+  type    = var.aws_route53_record_tCGXR_type
+  zone_id = var.aws_route53_record_tCGXR_zone_id
+}
+
+resource "aws_route53_record" "tHfTQ" {
+  name    = var.aws_route53_record_tHfTQ_name
+  records = var.aws_route53_record_tHfTQ_records
+  ttl     = var.aws_route53_record_tHfTQ_ttl
+  type    = var.aws_route53_record_tHfTQ_type
+  zone_id = var.aws_route53_record_tHfTQ_zone_id
+}
+
+resource "aws_route53_record" "tLYnn" {
+  name    = var.aws_route53_record_tLYnn_name
+  records = var.aws_route53_record_tLYnn_records
+  ttl     = var.aws_route53_record_tLYnn_ttl
+  type    = var.aws_route53_record_tLYnn_type
+  zone_id = var.aws_route53_record_tLYnn_zone_id
+}
+
+resource "aws_route53_record" "tPwQd" {
+  name    = var.aws_route53_record_tPwQd_name
+  records = var.aws_route53_record_tPwQd_records
+  ttl     = var.aws_route53_record_tPwQd_ttl
+  type    = var.aws_route53_record_tPwQd_type
+  zone_id = var.aws_route53_record_tPwQd_zone_id
+}
+
+resource "aws_route53_record" "tShau" {
+  name    = var.aws_route53_record_tShau_name
+  records = var.aws_route53_record_tShau_records
+  ttl     = var.aws_route53_record_tShau_ttl
+  type    = var.aws_route53_record_tShau_type
+  zone_id = var.aws_route53_record_tShau_zone_id
+}
+
+resource "aws_route53_record" "tTZVd" {
+  name    = var.aws_route53_record_tTZVd_name
+  records = var.aws_route53_record_tTZVd_records
+  ttl     = var.aws_route53_record_tTZVd_ttl
+  type    = var.aws_route53_record_tTZVd_type
+  zone_id = var.aws_route53_record_tTZVd_zone_id
+}
+
+resource "aws_route53_record" "tdKVt" {
+  name    = var.aws_route53_record_tdKVt_name
+  records = var.aws_route53_record_tdKVt_records
+  ttl     = var.aws_route53_record_tdKVt_ttl
+  type    = var.aws_route53_record_tdKVt_type
+  zone_id = var.aws_route53_record_tdKVt_zone_id
+}
+
+resource "aws_route53_record" "tuJPM" {
+  name    = var.aws_route53_record_tuJPM_name
+  records = var.aws_route53_record_tuJPM_records
+  ttl     = var.aws_route53_record_tuJPM_ttl
+  type    = var.aws_route53_record_tuJPM_type
+  zone_id = var.aws_route53_record_tuJPM_zone_id
+}
+
+resource "aws_route53_record" "uZESj" {
+  name    = var.aws_route53_record_uZESj_name
+  records = var.aws_route53_record_uZESj_records
+  ttl     = var.aws_route53_record_uZESj_ttl
+  type    = var.aws_route53_record_uZESj_type
+  zone_id = var.aws_route53_record_uZESj_zone_id
+}
+
+resource "aws_route53_record" "uaTRA" {
+  name    = var.aws_route53_record_uaTRA_name
+  records = var.aws_route53_record_uaTRA_records
+  ttl     = var.aws_route53_record_uaTRA_ttl
+  type    = var.aws_route53_record_uaTRA_type
+  zone_id = var.aws_route53_record_uaTRA_zone_id
+}
+
+resource "aws_route53_record" "uauql" {
+  name    = var.aws_route53_record_uauql_name
+  records = var.aws_route53_record_uauql_records
+  ttl     = var.aws_route53_record_uauql_ttl
+  type    = var.aws_route53_record_uauql_type
+  zone_id = var.aws_route53_record_uauql_zone_id
+}
+
+resource "aws_route53_record" "udiqn" {
+  name    = var.aws_route53_record_udiqn_name
+  records = var.aws_route53_record_udiqn_records
+  ttl     = var.aws_route53_record_udiqn_ttl
+  type    = var.aws_route53_record_udiqn_type
+  zone_id = var.aws_route53_record_udiqn_zone_id
+}
+
+resource "aws_route53_record" "urmnO" {
+  name    = var.aws_route53_record_urmnO_name
+  records = var.aws_route53_record_urmnO_records
+  ttl     = var.aws_route53_record_urmnO_ttl
+  type    = var.aws_route53_record_urmnO_type
+  zone_id = var.aws_route53_record_urmnO_zone_id
+}
+
+resource "aws_route53_record" "vCWHF" {
+  name    = var.aws_route53_record_vCWHF_name
+  records = var.aws_route53_record_vCWHF_records
+  ttl     = var.aws_route53_record_vCWHF_ttl
+  type    = var.aws_route53_record_vCWHF_type
+  zone_id = var.aws_route53_record_vCWHF_zone_id
+}
+
+resource "aws_route53_record" "vGwBc" {
+  name    = var.aws_route53_record_vGwBc_name
+  records = var.aws_route53_record_vGwBc_records
+  ttl     = var.aws_route53_record_vGwBc_ttl
+  type    = var.aws_route53_record_vGwBc_type
+  zone_id = var.aws_route53_record_vGwBc_zone_id
+}
+
+resource "aws_route53_record" "vQjmC" {
+  name    = var.aws_route53_record_vQjmC_name
+  records = var.aws_route53_record_vQjmC_records
+  ttl     = var.aws_route53_record_vQjmC_ttl
+  type    = var.aws_route53_record_vQjmC_type
+  zone_id = var.aws_route53_record_vQjmC_zone_id
+}
+
+resource "aws_route53_record" "vTTVE" {
+  name    = var.aws_route53_record_vTTVE_name
+  records = var.aws_route53_record_vTTVE_records
+  ttl     = var.aws_route53_record_vTTVE_ttl
+  type    = var.aws_route53_record_vTTVE_type
+  zone_id = var.aws_route53_record_vTTVE_zone_id
+}
+
+resource "aws_route53_record" "wJewM" {
+  name    = var.aws_route53_record_wJewM_name
+  records = var.aws_route53_record_wJewM_records
+  ttl     = var.aws_route53_record_wJewM_ttl
+  type    = var.aws_route53_record_wJewM_type
+  zone_id = var.aws_route53_record_wJewM_zone_id
+}
+
+resource "aws_route53_record" "wckZS" {
+  name    = var.aws_route53_record_wckZS_name
+  records = var.aws_route53_record_wckZS_records
+  ttl     = var.aws_route53_record_wckZS_ttl
+  type    = var.aws_route53_record_wckZS_type
+  zone_id = var.aws_route53_record_wckZS_zone_id
+}
+
+resource "aws_route53_record" "wwFZE" {
+  name    = var.aws_route53_record_wwFZE_name
+  records = var.aws_route53_record_wwFZE_records
+  ttl     = var.aws_route53_record_wwFZE_ttl
+  type    = var.aws_route53_record_wwFZE_type
+  zone_id = var.aws_route53_record_wwFZE_zone_id
+}
+
+resource "aws_route53_record" "xBLcI" {
+  name    = var.aws_route53_record_xBLcI_name
+  records = var.aws_route53_record_xBLcI_records
+  ttl     = var.aws_route53_record_xBLcI_ttl
+  type    = var.aws_route53_record_xBLcI_type
+  zone_id = var.aws_route53_record_xBLcI_zone_id
+}
+
+resource "aws_route53_record" "xWdar" {
+  name    = var.aws_route53_record_xWdar_name
+  records = var.aws_route53_record_xWdar_records
+  ttl     = var.aws_route53_record_xWdar_ttl
+  type    = var.aws_route53_record_xWdar_type
+  zone_id = var.aws_route53_record_xWdar_zone_id
+}
+
+resource "aws_route53_record" "xbOhL" {
+  name    = var.aws_route53_record_xbOhL_name
+  records = var.aws_route53_record_xbOhL_records
+  ttl     = var.aws_route53_record_xbOhL_ttl
+  type    = var.aws_route53_record_xbOhL_type
+  zone_id = var.aws_route53_record_xbOhL_zone_id
+}
+
+resource "aws_route53_record" "xhgEF" {
+  name    = var.aws_route53_record_xhgEF_name
+  records = var.aws_route53_record_xhgEF_records
+  ttl     = var.aws_route53_record_xhgEF_ttl
+  type    = var.aws_route53_record_xhgEF_type
+  zone_id = var.aws_route53_record_xhgEF_zone_id
+}
+
+resource "aws_route53_record" "xhhmO" {
+  name    = var.aws_route53_record_xhhmO_name
+  records = var.aws_route53_record_xhhmO_records
+  ttl     = var.aws_route53_record_xhhmO_ttl
+  type    = var.aws_route53_record_xhhmO_type
+  zone_id = var.aws_route53_record_xhhmO_zone_id
+}
+
+resource "aws_route53_record" "xrkHJ" {
+  name    = var.aws_route53_record_xrkHJ_name
+  records = var.aws_route53_record_xrkHJ_records
+  ttl     = var.aws_route53_record_xrkHJ_ttl
+  type    = var.aws_route53_record_xrkHJ_type
+  zone_id = var.aws_route53_record_xrkHJ_zone_id
+}
+
+resource "aws_route53_record" "yZudE" {
+  name    = var.aws_route53_record_yZudE_name
+  records = var.aws_route53_record_yZudE_records
+  ttl     = var.aws_route53_record_yZudE_ttl
+  type    = var.aws_route53_record_yZudE_type
+  zone_id = var.aws_route53_record_yZudE_zone_id
+}
+
+resource "aws_route53_record" "yeLgd" {
+  name    = var.aws_route53_record_yeLgd_name
+  records = var.aws_route53_record_yeLgd_records
+  ttl     = var.aws_route53_record_yeLgd_ttl
+  type    = var.aws_route53_record_yeLgd_type
+  zone_id = var.aws_route53_record_yeLgd_zone_id
+}
+
+resource "aws_route53_record" "yhxWL" {
+  name    = var.aws_route53_record_yhxWL_name
+  records = var.aws_route53_record_yhxWL_records
+  ttl     = var.aws_route53_record_yhxWL_ttl
+  type    = var.aws_route53_record_yhxWL_type
+  zone_id = var.aws_route53_record_yhxWL_zone_id
+}
+
+resource "aws_route53_record" "yrgaP" {
+  name    = var.aws_route53_record_yrgaP_name
+  records = var.aws_route53_record_yrgaP_records
+  ttl     = var.aws_route53_record_yrgaP_ttl
+  type    = var.aws_route53_record_yrgaP_type
+  zone_id = var.aws_route53_record_yrgaP_zone_id
+}
+
+resource "aws_route53_record" "zHgKj" {
+  name    = var.aws_route53_record_zHgKj_name
+  records = var.aws_route53_record_zHgKj_records
+  ttl     = var.aws_route53_record_zHgKj_ttl
+  type    = var.aws_route53_record_zHgKj_type
+  zone_id = var.aws_route53_record_zHgKj_zone_id
+}
+
+resource "aws_route53_record" "zaBPd" {
+  name    = var.aws_route53_record_zaBPd_name
+  records = var.aws_route53_record_zaBPd_records
+  ttl     = var.aws_route53_record_zaBPd_ttl
+  type    = var.aws_route53_record_zaBPd_type
+  zone_id = var.aws_route53_record_zaBPd_zone_id
+}
+
+resource "aws_route53_record" "zeDgk" {
+  name    = var.aws_route53_record_zeDgk_name
+  records = var.aws_route53_record_zeDgk_records
+  ttl     = var.aws_route53_record_zeDgk_ttl
+  type    = var.aws_route53_record_zeDgk_type
+  zone_id = var.aws_route53_record_zeDgk_zone_id
+}
+
+resource "aws_route53_record" "zinlr" {
+  name    = var.aws_route53_record_zinlr_name
+  records = var.aws_route53_record_zinlr_records
+  ttl     = var.aws_route53_record_zinlr_ttl
+  type    = var.aws_route53_record_zinlr_type
+  zone_id = var.aws_route53_record_zinlr_zone_id
+}
+
+resource "aws_route53_record" "zshIp" {
+  name    = var.aws_route53_record_zshIp_name
+  records = var.aws_route53_record_zshIp_records
+  ttl     = var.aws_route53_record_zshIp_ttl
+  type    = var.aws_route53_record_zshIp_type
+  zone_id = var.aws_route53_record_zshIp_zone_id
+}
+
+resource "aws_route53_record" "zzRBd" {
+  name    = var.aws_route53_record_zzRBd_name
+  records = var.aws_route53_record_zzRBd_records
+  ttl     = var.aws_route53_record_zzRBd_ttl
+  type    = var.aws_route53_record_zzRBd_type
+  zone_id = var.aws_route53_record_zzRBd_zone_id
+}
+
+resource "aws_route53_zone" "FYXRw" {
   tags = {
-    client = var.aws_route53_zone_AkBOU_tags_client
+    client = var.aws_route53_zone_FYXRw_tags_client
   }
 
   tags_all = {
-    client = var.aws_route53_zone_AkBOU_tags_all_client
+    client = var.aws_route53_zone_FYXRw_tags_all_client
   }
 
-  comment = var.aws_route53_zone_AkBOU_comment
-  name    = var.aws_route53_zone_AkBOU_name
+  comment = var.aws_route53_zone_FYXRw_comment
+  name    = var.aws_route53_zone_FYXRw_name
   vpc {
-    vpc_id     = var.aws_route53_zone_AkBOU_vpc_vpc_id
-    vpc_region = var.aws_route53_zone_AkBOU_vpc_vpc_region
+    vpc_id     = var.aws_route53_zone_FYXRw_vpc_vpc_id
+    vpc_region = var.aws_route53_zone_FYXRw_vpc_vpc_region
   }
 
   vpc {
-    vpc_id     = var.aws_route53_zone_AkBOU_vpc_vpc_id
-    vpc_region = var.aws_route53_zone_AkBOU_vpc_vpc_region
+    vpc_id     = var.aws_route53_zone_FYXRw_vpc_vpc_id
+    vpc_region = var.aws_route53_zone_FYXRw_vpc_vpc_region
   }
 
 }
 
-resource "aws_route53_zone" "KwjqO" {
+resource "aws_route53_zone" "KQBGN" {
   tags = {
-    client = var.aws_route53_zone_KwjqO_tags_client
+    client = var.aws_route53_zone_KQBGN_tags_client
   }
 
   tags_all = {
-    client = var.aws_route53_zone_KwjqO_tags_all_client
+    client = var.aws_route53_zone_KQBGN_tags_all_client
   }
 
-  comment = var.aws_route53_zone_KwjqO_comment
-  name    = var.aws_route53_zone_KwjqO_name
+  comment = var.aws_route53_zone_KQBGN_comment
+  name    = var.aws_route53_zone_KQBGN_name
+}
+
+resource "aws_route53_zone" "QNZQi" {
+  tags = {
+    client = var.aws_route53_zone_QNZQi_tags_client
+  }
+
+  tags_all = {
+    client = var.aws_route53_zone_QNZQi_tags_all_client
+  }
+
+  comment = var.aws_route53_zone_QNZQi_comment
+  name    = var.aws_route53_zone_QNZQi_name
   vpc {
-    vpc_id     = var.aws_route53_zone_KwjqO_vpc_vpc_id
-    vpc_region = var.aws_route53_zone_KwjqO_vpc_vpc_region
+    vpc_id     = var.aws_route53_zone_QNZQi_vpc_vpc_id
+    vpc_region = var.aws_route53_zone_QNZQi_vpc_vpc_region
   }
 
   vpc {
-    vpc_id     = var.aws_route53_zone_KwjqO_vpc_vpc_id
-    vpc_region = var.aws_route53_zone_KwjqO_vpc_vpc_region
-  }
-
-  vpc {
-    vpc_id     = var.aws_route53_zone_KwjqO_vpc_vpc_id
-    vpc_region = var.aws_route53_zone_KwjqO_vpc_vpc_region
-  }
-
-  vpc {
-    vpc_id     = var.aws_route53_zone_KwjqO_vpc_vpc_id
-    vpc_region = var.aws_route53_zone_KwjqO_vpc_vpc_region
+    vpc_id     = var.aws_route53_zone_QNZQi_vpc_vpc_id
+    vpc_region = var.aws_route53_zone_QNZQi_vpc_vpc_region
   }
 
 }
 
-resource "aws_route53_zone" "Xkqii" {
+resource "aws_route53_zone" "Vgtde" {
   tags = {
-    client = var.aws_route53_zone_Xkqii_tags_client
+    client = var.aws_route53_zone_Vgtde_tags_client
   }
 
   tags_all = {
-    client = var.aws_route53_zone_Xkqii_tags_all_client
+    client = var.aws_route53_zone_Vgtde_tags_all_client
   }
 
-  comment = var.aws_route53_zone_Xkqii_comment
-  name    = var.aws_route53_zone_Xkqii_name
+  comment = var.aws_route53_zone_Vgtde_comment
+  name    = var.aws_route53_zone_Vgtde_name
+}
+
+resource "aws_route53_zone" "fddYA" {
+  tags = {
+    client = var.aws_route53_zone_fddYA_tags_client
+  }
+
+  tags_all = {
+    client = var.aws_route53_zone_fddYA_tags_all_client
+  }
+
+  comment = var.aws_route53_zone_fddYA_comment
+  name    = var.aws_route53_zone_fddYA_name
   vpc {
-    vpc_id     = var.aws_route53_zone_Xkqii_vpc_vpc_id
-    vpc_region = var.aws_route53_zone_Xkqii_vpc_vpc_region
+    vpc_id     = var.aws_route53_zone_fddYA_vpc_vpc_id
+    vpc_region = var.aws_route53_zone_fddYA_vpc_vpc_region
   }
 
   vpc {
-    vpc_id     = var.aws_route53_zone_Xkqii_vpc_vpc_id
-    vpc_region = var.aws_route53_zone_Xkqii_vpc_vpc_region
+    vpc_id     = var.aws_route53_zone_fddYA_vpc_vpc_id
+    vpc_region = var.aws_route53_zone_fddYA_vpc_vpc_region
   }
 
 }
 
-resource "aws_route53_zone" "jVgsH" {
+resource "aws_route53_zone" "hFxuU" {
   tags = {
-    client = var.aws_route53_zone_jVgsH_tags_client
+    client = var.aws_route53_zone_hFxuU_tags_client
   }
 
   tags_all = {
-    client = var.aws_route53_zone_jVgsH_tags_all_client
+    client = var.aws_route53_zone_hFxuU_tags_all_client
   }
 
-  comment = var.aws_route53_zone_jVgsH_comment
-  name    = var.aws_route53_zone_jVgsH_name
+  comment = var.aws_route53_zone_hFxuU_comment
+  name    = var.aws_route53_zone_hFxuU_name
   vpc {
-    vpc_id     = var.aws_route53_zone_jVgsH_vpc_vpc_id
-    vpc_region = var.aws_route53_zone_jVgsH_vpc_vpc_region
+    vpc_id     = var.aws_route53_zone_hFxuU_vpc_vpc_id
+    vpc_region = var.aws_route53_zone_hFxuU_vpc_vpc_region
   }
 
   vpc {
-    vpc_id     = var.aws_route53_zone_jVgsH_vpc_vpc_id
-    vpc_region = var.aws_route53_zone_jVgsH_vpc_vpc_region
+    vpc_id     = var.aws_route53_zone_hFxuU_vpc_vpc_id
+    vpc_region = var.aws_route53_zone_hFxuU_vpc_vpc_region
   }
 
-}
-
-resource "aws_route53_zone" "mrRhM" {
-  tags = {
-    client = var.aws_route53_zone_mrRhM_tags_client
+  vpc {
+    vpc_id     = var.aws_route53_zone_hFxuU_vpc_vpc_id
+    vpc_region = var.aws_route53_zone_hFxuU_vpc_vpc_region
   }
 
-  tags_all = {
-    client = var.aws_route53_zone_mrRhM_tags_all_client
+  vpc {
+    vpc_id     = var.aws_route53_zone_hFxuU_vpc_vpc_id
+    vpc_region = var.aws_route53_zone_hFxuU_vpc_vpc_region
   }
 
-  comment = var.aws_route53_zone_mrRhM_comment
-  name    = var.aws_route53_zone_mrRhM_name
-}
-
-resource "aws_route53_zone" "pffTD" {
-  tags = {
-    client = var.aws_route53_zone_pffTD_tags_client
-  }
-
-  tags_all = {
-    client = var.aws_route53_zone_pffTD_tags_all_client
-  }
-
-  comment = var.aws_route53_zone_pffTD_comment
-  name    = var.aws_route53_zone_pffTD_name
 }
 

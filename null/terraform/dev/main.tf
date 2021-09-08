@@ -1,5 +1,5 @@
 module "instance" {
-  source   = "./module-aws"
+  source   = "./module-azure"
   env      = "${var.env}"
   customer = "${var.customer}"
   project  = "${var.project}"
@@ -7,6 +7,9 @@ module "instance" {
   git_code_commit = "${var.git_code_commit}"
   git_code_repo   = "${var.git_code_repo}"
 
-  instance_type       = "t3.small"
+  resource_group_name = "${var.azure_resource_group_name}"
+  subnet_id           = "/subscriptions/edce4685-4988-4a09-8b4a-3d5b917022cd/resourceGroups/cycloid-demo/providers/Microsoft.Network/virtualNetworks/default/subnets/default"
+  azure_location      = "${var.azure_location}"
+  instance_type       = "Standard_DS1_v2"
 }
 

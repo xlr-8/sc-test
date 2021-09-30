@@ -231,6 +231,7 @@ second-usecase:
     default:
     - widget: "simple_text"
       type: "string"
+      required: true
       description: "module.config.private_subnet_id"
       key: "module.config.private_subnet_id"
       name: "private_subnet_id"
@@ -241,6 +242,7 @@ second-usecase:
       name: "vpc_id"
     - widget: "simple_text"
       type: "string"
+      required: true
       description: "module.magento.rds_password"
       key: "module.magento.rds_password"
       name: "rds_password"
@@ -293,11 +295,13 @@ second-usecase:
     default:
     - widget: "simple_text"
       type: "string"
+      required: true
       description: "module.config.private_subnet_id"
       key: "module.config.private_subnet_id"
       name: "private_subnet_id"
     - widget: "simple_text"
       type: "string"
+      required: true
       description: "module.magento.vpc_id"
       key: "module.magento.vpc_id"
       name: "vpc_id"

@@ -71,11 +71,9 @@ terraform_storage_bucket_name: magento-terraform-remote-state
 terraform_storage_bucket_path: magento/dev
 terraform_storage_secret_key: '...'
 text_area_array:
-- 4
-- 5
-- 6
-text_area_boolean: false
-text_area_integer: 3
+- ""
+text_area_boolean: true
+text_area_integer: 33
 text_area_map:
   myvar3: 3
 text_area_string: extra info here

@@ -9,7 +9,7 @@
 # Any extra variables not found in the original file have been ignored.
 #
 ansible_vault_password: '...'
-autocomplete_string: tres
+autocomplete_string: test
 aws_access_key: '...'
 aws_default_region: eu-west-
 aws_secret_key: '...'

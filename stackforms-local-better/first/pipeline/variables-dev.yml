@@ -9,7 +9,7 @@
 # Any extra variables not found in the original file have been ignored.
 #
 ansible_vault_password: '...'
-autocomplete_string: test
+autocomplete_string: tres
 aws_access_key: '...'
 aws_default_region: eu-west-
 aws_secret_key: '...'
@@ -60,12 +60,12 @@ radios_map:
   myvar3: 3
 radios_string: tres
 scs_string: git@github.com:dangzo/sc-test.git
-simple_text_string: test
+simple_text_string: test 2
 slider_list_boolean: false
 slider_list_integer: 4
 slider_list_string: tres
 slider_range_integer: 15
-switch_boolean: true
+switch_boolean: false
 terraform_storage_access_key: '...'
 terraform_storage_bucket_name: magento-terraform-remote-state
 terraform_storage_bucket_path: magento/dev

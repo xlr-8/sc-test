@@ -21,17 +21,13 @@ module "magento" {
   bastion_sg_allow  = "<bastion-sg>"
   env               = "demo"
   magento_ssl_cert  = "<ssl-cert-arn>"
-  private_subnet_id = "asd"
+  private_subnet_id = "asd2"
   private_subnet_id1 = [
     "private-subnets"
   ]
   private_subnet_id2 = "asd"
-  private_subnet_id3 = [
-    "private-subnets"
-  ]
-  private_subnet_id4 = [
-    "private-subnets"
-  ]
+  private_subnet_id3 = "123"
+  private_subnet_id4 = "123"
   public_subnets_ids = [
     "<public-subnets>"
   ]

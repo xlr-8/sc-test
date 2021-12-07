@@ -15,10 +15,8 @@ prv_subnet_id: "123"
 prv_subnet_id1:
 - private-subnets
 prv_subnet_id2: "123"
-prv_subnet_id3:
-- private-subnets
-prv_subnet_id4:
-- private-subnets
+prv_subnet_id3: asd
+prv_subnet_id4: asd
 public_subnets_ids:
 - <public-subnets>
 rds_pwd: "123"

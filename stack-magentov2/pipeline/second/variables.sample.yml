@@ -1,23 +1,23 @@
 env: "($ environment $)"
-vpc_id: "<vpc-id>"
-private_subnet_id: ["private-subnets"]
+vpc_identifier: "<vpc-id>"
+prv_subnet_id: ["private-subnets"]
 magento_ssl_cert: "<ssl-cert-arn>"
 bastion_sg_allow: "<bastion-sg>"
 public_subnets_ids: ["<public-subnets>"]
-rds_password: "${var.rds_password}"
+rds_pwd: "${var.rds_pwd}"
 
-vpc_id1: "<vpc-id>"
-private_subnet_id1: ["private-subnets"]
-rds_password1: "${var.rds_password}"
+vpc_identifier1: "<vpc-id>"
+prv_subnet_id1: ["private-subnets"]
+rds_pwd1: "${var.rds_pwd}"
 
-vpc_id2: "<vpc-id>"
-private_subnet_id2: ["private-subnets"]
-rds_password2: "${var.rds_password}"
+vpc_identifier2: "<vpc-id>"
+prv_subnet_id2: ["private-subnets"]
+rds_pwd2: "${var.rds_pwd}"
 
-vpc_id3: "<vpc-id>"
-private_subnet_id3: ["private-subnets"]
-rds_password3: "${var.rds_password}"
+vpc_identifier3: "<vpc-id>"
+prv_subnet_id3: ["private-subnets"]
+rds_pwd3: "${var.rds_pwd}"
 
-vpc_id4: "<vpc-id>"
-private_subnet_id4: ["private-subnets"]
-rds_password4: "${var.rds_password}"
+vpc_identifier4: "<vpc-id>"
+prv_subnet_id4: ["private-subnets"]
+rds_pwd4: "${var.rds_pwd}"

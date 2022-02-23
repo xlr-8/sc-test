@@ -4,7 +4,7 @@ canonical: mystack1234
 author: cycloidio
 status: private
 description: mystack1234
-image: ""
+image: https://secure.gravatar.com/avatar/13259f4bdf33322744cc2cd333811f13?s=80&r=g&d=identicon
 keywords:
 - mystack1234
 technologies: []

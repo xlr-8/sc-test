@@ -1,5 +1,5 @@
 version: "2"
-name: Stacked Stack
+name: Stack Stack
 canonical: stacked_stack
 author: cycloidio
 status: private

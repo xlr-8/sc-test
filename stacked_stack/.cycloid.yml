@@ -3,7 +3,7 @@ name: Stack Stack
 canonical: stacked_stack
 author: cycloidio
 status: private
-description: Stacked!
+description: Stacked!m
 image: https://raw.githubusercontent.com/cycloid-community-catalog/infra-amazon-s3/master/icon.png
 keywords:
 - Stacked Stack

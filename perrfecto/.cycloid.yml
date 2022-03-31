@@ -4,7 +4,7 @@ canonical: perrfecto
 author: cycloidio
 status: private
 description: perrfecto
-image: https://www.cycloid.io/themes/cycloid/images/owl_logo.png
+image: https://raw.githubusercontent.com/cycloid-community-catalog/infra-amazon-s3/master/icon.png
 keywords:
 - perrfecto
 technologies: []

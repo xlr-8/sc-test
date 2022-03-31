@@ -4,7 +4,7 @@ canonical: stacked_stack
 author: cycloidio
 status: private
 description: Stacked!
-image: https://secure.gravatar.com/avatar/4ed3cff099bf534cccb08a337e222b2e?s=300&r=g&d=identicon
+image: https://raw.githubusercontent.com/cycloid-community-catalog/infra-amazon-s3/master/icon.png
 keywords:
 - Stacked Stack
 technologies: []

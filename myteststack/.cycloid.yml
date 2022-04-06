@@ -1,5 +1,5 @@
 version: "2"
-name: myteststack
+name: my tests tack
 canonical: myteststack
 author: cycloidio
 status: private

@@ -1,9 +1,9 @@
 version: "2"
-name: will fail
+name: will fail.
 canonical: will_fail
 author: cycloidio
 status: private
-description: will fail
+description: will fail.
 image: https://cohire-image-bucket-2.s3.amazonaws.com/company/6216/-1609466507-identicon.png
 keywords:
 - will fail

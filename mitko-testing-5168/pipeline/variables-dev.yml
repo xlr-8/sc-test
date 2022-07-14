@@ -9,7 +9,7 @@
 # Any extra variables not found in the original file have been ignored.
 #
 aws_access_key: ((afasdfas.access_key))
-aws_default_region: eu-west-1
+aws_default_region: ap-northeast-2
 aws_secret_key: ((aws_credsadd))
 config_ansible_path: mitko-testing-5168/ansible
 config_git_branch: config-staging

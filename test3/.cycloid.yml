@@ -1,0 +1,21 @@
+version: "2"
+name: test3
+canonical: test3
+author: cycloidio
+status: private
+description: test3
+image: ""
+keywords:
+- test3
+- provider:aws
+technologies: []
+dependencies: []
+config:
+  default:
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml

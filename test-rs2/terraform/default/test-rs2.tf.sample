@@ -1,0 +1,17 @@
+module "test-rs2" {
+  # aws_instance_cycloid_bastion0_eu_we1_infra_ami = "ami-e079f893"
+  source = "./module-test-rs2"
+}
+
+
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+    }
+
+  }
+
+  required_version = ">= 1.0"
+}
+

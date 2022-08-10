@@ -1,0 +1,90 @@
+module "ii-debug" {
+  aws_instance_azqxr_ami                                                            = "ami-0d4ae25eba73644c1"
+  aws_instance_azqxr_availability_zone                                              = "eu-west-1c"
+  aws_instance_ccm_es_tests_cy_instances_0_elastic_cloud_ami                        = "ami-02fcaafc762651496"
+  aws_instance_ccm_es_tests_cy_instances_0_elastic_cloud_availability_zone          = "eu-west-1a"
+  aws_instance_ccm_es_tests_cy_instances_0_es_t2_2xlarge_ami                        = "ami-02fcaafc762651496"
+  aws_instance_ccm_es_tests_cy_instances_0_es_t2_2xlarge_availability_zone          = "eu-west-1a"
+  aws_instance_ccm_es_tests_cy_instances_0_es_t2_2xlarge_ebs_optimized              = true
+  aws_instance_ccm_es_tests_cy_instances_0_m6i_4xlarge_ami                          = "ami-02fcaafc762651496"
+  aws_instance_ccm_es_tests_cy_instances_0_m6i_4xlarge_availability_zone            = "eu-west-1a"
+  aws_instance_ccm_es_tests_es_instances_es_t2_2xlarge_ami                          = "ami-02e52747ec1f04026"
+  aws_instance_ccm_es_tests_es_instances_es_t2_2xlarge_availability_zone            = "eu-west-1a"
+  aws_instance_ccm_es_tests_es_instances_m6i_4xlarge_ami                            = "ami-02e52747ec1f04026"
+  aws_instance_ccm_es_tests_es_instances_m6i_4xlarge_availability_zone              = "eu-west-1a"
+  aws_instance_cycloid_bastion0_eu_we1_infra_ami                                    = "ami-e079f893"
+  aws_instance_cycloid_bastion0_eu_we1_infra_availability_zone                      = "eu-west-1a"
+  aws_instance_cycloid_demo_workers_prod_ami                                        = "ami-0028c9055f981f26e"
+  aws_instance_cycloid_demo_workers_prod_availability_zone                          = "eu-west-1b"
+  aws_instance_cycloid_fly_now_workers_demo_ami                                     = "ami-0028c9055f981f26e"
+  aws_instance_cycloid_fly_now_workers_demo_availability_zone                       = "eu-west-1b"
+  aws_instance_cycloid_monitoring0_eu_we1_infra_ami                                 = "ami-e079f893"
+  aws_instance_cycloid_monitoring0_eu_we1_infra_availability_zone                   = "eu-west-1a"
+  aws_instance_cycloid_onprem_cy_instances_0_devopscon_ami                          = "ami-02fcaafc762651496"
+  aws_instance_cycloid_onprem_cy_instances_0_devopscon_availability_zone            = "eu-west-1a"
+  aws_instance_cycloid_onprem_cy_instances_0_fl_debian11_ami                        = "ami-02fcaafc762651496"
+  aws_instance_cycloid_onprem_cy_instances_0_fl_debian11_availability_zone          = "eu-west-1a"
+  aws_instance_cycloid_onprem_cy_instances_0_gaelsmtp_ami                           = "ami-0ad0923fe3bd430fa"
+  aws_instance_cycloid_onprem_cy_instances_0_gaelsmtp_availability_zone             = "eu-west-1a"
+  aws_instance_cycloid_onprem_cy_instances_0_hr_generate_ami                        = "ami-02fcaafc762651496"
+  aws_instance_cycloid_onprem_cy_instances_0_hr_generate_availability_zone          = "eu-west-1a"
+  aws_instance_cycloid_onprem_cy_instances_0_mg_inv_ami                             = "ami-02fcaafc762651496"
+  aws_instance_cycloid_onprem_cy_instances_0_mg_inv_availability_zone               = "eu-west-1a"
+  aws_instance_cycloid_onprem_cy_instances_0_mg_inv_sp_1_ami                        = "ami-02fcaafc762651496"
+  aws_instance_cycloid_onprem_cy_instances_0_mg_inv_sp_1_availability_zone          = "eu-west-1a"
+  aws_instance_cycloid_onprem_cy_instances_0_mg_org_tf_playground_ami               = "ami-02fcaafc762651496"
+  aws_instance_cycloid_onprem_cy_instances_0_mg_org_tf_playground_availability_zone = "eu-west-1a"
+  aws_instance_cycloid_onprem_cy_instances_0_sg_complex_cond_ami                    = "ami-08894a8a0e419807d"
+  aws_instance_cycloid_onprem_cy_instances_0_sg_complex_cond_availability_zone      = "eu-west-1a"
+  aws_instance_cycloid_onprem_cy_instances_0_without_es_ami                         = "ami-02fcaafc762651496"
+  aws_instance_cycloid_onprem_cy_instances_0_without_es_availability_zone           = "eu-west-1a"
+  aws_instance_cycloidio_website_front_prod_ami                                     = "ami-0d4ae25eba73644c1"
+  aws_instance_cycloidio_website_front_prod_availability_zone                       = "eu-west-1a"
+  aws_instance_dedicated_env_cy_instances_0_gl_cc_7_ami                             = "ami-02fcaafc762651496"
+  aws_instance_dedicated_env_cy_instances_0_gl_cc_7_availability_zone               = "eu-west-1a"
+  aws_instance_dedicated_env_cy_instances_0_gl_ha_ami                               = "ami-02fcaafc762651496"
+  aws_instance_dedicated_env_cy_instances_0_gl_ha_availability_zone                 = "eu-west-1a"
+  aws_instance_dedicated_env_cy_instances_1_gl_ha_ami                               = "ami-02fcaafc762651496"
+  aws_instance_dedicated_env_cy_instances_1_gl_ha_availability_zone                 = "eu-west-1b"
+  aws_instance_dedicated_env_cy_instances_2_gl_ha_ami                               = "ami-02fcaafc762651496"
+  aws_instance_dedicated_env_cy_instances_2_gl_ha_availability_zone                 = "eu-west-1c"
+  aws_instance_discoursereinventingorganizations_ami                                = "ami-5718412e"
+  aws_instance_discoursereinventingorganizations_availability_zone                  = "eu-west-1b"
+  aws_instance_dkeqz_ami                                                            = "ami-02e52747ec1f04026"
+  aws_instance_dkeqz_availability_zone                                              = "eu-west-1a"
+  aws_instance_glyqa_ami                                                            = "ami-0404d370443424a2e"
+  aws_instance_glyqa_availability_zone                                              = "eu-west-1a"
+  aws_instance_glyqa_ebs_optimized                                                  = true
+  aws_instance_jjofl_ami                                                            = "ami-0404d370443424a2e"
+  aws_instance_jjofl_availability_zone                                              = "eu-west-1a"
+  aws_instance_jjofl_ebs_optimized                                                  = true
+  aws_instance_magento_front0_eu_we1_demo_ami                                       = "ami-402f1a33"
+  aws_instance_magento_front0_eu_we1_demo_availability_zone                         = "eu-west-1a"
+  aws_instance_monitoring_prometheus_eu_we1_infra_ami                               = "ami-0a889af68c555f069"
+  aws_instance_monitoring_prometheus_eu_we1_infra_availability_zone                 = "eu-west-1a"
+  aws_instance_monitoring_prometheus_eu_we1_infra_ebs_optimized                     = true
+  aws_instance_onchh_ami                                                            = "ami-0404d370443424a2e"
+  aws_instance_onchh_availability_zone                                              = "eu-west-1b"
+  aws_instance_onchh_ebs_optimized                                                  = true
+  aws_instance_reinventingorganizationswiki_ami                                     = "ami-402f1a33"
+  aws_instance_reinventingorganizationswiki_availability_zone                       = "eu-west-1b"
+  aws_instance_wjoyb_ami                                                            = "ami-02e52747ec1f04026"
+  aws_instance_wjoyb_availability_zone                                              = "eu-west-1a"
+  aws_instance_workers_worker_eu_we1_prod_ami                                       = "ami-0404d370443424a2e"
+  aws_instance_workers_worker_eu_we1_prod_availability_zone                         = "eu-west-1c"
+  aws_instance_workers_worker_eu_we1_prod_ebs_optimized                             = true
+  source                                                                            = "./module-ii-debug"
+}
+
+
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+    }
+
+  }
+
+  required_version = ">= 1.0"
+}
+

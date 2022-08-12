@@ -1,0 +1,21 @@
+version: "2"
+name: rs11
+canonical: rs11
+author: cycloidio
+status: private
+description: rs11
+image: ""
+keywords:
+- rs11
+- provider:aws
+technologies: []
+dependencies: []
+config:
+  default:
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml

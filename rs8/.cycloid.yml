@@ -1,0 +1,21 @@
+version: "2"
+name: rs8
+canonical: rs8
+author: cycloidio
+status: private
+description: rs8
+image: ""
+keywords:
+- rs8
+- provider:aws
+technologies: []
+dependencies: []
+config:
+  default:
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml

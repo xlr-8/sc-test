@@ -1,0 +1,6 @@
+module "rs8" {
+  aws_instance_cycloid_bastion0_eu_we1_infra_ami               = "ami-e079f893"
+  aws_instance_cycloid_bastion0_eu_we1_infra_availability_zone = "eu-west-1a"
+  source                                                       = "./module-rs8"
+}
+

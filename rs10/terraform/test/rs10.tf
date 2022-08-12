@@ -26,7 +26,7 @@ module "rs10" {
   aws_instance_qhtqp_availability_zone                        = "eu-west-1c"
   aws_instance_rxsak_ami                                      = "ami-0404d370443424a2e"
   aws_instance_rxsak_availability_zone                        = "eu-west-1b"
-  aws_instance_rxsak_ebs_optimized                            = false
+  aws_instance_rxsak_ebs_optimized                            = true
   aws_instance_workers_worker_eu_we1_prod_ami                 = "ami-0404d370443424a2e"
   aws_instance_workers_worker_eu_we1_prod_availability_zone   = "eu-west-1c"
   aws_instance_workers_worker_eu_we1_prod_ebs_optimized       = true

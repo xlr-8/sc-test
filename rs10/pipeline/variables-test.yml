@@ -14,7 +14,7 @@ aws_secret_key: ((aws.secret_key))
 config_git_branch: config-staging
 config_git_private_key: ((ssh.ssh_key))
 config_git_repository: git@github.com:dangzo/sc-test.git
-customer: cycloidio
+customer: cycloid
 env: test
 organization: cycloidio
 project: rs10

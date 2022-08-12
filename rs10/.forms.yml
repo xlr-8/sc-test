@@ -1,0 +1,222 @@
+version: "2"
+use_cases:
+- name: default
+  sections:
+  - name: Config
+    groups:
+    - name: pipeline
+      technologies:
+      - pipeline
+      vars:
+      - widget: text_area
+        required: true
+        default: git@github.com:dangzo/sc-test.git
+        type: string
+        key: config_git_repository
+        name: config_git_repository
+      - widget: text_area
+        required: true
+        default: ((ssh.ssh_key))
+        type: string
+        key: config_git_private_key
+        name: config_git_private_key
+      - widget: text_area
+        required: true
+        default: git@github.com:dangzo/sc-test.git
+        type: string
+        key: sc_repository
+        name: sc_repository
+      - widget: text_area
+        required: true
+        default: rs10
+        type: string
+        key: sc_path
+        name: sc_path
+      - widget: text_area
+        required: true
+        default: config-staging
+        type: string
+        key: config_git_branch
+        name: config_git_branch
+      - widget: text_area
+        required: true
+        default: 1.0.7
+        type: string
+        key: terraform_version
+        name: terraform_version
+      - widget: text_area
+        required: true
+        default: ((aws.access_key))
+        type: string
+        key: aws_access_key
+        name: aws_access_key
+      - widget: text_area
+        required: true
+        default: ((aws.secret_key))
+        type: string
+        key: aws_secret_key
+        name: aws_secret_key
+      - widget: text_area
+        required: true
+        default: master
+        type: string
+        key: sc_branch
+        name: sc_branch
+      - widget: text_area
+        required: true
+        default: test
+        type: string
+        key: env
+        name: env
+      - widget: text_area
+        required: true
+        default: rs10
+        type: string
+        key: project
+        name: project
+      - widget: text_area
+        required: true
+        default: cycloidio
+        type: string
+        key: customer
+        name: customer
+      - widget: text_area
+        required: true
+        default: eu-west-1
+        type: string
+        key: aws_default_region
+        name: aws_default_region
+      - widget: text_area
+        required: true
+        default: cycloid-terraform-remote-state
+        type: string
+        key: terraform_storage_bucket_name
+        name: terraform_storage_bucket_name
+      - widget: text_area
+        required: true
+        default: ((ssh.ssh_key))
+        type: string
+        key: sc_git_key
+        name: sc_git_key
+      - widget: text_area
+        required: true
+        default: cycloidio
+        type: string
+        key: organization
+        name: organization
+    - name: terraform
+      technologies:
+      - terraform
+      vars:
+      - widget: text_area
+        required: true
+        default: eu-west-1b
+        type: string
+        key: aws_instance_rxsak_availability_zone
+        name: aws_instance_rxsak_availability_zone
+      - widget: radios
+        required: true
+        default: true
+        type: boolean
+        values: [true, false]
+        key: aws_instance_workers_worker_eu_we1_prod_ebs_optimized
+        name: aws_instance_workers_worker_eu_we1_prod_ebs_optimized
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_llovq_availability_zone
+        name: aws_instance_llovq_availability_zone
+      - widget: radios
+        required: true
+        default: true
+        type: boolean
+        values: [true, false]
+        key: aws_instance_llovq_ebs_optimized
+        name: aws_instance_llovq_ebs_optimized
+      - widget: text_area
+        required: true
+        default: eu-west-1c
+        type: string
+        key: aws_instance_qhtqp_availability_zone
+        name: aws_instance_qhtqp_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-0404d370443424a2e
+        type: string
+        key: aws_instance_llovq_ami
+        name: aws_instance_llovq_ami
+      - widget: text_area
+        required: true
+        default: ami-0d4ae25eba73644c1
+        type: string
+        key: aws_instance_qhtqp_ami
+        name: aws_instance_qhtqp_ami
+      - widget: text_area
+        required: true
+        default: ami-0404d370443424a2e
+        type: string
+        key: aws_instance_rxsak_ami
+        name: aws_instance_rxsak_ami
+      - widget: radios
+        required: true
+        default: true
+        type: boolean
+        values: [true, false]
+        key: aws_instance_rxsak_ebs_optimized
+        name: aws_instance_rxsak_ebs_optimized
+      - widget: text_area
+        required: true
+        default: eu-west-1c
+        type: string
+        key: aws_instance_workers_worker_eu_we1_prod_availability_zone
+        name: aws_instance_workers_worker_eu_we1_prod_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1b
+        type: string
+        key: aws_instance_cycloid_demo_workers_prod_availability_zone
+        name: aws_instance_cycloid_demo_workers_prod_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-0d4ae25eba73644c1
+        type: string
+        key: aws_instance_cycloidio_website_front_prod_ami
+        name: aws_instance_cycloidio_website_front_prod_ami
+      - widget: radios
+        required: true
+        default: true
+        type: boolean
+        values: [true, false]
+        key: aws_instance_fxbxj_ebs_optimized
+        name: aws_instance_fxbxj_ebs_optimized
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_fxbxj_availability_zone
+        name: aws_instance_fxbxj_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-0404d370443424a2e
+        type: string
+        key: aws_instance_workers_worker_eu_we1_prod_ami
+        name: aws_instance_workers_worker_eu_we1_prod_ami
+      - widget: text_area
+        required: true
+        default: ami-0028c9055f981f26e
+        type: string
+        key: aws_instance_cycloid_demo_workers_prod_ami
+        name: aws_instance_cycloid_demo_workers_prod_ami
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_cycloidio_website_front_prod_availability_zone
+        name: aws_instance_cycloidio_website_front_prod_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-0404d370443424a2e
+        type: string
+        key: aws_instance_fxbxj_ami
+        name: aws_instance_fxbxj_ami

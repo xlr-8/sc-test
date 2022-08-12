@@ -1,0 +1,572 @@
+version: "2"
+use_cases:
+- name: default
+  sections:
+  - name: Config
+    groups:
+    - name: pipeline
+      technologies:
+      - pipeline
+      vars:
+      - widget: text_area
+        required: true
+        default: cycloid-terraform-remote-state
+        type: string
+        key: terraform_storage_bucket_name
+        name: terraform_storage_bucket_name
+      - widget: text_area
+        required: true
+        default: ((ssh.ssh_key))
+        type: string
+        key: sc_git_key
+        name: sc_git_key
+      - widget: text_area
+        required: true
+        default: eu-west-1
+        type: string
+        key: aws_default_region
+        name: aws_default_region
+      - widget: text_area
+        required: true
+        default: ((ssh.ssh_key))
+        type: string
+        key: config_git_private_key
+        name: config_git_private_key
+      - widget: text_area
+        required: true
+        default: master
+        type: string
+        key: sc_branch
+        name: sc_branch
+      - widget: text_area
+        required: true
+        default: cycloidio
+        type: string
+        key: customer
+        name: customer
+      - widget: text_area
+        required: true
+        default: 1.0.7
+        type: string
+        key: terraform_version
+        name: terraform_version
+      - widget: text_area
+        required: true
+        default: ((aws.secret_key))
+        type: string
+        key: aws_secret_key
+        name: aws_secret_key
+      - widget: text_area
+        required: true
+        default: git@github.com:dangzo/sc-test.git
+        type: string
+        key: sc_repository
+        name: sc_repository
+      - widget: text_area
+        required: true
+        default: rs9
+        type: string
+        key: sc_path
+        name: sc_path
+      - widget: text_area
+        required: true
+        default: git@github.com:dangzo/sc-test.git
+        type: string
+        key: config_git_repository
+        name: config_git_repository
+      - widget: text_area
+        required: true
+        default: config-staging
+        type: string
+        key: config_git_branch
+        name: config_git_branch
+      - widget: text_area
+        required: true
+        default: rs9
+        type: string
+        key: project
+        name: project
+      - widget: text_area
+        required: true
+        default: cycloidio
+        type: string
+        key: organization
+        name: organization
+      - widget: text_area
+        required: true
+        default: ((aws.access_key))
+        type: string
+        key: aws_access_key
+        name: aws_access_key
+      - widget: text_area
+        required: true
+        default: test
+        type: string
+        key: env
+        name: env
+    - name: terraform
+      technologies:
+      - terraform
+      vars:
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_dedicated_env_cy_instances_0_gl_ha_availability_zone
+        name: aws_instance_dedicated_env_cy_instances_0_gl_ha_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-02fcaafc762651496
+        type: string
+        key: aws_instance_dedicated_env_cy_instances_2_gl_ha_ami
+        name: aws_instance_dedicated_env_cy_instances_2_gl_ha_ami
+      - widget: radios
+        required: true
+        default: true
+        type: boolean
+        values: [true, false]
+        key: aws_instance_qtsgm_ebs_optimized
+        name: aws_instance_qtsgm_ebs_optimized
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_devopscon_availability_zone
+        name: aws_instance_cycloid_onprem_cy_instances_0_devopscon_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_without_es_availability_zone
+        name: aws_instance_cycloid_onprem_cy_instances_0_without_es_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_jgxon_availability_zone
+        name: aws_instance_jgxon_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-0a889af68c555f069
+        type: string
+        key: aws_instance_monitoring_prometheus_eu_we1_infra_ami
+        name: aws_instance_monitoring_prometheus_eu_we1_infra_ami
+      - widget: text_area
+        required: true
+        default: ami-e079f893
+        type: string
+        key: aws_instance_cycloid_monitoring0_eu_we1_infra_ami
+        name: aws_instance_cycloid_monitoring0_eu_we1_infra_ami
+      - widget: text_area
+        required: true
+        default: ami-02fcaafc762651496
+        type: string
+        key: aws_instance_dedicated_env_cy_instances_0_gl_ha_ami
+        name: aws_instance_dedicated_env_cy_instances_0_gl_ha_ami
+      - widget: text_area
+        required: true
+        default: ami-5718412e
+        type: string
+        key: aws_instance_discoursereinventingorganizations_ami
+        name: aws_instance_discoursereinventingorganizations_ami
+      - widget: radios
+        required: true
+        default: true
+        type: boolean
+        values: [true, false]
+        key: aws_instance_qzpjs_ebs_optimized
+        name: aws_instance_qzpjs_ebs_optimized
+      - widget: text_area
+        required: true
+        default: ami-0404d370443424a2e
+        type: string
+        key: aws_instance_workers_worker_eu_we1_prod_ami
+        name: aws_instance_workers_worker_eu_we1_prod_ami
+      - widget: text_area
+        required: true
+        default: ami-02fcaafc762651496
+        type: string
+        key: aws_instance_ccm_es_tests_cy_instances_0_es_t2_2xlarge_ami
+        name: aws_instance_ccm_es_tests_cy_instances_0_es_t2_2xlarge_ami
+      - widget: text_area
+        required: true
+        default: ami-02fcaafc762651496
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_mg_inv_ami
+        name: aws_instance_cycloid_onprem_cy_instances_0_mg_inv_ami
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_dedicated_env_cy_instances_0_gl_cc_7_availability_zone
+        name: aws_instance_dedicated_env_cy_instances_0_gl_cc_7_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_fldqo_availability_zone
+        name: aws_instance_fldqo_availability_zone
+      - widget: radios
+        required: true
+        default: true
+        type: boolean
+        values: [true, false]
+        key: aws_instance_monitoring_prometheus_eu_we1_infra_ebs_optimized
+        name: aws_instance_monitoring_prometheus_eu_we1_infra_ebs_optimized
+      - widget: radios
+        required: true
+        default: true
+        type: boolean
+        values: [true, false]
+        key: aws_instance_workers_worker_eu_we1_prod_ebs_optimized
+        name: aws_instance_workers_worker_eu_we1_prod_ebs_optimized
+      - widget: text_area
+        required: true
+        default: eu-west-1b
+        type: string
+        key: aws_instance_cycloid_demo_workers_prod_availability_zone
+        name: aws_instance_cycloid_demo_workers_prod_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-e079f893
+        type: string
+        key: aws_instance_cycloid_bastion0_eu_we1_infra_ami
+        name: aws_instance_cycloid_bastion0_eu_we1_infra_ami
+      - widget: text_area
+        required: true
+        default: ami-0028c9055f981f26e
+        type: string
+        key: aws_instance_cycloid_demo_workers_prod_ami
+        name: aws_instance_cycloid_demo_workers_prod_ami
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_cycloid_monitoring0_eu_we1_infra_availability_zone
+        name: aws_instance_cycloid_monitoring0_eu_we1_infra_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-02fcaafc762651496
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_mg_inv_sp_1_ami
+        name: aws_instance_cycloid_onprem_cy_instances_0_mg_inv_sp_1_ami
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_mg_org_tf_playground_availability_zone
+        name: aws_instance_cycloid_onprem_cy_instances_0_mg_org_tf_playground_availability_zone
+      - widget: radios
+        required: true
+        default: true
+        type: boolean
+        values: [true, false]
+        key: aws_instance_jgxon_ebs_optimized
+        name: aws_instance_jgxon_ebs_optimized
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_aefri_availability_zone
+        name: aws_instance_aefri_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_gaelsmtp_availability_zone
+        name: aws_instance_cycloid_onprem_cy_instances_0_gaelsmtp_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-0d4ae25eba73644c1
+        type: string
+        key: aws_instance_cycloidio_website_front_prod_ami
+        name: aws_instance_cycloidio_website_front_prod_ami
+      - widget: text_area
+        required: true
+        default: ami-0d4ae25eba73644c1
+        type: string
+        key: aws_instance_fbvpi_ami
+        name: aws_instance_fbvpi_ami
+      - widget: text_area
+        required: true
+        default: eu-west-1b
+        type: string
+        key: aws_instance_qtsgm_availability_zone
+        name: aws_instance_qtsgm_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1b
+        type: string
+        key: aws_instance_reinventingorganizationswiki_availability_zone
+        name: aws_instance_reinventingorganizationswiki_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-02e52747ec1f04026
+        type: string
+        key: aws_instance_aefri_ami
+        name: aws_instance_aefri_ami
+      - widget: text_area
+        required: true
+        default: ami-02e52747ec1f04026
+        type: string
+        key: aws_instance_ccm_es_tests_es_instances_m6i_4xlarge_ami
+        name: aws_instance_ccm_es_tests_es_instances_m6i_4xlarge_ami
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_ccm_es_tests_es_instances_m6i_4xlarge_availability_zone
+        name: aws_instance_ccm_es_tests_es_instances_m6i_4xlarge_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_cycloid_bastion0_eu_we1_infra_availability_zone
+        name: aws_instance_cycloid_bastion0_eu_we1_infra_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1b
+        type: string
+        key: aws_instance_discoursereinventingorganizations_availability_zone
+        name: aws_instance_discoursereinventingorganizations_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-0404d370443424a2e
+        type: string
+        key: aws_instance_jgxon_ami
+        name: aws_instance_jgxon_ami
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_ccm_es_tests_cy_instances_0_m6i_4xlarge_availability_zone
+        name: aws_instance_ccm_es_tests_cy_instances_0_m6i_4xlarge_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_fl_debian11_availability_zone
+        name: aws_instance_cycloid_onprem_cy_instances_0_fl_debian11_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_hr_generate_availability_zone
+        name: aws_instance_cycloid_onprem_cy_instances_0_hr_generate_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1c
+        type: string
+        key: aws_instance_dedicated_env_cy_instances_2_gl_ha_availability_zone
+        name: aws_instance_dedicated_env_cy_instances_2_gl_ha_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-02fcaafc762651496
+        type: string
+        key: aws_instance_ccm_es_tests_cy_instances_0_elastic_cloud_ami
+        name: aws_instance_ccm_es_tests_cy_instances_0_elastic_cloud_ami
+      - widget: text_area
+        required: true
+        default: ami-02e52747ec1f04026
+        type: string
+        key: aws_instance_ccm_es_tests_es_instances_es_t2_2xlarge_ami
+        name: aws_instance_ccm_es_tests_es_instances_es_t2_2xlarge_ami
+      - widget: text_area
+        required: true
+        default: ami-02fcaafc762651496
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_devopscon_ami
+        name: aws_instance_cycloid_onprem_cy_instances_0_devopscon_ami
+      - widget: text_area
+        required: true
+        default: ami-0ad0923fe3bd430fa
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_gaelsmtp_ami
+        name: aws_instance_cycloid_onprem_cy_instances_0_gaelsmtp_ami
+      - widget: text_area
+        required: true
+        default: ami-02fcaafc762651496
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_mg_org_tf_playground_ami
+        name: aws_instance_cycloid_onprem_cy_instances_0_mg_org_tf_playground_ami
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_monitoring_prometheus_eu_we1_infra_availability_zone
+        name: aws_instance_monitoring_prometheus_eu_we1_infra_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_ccm_es_tests_cy_instances_0_es_t2_2xlarge_availability_zone
+        name: aws_instance_ccm_es_tests_cy_instances_0_es_t2_2xlarge_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_cycloidio_website_front_prod_availability_zone
+        name: aws_instance_cycloidio_website_front_prod_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-02fcaafc762651496
+        type: string
+        key: aws_instance_dedicated_env_cy_instances_1_gl_ha_ami
+        name: aws_instance_dedicated_env_cy_instances_1_gl_ha_ami
+      - widget: text_area
+        required: true
+        default: eu-west-1c
+        type: string
+        key: aws_instance_fbvpi_availability_zone
+        name: aws_instance_fbvpi_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-402f1a33
+        type: string
+        key: aws_instance_magento_front0_eu_we1_demo_ami
+        name: aws_instance_magento_front0_eu_we1_demo_ami
+      - widget: text_area
+        required: true
+        default: ami-0028c9055f981f26e
+        type: string
+        key: aws_instance_cycloid_fly_now_workers_demo_ami
+        name: aws_instance_cycloid_fly_now_workers_demo_ami
+      - widget: text_area
+        required: true
+        default: ami-0404d370443424a2e
+        type: string
+        key: aws_instance_qzpjs_ami
+        name: aws_instance_qzpjs_ami
+      - widget: text_area
+        required: true
+        default: ami-02fcaafc762651496
+        type: string
+        key: aws_instance_dedicated_env_cy_instances_0_gl_cc_7_ami
+        name: aws_instance_dedicated_env_cy_instances_0_gl_cc_7_ami
+      - widget: text_area
+        required: true
+        default: eu-west-1b
+        type: string
+        key: aws_instance_cycloidio_website_front_staging_availability_zone
+        name: aws_instance_cycloidio_website_front_staging_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_magento_front0_eu_we1_demo_availability_zone
+        name: aws_instance_magento_front0_eu_we1_demo_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_qzpjs_availability_zone
+        name: aws_instance_qzpjs_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-402f1a33
+        type: string
+        key: aws_instance_reinventingorganizationswiki_ami
+        name: aws_instance_reinventingorganizationswiki_ami
+      - widget: text_area
+        required: true
+        default: ami-08894a8a0e419807d
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_sg_complex_cond_ami
+        name: aws_instance_cycloid_onprem_cy_instances_0_sg_complex_cond_ami
+      - widget: text_area
+        required: true
+        default: ami-02fcaafc762651496
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_fl_debian11_ami
+        name: aws_instance_cycloid_onprem_cy_instances_0_fl_debian11_ami
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_sg_complex_cond_availability_zone
+        name: aws_instance_cycloid_onprem_cy_instances_0_sg_complex_cond_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1c
+        type: string
+        key: aws_instance_workers_worker_eu_we1_prod_availability_zone
+        name: aws_instance_workers_worker_eu_we1_prod_availability_zone
+      - widget: radios
+        required: true
+        default: true
+        type: boolean
+        values: [true, false]
+        key: aws_instance_ccm_es_tests_cy_instances_0_es_t2_2xlarge_ebs_optimized
+        name: aws_instance_ccm_es_tests_cy_instances_0_es_t2_2xlarge_ebs_optimized
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_mg_inv_sp_1_availability_zone
+        name: aws_instance_cycloid_onprem_cy_instances_0_mg_inv_sp_1_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-009945b1fc2b78ef2
+        type: string
+        key: aws_instance_cycloidio_website_front_staging_ami
+        name: aws_instance_cycloidio_website_front_staging_ami
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_mg_inv_availability_zone
+        name: aws_instance_cycloid_onprem_cy_instances_0_mg_inv_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1c
+        type: string
+        key: aws_instance_cycloid_fly_now_workers_demo_availability_zone
+        name: aws_instance_cycloid_fly_now_workers_demo_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-02fcaafc762651496
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_hr_generate_ami
+        name: aws_instance_cycloid_onprem_cy_instances_0_hr_generate_ami
+      - widget: text_area
+        required: true
+        default: ami-0404d370443424a2e
+        type: string
+        key: aws_instance_qtsgm_ami
+        name: aws_instance_qtsgm_ami
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_ccm_es_tests_cy_instances_0_elastic_cloud_availability_zone
+        name: aws_instance_ccm_es_tests_cy_instances_0_elastic_cloud_availability_zone
+      - widget: text_area
+        required: true
+        default: eu-west-1a
+        type: string
+        key: aws_instance_ccm_es_tests_es_instances_es_t2_2xlarge_availability_zone
+        name: aws_instance_ccm_es_tests_es_instances_es_t2_2xlarge_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-02fcaafc762651496
+        type: string
+        key: aws_instance_cycloid_onprem_cy_instances_0_without_es_ami
+        name: aws_instance_cycloid_onprem_cy_instances_0_without_es_ami
+      - widget: text_area
+        required: true
+        default: eu-west-1b
+        type: string
+        key: aws_instance_dedicated_env_cy_instances_1_gl_ha_availability_zone
+        name: aws_instance_dedicated_env_cy_instances_1_gl_ha_availability_zone
+      - widget: text_area
+        required: true
+        default: ami-02e52747ec1f04026
+        type: string
+        key: aws_instance_fldqo_ami
+        name: aws_instance_fldqo_ami
+      - widget: text_area
+        required: true
+        default: ami-02fcaafc762651496
+        type: string
+        key: aws_instance_ccm_es_tests_cy_instances_0_m6i_4xlarge_ami
+        name: aws_instance_ccm_es_tests_cy_instances_0_m6i_4xlarge_ami

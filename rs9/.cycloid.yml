@@ -1,0 +1,21 @@
+version: "2"
+name: rs9
+canonical: rs9
+author: cycloidio
+status: private
+description: rs9
+image: ""
+keywords:
+- rs9
+- provider:aws
+technologies: []
+dependencies: []
+config:
+  default:
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml

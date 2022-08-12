@@ -1,0 +1,21 @@
+version: "2"
+name: rs2
+canonical: rs2
+author: cycloidio
+status: private
+description: rs2
+image: ""
+keywords:
+- foo
+- provider:aws
+technologies: []
+dependencies: []
+config:
+  default:
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml

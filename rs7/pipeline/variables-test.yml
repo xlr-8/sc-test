@@ -16,7 +16,7 @@ config_git_private_key: ((ssh.ssh_key))
 config_git_repository: git@github.com:dangzo/sc-test.git
 customer: cycloidio
 env: test
-organization: cycloid
+organization: cycloidio
 project: rs7
 sc_branch: master
 sc_git_key: ((ssh.ssh_key))

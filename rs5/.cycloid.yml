@@ -1,0 +1,21 @@
+version: "2"
+name: rs5
+canonical: rs5
+author: cycloidio
+status: private
+description: rs5
+image: ""
+keywords:
+- rs5
+- provider:aws
+technologies: []
+dependencies: []
+config:
+  default:
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml

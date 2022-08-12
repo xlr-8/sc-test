@@ -1,0 +1,21 @@
+version: "2"
+name: rs7
+canonical: rs7
+author: cycloidio
+status: private
+description: rs7
+image: ""
+keywords:
+- rs7
+- provider:aws
+technologies: []
+dependencies: []
+config:
+  default:
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml

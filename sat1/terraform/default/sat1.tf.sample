@@ -1,0 +1,14 @@
+module "sat1" {
+  aws_instance_cycloid_bastion0_eu_we1_infra_ami                    = "ami-e079f893"
+  aws_instance_cycloid_bastion0_eu_we1_infra_availability_zone      = "eu-west-1a"
+  aws_instance_cycloid_bastion0_eu_we1_infra_instance_type          = "t2.micro"
+  aws_instance_cycloid_monitoring0_eu_we1_infra_ami                 = "ami-e079f893"
+  aws_instance_cycloid_monitoring0_eu_we1_infra_availability_zone   = "eu-west-1a"
+  aws_instance_cycloid_monitoring0_eu_we1_infra_instance_type       = "t2.small"
+  aws_instance_monitoring_prometheus_eu_we1_infra_ami               = "ami-0a889af68c555f069"
+  aws_instance_monitoring_prometheus_eu_we1_infra_availability_zone = "eu-west-1a"
+  aws_instance_monitoring_prometheus_eu_we1_infra_ebs_optimized     = true
+  aws_instance_monitoring_prometheus_eu_we1_infra_instance_type     = "t3.small"
+  source                                                            = "./module-sat1"
+}
+

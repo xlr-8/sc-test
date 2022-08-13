@@ -1,0 +1,21 @@
+version: "2"
+name: sat2
+canonical: sat2
+author: cycloidio
+status: private
+description: sat2
+image: ""
+keywords:
+- sat2
+- provider:aws
+technologies: []
+dependencies: []
+config:
+  default:
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml

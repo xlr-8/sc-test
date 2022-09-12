@@ -9,14 +9,39 @@ default:
         description: "In which region you would like your project to run"
         default: "eu-west-2"
         values: ["eu-west-1", "eu-west-2", "eu-west3", "eu-south1", "eu-north1", "eu-central1"]
-        required: true
+        required: false
       - name: "S3 Bucket"
         key: terraform_storage_bucket_name
         type: string
         widget: simple_text
         description: "The S3 bucket where terraform will store its tfstate"
         default: "($ organization_canonical $)-terraform-remote-state"
-        required: true
+        required: false
+      - widget: "radios"
+        default: "M"
+        unit: "($, GHz, GB)"
+        type: "map"
+        values: [{label: XS, value: t3.micro}, {label: S, value: t3.small}, {label: M, value: t3.medium}, {label: L, value: t3.large}]
+        description: ""
+        key: "radio_mapped"
+        name: "mapped variable"
+      - widget: "dropdown"
+        default: "L"
+        unit: "($, GHz, GB)"
+        type: "map"
+        values: [{label: XS, value: t3.micro}, {label: S, value: t3.small}, {label: M, value: t3.medium}, {label: L, value: t3.large}]
+        description: ""
+        key: "dropdown_mapped"
+        name: "mapped variable"
+      - widget: "slider_list"
+        required: false
+        default: "S"
+        unit: "($, GHz, GB)"
+        type: "map"
+        values: [{label: XS, value: t3.micro}, {label: S, value: t3.small}, {label: M, value: t3.medium}, {label: L, value: t3.large}]
+        description: ""
+        key: "slider_list_mapped"
+        name: "mapped variable"
     Git:
       - name: "Service catalog repository"
         key: sc_repository
@@ -24,7 +49,7 @@ default:
         type: string
         description: "The service catalog repository"
         default: "git@github.com:cycloidio/cycloid-stacks-test.git"
-        required: true
+        required: false
       - name: "Service catalog credentials"
         key: sc_git_key
         widget: cy_cred
@@ -46,20 +71,20 @@ default:
         description: "The branch used by the service catalog"
         source: sc_repository
         default: "stacks"
-        required: true
+        required: false
       - name: "Config repository"
         key: config_git_repository
         type: string
         widget: cy_crs
         description: "The config repository to save configurations"
         default: "git@github.com:cycloidio/cycloid-stacks-test.git"
-        required: true
+        required: false
       - name: "Config repository credentials"
         key: config_git_key
         type: string
         widget: cy_cred
         default: "((ssh_readonly.ssh_key))"
-        required: true
+        required: false
       - name: "Config repository branch"
         key: config_git_branch
         widget: cy_branch
@@ -67,11 +92,11 @@ default:
         description: "The branch used by the config repository"
         source: config_git_repository
         default: "config"
-        required: true
+        required: false
       - name: "Config repository path"
         key: config_terraform_path
         widget: simple_text
         type: string
         description: "The path in which the config will be saved"
         default: "cycloid-wordpress-demo/terraform"
-        required: true
+        required: false

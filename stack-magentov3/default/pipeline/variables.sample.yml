@@ -10,6 +10,10 @@ terraform_storage_bucket_path: magento/($ environment $)
 aws_access_key: ...
 aws_secret_key: ...
 
+radio_mapped: M
+dropdown_mapped: L
+slider_list_mapped: S
+
 ansible_vault_password: ...
 bastion_url: admin@bastion.cycloid.io
 bastion_private_key_pair: |-

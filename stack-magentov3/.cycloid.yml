@@ -1,11 +1,12 @@
 # Configuration of the CI pipeline
 version: '2'
-name: 'Magento (forms)'
-canonical: 'stack-magento-forms-1ppl'
-description: 'A stack with 1 pipeline. Packed with forms content.'
+name: 'Magento (mapped values)'
+canonical: 'magento-mapped-values'
+description: 'A stack with 1 pipeline, to test mapped values.'
 keywords:
   - 'stack'
   - 'public'
+  - 'mapped'
 author: 'dangz0'
 image: 'https://d29fhpw069ctt2.cloudfront.net/icon/image/38645/preview.svg'
 type: 'stack'

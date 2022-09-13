@@ -11,8 +11,21 @@ aws_access_key: ...
 aws_secret_key: ...
 
 radio_mapped: M
+radio_integer: 2
+radio_boolean: false
+radio_text: 'kiwi'
+radio_array: [4, 5 ,6]
+
 dropdown_mapped: L
+dropdown_integer: 2
+dropdown_boolean: false
+dropdown_text: 'kiwi'
+dropdown_array: [4, 5 ,6]
+
 slider_list_mapped: S
+slider_list_integer: 2
+slider_list_boolean: false
+slider_list_text: 'kiwi'
 
 ansible_vault_password: ...
 bastion_url: admin@bastion.cycloid.io

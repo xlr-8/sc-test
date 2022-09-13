@@ -1,122 +1,200 @@
 ---
-default:
-  pipeline:
-    Radios:
-      - widget: "radios"
-        default: "M"
-        unit: "EU t-shirt size"
-        type: "map"
-        values: [{label: XS, value: t3.micro}, {label: S, value: t3.small}, {label: M, value: t3.medium}, {label: L, value: t3.large}]
-        description: ""
-        key: "radio_mapped"
-        name: "Mapped radio"
-      - widget: "radios"
-        default: 2
-        unit: "score points"
-        type: "integer"
-        values: [1, 2, 3]
-        description: ""
-        key: "radio_integer"
-        name: "Radio integer"
-      - widget: "radios"
-        default: false
-        unit: "??"
-        type: "boolean"
-        values: [true, false]
-        description: ""
-        key: "radio_boolean"
-        name: "Radio boolean"
-      - widget: "radios"
-        default: "kiwi"
-        unit: "fruits"
-        type: "string"
-        values: ["banana", "mango", "strawberry", "kiwi"]
-        description: ""
-        key: "radio_strings"
-        name: "Radio strings"
-      - widget: "radios"
-        default: [4, 5, 6]
-        unit: "(???)"
-        type: "array"
-        values: [[1, 2, 3], [4, 5, 6]]
-        description: ""
-        key: "radio_array"
-        name: "Radio array"
-
-    Dropdown:
-      - widget: "dropdown"
-        default: "L"
-        unit: "EU t-shirt size"
-        type: "map"
-        values: [{label: XS, value: t3.micro}, {label: S, value: t3.small}, {label: M, value: t3.medium}, {label: L, value: t3.large}]
-        description: ""
-        key: "dropdown_mapped"
-        name: "Mapped dropdown"
-      - widget: "dropdown"
-        default: 2
-        unit: "score points"
-        type: "integer"
-        values: [1, 2, 3]
-        description: ""
-        key: "dropdown_integer"
-        name: "Dropdown integer"
-      - widget: "dropdown"
-        default: false
-        unit: "??"
-        type: "boolean"
-        values: [true, false]
-        description: ""
-        key: "dropdown_boolean"
-        name: "Dropdown boolean"
-      - widget: "dropdown"
-        default: "kiwi"
-        unit: "fruits"
-        type: "string"
-        values: ["banana", "mango", "strawberry", "kiwi"]
-        description: ""
-        key: "dropdown_strings"
-        name: "Dropdown strings"
-      - widget: "dropdown"
-        default: [4, 5, 6]
-        unit: "(???)"
-        type: "array"
-        values: [[1, 2, 3], [4, 5, 6]]
-        description: ""
-        key: "dropdown_array"
-        name: "Dropdown array"
-      
-    SliderList:
-      - widget: "slider_list"
-        required: false
-        default: "S"
-        unit: "EU t-shirt size"
-        type: "map"
-        values: [{label: XS, value: t3.micro}, {label: S, value: t3.small}, {label: M, value: t3.medium}, {label: L, value: t3.large}]
-        description: ""
-        key: "slider_list_mapped"
-        name: "Mapped slider list"
-      - widget: "slider_list"
-        default: 2
-        unit: "score points"
-        type: "integer"
-        values: [1, 2, 3]
-        description: ""
-        key: "slider_list_integer"
-        name: "Slider list integer"
-      - widget: "slider_list"
-        default: false
-        unit: "??"
-        type: "boolean"
-        values: [true, false]
-        description: ""
-        key: "slider_list_boolean"
-        name: "Slider list boolean"
-      - widget: "slider_list"
-        default: "kiwi"
-        unit: "fruits"
-        type: "string"
-        values: ["banana", "mango", "strawberry", "kiwi"]
-        description: ""
-        key: "slider_list_strings"
-        name: "Slider list strings"
-
+version: '2'
+use_cases:
+- name: default
+  sections:
+    - name: pipeline
+      groups:
+        - name: Dropdown
+          technologies:
+            - pipeline
+          vars:
+          - widget: dropdown
+            default: L
+            key: dropdown_mapped
+            mismatch_values:
+            name: Mapped dropdown
+            type: map
+            unit: EU t-shirt size
+            values:
+              - label: XS
+                value: t3.micro
+              - label: S
+                value: t3.small
+              - label: M
+                value: t3.medium
+              - label: L
+                value: t3.large
+          - widget: dropdown
+            default: 2
+            key: dropdown_integer
+            mismatch_values:
+            name: Dropdown integer
+            type: integer
+            unit: score points
+            values:
+              - 1
+              - 2
+              - 3
+          - widget: dropdown
+            default: false
+            key: dropdown_boolean
+            mismatch_values:
+            name: Dropdown boolean
+            type: boolean
+            unit: "??"
+            values:
+              - true
+              - false
+          - widget: dropdown
+            default: kiwi
+            key: dropdown_strings
+            mismatch_values:
+            name: Dropdown strings
+            type: string
+            unit: fruits
+            values:
+              - banana
+              - mango
+              - strawberry
+              - kiwi
+          - widget: dropdown
+            default:
+            - 4
+            - 5
+            - 6
+            key: dropdown_array
+            mismatch_values:
+            name: Dropdown array
+            type: array
+            unit: "(???)"
+            values:
+              - - 1
+                - 2
+                - 3
+              - - 4
+                - 5
+                - 6
+        - name: Radios
+          technologies:
+            - pipeline
+          vars:
+          - widget: radios
+            default: M
+            key: radio_mapped
+            mismatch_values:
+            name: Mapped radio
+            type: map
+            unit: EU t-shirt size
+            values:
+              - label: XS
+                value: t3.micro
+              - label: S
+                value: t3.small
+              - label: M
+                value: t3.medium
+              - label: L
+                value: t3.large
+          - widget: radios
+            default: 2
+            key: radio_integer
+            mismatch_values:
+            name: Radio integer
+            type: integer
+            unit: score points
+            values:
+              - 1
+              - 2
+              - 3
+          - widget: radios
+            default: false
+            key: radio_boolean
+            mismatch_values:
+            name: Radio boolean
+            type: boolean
+            unit: "??"
+            values:
+              - true
+              - false
+          - widget: radios
+            default: kiwi
+            key: radio_strings
+            mismatch_values:
+            name: Radio strings
+            type: string
+            unit: fruits
+            values:
+              - banana
+              - mango
+              - strawberry
+              - kiwi
+          - widget: radios
+            default:
+              - 4
+              - 5
+              - 6
+            key: radio_array
+            mismatch_values:
+            name: Radio array
+            type: array
+            unit: "(???)"
+            values:
+              - - 1
+                - 2
+                - 3
+              - - 4
+                - 5
+                - 6
+        - name: SliderList
+          technologies:
+            - pipeline
+          vars:
+          - widget: slider_list
+            default: S
+            key: slider_list_mapped
+            mismatch_values:
+            name: Mapped slider list
+            type: map
+            unit: EU t-shirt size
+            values:
+              - label: XS
+                value: t3.micro
+              - label: S
+                value: t3.small
+              - label: M
+                value: t3.medium
+              - label: L
+                value: t3.large
+          - widget: slider_list
+            default: 2
+            key: slider_list_integer
+            mismatch_values:
+            name: Slider list integer
+            type: integer
+            unit: score points
+            values:
+              - 1
+              - 2
+              - 3
+          - widget: slider_list
+            default: false
+            key: slider_list_boolean
+            mismatch_values:
+            name: Slider list boolean
+            type: boolean
+            unit: "??"
+            values:
+              - true
+              - false
+          - widget: slider_list
+            default: kiwi
+            key: slider_list_strings
+            mismatch_values:
+            name: Slider list strings
+            type: string
+            unit: fruits
+            values:
+              - banana
+              - mango
+              - strawberry
+              - kiwi
